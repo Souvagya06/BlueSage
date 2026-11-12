@@ -19,6 +19,7 @@ An end-to-end intelligent environmental monitoring platform that tracks 10 years
 | **Sushmita Roy** | Data Engineering, Feature Processing & Classification Models |
 | **Anirban Pal** | Spatial Indexing, Geospatial Mapping & Frontend Visualization |
 | **Soumik Chattoraj** | Time-Series Forecasting Models & Environmental Metric Analysis |
+| **Ronit Mishra** | Backend Services, API Optimization & Quality Assurance |
 
 ---
 
