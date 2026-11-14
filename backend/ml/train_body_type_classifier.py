@@ -24,7 +24,15 @@ def train_body_type_model():
         raise FileNotFoundError(f"{csv_path} not found. Run export_indexed_dataset.py first.")
 
     df = pd.read_csv(csv_path)
-    feature_cols = ["area_sq_km", "water_occurrence_pct", "seasonality_months", "ndwi"]
+    feature_cols = [
+        "area_sq_km",
+        "perimeter_km",
+        "elongation_ratio",
+        "water_occurrence_pct",
+        "seasonality_months",
+        "ndwi",
+        "turbidity_ntu",
+    ]
     target_col = "target_task1_body_type"
 
     X = df[feature_cols].values

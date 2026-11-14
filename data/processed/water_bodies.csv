@@ -1,151 +1,292 @@
-wb_index,name,water_body_type,country,country_code,city,latitude,longitude,spatial_grid_index,area_sq_km,data_source
-1,Rabindra Sarobar (Dhakuria Lake),lake,India,IND,Kolkata,22.5126,88.3637,GEO_1125_2683,0.78,HydroLAKES_USGS_Merged
-2,Subhas Sarobar,lake,India,IND,Kolkata,22.5694,88.3994,GEO_1125_2683,0.39,HydroLAKES_USGS_Merged
-3,East Kolkata Wetlands,wetland,India,IND,Kolkata,22.55,88.45,GEO_1125_2684,125.0,HydroLAKES_USGS_Merged
-4,Hooghly River Reach,river,India,IND,Kolkata,22.585,88.345,GEO_1125_2683,18.5,HydroLAKES_USGS_Merged
-5,Santragachi Jheel,pond,India,IND,Howrah,22.5815,88.277,GEO_1125_2682,0.045,HydroLAKES_USGS_Merged
-6,Central Park Lake (Salt Lake),lake,India,IND,Kolkata,22.5878,88.4168,GEO_1125_2684,0.22,HydroLAKES_USGS_Merged
-7,Lake Michigan,lake,United States,UNI,Chicago,41.8781,-87.6298,GEO_1318_0923,58030.0,HydroLAKES_USGS_Merged
-8,Lake Mendota,lake,United States,UNI,Madison,43.1,-89.4167,GEO_1331_0905,39.4,HydroLAKES_USGS_Merged
-9,Lake Okeechobee,reservoir,United States,UNI,Okeechobee,26.9,-80.8,GEO_1169_0992,1900.0,HydroLAKES_USGS_Merged
-10,Lake Geneva,lake,Switzerland,SWI,Geneva,46.45,6.5,GEO_1364_1865,580.0,HydroLAKES_USGS_Merged
-11,Lake Victoria,lake,Uganda,UGA,Entebbe,-0.05,32.46,GEO_0899_2124,68800.0,HydroLAKES_USGS_Merged
-12,Tokyo Bay Estuary,river,Japan,JAP,Tokyo,35.6528,139.8394,GEO_1256_3198,42.0,HydroLAKES_USGS_Merged
-13,Aral Sea Remnant,lake,Kazakhstan,KAZ,Aralsk,45.0,60.0,GEO_1350_2400,15.0,HydroLAKES_USGS_Merged
-14,Three Gorges Reservoir,reservoir,China,CHI,Yichang,30.8267,111.0078,GEO_1208_2910,1084.0,HydroLAKES_USGS_Merged
-15,Sundarbans Delta Ponds,pond,India,IND,Canning,21.9497,88.7,GEO_1119_2687,0.035,HydroLAKES_USGS_Merged
-16,Lake WB-016,lake,Global,GLO,Region-18,18.8457,-79.4352,GEO_1088_1005,62.25,HydroLAKES_USGS_Merged
-17,Lake WB-017,lake,Global,GLO,Region-19,19.1282,64.0989,GEO_1091_2440,73.64,HydroLAKES_USGS_Merged
-18,Lake WB-018,lake,Global,GLO,Region-25,-25.581,-72.7255,GEO_0644_1072,70.77,HydroLAKES_USGS_Merged
-19,Lake WB-019,lake,Global,GLO,Region-0,-0.3263,-44.2804,GEO_0896_1357,44.65,HydroLAKES_USGS_Merged
-20,Pond WB-020,pond,Global,GLO,Region-7,-7.8684,-1.4218,GEO_0821_1785,0.0214,HydroLAKES_USGS_Merged
-21,Reservoir WB-021,reservoir,Global,GLO,Region-18,18.1277,-107.9229,GEO_1081_0720,78.11,HydroLAKES_USGS_Merged
-22,Pond WB-022,pond,Global,GLO,Region-59,59.1218,131.0643,GEO_1491_3110,0.0125,HydroLAKES_USGS_Merged
-23,Wetland WB-023,wetland,Global,GLO,Region-28,28.6868,-5.5604,GEO_1186_1744,6.76,HydroLAKES_USGS_Merged
-24,Lake WB-024,lake,Global,GLO,Region-54,54.5718,-52.7172,GEO_1445_1272,3.02,HydroLAKES_USGS_Merged
-25,Reservoir WB-025,reservoir,Global,GLO,Region-12,12.8717,-71.9378,GEO_1028_1080,78.97,HydroLAKES_USGS_Merged
-26,River WB-026,river,Global,GLO,Region-52,52.9051,35.454,GEO_1429_2154,37.88,HydroLAKES_USGS_Merged
-27,River WB-027,river,Global,GLO,Region-44,-44.7989,-35.4141,GEO_0452_1445,11.86,HydroLAKES_USGS_Merged
-28,Lake WB-028,lake,Global,GLO,Region-8,-8.9734,-46.957,GEO_0810_1330,70.46,HydroLAKES_USGS_Merged
-29,Pond WB-029,pond,Global,GLO,Region-41,-41.4267,136.5906,GEO_0485_3165,0.0413,HydroLAKES_USGS_Merged
-30,Reservoir WB-030,reservoir,Global,GLO,Region-43,43.7781,63.7829,GEO_1337_2437,2.82,HydroLAKES_USGS_Merged
-31,Reservoir WB-031,reservoir,Global,GLO,Region-8,-8.7764,-89.874,GEO_0812_0901,12.96,HydroLAKES_USGS_Merged
-32,Wetland WB-032,wetland,Global,GLO,Region-42,-42.6908,-39.1446,GEO_0473_1408,20.52,HydroLAKES_USGS_Merged
-33,Lake WB-033,lake,Global,GLO,Region-52,52.0295,2.7759,GEO_1420_1827,54.23,HydroLAKES_USGS_Merged
-34,Lake WB-034,lake,Global,GLO,Region-14,14.5469,80.4515,GEO_1045_2604,64.69,HydroLAKES_USGS_Merged
-35,Pond WB-035,pond,Global,GLO,Region-47,-47.0768,-91.9482,GEO_0429_0880,0.0267,HydroLAKES_USGS_Merged
-36,Lake WB-036,lake,Global,GLO,Region-8,8.4856,115.9673,GEO_0984_2959,26.79,HydroLAKES_USGS_Merged
-37,Lake WB-037,lake,Global,GLO,Region-23,-23.6882,-99.9852,GEO_0663_0800,64.25,HydroLAKES_USGS_Merged
-38,Lake WB-038,lake,Global,GLO,Region-42,42.9338,44.685,GEO_1329_2246,79.03,HydroLAKES_USGS_Merged
-39,Wetland WB-039,wetland,Global,GLO,Region-52,52.6443,20.229,GEO_1426_2002,12.01,HydroLAKES_USGS_Merged
-40,Wetland WB-040,wetland,Global,GLO,Region-37,-37.344,-60.7369,GEO_0526_1192,19.76,HydroLAKES_USGS_Merged
-41,Pond WB-041,pond,Global,GLO,Region-49,-49.2005,12.7943,GEO_0407_1927,0.0436,HydroLAKES_USGS_Merged
-42,Pond WB-042,pond,Global,GLO,Region-11,-11.1743,125.1565,GEO_0788_3051,0.0147,HydroLAKES_USGS_Merged
-43,Lake WB-043,lake,Global,GLO,Region-8,-8.1826,132.6633,GEO_0818_3126,59.79,HydroLAKES_USGS_Merged
-44,River WB-044,river,Global,GLO,Region-15,-15.399,-45.9415,GEO_0746_1340,22.4,HydroLAKES_USGS_Merged
-45,Lake WB-045,lake,Global,GLO,Region-44,-44.0799,-47.5519,GEO_0459_1324,42.78,HydroLAKES_USGS_Merged
-46,Wetland WB-046,wetland,Global,GLO,Region-6,6.2871,136.2691,GEO_0962_3162,9.55,HydroLAKES_USGS_Merged
-47,Lake WB-047,lake,Global,GLO,Region-22,-22.6717,69.3363,GEO_0673_2493,64.76,HydroLAKES_USGS_Merged
-48,Lake WB-048,lake,Global,GLO,Region-11,11.6141,-96.5247,GEO_1016_0834,53.89,HydroLAKES_USGS_Merged
-49,Wetland WB-049,wetland,Global,GLO,Region-45,-45.3109,33.6322,GEO_0446_2136,12.0,HydroLAKES_USGS_Merged
-50,Reservoir WB-050,reservoir,Global,GLO,Region-23,-23.953,47.7449,GEO_0660_2277,77.79,HydroLAKES_USGS_Merged
-51,Lake WB-051,lake,Global,GLO,Region-57,57.7239,-84.2446,GEO_1477_0957,32.93,HydroLAKES_USGS_Merged
-52,Lake WB-052,lake,Global,GLO,Region-50,50.894,-52.9352,GEO_1408_1270,78.61,HydroLAKES_USGS_Merged
-53,Reservoir WB-053,reservoir,Global,GLO,Region-10,10.9098,-57.1184,GEO_1009_1228,84.17,HydroLAKES_USGS_Merged
-54,Lake WB-054,lake,Global,GLO,Region-22,22.8067,-31.8523,GEO_1128_1481,76.55,HydroLAKES_USGS_Merged
-55,Lake WB-055,lake,Global,GLO,Region-52,52.0149,82.7676,GEO_1420_2627,76.26,HydroLAKES_USGS_Merged
-56,Pond WB-056,pond,Global,GLO,Region-53,53.3337,37.6716,GEO_1433_2176,0.0163,HydroLAKES_USGS_Merged
-57,Lake WB-057,lake,Global,GLO,Region-49,-49.4179,-78.1899,GEO_0405_1018,56.43,HydroLAKES_USGS_Merged
-58,Pond WB-058,pond,Global,GLO,Region-24,-24.209,65.1666,GEO_0657_2451,0.0354,HydroLAKES_USGS_Merged
-59,Lake WB-059,lake,Global,GLO,Region-24,24.7078,100.7981,GEO_1147_2807,63.48,HydroLAKES_USGS_Merged
-60,Reservoir WB-060,reservoir,Global,GLO,Region-7,-7.7127,-51.0474,GEO_0822_1289,15.86,HydroLAKES_USGS_Merged
-61,Lake WB-061,lake,Global,GLO,Region-52,52.5854,44.096,GEO_1425_2240,33.47,HydroLAKES_USGS_Merged
-62,Reservoir WB-062,reservoir,Global,GLO,Region-6,6.6395,-69.2368,GEO_0966_1107,87.38,HydroLAKES_USGS_Merged
-63,Reservoir WB-063,reservoir,Global,GLO,Region-24,24.2293,-73.9512,GEO_1142_1060,5.6,HydroLAKES_USGS_Merged
-64,River WB-064,river,Global,GLO,Region-7,-7.4317,-115.9813,GEO_0825_0640,37.02,HydroLAKES_USGS_Merged
-65,River WB-065,river,Global,GLO,Region-60,60.8163,101.7825,GEO_1508_2817,38.83,HydroLAKES_USGS_Merged
-66,Lake WB-066,lake,Global,GLO,Region-13,-13.554,-75.9319,GEO_0764_1040,72.36,HydroLAKES_USGS_Merged
-67,Pond WB-067,pond,Global,GLO,Region-15,15.557,-94.7341,GEO_1055_0852,0.0371,HydroLAKES_USGS_Merged
-68,Pond WB-068,pond,Global,GLO,Region-9,9.6079,108.117,GEO_0996_2881,0.0155,HydroLAKES_USGS_Merged
-69,Reservoir WB-069,reservoir,Global,GLO,Region-8,-8.6585,-43.6661,GEO_0813_1363,105.97,HydroLAKES_USGS_Merged
-70,Wetland WB-070,wetland,Global,GLO,Region-55,55.0227,12.949,GEO_1450_1929,52.16,HydroLAKES_USGS_Merged
-71,Pond WB-071,pond,Global,GLO,Region-30,30.7262,86.9061,GEO_1207_2669,0.0353,HydroLAKES_USGS_Merged
-72,Wetland WB-072,wetland,Global,GLO,Region-39,-39.1921,30.3528,GEO_0508_2103,23.16,HydroLAKES_USGS_Merged
-73,Lake WB-073,lake,Global,GLO,Region-17,-17.0478,33.6166,GEO_0729_2136,46.17,HydroLAKES_USGS_Merged
-74,Lake WB-074,lake,Global,GLO,Region-8,-8.5781,-86.9643,GEO_0814_0930,69.94,HydroLAKES_USGS_Merged
-75,Pond WB-075,pond,Global,GLO,Region-21,21.6324,-97.8097,GEO_1116_0821,0.0184,HydroLAKES_USGS_Merged
-76,Lake WB-076,lake,Global,GLO,Region-23,23.3044,68.7837,GEO_1133_2487,46.0,HydroLAKES_USGS_Merged
-77,River WB-077,river,Global,GLO,Region-41,41.4464,-49.5836,GEO_1314_1304,16.3,HydroLAKES_USGS_Merged
-78,Pond WB-078,pond,Global,GLO,Region-60,60.7046,97.3548,GEO_1507_2773,0.011,HydroLAKES_USGS_Merged
-79,Reservoir WB-079,reservoir,Global,GLO,Region-32,-32.0097,-54.9368,GEO_0579_1250,27.65,HydroLAKES_USGS_Merged
-80,Pond WB-080,pond,Global,GLO,Region-17,-17.8076,128.265,GEO_0721_3082,0.0357,HydroLAKES_USGS_Merged
-81,Reservoir WB-081,reservoir,Global,GLO,Region-1,-1.746,-55.5899,GEO_0882_1244,92.53,HydroLAKES_USGS_Merged
-82,Lake WB-082,lake,Global,GLO,Region-36,-36.6516,-108.0393,GEO_0533_0719,1.32,HydroLAKES_USGS_Merged
-83,Lake WB-083,lake,Global,GLO,Region-4,4.53,-94.5631,GEO_0945_0854,59.84,HydroLAKES_USGS_Merged
-84,Pond WB-084,pond,Global,GLO,Region-0,-0.1071,-16.3888,GEO_0898_1636,0.0168,HydroLAKES_USGS_Merged
-85,Pond WB-085,pond,Global,GLO,Region-6,-6.9195,42.7236,GEO_0830_2227,0.0118,HydroLAKES_USGS_Merged
-86,Pond WB-086,pond,Global,GLO,Region-31,-31.2625,-101.6521,GEO_0587_0783,0.0357,HydroLAKES_USGS_Merged
-87,Pond WB-087,pond,Global,GLO,Region-58,58.1265,29.6233,GEO_1481_2096,0.0328,HydroLAKES_USGS_Merged
-88,Lake WB-088,lake,Global,GLO,Region-12,12.7459,124.7809,GEO_1027_3047,39.01,HydroLAKES_USGS_Merged
-89,Lake WB-089,lake,Global,GLO,Region-27,-27.484,-101.9661,GEO_0625_0780,76.96,HydroLAKES_USGS_Merged
-90,Lake WB-090,lake,Global,GLO,Region-28,28.5458,-101.491,GEO_1185_0785,8.12,HydroLAKES_USGS_Merged
-91,Lake WB-091,lake,Global,GLO,Region-43,43.6639,-46.7178,GEO_1336_1332,2.08,HydroLAKES_USGS_Merged
-92,Lake WB-092,lake,Global,GLO,Region-50,50.9093,71.1185,GEO_1409_2511,53.5,HydroLAKES_USGS_Merged
-93,Wetland WB-093,wetland,Global,GLO,Region-36,36.3207,89.777,GEO_1263_2697,11.47,HydroLAKES_USGS_Merged
-94,River WB-094,river,Global,GLO,Region-39,39.2875,-31.3911,GEO_1292_1486,18.02,HydroLAKES_USGS_Merged
-95,River WB-095,river,Global,GLO,Region-36,36.3502,76.1811,GEO_1263_2561,20.01,HydroLAKES_USGS_Merged
-96,Lake WB-096,lake,Global,GLO,Region-45,45.0426,-36.7871,GEO_1350_1432,43.0,HydroLAKES_USGS_Merged
-97,Wetland WB-097,wetland,Global,GLO,Region-54,54.1189,-96.2655,GEO_1441_0837,1.64,HydroLAKES_USGS_Merged
-98,Lake WB-098,lake,Global,GLO,Region-15,15.9454,44.2777,GEO_1059_2242,80.81,HydroLAKES_USGS_Merged
-99,Pond WB-099,pond,Global,GLO,Region-27,27.3396,75.6174,GEO_1173_2556,0.0228,HydroLAKES_USGS_Merged
-100,Reservoir WB-100,reservoir,Global,GLO,Region-6,6.8583,-105.0347,GEO_0968_0749,15.5,HydroLAKES_USGS_Merged
-101,Pond WB-101,pond,Global,GLO,Region-9,-9.6448,-89.5626,GEO_0803_0904,0.0446,HydroLAKES_USGS_Merged
-102,Lake WB-102,lake,Global,GLO,Region-38,-38.3709,-98.1322,GEO_0516_0818,52.59,HydroLAKES_USGS_Merged
-103,Reservoir WB-103,reservoir,Global,GLO,Region-31,31.2179,-98.8493,GEO_1212_0811,123.64,HydroLAKES_USGS_Merged
-104,Lake WB-104,lake,Global,GLO,Region-7,-7.3762,91.3279,GEO_0826_2713,31.88,HydroLAKES_USGS_Merged
-105,River WB-105,river,Global,GLO,Region-6,-6.7301,-98.2898,GEO_0832_0817,31.37,HydroLAKES_USGS_Merged
-106,Reservoir WB-106,reservoir,Global,GLO,Region-54,54.2308,-91.0887,GEO_1442_0889,64.78,HydroLAKES_USGS_Merged
-107,Pond WB-107,pond,Global,GLO,Region-43,-43.5251,-89.1073,GEO_0464_0908,0.0283,HydroLAKES_USGS_Merged
-108,Lake WB-108,lake,Global,GLO,Region-17,17.0874,130.1649,GEO_1070_3101,63.44,HydroLAKES_USGS_Merged
-109,Lake WB-109,lake,Global,GLO,Region-24,-24.2865,130.4379,GEO_0657_3104,73.84,HydroLAKES_USGS_Merged
-110,Lake WB-110,lake,Global,GLO,Region-52,52.4815,17.2023,GEO_1424_1972,3.76,HydroLAKES_USGS_Merged
-111,River WB-111,river,Global,GLO,Region-61,61.4698,16.0054,GEO_1514_1960,24.38,HydroLAKES_USGS_Merged
-112,Pond WB-112,pond,Global,GLO,Region-22,22.1692,31.9217,GEO_1121_2119,0.0277,HydroLAKES_USGS_Merged
-113,Wetland WB-113,wetland,Global,GLO,Region-59,59.2973,111.4686,GEO_1492_2914,17.58,HydroLAKES_USGS_Merged
-114,Pond WB-114,pond,Global,GLO,Region-28,-28.3661,0.5616,GEO_0616_1805,0.0208,HydroLAKES_USGS_Merged
-115,Lake WB-115,lake,Global,GLO,Region-62,62.0554,136.4148,GEO_1520_3164,6.7,HydroLAKES_USGS_Merged
-116,Reservoir WB-116,reservoir,Global,GLO,Region-43,43.5864,58.0301,GEO_1335_2380,47.81,HydroLAKES_USGS_Merged
-117,Lake WB-117,lake,Global,GLO,Region-59,59.227,68.6871,GEO_1492_2486,69.93,HydroLAKES_USGS_Merged
-118,Pond WB-118,pond,Global,GLO,Region-49,49.5973,-108.2431,GEO_1395_0717,0.0464,HydroLAKES_USGS_Merged
-119,Lake WB-119,lake,Global,GLO,Region-63,63.5368,-80.8916,GEO_1535_0991,68.92,HydroLAKES_USGS_Merged
-120,Pond WB-120,pond,Global,GLO,Region-46,46.8437,97.9655,GEO_1368_2779,0.0478,HydroLAKES_USGS_Merged
-121,Pond WB-121,pond,Global,GLO,Region-43,-43.5168,104.8278,GEO_0464_2848,0.0207,HydroLAKES_USGS_Merged
-122,Wetland WB-122,wetland,Global,GLO,Region-13,13.8746,79.9367,GEO_1038_2599,59.8,HydroLAKES_USGS_Merged
-123,River WB-123,river,Global,GLO,Region-1,1.8126,-86.4186,GEO_0918_0935,13.66,HydroLAKES_USGS_Merged
-124,River WB-124,river,Global,GLO,Region-27,27.2456,40.7133,GEO_1172_2207,13.0,HydroLAKES_USGS_Merged
-125,Lake WB-125,lake,Global,GLO,Region-9,9.8354,80.8028,GEO_0998_2608,57.12,HydroLAKES_USGS_Merged
-126,Pond WB-126,pond,Global,GLO,Region-14,14.5079,107.9299,GEO_1045_2879,0.0315,HydroLAKES_USGS_Merged
-127,Pond WB-127,pond,Global,GLO,Region-36,36.8408,41.2805,GEO_1268_2212,0.0111,HydroLAKES_USGS_Merged
-128,Reservoir WB-128,reservoir,Global,GLO,Region-48,-48.3274,-28.8472,GEO_0416_1511,22.18,HydroLAKES_USGS_Merged
-129,Pond WB-129,pond,Global,GLO,Region-53,53.9782,-29.4536,GEO_1439_1505,0.0271,HydroLAKES_USGS_Merged
-130,Pond WB-130,pond,Global,GLO,Region-21,21.54,104.2146,GEO_1115_2842,0.0255,HydroLAKES_USGS_Merged
-131,River WB-131,river,Global,GLO,Region-6,6.5934,-52.8565,GEO_0965_1271,37.43,HydroLAKES_USGS_Merged
-132,Pond WB-132,pond,Global,GLO,Region-12,-12.1936,44.6842,GEO_0778_2246,0.0292,HydroLAKES_USGS_Merged
-133,Lake WB-133,lake,Global,GLO,Region-35,-35.2747,-80.5053,GEO_0547_0994,11.04,HydroLAKES_USGS_Merged
-134,Lake WB-134,lake,Global,GLO,Region-10,-10.2483,113.165,GEO_0797_2931,15.54,HydroLAKES_USGS_Merged
-135,Pond WB-135,pond,Global,GLO,Region-27,-27.8868,-109.3742,GEO_0621_0706,0.0167,HydroLAKES_USGS_Merged
-136,Lake WB-136,lake,Global,GLO,Region-39,-39.7992,-88.6347,GEO_0502_0913,15.13,HydroLAKES_USGS_Merged
-137,Pond WB-137,pond,Global,GLO,Region-7,7.893,59.5027,GEO_0978_2395,0.0242,HydroLAKES_USGS_Merged
-138,Lake WB-138,lake,Global,GLO,Region-40,-40.5977,107.1304,GEO_0494_2871,53.41,HydroLAKES_USGS_Merged
-139,River WB-139,river,Global,GLO,Region-42,42.7131,74.5475,GEO_1327_2545,14.69,HydroLAKES_USGS_Merged
-140,Lake WB-140,lake,Global,GLO,Region-5,5.7201,40.7462,GEO_0957_2207,31.55,HydroLAKES_USGS_Merged
-141,Lake WB-141,lake,Global,GLO,Region-45,-45.7814,-54.3664,GEO_0442_1256,63.56,HydroLAKES_USGS_Merged
-142,Reservoir WB-142,reservoir,Global,GLO,Region-11,11.1931,-92.1353,GEO_1011_0878,77.73,HydroLAKES_USGS_Merged
-143,Pond WB-143,pond,Global,GLO,Region-19,-19.037,-21.9061,GEO_0709_1580,0.0195,HydroLAKES_USGS_Merged
-144,Lake WB-144,lake,Global,GLO,Region-12,-12.3378,-88.8618,GEO_0776_0911,18.05,HydroLAKES_USGS_Merged
-145,Wetland WB-145,wetland,Global,GLO,Region-40,40.7547,9.595,GEO_1307_1895,41.07,HydroLAKES_USGS_Merged
-146,Lake WB-146,lake,Global,GLO,Region-35,35.7255,-7.7685,GEO_1257_1722,49.92,HydroLAKES_USGS_Merged
-147,Lake WB-147,lake,Global,GLO,Region-24,24.2805,28.4024,GEO_1142_2084,30.93,HydroLAKES_USGS_Merged
-148,Lake WB-148,lake,Global,GLO,Region-22,-22.7189,-93.5366,GEO_0672_0864,51.53,HydroLAKES_USGS_Merged
-149,Lake WB-149,lake,Global,GLO,Region-28,-28.5448,-45.8753,GEO_0614_1341,13.74,HydroLAKES_USGS_Merged
-150,Lake WB-150,lake,Global,GLO,Region-10,10.3188,-13.2968,GEO_1003_1667,6.91,HydroLAKES_USGS_Merged
+wb_index,name,water_body_type,country,country_code,city,latitude,longitude,spatial_grid_index,area_sq_km,perimeter_km,elongation_ratio,data_source
+1,Rabindra Sarobar (Dhakuria Lake),lake,India,IND,Kolkata,22.5126,88.3637,GEO_1125_2683,0.78,4.41,1.41,HydroLAKES_USGS_Merged
+2,Subhas Sarobar,lake,India,IND,Kolkata,22.5694,88.3994,GEO_1125_2683,0.39,3.1,1.4,HydroLAKES_USGS_Merged
+3,East Kolkata Wetlands,wetland,India,IND,Kolkata,22.55,88.45,GEO_1125_2684,125.0,82.83,2.09,HydroLAKES_USGS_Merged
+4,Hooghly River Reach,river,India,IND,Kolkata,22.585,88.345,GEO_1125_2683,18.5,107.19,7.03,HydroLAKES_USGS_Merged
+5,Santragachi Jheel,pond,India,IND,Howrah,22.5815,88.277,GEO_1125_2682,0.045,0.8,1.06,HydroLAKES_USGS_Merged
+6,Central Park Lake (Salt Lake),lake,India,IND,Kolkata,22.5878,88.4168,GEO_1125_2684,0.22,2.94,1.77,HydroLAKES_USGS_Merged
+7,Nalban Boating Lake,lake,India,IND,Kolkata,22.5683,88.4312,GEO_1125_2684,0.48,3.71,1.51,HydroLAKES_USGS_Merged
+8,Sundarbans Delta Ponds,pond,India,IND,Canning,21.9497,88.7,GEO_1119_2687,0.035,0.72,1.08,HydroLAKES_USGS_Merged
+9,Dal Lake,lake,India,IND,Srinagar,34.1128,74.869,GEO_1241_2548,18.0,25.87,1.72,HydroLAKES_USGS_Merged
+10,Wular Lake,lake,India,IND,Bandipora,34.3333,74.6,GEO_1243_2546,65.0,43.16,1.51,HydroLAKES_USGS_Merged
+11,Chilika Lake,wetland,India,IND,Puri,19.7167,85.3167,GEO_1097_2653,1100.0,272.77,2.32,HydroLAKES_USGS_Merged
+12,Vembanad Lake,wetland,India,IND,Kochi,9.5833,76.4167,GEO_0995_2564,2033.0,372.42,2.33,HydroLAKES_USGS_Merged
+13,Loktak Lake,lake,India,IND,Moirang,24.55,93.8,GEO_1145_2738,287.0,103.29,1.72,HydroLAKES_USGS_Merged
+14,Pichola Lake,lake,India,IND,Udaipur,24.576,73.68,GEO_1145_2536,6.96,15.62,1.67,HydroLAKES_USGS_Merged
+15,Fateh Sagar Lake,lake,India,IND,Udaipur,24.6025,73.674,GEO_1146_2536,4.0,9.64,1.36,HydroLAKES_USGS_Merged
+16,Bhojtal (Upper Lake),lake,India,IND,Bhopal,23.25,77.3333,GEO_1132_2573,31.0,24.08,1.22,HydroLAKES_USGS_Merged
+17,Hussain Sagar,lake,India,IND,Hyderabad,17.4239,78.4738,GEO_1074_2584,4.4,10.48,1.41,HydroLAKES_USGS_Merged
+18,Bellandur Lake,lake,India,IND,Bengaluru,12.9352,77.6713,GEO_1029_2576,3.6,9.21,1.37,HydroLAKES_USGS_Merged
+19,Ulsoor Lake,lake,India,IND,Bengaluru,12.9828,77.62,GEO_1029_2576,0.5,3.36,1.34,HydroLAKES_USGS_Merged
+20,Powai Lake,lake,India,IND,Mumbai,19.1264,72.9056,GEO_1091_2529,2.1,7.14,1.39,HydroLAKES_USGS_Merged
+21,Yamuna River Reach (Delhi),river,India,IND,New Delhi,28.6139,77.209,GEO_1186_2572,12.0,70.73,5.76,HydroLAKES_USGS_Merged
+22,Ganga River Reach (Varanasi),river,India,IND,Varanasi,25.3176,82.9739,GEO_1153_2629,25.0,123.36,6.96,HydroLAKES_USGS_Merged
+23,Godavari River Delta,river,India,IND,Rajahmundry,16.9891,81.784,GEO_1069_2617,35.0,141.77,6.76,HydroLAKES_USGS_Merged
+24,Narmada River Estuary,river,India,IND,Bharuch,21.7051,72.9959,GEO_1117_2529,28.0,125.49,6.69,HydroLAKES_USGS_Merged
+25,Bhakra Dam Reservoir (Govind Sagar),reservoir,India,IND,Bilaspur,31.4111,76.4361,GEO_1214_2564,168.0,133.25,2.9,HydroLAKES_USGS_Merged
+26,Nagarjuna Sagar,reservoir,India,IND,Guntur,16.576,79.313,GEO_1065_2593,285.0,185.52,3.1,HydroLAKES_USGS_Merged
+27,Hirakud Reservoir,reservoir,India,IND,Sambalpur,21.57,83.87,GEO_1115_2638,743.0,254.13,2.63,HydroLAKES_USGS_Merged
+28,Sardar Sarovar Reservoir,reservoir,India,IND,Kevadiya,21.829,73.748,GEO_1118_2537,375.0,167.5,2.44,HydroLAKES_USGS_Merged
+29,Tehri Dam Reservoir,reservoir,India,IND,Tehri,30.378,78.48,GEO_1203_2584,52.0,62.88,2.46,HydroLAKES_USGS_Merged
+30,Idukki Reservoir,reservoir,India,IND,Idukki,9.85,76.97,GEO_0998_2569,60.0,91.71,3.34,HydroLAKES_USGS_Merged
+31,Ranganathittu Bird Sanctuary Wetland,wetland,India,IND,Mandya,12.4247,76.6847,GEO_1024_2566,0.67,8.15,2.81,HydroLAKES_USGS_Merged
+32,Deepor Beel Wetland,wetland,India,IND,Guwahati,26.1264,91.6583,GEO_1161_2716,40.0,53.14,2.37,HydroLAKES_USGS_Merged
+33,Keoladeo Ghana National Park,wetland,India,IND,Bharatpur,27.16,77.52,GEO_1171_2575,28.7,54.31,2.86,HydroLAKES_USGS_Merged
+34,Harike Wetland,wetland,India,IND,Tarn Taran,31.15,74.95,GEO_1211_2549,41.0,54.48,2.4,HydroLAKES_USGS_Merged
+35,Sambhar Salt Lake,lake,India,IND,Jaipur,26.9,75.0,GEO_1169_2550,230.0,65.05,1.21,HydroLAKES_USGS_Merged
+36,Lonar Crater Lake,lake,India,IND,Buldhana,19.976,76.507,GEO_1099_2565,1.13,6.37,1.69,HydroLAKES_USGS_Merged
+37,Naini Lake,lake,India,IND,Nainital,29.39,79.45,GEO_1193_2594,0.48,3.36,1.37,HydroLAKES_USGS_Merged
+38,Pushkar Lake,pond,India,IND,Ajmer,26.4897,74.5528,GEO_1164_2545,0.048,0.94,1.21,HydroLAKES_USGS_Merged
+39,Kankaria Lake,lake,India,IND,Ahmedabad,23.0063,72.6026,GEO_1130_2526,0.76,3.86,1.25,HydroLAKES_USGS_Merged
+40,Renuka Lake Wetland,wetland,India,IND,Sirmaur,30.6067,77.4528,GEO_1206_2574,0.2,3.03,1.91,HydroLAKES_USGS_Merged
+41,Lake Michigan,lake,United States,UNI,Chicago,41.8781,-87.6298,GEO_1318_0923,58030.0,1460.25,1.71,HydroLAKES_USGS_Merged
+42,Lake Superior,lake,United States,UNI,Duluth,46.7867,-92.1005,GEO_1367_0878,82103.0,1330.62,1.31,HydroLAKES_USGS_Merged
+43,Lake Huron,lake,United States,UNI,Bay City,44.5,-82.5,GEO_1345_0975,59600.0,1237.55,1.43,HydroLAKES_USGS_Merged
+44,Lake Erie,lake,United States,UNI,Cleveland,41.5,-81.7,GEO_1315_0983,25700.0,710.36,1.25,HydroLAKES_USGS_Merged
+45,Lake Ontario,lake,United States,UNI,Rochester,43.6,-77.5,GEO_1336_1025,18960.0,849.32,1.74,HydroLAKES_USGS_Merged
+46,Lake Tahoe,lake,United States,UNI,South Lake Tahoe,39.0968,-120.0324,GEO_1290_0599,496.0,119.21,1.51,HydroLAKES_USGS_Merged
+47,Crater Lake,lake,United States,UNI,Klamath Falls,42.9446,-122.109,GEO_1329_0578,53.0,32.26,1.25,HydroLAKES_USGS_Merged
+48,Great Salt Lake,lake,United States,UNI,Salt Lake City,41.1158,-112.476,GEO_1311_0675,2500.0,241.05,1.36,HydroLAKES_USGS_Merged
+49,Lake Okeechobee,reservoir,United States,UNI,Okeechobee,26.9,-80.8,GEO_1169_0992,1900.0,364.66,2.36,HydroLAKES_USGS_Merged
+50,Lake Pontchartrain,lake,United States,UNI,New Orleans,30.2,-90.1,GEO_1202_0899,1630.0,224.7,1.57,HydroLAKES_USGS_Merged
+51,Lake Mead (Hoover Dam),reservoir,United States,UNI,Boulder City,36.15,-114.4,GEO_1261_0656,640.0,265.45,2.96,HydroLAKES_USGS_Merged
+52,Lake Powell,reservoir,United States,UNI,Page,37.05,-111.25,GEO_1270_0687,658.0,250.97,2.76,HydroLAKES_USGS_Merged
+53,Lake Champlain,lake,United States,UNI,Burlington,44.53,-73.35,GEO_1345_1066,1269.0,202.05,1.6,HydroLAKES_USGS_Merged
+54,Lake Mendota,lake,United States,UNI,Madison,43.1,-89.4167,GEO_1331_0905,39.4,26.48,1.19,HydroLAKES_USGS_Merged
+55,Lake Washington,lake,United States,UNI,Seattle,47.6205,-122.2494,GEO_1376_0577,88.0,58.86,1.77,HydroLAKES_USGS_Merged
+56,Salton Sea,lake,United States,UNI,Palm Springs,33.3,-115.8,GEO_1233_0642,889.0,157.49,1.49,HydroLAKES_USGS_Merged
+57,Florida Everglades Wetlands,wetland,United States,UNI,Miami,25.7459,-80.555,GEO_1157_0994,6100.0,769.69,2.78,HydroLAKES_USGS_Merged
+58,Atchafalaya Basin Wetland,wetland,United States,UNI,Baton Rouge,30.25,-91.5,GEO_1202_0885,2400.0,383.8,2.21,HydroLAKES_USGS_Merged
+59,Chesapeake Bay Marshlands,wetland,United States,UNI,Annapolis,38.9,-76.4,GEO_1289_1036,750.0,249.5,2.57,HydroLAKES_USGS_Merged
+60,Great Dismal Swamp,wetland,United States,UNI,Suffolk,36.6,-76.45,GEO_1266_1035,450.0,182.73,2.43,HydroLAKES_USGS_Merged
+61,Mississippi River Reach,river,United States,UNI,St. Louis,38.627,-90.1994,GEO_1286_0898,55.0,146.17,5.56,HydroLAKES_USGS_Merged
+62,Hudson River Estuary,river,United States,UNI,New York,40.7128,-74.006,GEO_1307_1059,38.0,114.29,5.23,HydroLAKES_USGS_Merged
+63,Columbia River Reach,river,United States,UNI,Portland,45.6,-122.6,GEO_1356_0574,62.0,162.73,5.83,HydroLAKES_USGS_Merged
+64,Colorado River Reach,river,United States,UNI,Moab,38.5733,-109.5498,GEO_1285_0704,28.0,133.56,7.12,HydroLAKES_USGS_Merged
+65,Walden Pond,pond,United States,UNI,Concord,42.439,-71.34,GEO_1324_1086,0.025,0.66,1.18,HydroLAKES_USGS_Merged
+66,Mirror Pond,pond,United States,UNI,Bend,44.0582,-121.3153,GEO_1340_0586,0.035,0.84,1.26,HydroLAKES_USGS_Merged
+67,Lake Travis,reservoir,United States,UNI,Austin,30.4,-97.9,GEO_1204_0821,76.6,83.15,2.68,HydroLAKES_USGS_Merged
+68,Lake Lanier,reservoir,United States,UNI,Buford,34.2,-84.05,GEO_1242_0959,150.0,120.26,2.77,HydroLAKES_USGS_Merged
+69,Kentucky Lake,reservoir,United States,UNI,Gilbertsville,36.85,-88.25,GEO_1268_0917,649.0,223.96,2.48,HydroLAKES_USGS_Merged
+70,Flaming Gorge Reservoir,reservoir,United States,UNI,Manila,41.0,-109.5,GEO_1310_0705,170.0,133.58,2.89,HydroLAKES_USGS_Merged
+71,Great Bear Lake,lake,Canada,CAN,Deline,66.0,-121.0,GEO_1560_0590,31153.0,994.84,1.59,HydroLAKES_USGS_Merged
+72,Great Slave Lake,lake,Canada,CAN,Yellowknife,62.454,-114.3718,GEO_1524_0656,27200.0,888.65,1.52,HydroLAKES_USGS_Merged
+73,Lake Winnipeg,lake,Canada,CAN,Winnipeg,52.1167,-97.25,GEO_1421_0827,24514.0,793.68,1.43,HydroLAKES_USGS_Merged
+74,Lake Athabasca,lake,Canada,CAN,Fort Chipewyan,59.25,-109.5,GEO_1492_0705,7850.0,518.23,1.65,HydroLAKES_USGS_Merged
+75,Lake Louise,lake,Canada,CAN,Banff,51.4254,-116.1773,GEO_1414_0638,0.8,4.76,1.5,HydroLAKES_USGS_Merged
+76,Peyto Lake,lake,Canada,CAN,Jasper,51.7167,-116.5167,GEO_1417_0634,1.4,5.12,1.22,HydroLAKES_USGS_Merged
+77,Lake Simcoe,lake,Canada,CAN,Barrie,44.4,-79.35,GEO_1344_1006,722.0,159.07,1.67,HydroLAKES_USGS_Merged
+78,Lake Okanagan,lake,Canada,CAN,Kelowna,49.888,-119.496,GEO_1398_0605,351.0,100.28,1.51,HydroLAKES_USGS_Merged
+79,St. Lawrence River Reach,river,Canada,CAN,Montreal,45.5017,-73.5673,GEO_1355_1064,85.0,162.43,4.97,HydroLAKES_USGS_Merged
+80,Fraser River Estuary,river,Canada,CAN,Vancouver,49.1913,-123.18,GEO_1391_0568,42.0,164.72,7.17,HydroLAKES_USGS_Merged
+81,Peace-Athabasca Delta Wetlands,wetland,Canada,CAN,Fort Smith,58.75,-111.5,GEO_1487_0685,3200.0,417.1,2.08,HydroLAKES_USGS_Merged
+82,Minnedosa Prairie Potholes,pond,Canada,CAN,Minnedosa,50.25,-99.85,GEO_1402_0801,0.04,0.88,1.24,HydroLAKES_USGS_Merged
+83,Daniel-Johnson Reservoir (Manic-5),reservoir,Canada,CAN,Baie-Comeau,50.64,-68.72,GEO_1406_1112,1950.0,496.23,3.17,HydroLAKES_USGS_Merged
+84,Caniapiscau Reservoir,reservoir,Canada,CAN,Radisson,54.1,-70.0,GEO_1441_1100,4318.0,640.59,2.75,HydroLAKES_USGS_Merged
+85,Columbia Wetlands,wetland,Canada,CAN,Golden,51.0,-116.5,GEO_1410_0635,150.0,88.57,2.04,HydroLAKES_USGS_Merged
+86,Loch Ness,lake,United Kingdom,UNI,Inverness,57.3229,-4.4244,GEO_1473_1755,56.4,43.39,1.63,HydroLAKES_USGS_Merged
+87,Loch Lomond,lake,United Kingdom,UNI,Balloch,56.0833,-4.5833,GEO_1460_1754,71.0,37.04,1.24,HydroLAKES_USGS_Merged
+88,Lake Windermere,lake,United Kingdom,UNI,Kendal,54.3739,-2.9376,GEO_1443_1770,14.73,21.22,1.56,HydroLAKES_USGS_Merged
+89,Ullswater,lake,United Kingdom,UNI,Penrith,54.5833,-2.8833,GEO_1445_1771,8.9,15.76,1.49,HydroLAKES_USGS_Merged
+90,River Thames Reach,river,United Kingdom,UNI,London,51.5074,-0.1278,GEO_1415_1798,22.0,100.26,6.03,HydroLAKES_USGS_Merged
+91,River Severn Estuary,river,United Kingdom,UNI,Bristol,51.55,-2.7,GEO_1415_1773,45.0,150.29,6.32,HydroLAKES_USGS_Merged
+92,Norfolk Broads Wetland,wetland,United Kingdom,UNI,Norwich,52.63,1.5,GEO_1426_1815,303.0,145.01,2.35,HydroLAKES_USGS_Merged
+93,Somerset Levels Wetland,wetland,United Kingdom,UNI,Glastonbury,51.15,-2.75,GEO_1411_1772,650.0,196.12,2.17,HydroLAKES_USGS_Merged
+94,Rutland Water,reservoir,United Kingdom,UNI,Oakham,52.65,-0.6333,GEO_1426_1793,12.6,32.09,2.55,HydroLAKES_USGS_Merged
+95,Kielder Water,reservoir,United Kingdom,UNI,Kielder,55.1833,-2.5333,GEO_1451_1774,10.86,30.96,2.65,HydroLAKES_USGS_Merged
+96,Lough Neagh,lake,United Kingdom,UNI,Belfast,54.6,-6.4,GEO_1446_1736,392.0,91.24,1.3,HydroLAKES_USGS_Merged
+97,Lough Corrib,lake,Ireland,IRE,Galway,53.4333,-9.2333,GEO_1434_1707,176.0,72.89,1.55,HydroLAKES_USGS_Merged
+98,Lake Geneva (Lac Léman),lake,Switzerland,SWI,Geneva,46.45,6.5,GEO_1364_1865,580.0,150.26,1.76,HydroLAKES_USGS_Merged
+99,Lake Zurich,lake,Switzerland,SWI,Zurich,47.25,8.6,GEO_1372_1886,88.66,45.73,1.37,HydroLAKES_USGS_Merged
+100,Lake Lucerne,lake,Switzerland,SWI,Lucerne,47.0,8.45,GEO_1370_1884,113.6,52.14,1.38,HydroLAKES_USGS_Merged
+101,Lake Constance (Bodensee),lake,Germany,GER,Konstanz,47.6333,9.3667,GEO_1376_1893,536.0,105.05,1.28,HydroLAKES_USGS_Merged
+102,Lake Como,lake,Italy,ITA,Como,46.0,9.2667,GEO_1360_1892,146.0,57.4,1.34,HydroLAKES_USGS_Merged
+103,Lake Garda,lake,Italy,ITA,Desenzano,45.6333,10.6833,GEO_1356_1906,369.98,116.6,1.71,HydroLAKES_USGS_Merged
+104,Lake Maggiore,lake,Italy,ITA,Stresa,45.95,8.65,GEO_1359_1886,212.5,81.13,1.57,HydroLAKES_USGS_Merged
+105,Lake Annecy,lake,France,FRA,Annecy,45.86,6.16,GEO_1358_1861,27.59,24.76,1.33,HydroLAKES_USGS_Merged
+106,Lake Bourget,lake,France,FRA,Aix-les-Bains,45.73,5.86,GEO_1357_1858,44.5,40.2,1.7,HydroLAKES_USGS_Merged
+107,Chiemsee,lake,Germany,GER,Prien,47.8833,12.4667,GEO_1378_1924,79.9,45.63,1.44,HydroLAKES_USGS_Merged
+108,Müritz Lake,lake,Germany,GER,Waren,53.4167,12.6833,GEO_1434_1926,117.0,52.91,1.38,HydroLAKES_USGS_Merged
+109,Lake Balaton,lake,Hungary,HUN,Siófok,46.85,17.7333,GEO_1368_1977,592.0,141.45,1.64,HydroLAKES_USGS_Merged
+110,Camargue Rhone Delta Wetlands,wetland,France,FRA,Arles,43.53,4.63,GEO_1335_1846,930.0,268.1,2.48,HydroLAKES_USGS_Merged
+111,Waddenzee Tidal Wetlands,wetland,Netherlands,NET,Den Helder,53.0,5.0,GEO_1430_1850,2500.0,459.07,2.59,HydroLAKES_USGS_Merged
+112,Doñana National Park Wetlands,wetland,Spain,SPA,Huelva,36.98,-6.43,GEO_1269_1735,543.0,225.51,2.73,HydroLAKES_USGS_Merged
+113,Seine River Reach,river,France,FRA,Paris,48.8566,2.3522,GEO_1388_1823,16.0,74.87,5.28,HydroLAKES_USGS_Merged
+114,Rhine River Reach,river,Germany,GER,Cologne,50.9375,6.9603,GEO_1409_1869,35.0,116.39,5.55,HydroLAKES_USGS_Merged
+115,Danube River Reach,river,Austria,AUS,Vienna,48.2082,16.3738,GEO_1382_1963,42.0,143.13,6.23,HydroLAKES_USGS_Merged
+116,Lac de Sainte-Croix Reservoir,reservoir,France,FRA,Moustiers,43.76,6.18,GEO_1337_1861,22.0,45.39,2.73,HydroLAKES_USGS_Merged
+117,Alqueva Reservoir,reservoir,Portugal,POR,Moura,38.2,-7.5,GEO_1282_1725,250.0,184.96,3.3,HydroLAKES_USGS_Merged
+118,Lake Baikal,lake,Russia,RUS,Irkutsk,53.5,108.0,GEO_1435_2880,31722.0,991.25,1.57,HydroLAKES_USGS_Merged
+119,Lake Ladoga,lake,Russia,RUS,St. Petersburg,61.0,31.5,GEO_1510_2115,17700.0,735.73,1.56,HydroLAKES_USGS_Merged
+120,Lake Onega,lake,Russia,RUS,Petrozavodsk,61.75,35.5,GEO_1517_2155,9890.0,567.58,1.61,HydroLAKES_USGS_Merged
+121,Lake Saimaa,lake,Finland,FIN,Lappeenranta,61.25,28.1667,GEO_1512_2081,4400.0,402.09,1.71,HydroLAKES_USGS_Merged
+122,Lake Inari,lake,Finland,FIN,Inari,68.95,27.7,GEO_1589_2077,1040.0,141.76,1.24,HydroLAKES_USGS_Merged
+123,Lake Vänern,lake,Sweden,SWE,Karlstad,58.9,13.5,GEO_1489_1935,5650.0,405.02,1.52,HydroLAKES_USGS_Merged
+124,Lake Vättern,lake,Sweden,SWE,Jönköping,58.4,14.6,GEO_1484_1946,1893.0,243.69,1.58,HydroLAKES_USGS_Merged
+125,Lake Mjøsa,lake,Norway,NOR,Lillehammer,60.7,10.9,GEO_1507_1909,365.0,113.78,1.68,HydroLAKES_USGS_Merged
+126,Volga River Reach,river,Russia,RUS,Samara,53.2,50.15,GEO_1432_2301,75.0,200.47,6.53,HydroLAKES_USGS_Merged
+127,Lena River Delta,river,Russia,RUS,Tiksi,72.5,127.0,GEO_1625_3070,110.0,188.13,5.06,HydroLAKES_USGS_Merged
+128,Dnipro River Reservoir,reservoir,Ukraine,UKR,Zaporizhzhia,47.85,35.15,GEO_1378_2151,410.0,226.1,3.15,HydroLAKES_USGS_Merged
+129,Kuibyshev Reservoir,reservoir,Russia,RUS,Kazan,54.5,49.0,GEO_1445_2290,6450.0,660.5,2.32,HydroLAKES_USGS_Merged
+130,Rybinsk Reservoir,reservoir,Russia,RUS,Rybinsk,58.5,38.5,GEO_1485_2185,4580.0,750.9,3.13,HydroLAKES_USGS_Merged
+131,Biebrza Marshes Wetland,wetland,Poland,POL,Bialystok,53.5,22.75,GEO_1435_2027,592.0,183.72,2.13,HydroLAKES_USGS_Merged
+132,Danube Delta Wetlands,wetland,Romania,ROM,Tulcea,45.2,29.5,GEO_1352_2095,4152.0,539.07,2.36,HydroLAKES_USGS_Merged
+133,Qinghai Lake,lake,China,CHI,Xining,36.9,100.2,GEO_1269_2802,4489.0,351.51,1.48,HydroLAKES_USGS_Merged
+134,Poyang Lake,lake,China,CHI,Jiujiang,29.1,116.3,GEO_1191_2963,3210.0,279.17,1.39,HydroLAKES_USGS_Merged
+135,Dongting Lake,lake,China,CHI,Yueyang,29.3,112.9,GEO_1193_2929,2570.0,226.43,1.26,HydroLAKES_USGS_Merged
+136,Taihu Lake,lake,China,CHI,Wuxi,31.25,120.2,GEO_1212_3002,2250.0,213.55,1.27,HydroLAKES_USGS_Merged
+137,West Lake (Xi Hu),lake,China,CHI,Hangzhou,30.24,120.15,GEO_1202_3001,6.38,12.63,1.41,HydroLAKES_USGS_Merged
+138,Dianchi Lake,lake,China,CHI,Kunming,24.85,102.67,GEO_1148_2826,298.0,90.57,1.48,HydroLAKES_USGS_Merged
+139,Three Gorges Reservoir,reservoir,China,CHI,Yichang,30.8267,111.0078,GEO_1208_2910,1084.0,299.95,2.57,HydroLAKES_USGS_Merged
+140,Danjiangkou Reservoir,reservoir,China,CHI,Shiyan,32.55,111.5,GEO_1225_2915,755.0,282.47,2.9,HydroLAKES_USGS_Merged
+141,Yangtze River Reach,river,China,CHI,Wuhan,30.5928,114.3055,GEO_1205_2943,68.0,199.65,6.83,HydroLAKES_USGS_Merged
+142,Yellow River Reach,river,China,CHI,Zhengzhou,34.85,113.6,GEO_1248_2936,45.0,129.6,5.45,HydroLAKES_USGS_Merged
+143,Zhalong Wetland Nature Reserve,wetland,China,CHI,Qiqihar,47.2,124.25,GEO_1372_3042,2100.0,346.01,2.13,HydroLAKES_USGS_Merged
+144,Lake Biwa,lake,Japan,JAP,Otsu,35.3,136.1,GEO_1253_3161,670.4,113.81,1.24,HydroLAKES_USGS_Merged
+145,Lake Kasumigaura,lake,Japan,JAP,Tsuchiura,36.05,140.4,GEO_1260_3204,167.6,67.0,1.46,HydroLAKES_USGS_Merged
+146,Shinji Lake,lake,Japan,JAP,Matsue,35.45,132.95,GEO_1254_3129,79.1,41.3,1.31,HydroLAKES_USGS_Merged
+147,Tokyo Bay Estuary,river,Japan,JAP,Tokyo,35.6528,139.8394,GEO_1256_3198,42.0,153.23,6.67,HydroLAKES_USGS_Merged
+148,Kurobe Reservoir,reservoir,Japan,JAP,Tateyama,36.5667,137.6667,GEO_1265_3176,3.49,17.35,2.62,HydroLAKES_USGS_Merged
+149,Kushiro Mire Wetlands,wetland,Japan,JAP,Kushiro,43.15,144.4,GEO_1331_3244,287.0,125.51,2.09,HydroLAKES_USGS_Merged
+150,Shinobazu Pond,pond,Japan,JAP,Tokyo,35.7119,139.7711,GEO_1257_3197,0.045,0.86,1.14,HydroLAKES_USGS_Merged
+151,Soyang Lake Reservoir,reservoir,South Korea,SOU,Chuncheon,37.95,127.8,GEO_1279_3078,70.0,75.04,2.53,HydroLAKES_USGS_Merged
+152,Chungju Lake,reservoir,South Korea,SOU,Chungju,36.98,128.0,GEO_1269_3080,67.5,85.04,2.92,HydroLAKES_USGS_Merged
+153,Han River Reach,river,South Korea,SOU,Seoul,37.5326,126.99,GEO_1275_3069,32.0,118.51,5.91,HydroLAKES_USGS_Merged
+154,Sun Moon Lake,lake,Taiwan,TAI,Yuchi,23.8667,120.9167,GEO_1138_3009,7.93,17.67,1.77,HydroLAKES_USGS_Merged
+155,Zengwun Reservoir,reservoir,Taiwan,TAI,Dapu,23.25,120.55,GEO_1132_3005,17.1,34.01,2.32,HydroLAKES_USGS_Merged
+156,Lake Khövsgöl,lake,Mongolia,MON,Khatgal,51.1,100.5,GEO_1411_2805,2760.0,284.94,1.53,HydroLAKES_USGS_Merged
+157,Uvs Lake,lake,Mongolia,MON,Ulaangom,50.3333,92.75,GEO_1403_2727,3350.0,307.76,1.5,HydroLAKES_USGS_Merged
+158,Tonle Sap Lake,lake,Cambodia,CAM,Siem Reap,12.88,104.05,GEO_1028_2840,2700.0,232.09,1.26,HydroLAKES_USGS_Merged
+159,Lake Toba,lake,Indonesia,IND,Medan,2.6845,98.8756,GEO_0926_2788,1130.0,154.91,1.3,HydroLAKES_USGS_Merged
+160,Citarum River Basin,river,Indonesia,IND,Bandung,-6.9,107.6,GEO_0831_2876,22.0,111.57,6.71,HydroLAKES_USGS_Merged
+161,Jatiluhur Reservoir,reservoir,Indonesia,IND,Purwakarta,-6.53,107.38,GEO_0834_2873,83.0,102.38,3.17,HydroLAKES_USGS_Merged
+162,Danau Sentani,lake,Indonesia,IND,Jayapura,-2.6,140.5,GEO_0874_3205,104.0,48.44,1.34,HydroLAKES_USGS_Merged
+163,Inle Lake,lake,Myanmar,MYA,Taunggyi,20.55,96.9,GEO_1105_2769,116.0,46.96,1.23,HydroLAKES_USGS_Merged
+164,Irrawaddy River Delta,river,Myanmar,MYA,Yangon,16.8,96.15,GEO_1068_2761,58.0,166.84,6.18,HydroLAKES_USGS_Merged
+165,Laguna de Bay,lake,Philippines,PHI,Manila,14.35,121.25,GEO_1043_3012,911.0,149.79,1.4,HydroLAKES_USGS_Merged
+166,Lake Taal,lake,Philippines,PHI,Tagaytay,14.0,121.0,GEO_1040_3010,234.2,73.24,1.35,HydroLAKES_USGS_Merged
+167,Pasig River Reach,river,Philippines,PHI,Manila,14.59,120.98,GEO_1045_3009,8.5,65.73,6.36,HydroLAKES_USGS_Merged
+168,Songkhla Lake,lake,Thailand,THA,Songkhla,7.5,100.25,GEO_0975_2802,1040.0,136.04,1.19,HydroLAKES_USGS_Merged
+169,Bhumibol Reservoir,reservoir,Thailand,THA,Tak,17.25,98.98,GEO_1072_2789,300.0,180.51,2.94,HydroLAKES_USGS_Merged
+170,Chao Phraya River Reach,river,Thailand,THA,Bangkok,13.7563,100.5018,GEO_1037_2805,35.0,127.51,6.08,HydroLAKES_USGS_Merged
+171,Thale Noi Waterbird Wetland,wetland,Thailand,THA,Phatthalung,7.78,100.15,GEO_0977_2801,28.0,52.15,2.78,HydroLAKES_USGS_Merged
+172,West Lake (Ho Tay),lake,Vietnam,VIE,Hanoi,21.05,105.82,GEO_1110_2858,5.3,9.71,1.19,HydroLAKES_USGS_Merged
+173,Mekong River Delta Reach,river,Vietnam,VIE,Can Tho,10.0333,105.7833,GEO_1000_2857,95.0,198.33,5.74,HydroLAKES_USGS_Merged
+174,Hoa Binh Reservoir,reservoir,Vietnam,VIE,Hoa Binh,20.8,105.3,GEO_1108_2853,208.0,121.68,2.38,HydroLAKES_USGS_Merged
+175,Tasik Kenyir Reservoir,reservoir,Malaysia,MAL,Kuala Terengganu,5.0,102.8,GEO_0950_2828,260.0,168.05,2.94,HydroLAKES_USGS_Merged
+176,Lake Victoria (Jinja Reach),lake,Uganda,UGA,Jinja,0.4244,33.2042,GEO_0904_2132,68800.0,1487.71,1.6,HydroLAKES_USGS_Merged
+177,Lake Victoria (Kisumu Reach),lake,Kenya,KEN,Kisumu,-0.1022,34.7617,GEO_0898_2147,4500.0,318.65,1.34,HydroLAKES_USGS_Merged
+178,Lake Victoria (Mwanza Reach),lake,Tanzania,TAN,Mwanza,-2.5167,32.9,GEO_0874_2129,6200.0,393.57,1.41,HydroLAKES_USGS_Merged
+179,Lake Tanganyika,lake,Tanzania,TAN,Kigoma,-4.8833,29.6333,GEO_0851_2096,32900.0,829.45,1.29,HydroLAKES_USGS_Merged
+180,Lake Malawi (Nyasa),lake,Malawi,MAL,Mangochi,-12.2,34.3,GEO_0778_2143,29600.0,792.86,1.3,HydroLAKES_USGS_Merged
+181,Lake Chad,lake,Chad,CHA,Bol,13.0,14.5,GEO_1030_1945,1350.0,197.98,1.52,HydroLAKES_USGS_Merged
+182,Lake Turkana,lake,Kenya,KEN,Lodwar,3.6,36.0,GEO_0936_2160,6405.0,405.7,1.43,HydroLAKES_USGS_Merged
+183,Lake Naivasha,lake,Kenya,KEN,Naivasha,-0.7667,36.35,GEO_0892_2163,139.0,58.93,1.41,HydroLAKES_USGS_Merged
+184,Lake Nakuru,lake,Kenya,KEN,Nakuru,-0.3667,36.0833,GEO_0896_2160,45.0,39.24,1.65,HydroLAKES_USGS_Merged
+185,Lake Kivu,lake,Rwanda,RWA,Gisenyi,-1.75,29.25,GEO_0882_2092,2700.0,294.72,1.6,HydroLAKES_USGS_Merged
+186,Aswan High Dam Reservoir (Lake Nasser),reservoir,Egypt,EGY,Aswan,23.97,32.88,GEO_1139_2128,5250.0,647.27,2.52,HydroLAKES_USGS_Merged
+187,Nile River Reach (Cairo),river,Egypt,EGY,Cairo,30.0444,31.2357,GEO_1200_2112,48.0,151.53,6.17,HydroLAKES_USGS_Merged
+188,Kariba Reservoir,reservoir,Zimbabwe,ZIM,Kariba,-16.9,28.0,GEO_0731_2080,5580.0,680.54,2.57,HydroLAKES_USGS_Merged
+189,Cahora Bassa Reservoir,reservoir,Mozambique,MOZ,Songo,-15.5833,32.7,GEO_0744_2127,2739.0,538.02,2.9,HydroLAKES_USGS_Merged
+190,Volta Lake Reservoir,reservoir,Ghana,GHA,Akosombo,6.5,-0.05,GEO_0965_1799,8502.0,768.13,2.35,HydroLAKES_USGS_Merged
+191,Congo River Reach,river,DR Congo,DR ,Kinshasa,-4.325,15.3222,GEO_0856_1953,140.0,255.86,6.1,HydroLAKES_USGS_Merged
+192,Niger River Reach,river,Nigeria,NIG,Lokoja,7.8,6.74,GEO_0978_1867,65.0,178.34,6.24,HydroLAKES_USGS_Merged
+193,Zambezi River Reach,river,Zambia,ZAM,Livingstone,-17.85,25.85,GEO_0721_2058,52.0,152.1,5.95,HydroLAKES_USGS_Merged
+194,Okavango Delta Wetlands,wetland,Botswana,BOT,Maun,-19.3,22.9,GEO_0707_2029,15000.0,1107.11,2.55,HydroLAKES_USGS_Merged
+195,Sudd Wetland Marshes,wetland,South Sudan,SOU,Bor,8.0,31.0,GEO_0980_2110,30000.0,1706.91,2.78,HydroLAKES_USGS_Merged
+196,iSimangaliso St Lucia Wetland,wetland,South Africa,SOU,St Lucia,-28.0,32.48,GEO_0620_2124,350.0,169.11,2.55,HydroLAKES_USGS_Merged
+197,Hartebeespoort Dam Reservoir,reservoir,South Africa,SOU,Pretoria,-25.75,27.85,GEO_0642_2078,20.6,42.48,2.64,HydroLAKES_USGS_Merged
+198,Vaal Dam Reservoir,reservoir,South Africa,SOU,Deneysville,-26.88,28.12,GEO_0631_2081,322.0,182.56,2.87,HydroLAKES_USGS_Merged
+199,Lake Sibaya,lake,South Africa,SOU,Manguzi,-27.35,32.68,GEO_0626_2126,77.0,38.57,1.24,HydroLAKES_USGS_Merged
+200,Lac Rose (Lake Retba),lake,Senegal,SEN,Dakar,14.839,-17.234,GEO_1048_1627,3.0,10.81,1.76,HydroLAKES_USGS_Merged
+201,Lake Titicaca,lake,Bolivia,BOL,Copacabana,-15.8,-69.4,GEO_0742_1106,8372.0,421.66,1.3,HydroLAKES_USGS_Merged
+202,Lake Maracaibo,lake,Venezuela,VEN,Maracaibo,9.8,-71.56,GEO_0998_1084,13210.0,631.52,1.55,HydroLAKES_USGS_Merged
+203,Lake Poopó,lake,Bolivia,BOL,Oruro,-18.78,-67.05,GEO_0712_1129,1000.0,182.72,1.63,HydroLAKES_USGS_Merged
+204,Lake Nahuel Huapi,lake,Argentina,ARG,Bariloche,-41.08,-71.42,GEO_0489_1085,529.0,110.07,1.35,HydroLAKES_USGS_Merged
+205,Lake Llanquihue,lake,Chile,CHI,Puerto Varas,-41.13,-72.82,GEO_0488_1071,860.0,182.96,1.76,HydroLAKES_USGS_Merged
+206,General Carrera Lake,lake,Chile,CHI,Chile Chico,-46.5,-72.0,GEO_0435_1080,1850.0,224.13,1.47,HydroLAKES_USGS_Merged
+207,Lake Villarrica,lake,Chile,CHI,Pucón,-39.25,-72.1,GEO_0507_1079,173.0,58.75,1.26,HydroLAKES_USGS_Merged
+208,Mar Chiquita Salt Lake,lake,Argentina,ARG,Miramar,-30.6,-62.6,GEO_0594_1174,2000.0,215.6,1.36,HydroLAKES_USGS_Merged
+209,Lagoa dos Patos,lake,Brazil,BRA,Pelotas,-31.1,-51.5,GEO_0589_1285,10100.0,452.45,1.27,HydroLAKES_USGS_Merged
+210,Lake Paranoá,reservoir,Brazil,BRA,Brasília,-15.78,-47.83,GEO_0742_1321,48.0,58.21,2.37,HydroLAKES_USGS_Merged
+211,Itaipu Reservoir,reservoir,Brazil,BRA,Foz do Iguaçu,-25.4,-54.58,GEO_0646_1254,1350.0,425.91,3.27,HydroLAKES_USGS_Merged
+212,Tucuruí Reservoir,reservoir,Brazil,BRA,Tucuruí,-3.83,-49.67,GEO_0861_1303,2850.0,537.46,2.84,HydroLAKES_USGS_Merged
+213,Sobradinho Reservoir,reservoir,Brazil,BRA,Sobradinho,-9.45,-40.83,GEO_0805_1391,4214.0,706.46,3.07,HydroLAKES_USGS_Merged
+214,Guri Reservoir (Lake Guri),reservoir,Venezuela,VEN,Ciudad Guayana,7.75,-63.0,GEO_0977_1170,4250.0,774.18,3.35,HydroLAKES_USGS_Merged
+215,Yacyretá Reservoir,reservoir,Paraguay,PAR,Ayolas,-27.48,-56.73,GEO_0625_1232,1600.0,480.69,3.39,HydroLAKES_USGS_Merged
+216,Pantanal Matogrossense Wetlands,wetland,Brazil,BRA,Cuiabá,-16.5,-56.5,GEO_0735_1235,140000.0,3010.89,2.27,HydroLAKES_USGS_Merged
+217,Esteros del Iberá Wetlands,wetland,Argentina,ARG,Mercedes,-28.5,-57.5,GEO_0615_1225,12000.0,931.98,2.4,HydroLAKES_USGS_Merged
+218,Amazon River Reach (Manaus),river,Brazil,BRA,Manaus,-3.119,-60.0217,GEO_0868_1199,210.0,284.08,5.53,HydroLAKES_USGS_Merged
+219,Rio Negro Reach,river,Brazil,BRA,Manaus,-3.15,-60.0,GEO_0868_1200,180.0,281.08,5.91,HydroLAKES_USGS_Merged
+220,Paraná River Reach,river,Argentina,ARG,Rosario,-32.9587,-60.693,GEO_0570_1193,85.0,225.51,6.9,HydroLAKES_USGS_Merged
+221,Orinoco River Delta,river,Venezuela,VEN,Tucupita,9.06,-62.05,GEO_0990_1179,120.0,196.1,5.05,HydroLAKES_USGS_Merged
+222,Rio Doce Estuary,river,Brazil,BRA,Linhares,-19.4,-40.05,GEO_0706_1399,35.0,109.26,5.21,HydroLAKES_USGS_Merged
+223,Tietê River Reach (São Paulo),river,Brazil,BRA,São Paulo,-23.5505,-46.6333,GEO_0664_1333,18.0,89.64,5.96,HydroLAKES_USGS_Merged
+224,Laguna Colorada,pond,Bolivia,BOL,Potosí,-22.2,-67.77,GEO_0678_1122,0.048,1.0,1.29,HydroLAKES_USGS_Merged
+225,Ciénaga Grande de Santa Marta,wetland,Colombia,COL,Santa Marta,10.8,-74.45,GEO_1008_1055,450.0,167.69,2.23,HydroLAKES_USGS_Merged
+226,Lake Eyre (Kati Thanda),lake,Australia,AUS,Marree,-28.3667,137.3667,GEO_0616_3173,9500.0,583.92,1.69,HydroLAKES_USGS_Merged
+227,Lake Burley Griffin,lake,Australia,AUS,Canberra,-35.2986,149.1258,GEO_0547_3291,6.64,13.15,1.44,HydroLAKES_USGS_Merged
+228,Lake St Clair,lake,Australia,AUS,Derwent Bridge,-42.0667,146.1667,GEO_0479_3261,29.0,23.1,1.21,HydroLAKES_USGS_Merged
+229,Lake George,lake,Australia,AUS,Collector,-35.05,149.4,GEO_0549_3294,150.0,61.22,1.41,HydroLAKES_USGS_Merged
+230,Lake Argyle Reservoir,reservoir,Australia,AUS,Kununurra,-16.1167,128.75,GEO_0738_3087,1000.0,343.03,3.06,HydroLAKES_USGS_Merged
+231,Lake Eildon,reservoir,Australia,AUS,Eildon,-37.23,145.9,GEO_0527_3259,138.0,115.77,2.78,HydroLAKES_USGS_Merged
+232,Murray River Reach,river,Australia,AUS,Albury,-36.08,146.92,GEO_0539_3269,48.0,173.15,7.05,HydroLAKES_USGS_Merged
+233,Darling River Reach,river,Australia,AUS,Bourke,-30.09,145.94,GEO_0599_3259,35.0,111.57,5.32,HydroLAKES_USGS_Merged
+234,Brisbane River Reach,river,Australia,AUS,Brisbane,-27.4698,153.0251,GEO_0625_3330,28.0,132.81,7.08,HydroLAKES_USGS_Merged
+235,Kakadu National Park Wetlands,wetland,Australia,AUS,Jabiru,-12.67,132.83,GEO_0773_3128,1980.0,424.32,2.69,HydroLAKES_USGS_Merged
+236,Coorong Lagoon Wetland,wetland,Australia,AUS,Meningie,-35.8,139.3,GEO_0542_3193,140.0,113.67,2.71,HydroLAKES_USGS_Merged
+237,Macquarie Marshes,wetland,Australia,AUS,Warren,-30.75,147.5,GEO_0592_3275,2000.0,339.26,2.14,HydroLAKES_USGS_Merged
+238,Lake Taupo,lake,New Zealand,NEW,Taupo,-38.79,175.9,GEO_0512_3559,616.0,153.09,1.74,HydroLAKES_USGS_Merged
+239,Lake Wakatipu,lake,New Zealand,NEW,Queenstown,-45.05,168.65,GEO_0449_3486,291.0,94.34,1.56,HydroLAKES_USGS_Merged
+240,Lake Te Anau,lake,New Zealand,NEW,Te Anau,-45.2,167.75,GEO_0448_3477,344.0,97.31,1.48,HydroLAKES_USGS_Merged
+241,Lake Wanaka,lake,New Zealand,NEW,Wanaka,-44.5,169.13,GEO_0455_3491,192.0,74.17,1.51,HydroLAKES_USGS_Merged
+242,Lake Rotorua,lake,New Zealand,NEW,Rotorua,-38.08,176.27,GEO_0519_3562,79.8,38.0,1.2,HydroLAKES_USGS_Merged
+243,Waikato River Reach,river,New Zealand,NEW,Hamilton,-37.787,175.2793,GEO_0522_3552,38.0,138.32,6.33,HydroLAKES_USGS_Merged
+244,Dead Sea,lake,Jordan,JOR,Sweimeh,31.5,35.5,GEO_1215_2155,605.0,128.17,1.47,HydroLAKES_USGS_Merged
+245,Sea of Galilee (Lake Kinneret),lake,Israel,ISR,Tiberias,32.83,35.58,GEO_1228_2155,166.7,82.38,1.8,HydroLAKES_USGS_Merged
+246,Lake Urmia,lake,Iran,IRA,Urmia,37.7,45.3,GEO_1277_2253,1200.0,159.64,1.3,HydroLAKES_USGS_Merged
+247,Aral Sea Remnant (North),lake,Kazakhstan,KAZ,Aralsk,46.1,60.8,GEO_1361_2408,3300.0,346.19,1.7,HydroLAKES_USGS_Merged
+248,Aral Sea Remnant (South),lake,Uzbekistan,UZB,Muynak,44.5,58.5,GEO_1345_2385,2500.0,304.86,1.72,HydroLAKES_USGS_Merged
+249,Lake Balkhash,lake,Kazakhstan,KAZ,Balkhash,46.5,75.0,GEO_1365_2550,16400.0,621.94,1.37,HydroLAKES_USGS_Merged
+250,Issyk-Kul Lake,lake,Kyrgyzstan,KYR,Cholpon-Ata,42.43,77.25,GEO_1324_2572,6236.0,380.71,1.36,HydroLAKES_USGS_Merged
+251,Lake Van,lake,Turkey,TUR,Van,38.63,42.9,GEO_1286_2229,3755.0,345.39,1.59,HydroLAKES_USGS_Merged
+252,Lake Beyşehir,lake,Turkey,TUR,Beyşehir,37.75,31.5,GEO_1277_2115,650.0,137.37,1.52,HydroLAKES_USGS_Merged
+253,Atatürk Dam Reservoir,reservoir,Turkey,TUR,Şanlıurfa,37.48,38.31,GEO_1274_2183,817.0,321.2,3.17,HydroLAKES_USGS_Merged
+254,Euphrates River Reach,river,Iraq,IRA,Nasiriyah,31.05,46.25,GEO_1210_2262,35.0,118.91,5.67,HydroLAKES_USGS_Merged
+255,Tigris River Reach,river,Iraq,IRA,Baghdad,33.3152,44.3661,GEO_1233_2243,28.0,102.04,5.44,HydroLAKES_USGS_Merged
+256,Mesopotamian Marshes Wetland,wetland,Iraq,IRA,Basra,31.0,47.0,GEO_1210_2270,3500.0,524.3,2.5,HydroLAKES_USGS_Merged
+257,Anzali Lagoon Wetland,wetland,Iran,IRA,Bandar Anzali,37.47,49.3,GEO_1274_2293,150.0,109.41,2.52,HydroLAKES_USGS_Merged
+258,Mosul Dam Reservoir,reservoir,Iraq,IRA,Mosul,36.63,42.82,GEO_1266_2228,380.0,171.38,2.48,HydroLAKES_USGS_Merged
+259,Lake Nicaragua (Cocibolca),lake,Nicaragua,NIC,Granada,11.6,-85.5,GEO_1016_0945,8264.0,425.38,1.32,HydroLAKES_USGS_Merged
+260,Lake Managua (Xolotlán),lake,Nicaragua,NIC,Managua,12.33,-86.35,GEO_1023_0936,1024.0,200.78,1.77,HydroLAKES_USGS_Merged
+261,Lake Atitlán,lake,Guatemala,GUA,Panajachel,14.7,-91.2,GEO_1047_0888,130.1,57.42,1.42,HydroLAKES_USGS_Merged
+262,Lake Yojoa,lake,Honduras,HON,Santa Bárbara,14.87,-87.98,GEO_1048_0920,79.0,40.33,1.28,HydroLAKES_USGS_Merged
+263,Gatun Lake (Panama Canal),reservoir,Panama,PAN,Colón,9.2,-79.9,GEO_0992_1001,425.0,232.39,3.18,HydroLAKES_USGS_Merged
+264,Lake Enriquillo,lake,Dominican Republic,DOM,Neiba,18.5,-71.6,GEO_1085_1084,375.0,116.01,1.69,HydroLAKES_USGS_Merged
+265,Ciénaga de Zapata Wetland,wetland,Cuba,CUB,Matanzas,22.3,-81.5,GEO_1123_0985,4500.0,525.54,2.21,HydroLAKES_USGS_Merged
+266,Serpentine Lido Pond,pond,United Kingdom,UNI,London,51.5055,-0.1687,GEO_1415_1798,0.04,0.76,1.07,HydroLAKES_USGS_Merged
+267,Hampstead Heath Ponds,pond,United Kingdom,UNI,London,51.56,-0.16,GEO_1415_1798,0.035,0.78,1.17,HydroLAKES_USGS_Merged
+268,Birket Qarun Pond,pond,Egypt,EGY,Fayoum,29.4667,30.6833,GEO_1194_2106,0.048,0.97,1.25,HydroLAKES_USGS_Merged
+269,Jardins du Luxembourg Pond,pond,France,FRA,Paris,48.8462,2.3372,GEO_1388_1823,0.015,0.46,1.07,HydroLAKES_USGS_Merged
+270,Tiergarten Lotus Pond,pond,Germany,GER,Berlin,52.5145,13.3501,GEO_1425_1933,0.025,0.64,1.15,HydroLAKES_USGS_Merged
+271,Sankey Tank Pond,pond,India,IND,Bengaluru,13.0076,77.5742,GEO_1030_2575,0.042,0.82,1.13,HydroLAKES_USGS_Merged
+272,Lalbagh Botanical Pond,pond,India,IND,Bengaluru,12.9507,77.5848,GEO_1029_2575,0.038,0.89,1.29,HydroLAKES_USGS_Merged
+273,Madiwala Pond,pond,India,IND,Bengaluru,12.915,77.618,GEO_1029_2576,0.049,0.93,1.18,HydroLAKES_USGS_Merged
+274,Chetpet Eco-Park Pond,pond,India,IND,Chennai,13.0722,80.2415,GEO_1030_2602,0.036,0.87,1.29,HydroLAKES_USGS_Merged
+275,Porur Lake Pond,pond,India,IND,Chennai,13.036,80.147,GEO_1030_2601,0.045,0.97,1.29,HydroLAKES_USGS_Merged
+276,Velachery Pond,pond,India,IND,Chennai,12.978,80.218,GEO_1029_2602,0.032,0.76,1.2,HydroLAKES_USGS_Merged
+277,Sahasralinga Pond,pond,India,IND,Patan,23.858,72.122,GEO_1138_2521,0.04,0.88,1.24,HydroLAKES_USGS_Merged
+278,Surajkund Sun Pond,pond,India,IND,Faridabad,28.487,77.283,GEO_1184_2572,0.046,0.84,1.1,HydroLAKES_USGS_Merged
+279,Kalyani Temple Pond,pond,India,IND,Melukote,12.666,76.65,GEO_1026_2566,0.022,0.68,1.29,HydroLAKES_USGS_Merged
+280,Padma Pond,pond,India,IND,Shantiniketan,23.68,87.69,GEO_1136_2676,0.028,0.66,1.11,HydroLAKES_USGS_Merged
+281,Rani Pokhari Pond,pond,Nepal,NEP,Kathmandu,27.7075,85.315,GEO_1177_2653,0.032,0.74,1.16,HydroLAKES_USGS_Merged
+282,Central Park Conservatory Pond,pond,United States,UNI,New York,40.7735,-73.9668,GEO_1307_1060,0.018,0.56,1.18,HydroLAKES_USGS_Merged
+283,Boston Public Garden Lagoon Pond,pond,United States,UNI,Boston,42.354,-71.07,GEO_1323_1089,0.024,0.71,1.3,HydroLAKES_USGS_Merged
+284,Lincoln Park Lily Pond,pond,United States,UNI,Chicago,41.925,-87.633,GEO_1319_0923,0.015,0.5,1.16,HydroLAKES_USGS_Merged
+285,Echo Park Lake Pond,pond,United States,UNI,Los Angeles,34.073,-118.261,GEO_1240_0617,0.048,0.85,1.1,HydroLAKES_USGS_Merged
+286,Golden Gate Park Stow Lake Pond,pond,United States,UNI,San Francisco,37.769,-122.476,GEO_1277_0575,0.049,0.86,1.09,HydroLAKES_USGS_Merged
+287,Lake Anza Pond,pond,United States,UNI,Berkeley,37.898,-122.253,GEO_1278_0577,0.038,0.86,1.25,HydroLAKES_USGS_Merged
+288,Kinkaku-ji Mirror Pond (Kyoko-chi),pond,Japan,JAP,Kyoto,35.0394,135.7292,GEO_1250_3157,0.012,0.45,1.15,HydroLAKES_USGS_Merged
+289,Ginkaku-ji Brocade Pond,pond,Japan,JAP,Kyoto,35.0272,135.7982,GEO_1250_3157,0.01,0.37,1.05,HydroLAKES_USGS_Merged
+290,Beira Lake Pond Reach,pond,Sri Lanka,SRI,Colombo,6.9271,79.854,GEO_0969_2598,0.045,0.86,1.14,HydroLAKES_USGS_Merged
+291,Kandy Lake Pond,pond,Sri Lanka,SRI,Kandy,7.2936,80.6413,GEO_0972_2606,0.048,0.86,1.11,HydroLAKES_USGS_Merged

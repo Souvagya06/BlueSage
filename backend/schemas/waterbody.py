@@ -74,6 +74,9 @@ class WaterBodyOut(WaterBodyBase):
     id: int
     latitude: Optional[float] = None
     longitude: Optional[float] = None
+    area_sq_km: Optional[float] = None
+    perimeter_km: Optional[float] = None
+    elongation_ratio: Optional[float] = None
     spatial_grid_index: Optional[str] = None
     created_at: Optional[datetime] = None
     observations: List[ObservationOut] = []

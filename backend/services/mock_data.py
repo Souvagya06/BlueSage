@@ -149,6 +149,9 @@ def _load_data():
             "source_id": f"WB_{wb_id:04d}",
             "latitude": float(wb["latitude"]),
             "longitude": float(wb["longitude"]),
+            "area_sq_km": float(wb["area_sq_km"]) if pd.notna(wb.get("area_sq_km")) else None,
+            "perimeter_km": float(wb["perimeter_km"]) if pd.notna(wb.get("perimeter_km")) else None,
+            "elongation_ratio": float(wb["elongation_ratio"]) if pd.notna(wb.get("elongation_ratio")) else None,
             "spatial_grid_index": str(wb.get("spatial_grid_index", "")),
             "observations": _cached_observations.get(wb_id, []),
         }
@@ -157,12 +160,12 @@ def _load_data():
     _cached_water_bodies = wb_list
 
 
-def get_mock_water_bodies(limit: int = 200) -> List[WaterBodyOut]:
+def get_mock_water_bodies(limit: int = 500) -> List[WaterBodyOut]:
     _load_data()
     return [WaterBodyOut(**wb) for wb in _cached_water_bodies[:limit]]
 
 
-def get_mock_water_bodies_near(lat: float, lon: float, radius_km: float = 100, limit: int = 100) -> List[WaterBodyOut]:
+def get_mock_water_bodies_near(lat: float, lon: float, radius_km: float = 200, limit: int = 150) -> List[WaterBodyOut]:
     _load_data()
     nearby = []
     for wb in _cached_water_bodies:

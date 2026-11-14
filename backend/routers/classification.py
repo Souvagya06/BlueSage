@@ -14,6 +14,10 @@ class ClassifyTypeRequest(BaseModel):
     water_occurrence_pct: Optional[float] = 85.0
     seasonality_months: Optional[int] = 10
     perimeter_km: Optional[float] = None
+    elongation_ratio: Optional[float] = None
+    ndwi: Optional[float] = 0.40
+    turbidity_ntu: Optional[float] = None
+    name: Optional[str] = None
     is_artificial: Optional[bool] = False
 
 
@@ -41,6 +45,10 @@ def classify_type(req: ClassifyTypeRequest):
         water_occurrence_pct=req.water_occurrence_pct,
         seasonality_months=req.seasonality_months,
         perimeter_km=req.perimeter_km,
+        elongation_ratio=req.elongation_ratio,
+        ndwi=req.ndwi,
+        turbidity_ntu=req.turbidity_ntu,
+        name=req.name,
         is_artificial=req.is_artificial,
     )
 

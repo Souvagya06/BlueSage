@@ -39,7 +39,15 @@ export const classifyWaterBody = (payload) =>
 export const classifyWaterBodyType = (payload) =>
   api.post('/api/classify/body-type', payload).then(r => r.data)
 
-export const getExportDatasetUrl = () => `${BASE}/api/waterbodies/export-csv`
+export const getExportDatasetUrl = (type = null) => {
+  if (type && type !== 'all') {
+    return `${BASE}/api/waterbodies/export-csv?water_body_type=${encodeURIComponent(type)}`
+  }
+  return `${BASE}/api/waterbodies/export-csv`
+}
+
+export const fetchIndexedDatasetsInfo = () =>
+  api.get('/api/waterbodies/indexed-datasets').then(r => r.data)
 
 // ── Prediction ────────────────────────────────────────────────
 export const fetchPrediction = (id, years_ahead = 10) =>

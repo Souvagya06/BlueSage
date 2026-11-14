@@ -1,10 +1,20 @@
+import { useState, useRef, useEffect } from 'react'
 import { Routes, Route, Link, useLocation } from 'react-router-dom'
-import { Droplets, Map, BarChart3, TrendingUp, Download } from 'lucide-react'
+import { Droplets, Map, BarChart3, TrendingUp, Download, ChevronDown } from 'lucide-react'
 import { getExportDatasetUrl } from './api/client'
 import Dashboard from './pages/Dashboard'
 import Explore from './pages/Explore'
 import Predict from './pages/Predict'
 import clsx from 'clsx'
+
+const DATASET_PARTITIONS = [
+  { id: 'all', label: 'All Water Bodies', count: '1,650 records', icon: '🌐' },
+  { id: 'wetland', label: 'Wetlands Only', count: '154 records', icon: '🌿' },
+  { id: 'pond', label: 'Ponds Only', count: '396 records', icon: '🫧' },
+  { id: 'river', label: 'Rivers Only', count: '176 records', icon: '🏞️' },
+  { id: 'lake', label: 'Lakes Only', count: '704 records', icon: '🌊' },
+  { id: 'reservoir', label: 'Reservoirs Only', count: '220 records', icon: '🏗️' },
+]
 
 const NAV = [
   { to: '/',        label: 'Dashboard', icon: BarChart3 },
@@ -14,11 +24,23 @@ const NAV = [
 
 export default function App() {
   const { pathname } = useLocation()
+  const [showExportMenu, setShowExportMenu] = useState(false)
+  const menuRef = useRef(null)
+
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setShowExportMenu(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
 
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       {/* ── Header ── */}
-      <header className="bg-water-800 text-white shadow-lg">
+      <header className="bg-water-800 text-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-6">
           <div className="flex items-center gap-2 font-bold text-lg">
             <Droplets className="w-6 h-6 text-water-300" />
@@ -27,7 +49,7 @@ export default function App() {
               — Global Water Body Monitor
             </span>
           </div>
-          <nav className="ml-auto flex gap-1">
+          <nav className="ml-auto flex items-center gap-1">
             {NAV.map(({ to, label, icon: Icon }) => (
               <Link
                 key={to}
@@ -44,16 +66,51 @@ export default function App() {
               </Link>
             ))}
 
-            <a
-              href={getExportDatasetUrl()}
-              download="indexed_waterbody_dataset.csv"
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm transition-colors ml-2"
-              title="Download full indexed temporal water body dataset (CSV)"
-            >
-              <Download className="w-4 h-4" />
-              <span className="hidden md:inline">Export Dataset</span>
-              <span>CSV</span>
-            </a>
+            {/* ── Export Indexed Dataset Dropdown ── */}
+            <div className="relative ml-2" ref={menuRef}>
+              <button
+                onClick={() => setShowExportMenu(v => !v)}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm transition-colors"
+                title="Download indexed dataset partitioned by water body type"
+              >
+                <Download className="w-4 h-4" />
+                <span className="hidden md:inline">Export Dataset</span>
+                <span>CSV</span>
+                <ChevronDown className="w-3.5 h-3.5 opacity-80" />
+              </button>
+
+              {showExportMenu && (
+                <div className="absolute right-0 mt-2 w-64 bg-white border border-slate-200 rounded-xl shadow-xl py-2 z-[9999] text-slate-800">
+                  <div className="px-3 py-1.5 border-b border-slate-100">
+                    <div className="text-xs font-bold text-slate-700 uppercase tracking-wide">
+                      Indexed Datasets (.CSV)
+                    </div>
+                    <div className="text-[11px] text-slate-400">
+                      Download full or type-indexed subsets
+                    </div>
+                  </div>
+                  <div className="py-1">
+                    {DATASET_PARTITIONS.map(p => (
+                      <a
+                        key={p.id}
+                        href={getExportDatasetUrl(p.id)}
+                        download={p.id === 'all' ? 'indexed_waterbody_dataset.csv' : `indexed_waterbody_dataset_${p.id}.csv`}
+                        onClick={() => setShowExportMenu(false)}
+                        className="flex items-center justify-between px-3 py-2 text-xs hover:bg-blue-50 transition-colors"
+                      >
+                        <span className="flex items-center gap-2 font-medium text-slate-700">
+                          <span>{p.icon}</span>
+                          <span>{p.label}</span>
+                        </span>
+                        <span className="text-[11px] font-mono text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded">
+                          {p.count}
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           </nav>
         </div>
       </header>
