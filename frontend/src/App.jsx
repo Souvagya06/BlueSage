@@ -8,12 +8,12 @@ import Predict from './pages/Predict'
 import clsx from 'clsx'
 
 const DATASET_PARTITIONS = [
-  { id: 'all', label: 'All Water Bodies', count: '1,650 records', icon: '🌐' },
-  { id: 'wetland', label: 'Wetlands Only', count: '154 records', icon: '🌿' },
-  { id: 'pond', label: 'Ponds Only', count: '396 records', icon: '🫧' },
-  { id: 'river', label: 'Rivers Only', count: '176 records', icon: '🏞️' },
-  { id: 'lake', label: 'Lakes Only', count: '704 records', icon: '🌊' },
-  { id: 'reservoir', label: 'Reservoirs Only', count: '220 records', icon: '🏗️' },
+  { id: 'all', label: 'All Water Bodies', count: '3,201 records', icon: '🌐' },
+  { id: 'wetland', label: 'Wetlands Only', count: '396 records', icon: '🌿' },
+  { id: 'pond', label: 'Ponds Only', count: '374 records', icon: '🫧' },
+  { id: 'river', label: 'Rivers Only', count: '473 records', icon: '🏞️' },
+  { id: 'lake', label: 'Lakes Only', count: '1,419 records', icon: '🌊' },
+  { id: 'reservoir', label: 'Reservoirs Only', count: '539 records', icon: '🏗️' },
 ]
 
 const NAV = [
@@ -40,7 +40,7 @@ export default function App() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       {/* ── Header ── */}
-      <header className="bg-water-800 text-white shadow-lg sticky top-0 z-50">
+      <header className="bg-water-800 text-white shadow-lg sticky top-0 z-[9999]">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-6">
           <div className="flex items-center gap-2 font-bold text-lg">
             <Droplets className="w-6 h-6 text-water-300" />
@@ -80,7 +80,7 @@ export default function App() {
               </button>
 
               {showExportMenu && (
-                <div className="absolute right-0 mt-2 w-64 bg-white border border-slate-200 rounded-xl shadow-xl py-2 z-[9999] text-slate-800">
+                <div className="absolute right-0 mt-2 w-64 bg-white border border-slate-200 rounded-xl shadow-2xl py-2 z-[99999] text-slate-800">
                   <div className="px-3 py-1.5 border-b border-slate-100">
                     <div className="text-xs font-bold text-slate-700 uppercase tracking-wide">
                       Indexed Datasets (.CSV)
