@@ -42,7 +42,7 @@ export default function FilterBar({ onSearch, onFilter, loading }) {
   }
 
   return (
-    <div className="bg-white border border-slate-200 rounded-xl shadow p-4 space-y-3" style={{ position: 'relative', zIndex: 1000 }}>
+    <div className="bg-white border border-slate-200 rounded-xl shadow p-4 space-y-3" style={{ position: 'relative', zIndex: 30 }}>
       {/* City search — isolated stacking context so dropdown always floats above Leaflet */}
       <div ref={wrapperRef} style={{ position: 'relative', isolation: 'isolate' }}>
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" style={{ zIndex: 1 }} />
