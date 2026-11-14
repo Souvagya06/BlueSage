@@ -28,7 +28,7 @@ An end-to-end intelligent environmental monitoring platform that tracks 10 years
 Water bodies—lakes, ponds, wetlands, rivers, and reservoirs—are vital life-support systems sustaining biodiversity, agriculture, and urban habitats. Rapid urbanization and climate change have accelerated degradation, shrinkage, and disappearance of critical freshwater bodies worldwide.
 
 **BlueSage** tackles this challenge through a three-stage solution:
-1. **Historical Data Assembly (2014–2024):** Curating a dedicated 10-year temporal dataset for 150+ water bodies combining satellite imagery indicators and in-situ physical/chemical measurements.
+1. **Historical Data Assembly (2014–2024):** Curating a dedicated 10-year temporal dataset for 291 real-world water bodies across 75 countries combining satellite imagery indicators and in-situ physical/chemical measurements.
 2. **Spatial & Temporal Indexing:** Structuring historical records with multi-dimensional database indexing (PostGIS GiST spatial indexes, B-Tree temporal indexes, and geohash spatial grid keys) for high-speed spatial proximity searches and queries.
 3. **Triple-Task Machine Learning:**
    - **Task 1 — Water Body Type Classification:** Discriminating whether a body is a lake, pond, reservoir, wetland, or river.
@@ -43,7 +43,7 @@ Water bodies—lakes, ponds, wetlands, rivers, and reservoirs—are vital life-s
 - ⚡ **Zero-Postgres Instant Fallback:** Works completely out of the box! If PostgreSQL is not installed or running, the system automatically falls back to an in-memory spatial query engine powered by pre-indexed CSV datasets.
 - 🔬 **Interactive ML Classification Studio:** Live on-demand prediction panel with dual-task tabs. Run trained Random Forest classifiers with real-time probability distribution bars.
 - 📈 **Decadal Trend Visualizer:** Interactive Recharts charts rendering dual curves: solid lines for verified historical measurements (2014–2024) and dashed curves for ML forecast horizons (2025–2034).
-- 💾 **One-Click Dataset Extraction:** Single-click export of the full indexed temporal dataset (`indexed_waterbody_dataset.csv` — 1,650 records, 21 standardized features).
+- 💾 **Indexed Dataset Extraction Hub:** Single-click export of the master indexed temporal dataset (`indexed_waterbody_dataset.csv` — 3,201 records, 21 standardized features) or discrete partitioned datasets indexed by type (`wetland`, `pond`, `river`, `lake`, `reservoir`).
 
 ---
 

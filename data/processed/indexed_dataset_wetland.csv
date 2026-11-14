@@ -1,0 +1,397 @@
+index_id,wb_index,water_body_name,observation_year,spatial_grid_index,latitude,longitude,country,city,area_sq_km,perimeter_km,elongation_ratio,ndwi,water_occurrence_pct,seasonality_months,ph,dissolved_oxygen_mgl,turbidity_ntu,chlorophyll_a_ugl,water_quality_score,target_task1_body_type,target_task2_quality_status,target_task3_future_trend
+3_2014,3,East Kolkata Wetlands,2014,GEO_1125_2684,22.55,88.45,India,Kolkata,125.0,82.83,2.09,0.243,64.4,6,8.21,4.1,46.9,36.8,28.3,wetland,poor,shrink
+3_2015,3,East Kolkata Wetlands,2015,GEO_1125_2684,22.55,88.45,India,Kolkata,120.625,81.37,2.09,0.254,48.4,6,8.67,4.3,39.7,28.2,29.9,wetland,poor,shrink
+3_2016,3,East Kolkata Wetlands,2016,GEO_1125_2684,22.55,88.45,India,Kolkata,116.25,79.88,2.09,0.314,60.9,6,8.53,4.6,36.4,43.8,33.1,wetland,poor,shrink
+3_2017,3,East Kolkata Wetlands,2017,GEO_1125_2684,22.55,88.45,India,Kolkata,111.875,78.36,2.09,0.259,55.5,6,8.65,3.3,52.4,39.6,29.9,wetland,poor,shrink
+3_2018,3,East Kolkata Wetlands,2018,GEO_1125_2684,22.55,88.45,India,Kolkata,107.5,76.82,2.09,0.298,49.8,6,8.59,4.6,52.2,39.8,26.2,wetland,poor,shrink
+3_2019,3,East Kolkata Wetlands,2019,GEO_1125_2684,22.55,88.45,India,Kolkata,103.125,75.24,2.09,0.312,49.8,6,8.25,4.2,30.2,40.3,25.1,wetland,poor,shrink
+3_2020,3,East Kolkata Wetlands,2020,GEO_1125_2684,22.55,88.45,India,Kolkata,98.75,73.62,2.09,0.284,54.8,6,8.31,4.3,46.3,41.4,28.4,wetland,poor,shrink
+3_2021,3,East Kolkata Wetlands,2021,GEO_1125_2684,22.55,88.45,India,Kolkata,94.375,71.97,2.09,0.3,56.0,6,8.53,4.2,51.2,38.1,26.4,wetland,poor,shrink
+3_2022,3,East Kolkata Wetlands,2022,GEO_1125_2684,22.55,88.45,India,Kolkata,90.0,70.29,2.09,0.261,68.8,6,8.4,3.6,54.3,45.5,34.2,wetland,poor,shrink
+3_2023,3,East Kolkata Wetlands,2023,GEO_1125_2684,22.55,88.45,India,Kolkata,85.625,68.56,2.09,0.28,45.7,6,8.3,4.1,42.3,41.6,29.1,wetland,poor,shrink
+3_2024,3,East Kolkata Wetlands,2024,GEO_1125_2684,22.55,88.45,India,Kolkata,81.25,66.78,2.09,0.292,45.5,6,8.68,3.5,53.5,46.0,30.4,wetland,poor,shrink
+11_2014,11,Chilika Lake,2014,GEO_1097_2653,19.7167,85.3167,India,Puri,1118.2532,275.02,2.32,0.269,73.8,6,7.21,7.6,14.3,12.0,64.3,wetland,good,stable
+11_2015,11,Chilika Lake,2015,GEO_1097_2653,19.7167,85.3167,India,Puri,1084.5412,270.84,2.32,0.273,67.5,6,7.55,6.8,18.0,11.4,62.2,wetland,good,stable
+11_2016,11,Chilika Lake,2016,GEO_1097_2653,19.7167,85.3167,India,Puri,1087.2358,271.18,2.32,0.312,47.0,6,7.23,7.0,9.9,10.2,71.4,wetland,good,stable
+11_2017,11,Chilika Lake,2017,GEO_1097_2653,19.7167,85.3167,India,Puri,1112.1232,274.26,2.32,0.276,50.5,6,7.48,7.5,12.4,11.0,63.9,wetland,good,stable
+11_2018,11,Chilika Lake,2018,GEO_1097_2653,19.7167,85.3167,India,Puri,1115.9186,274.73,2.32,0.316,49.7,6,7.65,7.3,10.7,9.7,61.5,wetland,good,stable
+11_2019,11,Chilika Lake,2019,GEO_1097_2653,19.7167,85.3167,India,Puri,1109.5028,273.94,2.32,0.293,48.1,6,7.36,6.6,10.2,12.0,61.4,wetland,good,stable
+11_2020,11,Chilika Lake,2020,GEO_1097_2653,19.7167,85.3167,India,Puri,1113.1963,274.4,2.32,0.254,70.7,6,7.27,7.8,10.4,8.2,74.4,wetland,good,stable
+11_2021,11,Chilika Lake,2021,GEO_1097_2653,19.7167,85.3167,India,Puri,1114.5297,274.56,2.32,0.272,47.6,6,7.41,7.8,10.0,14.1,61.2,wetland,good,stable
+11_2022,11,Chilika Lake,2022,GEO_1097_2653,19.7167,85.3167,India,Puri,1087.147,271.17,2.32,0.242,55.3,6,7.49,6.9,13.8,14.0,76.1,wetland,good,stable
+11_2023,11,Chilika Lake,2023,GEO_1097_2653,19.7167,85.3167,India,Puri,1089.4146,271.45,2.32,0.27,58.1,6,7.64,7.7,10.7,9.7,71.2,wetland,good,stable
+11_2024,11,Chilika Lake,2024,GEO_1097_2653,19.7167,85.3167,India,Puri,1090.9565,271.64,2.32,0.316,69.0,6,7.81,8.0,9.4,10.4,77.5,wetland,good,stable
+12_2014,12,Vembanad Lake,2014,GEO_0995_2564,9.5833,76.4167,India,Kochi,2033.0,372.42,2.33,0.242,70.0,6,8.52,3.6,43.5,30.9,27.0,wetland,poor,shrink
+12_2015,12,Vembanad Lake,2015,GEO_0995_2564,9.5833,76.4167,India,Kochi,1961.845,365.84,2.33,0.319,48.5,6,8.34,4.0,34.3,25.4,38.3,wetland,poor,shrink
+12_2016,12,Vembanad Lake,2016,GEO_0995_2564,9.5833,76.4167,India,Kochi,1890.69,359.15,2.33,0.286,45.3,6,8.53,3.6,43.9,44.1,28.0,wetland,poor,shrink
+12_2017,12,Vembanad Lake,2017,GEO_0995_2564,9.5833,76.4167,India,Kochi,1819.535,352.32,2.33,0.251,50.3,6,8.5,4.6,51.8,38.8,34.6,wetland,poor,shrink
+12_2018,12,Vembanad Lake,2018,GEO_0995_2564,9.5833,76.4167,India,Kochi,1748.38,345.37,2.33,0.313,67.1,6,8.46,3.9,39.6,26.1,27.4,wetland,poor,shrink
+12_2019,12,Vembanad Lake,2019,GEO_0995_2564,9.5833,76.4167,India,Kochi,1677.225,338.26,2.33,0.247,66.6,6,8.39,4.2,36.1,31.6,30.2,wetland,poor,shrink
+12_2020,12,Vembanad Lake,2020,GEO_0995_2564,9.5833,76.4167,India,Kochi,1606.07,331.01,2.33,0.264,51.4,6,8.53,4.1,41.9,46.5,35.6,wetland,poor,shrink
+12_2021,12,Vembanad Lake,2021,GEO_0995_2564,9.5833,76.4167,India,Kochi,1534.915,323.6,2.33,0.242,55.0,6,8.23,3.6,44.9,36.4,33.7,wetland,poor,shrink
+12_2022,12,Vembanad Lake,2022,GEO_0995_2564,9.5833,76.4167,India,Kochi,1463.76,316.01,2.33,0.302,58.0,6,8.56,3.4,31.9,36.4,35.0,wetland,poor,shrink
+12_2023,12,Vembanad Lake,2023,GEO_0995_2564,9.5833,76.4167,India,Kochi,1392.605,308.23,2.33,0.26,55.8,6,8.55,4.5,50.0,31.3,33.6,wetland,poor,shrink
+12_2024,12,Vembanad Lake,2024,GEO_0995_2564,9.5833,76.4167,India,Kochi,1321.45,300.25,2.33,0.247,61.3,6,8.68,4.7,33.4,35.3,27.7,wetland,poor,shrink
+31_2014,31,Ranganathittu Bird Sanctuary Wetland,2014,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6652,8.12,2.81,0.278,64.4,6,7.89,7.0,14.4,11.4,67.6,wetland,good,stable
+31_2015,31,Ranganathittu Bird Sanctuary Wetland,2015,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6599,8.09,2.81,0.311,65.5,6,7.61,7.5,12.5,11.6,62.3,wetland,good,stable
+31_2016,31,Ranganathittu Bird Sanctuary Wetland,2016,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6631,8.11,2.81,0.297,68.3,6,7.59,8.1,16.0,10.7,63.6,wetland,good,stable
+31_2017,31,Ranganathittu Bird Sanctuary Wetland,2017,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6639,8.12,2.81,0.28,54.5,6,7.64,7.1,9.3,6.5,74.8,wetland,good,stable
+31_2018,31,Ranganathittu Bird Sanctuary Wetland,2018,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6566,8.07,2.81,0.281,45.1,6,7.69,6.7,10.8,6.6,76.5,wetland,good,stable
+31_2019,31,Ranganathittu Bird Sanctuary Wetland,2019,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6632,8.11,2.81,0.299,54.4,6,7.45,7.2,9.0,8.4,76.6,wetland,good,stable
+31_2020,31,Ranganathittu Bird Sanctuary Wetland,2020,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6777,8.2,2.81,0.311,65.6,6,7.46,7.4,17.1,14.7,62.7,wetland,good,stable
+31_2021,31,Ranganathittu Bird Sanctuary Wetland,2021,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6698,8.15,2.81,0.271,65.0,6,7.2,7.7,15.0,7.5,74.2,wetland,good,stable
+31_2022,31,Ranganathittu Bird Sanctuary Wetland,2022,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6825,8.23,2.81,0.301,64.3,6,7.41,8.3,15.0,6.9,75.5,wetland,good,stable
+31_2023,31,Ranganathittu Bird Sanctuary Wetland,2023,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6579,8.08,2.81,0.269,56.1,6,7.5,8.3,13.0,10.1,64.9,wetland,good,stable
+31_2024,31,Ranganathittu Bird Sanctuary Wetland,2024,GEO_1024_2566,12.4247,76.6847,India,Mandya,0.6665,8.13,2.81,0.244,64.7,6,7.78,8.0,12.2,13.7,64.9,wetland,good,stable
+32_2014,32,Deepor Beel Wetland,2014,GEO_1161_2716,26.1264,91.6583,India,Guwahati,40.0,53.14,2.37,0.31,64.5,6,8.5,3.5,46.9,31.8,27.0,wetland,poor,shrink
+32_2015,32,Deepor Beel Wetland,2015,GEO_1161_2716,26.1264,91.6583,India,Guwahati,38.6,52.2,2.37,0.299,71.7,6,8.4,3.7,46.1,41.4,27.9,wetland,poor,shrink
+32_2016,32,Deepor Beel Wetland,2016,GEO_1161_2716,26.1264,91.6583,India,Guwahati,37.2,51.24,2.37,0.263,70.1,6,8.26,3.8,31.5,36.9,28.9,wetland,poor,shrink
+32_2017,32,Deepor Beel Wetland,2017,GEO_1161_2716,26.1264,91.6583,India,Guwahati,35.8,50.27,2.37,0.241,59.8,6,8.21,3.8,38.4,27.9,31.0,wetland,poor,shrink
+32_2018,32,Deepor Beel Wetland,2018,GEO_1161_2716,26.1264,91.6583,India,Guwahati,34.4,49.28,2.37,0.272,60.6,6,8.2,4.0,44.9,35.7,39.0,wetland,poor,shrink
+32_2019,32,Deepor Beel Wetland,2019,GEO_1161_2716,26.1264,91.6583,India,Guwahati,33.0,48.26,2.37,0.294,48.8,6,8.59,3.7,49.3,37.0,39.2,wetland,poor,shrink
+32_2020,32,Deepor Beel Wetland,2020,GEO_1161_2716,26.1264,91.6583,India,Guwahati,31.6,47.23,2.37,0.241,53.8,6,8.26,4.4,50.2,31.1,25.3,wetland,poor,shrink
+32_2021,32,Deepor Beel Wetland,2021,GEO_1161_2716,26.1264,91.6583,India,Guwahati,30.2,46.17,2.37,0.302,64.4,6,8.39,4.0,38.7,25.0,29.3,wetland,poor,shrink
+32_2022,32,Deepor Beel Wetland,2022,GEO_1161_2716,26.1264,91.6583,India,Guwahati,28.8,45.09,2.37,0.318,58.7,6,8.65,4.6,30.6,43.0,36.3,wetland,poor,shrink
+32_2023,32,Deepor Beel Wetland,2023,GEO_1161_2716,26.1264,91.6583,India,Guwahati,27.4,43.98,2.37,0.272,67.4,6,8.31,3.7,31.6,30.7,32.0,wetland,poor,shrink
+32_2024,32,Deepor Beel Wetland,2024,GEO_1161_2716,26.1264,91.6583,India,Guwahati,26.0,42.84,2.37,0.278,61.3,6,8.67,3.3,53.9,43.1,39.4,wetland,poor,shrink
+33_2014,33,Keoladeo Ghana National Park,2014,GEO_1171_2575,27.16,77.52,India,Bharatpur,28.7,54.31,2.86,0.246,68.4,6,7.9,5.5,21.2,15.7,52.5,wetland,fair,shrink
+33_2015,33,Keoladeo Ghana National Park,2015,GEO_1171_2575,27.16,77.52,India,Bharatpur,27.6955,53.36,2.86,0.286,52.8,6,8.12,5.1,29.4,18.7,53.5,wetland,fair,shrink
+33_2016,33,Keoladeo Ghana National Park,2016,GEO_1171_2575,27.16,77.52,India,Bharatpur,26.691,52.38,2.86,0.268,46.9,6,8.03,6.4,22.1,24.7,54.1,wetland,fair,shrink
+33_2017,33,Keoladeo Ghana National Park,2017,GEO_1171_2575,27.16,77.52,India,Bharatpur,25.6865,51.38,2.86,0.252,60.9,6,8.02,4.9,26.8,15.6,58.7,wetland,fair,shrink
+33_2018,33,Keoladeo Ghana National Park,2018,GEO_1171_2575,27.16,77.52,India,Bharatpur,24.682,50.37,2.86,0.259,58.8,6,7.84,5.7,27.5,17.3,55.9,wetland,fair,shrink
+33_2019,33,Keoladeo Ghana National Park,2019,GEO_1171_2575,27.16,77.52,India,Bharatpur,23.6775,49.33,2.86,0.284,46.5,6,7.88,5.6,18.6,19.3,44.9,wetland,fair,shrink
+33_2020,33,Keoladeo Ghana National Park,2020,GEO_1171_2575,27.16,77.52,India,Bharatpur,22.673,48.28,2.86,0.307,50.9,6,8.23,6.5,29.1,16.9,58.8,wetland,fair,shrink
+33_2021,33,Keoladeo Ghana National Park,2021,GEO_1171_2575,27.16,77.52,India,Bharatpur,21.6685,47.19,2.86,0.316,58.1,6,8.29,6.5,28.0,20.8,45.8,wetland,fair,shrink
+33_2022,33,Keoladeo Ghana National Park,2022,GEO_1171_2575,27.16,77.52,India,Bharatpur,20.664,46.09,2.86,0.287,72.2,6,8.29,5.0,26.7,16.3,55.7,wetland,fair,shrink
+33_2023,33,Keoladeo Ghana National Park,2023,GEO_1171_2575,27.16,77.52,India,Bharatpur,19.6595,44.95,2.86,0.315,59.3,6,8.29,6.4,25.3,23.1,44.0,wetland,fair,shrink
+33_2024,33,Keoladeo Ghana National Park,2024,GEO_1171_2575,27.16,77.52,India,Bharatpur,18.655,43.79,2.86,0.297,68.1,6,8.13,5.3,27.0,16.0,51.5,wetland,fair,shrink
+34_2014,34,Harike Wetland,2014,GEO_1211_2549,31.15,74.95,India,Tarn Taran,40.1998,53.94,2.4,0.241,54.7,6,7.91,5.5,31.0,21.6,45.1,wetland,fair,stable
+34_2015,34,Harike Wetland,2015,GEO_1211_2549,31.15,74.95,India,Tarn Taran,41.5708,54.85,2.4,0.298,48.6,6,7.81,5.1,24.0,19.8,53.3,wetland,fair,stable
+34_2016,34,Harike Wetland,2016,GEO_1211_2549,31.15,74.95,India,Tarn Taran,40.6538,54.25,2.4,0.272,56.8,6,7.82,6.4,31.9,23.1,47.9,wetland,fair,stable
+34_2017,34,Harike Wetland,2017,GEO_1211_2549,31.15,74.95,India,Tarn Taran,41.417,54.75,2.4,0.313,61.9,6,7.98,6.4,26.1,23.5,45.6,wetland,fair,stable
+34_2018,34,Harike Wetland,2018,GEO_1211_2549,31.15,74.95,India,Tarn Taran,40.7681,54.32,2.4,0.293,51.6,6,8.26,5.3,20.7,15.2,50.4,wetland,fair,stable
+34_2019,34,Harike Wetland,2019,GEO_1211_2549,31.15,74.95,India,Tarn Taran,40.2438,53.97,2.4,0.243,58.1,6,7.94,5.2,30.1,25.4,51.8,wetland,fair,stable
+34_2020,34,Harike Wetland,2020,GEO_1211_2549,31.15,74.95,India,Tarn Taran,41.1313,54.56,2.4,0.281,71.8,6,7.98,6.1,22.0,24.7,58.5,wetland,fair,stable
+34_2021,34,Harike Wetland,2021,GEO_1211_2549,31.15,74.95,India,Tarn Taran,40.8679,54.39,2.4,0.302,54.9,6,7.9,5.7,25.0,21.1,44.4,wetland,fair,stable
+34_2022,34,Harike Wetland,2022,GEO_1211_2549,31.15,74.95,India,Tarn Taran,41.5822,54.86,2.4,0.257,69.3,6,8.27,5.0,19.0,20.1,48.6,wetland,fair,stable
+34_2023,34,Harike Wetland,2023,GEO_1211_2549,31.15,74.95,India,Tarn Taran,41.5508,54.84,2.4,0.267,61.2,6,8.13,6.0,28.8,15.8,57.2,wetland,fair,stable
+34_2024,34,Harike Wetland,2024,GEO_1211_2549,31.15,74.95,India,Tarn Taran,40.6433,54.24,2.4,0.274,60.7,6,8.18,5.0,19.8,14.0,48.7,wetland,fair,stable
+40_2014,40,Renuka Lake Wetland,2014,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.2024,3.05,1.91,0.302,67.6,6,7.58,9.5,2.4,4.1,92.7,wetland,excellent,stable
+40_2015,40,Renuka Lake Wetland,2015,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.2024,3.05,1.91,0.281,50.8,6,7.51,8.5,6.0,4.8,83.5,wetland,excellent,stable
+40_2016,40,Renuka Lake Wetland,2016,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.2031,3.05,1.91,0.3,62.4,6,7.5,10.3,6.6,4.4,94.3,wetland,excellent,stable
+40_2017,40,Renuka Lake Wetland,2017,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.2011,3.04,1.91,0.253,52.2,6,7.34,9.3,6.3,2.4,85.7,wetland,excellent,stable
+40_2018,40,Renuka Lake Wetland,2018,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.1977,3.01,1.91,0.274,56.5,6,7.29,10.3,5.0,1.8,91.4,wetland,excellent,stable
+40_2019,40,Renuka Lake Wetland,2019,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.2026,3.05,1.91,0.293,64.1,6,7.55,10.0,3.6,2.7,95.1,wetland,excellent,stable
+40_2020,40,Renuka Lake Wetland,2020,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.1986,3.02,1.91,0.262,64.9,6,7.31,8.6,6.2,4.2,85.0,wetland,excellent,stable
+40_2021,40,Renuka Lake Wetland,2021,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.2025,3.05,1.91,0.302,58.0,6,7.24,9.9,3.1,4.6,86.5,wetland,excellent,stable
+40_2022,40,Renuka Lake Wetland,2022,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.1962,3.0,1.91,0.261,65.0,6,7.32,8.3,7.3,4.0,81.6,wetland,excellent,stable
+40_2023,40,Renuka Lake Wetland,2023,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.1986,3.02,1.91,0.312,70.3,6,7.65,10.2,4.0,6.0,93.4,wetland,excellent,stable
+40_2024,40,Renuka Lake Wetland,2024,GEO_1206_2574,30.6067,77.4528,India,Sirmaur,0.198,3.01,1.91,0.286,69.2,6,7.7,8.4,2.6,3.0,92.2,wetland,excellent,stable
+57_2014,57,Florida Everglades Wetlands,2014,GEO_1157_0994,25.7459,-80.555,United States,Miami,6100.0,769.69,2.78,0.312,53.9,6,7.85,5.7,22.6,25.4,42.1,wetland,fair,shrink
+57_2015,57,Florida Everglades Wetlands,2015,GEO_1157_0994,25.7459,-80.555,United States,Miami,5886.5,756.1,2.78,0.264,48.7,6,8.19,5.4,20.3,15.5,52.7,wetland,fair,shrink
+57_2016,57,Florida Everglades Wetlands,2016,GEO_1157_0994,25.7459,-80.555,United States,Miami,5673.0,742.26,2.78,0.246,73.7,6,8.21,6.4,20.7,20.5,42.4,wetland,fair,shrink
+57_2017,57,Florida Everglades Wetlands,2017,GEO_1157_0994,25.7459,-80.555,United States,Miami,5459.5,728.16,2.78,0.26,68.1,6,8.23,6.3,20.4,14.2,50.5,wetland,fair,shrink
+57_2018,57,Florida Everglades Wetlands,2018,GEO_1157_0994,25.7459,-80.555,United States,Miami,5246.0,713.78,2.78,0.315,53.7,6,8.24,6.4,29.5,16.4,46.3,wetland,fair,shrink
+57_2019,57,Florida Everglades Wetlands,2019,GEO_1157_0994,25.7459,-80.555,United States,Miami,5032.5,699.1,2.78,0.27,54.3,6,7.88,5.5,25.6,22.3,44.1,wetland,fair,shrink
+57_2020,57,Florida Everglades Wetlands,2020,GEO_1157_0994,25.7459,-80.555,United States,Miami,4819.0,684.11,2.78,0.28,47.6,6,8.12,6.2,28.4,15.9,51.1,wetland,fair,shrink
+57_2021,57,Florida Everglades Wetlands,2021,GEO_1157_0994,25.7459,-80.555,United States,Miami,4605.5,668.79,2.78,0.27,55.6,6,7.94,5.6,18.6,25.5,58.6,wetland,fair,shrink
+57_2022,57,Florida Everglades Wetlands,2022,GEO_1157_0994,25.7459,-80.555,United States,Miami,4392.0,653.1,2.78,0.243,48.3,6,8.27,5.2,23.5,15.7,55.1,wetland,fair,shrink
+57_2023,57,Florida Everglades Wetlands,2023,GEO_1157_0994,25.7459,-80.555,United States,Miami,4178.5,637.03,2.78,0.319,49.4,6,7.97,5.5,28.9,21.5,44.6,wetland,fair,shrink
+57_2024,57,Florida Everglades Wetlands,2024,GEO_1157_0994,25.7459,-80.555,United States,Miami,3965.0,620.54,2.78,0.315,55.0,6,8.11,6.4,30.4,23.7,42.3,wetland,fair,shrink
+58_2014,58,Atchafalaya Basin Wetland,2014,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2413.022,384.84,2.21,0.268,50.9,6,7.77,6.9,14.0,9.4,63.4,wetland,good,stable
+58_2015,58,Atchafalaya Basin Wetland,2015,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2374.7984,381.78,2.21,0.264,51.1,6,7.69,7.8,14.0,9.3,76.2,wetland,good,stable
+58_2016,58,Atchafalaya Basin Wetland,2016,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2397.0279,383.56,2.21,0.304,45.8,6,7.82,6.9,9.1,9.1,73.7,wetland,good,stable
+58_2017,58,Atchafalaya Basin Wetland,2017,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2418.2445,385.25,2.21,0.265,49.4,6,7.37,6.7,14.1,9.5,62.5,wetland,good,stable
+58_2018,58,Atchafalaya Basin Wetland,2018,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2380.6058,382.24,2.21,0.247,72.8,6,7.54,8.2,8.1,7.1,66.7,wetland,good,stable
+58_2019,58,Atchafalaya Basin Wetland,2019,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2367.5227,381.19,2.21,0.317,61.0,6,7.58,7.0,15.4,14.0,71.2,wetland,good,stable
+58_2020,58,Atchafalaya Basin Wetland,2020,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2370.764,381.45,2.21,0.253,73.6,6,7.46,8.2,11.3,12.8,67.3,wetland,good,stable
+58_2021,58,Atchafalaya Basin Wetland,2021,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2422.8411,385.62,2.21,0.288,67.3,6,7.38,8.2,8.5,10.2,65.2,wetland,good,stable
+58_2022,58,Atchafalaya Basin Wetland,2022,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2440.244,387.0,2.21,0.274,72.3,6,7.51,7.2,17.6,10.4,67.5,wetland,good,stable
+58_2023,58,Atchafalaya Basin Wetland,2023,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2406.6197,384.33,2.21,0.301,68.8,6,7.5,8.1,11.4,13.6,67.7,wetland,good,stable
+58_2024,58,Atchafalaya Basin Wetland,2024,GEO_1202_0885,30.25,-91.5,United States,Baton Rouge,2442.3353,387.17,2.21,0.29,57.1,6,7.79,7.9,16.1,9.6,61.9,wetland,good,stable
+59_2014,59,Chesapeake Bay Marshlands,2014,GEO_1289_1036,38.9,-76.4,United States,Annapolis,750.0,249.5,2.57,0.276,61.4,6,8.52,4.4,38.9,29.3,35.9,wetland,poor,shrink
+59_2015,59,Chesapeake Bay Marshlands,2015,GEO_1289_1036,38.9,-76.4,United States,Annapolis,723.75,245.09,2.57,0.256,66.5,6,8.44,3.7,48.7,30.0,39.0,wetland,poor,shrink
+59_2016,59,Chesapeake Bay Marshlands,2016,GEO_1289_1036,38.9,-76.4,United States,Annapolis,697.5,240.61,2.57,0.317,52.6,6,8.65,3.9,41.9,37.1,35.3,wetland,poor,shrink
+59_2017,59,Chesapeake Bay Marshlands,2017,GEO_1289_1036,38.9,-76.4,United States,Annapolis,671.25,236.04,2.57,0.276,52.3,6,8.2,3.4,35.1,25.9,39.2,wetland,poor,shrink
+59_2018,59,Chesapeake Bay Marshlands,2018,GEO_1289_1036,38.9,-76.4,United States,Annapolis,645.0,231.38,2.57,0.293,66.9,6,8.28,4.5,43.8,41.7,33.7,wetland,poor,shrink
+59_2019,59,Chesapeake Bay Marshlands,2019,GEO_1289_1036,38.9,-76.4,United States,Annapolis,618.75,226.62,2.57,0.302,71.9,6,8.37,4.8,44.3,39.9,26.0,wetland,poor,shrink
+59_2020,59,Chesapeake Bay Marshlands,2020,GEO_1289_1036,38.9,-76.4,United States,Annapolis,592.5,221.76,2.57,0.25,70.6,6,8.5,3.7,50.4,34.1,31.9,wetland,poor,shrink
+59_2021,59,Chesapeake Bay Marshlands,2021,GEO_1289_1036,38.9,-76.4,United States,Annapolis,566.25,216.79,2.57,0.267,57.9,6,8.59,4.6,32.2,44.5,27.6,wetland,poor,shrink
+59_2022,59,Chesapeake Bay Marshlands,2022,GEO_1289_1036,38.9,-76.4,United States,Annapolis,540.0,211.71,2.57,0.253,46.2,6,8.52,4.3,43.4,29.5,28.1,wetland,poor,shrink
+59_2023,59,Chesapeake Bay Marshlands,2023,GEO_1289_1036,38.9,-76.4,United States,Annapolis,513.75,206.5,2.57,0.266,66.6,6,8.53,4.1,51.4,35.0,38.8,wetland,poor,shrink
+59_2024,59,Chesapeake Bay Marshlands,2024,GEO_1289_1036,38.9,-76.4,United States,Annapolis,487.5,201.15,2.57,0.314,54.1,6,8.23,4.0,36.5,41.7,26.8,wetland,poor,shrink
+60_2014,60,Great Dismal Swamp,2014,GEO_1266_1035,36.6,-76.45,United States,Suffolk,451.1595,182.97,2.43,0.288,72.7,6,7.63,6.9,11.8,14.7,74.5,wetland,good,stable
+60_2015,60,Great Dismal Swamp,2015,GEO_1266_1035,36.6,-76.45,United States,Suffolk,454.7198,183.69,2.43,0.287,60.9,6,7.64,6.9,14.7,11.4,70.1,wetland,good,stable
+60_2016,60,Great Dismal Swamp,2016,GEO_1266_1035,36.6,-76.45,United States,Suffolk,447.02,182.13,2.43,0.282,64.7,6,7.33,7.0,16.1,6.8,69.1,wetland,good,stable
+60_2017,60,Great Dismal Swamp,2017,GEO_1266_1035,36.6,-76.45,United States,Suffolk,448.8789,182.51,2.43,0.262,54.8,6,7.85,7.6,11.5,14.3,70.3,wetland,good,stable
+60_2018,60,Great Dismal Swamp,2018,GEO_1266_1035,36.6,-76.45,United States,Suffolk,454.2684,183.6,2.43,0.243,67.2,6,7.84,7.5,11.4,6.1,71.2,wetland,good,stable
+60_2019,60,Great Dismal Swamp,2019,GEO_1266_1035,36.6,-76.45,United States,Suffolk,449.7303,182.68,2.43,0.247,57.9,6,7.63,8.4,13.2,8.1,69.9,wetland,good,stable
+60_2020,60,Great Dismal Swamp,2020,GEO_1266_1035,36.6,-76.45,United States,Suffolk,442.3481,181.17,2.43,0.248,46.9,6,7.34,8.1,10.4,10.5,75.2,wetland,good,stable
+60_2021,60,Great Dismal Swamp,2021,GEO_1266_1035,36.6,-76.45,United States,Suffolk,451.3825,183.01,2.43,0.25,58.1,6,7.78,6.7,8.5,7.1,61.8,wetland,good,stable
+60_2022,60,Great Dismal Swamp,2022,GEO_1266_1035,36.6,-76.45,United States,Suffolk,456.1919,183.99,2.43,0.261,55.0,6,7.51,7.4,8.4,11.2,71.6,wetland,good,stable
+60_2023,60,Great Dismal Swamp,2023,GEO_1266_1035,36.6,-76.45,United States,Suffolk,446.6796,182.06,2.43,0.249,71.0,6,7.74,7.3,9.0,14.7,78.9,wetland,good,stable
+60_2024,60,Great Dismal Swamp,2024,GEO_1266_1035,36.6,-76.45,United States,Suffolk,451.8143,183.1,2.43,0.296,53.5,6,7.52,7.1,14.3,10.3,75.0,wetland,good,stable
+81_2014,81,Peace-Athabasca Delta Wetlands,2014,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,3200.0,417.1,2.08,0.286,70.7,6,7.26,8.3,13.0,11.6,67.3,wetland,good,shrink
+81_2015,81,Peace-Athabasca Delta Wetlands,2015,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,3088.0,409.74,2.08,0.275,51.2,6,7.74,6.9,9.9,8.4,75.2,wetland,good,shrink
+81_2016,81,Peace-Athabasca Delta Wetlands,2016,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2976.0,402.24,2.08,0.266,49.5,6,7.85,7.4,17.4,7.9,67.6,wetland,good,shrink
+81_2017,81,Peace-Athabasca Delta Wetlands,2017,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2864.0,394.6,2.08,0.281,71.9,6,7.85,7.4,17.0,9.5,70.1,wetland,good,shrink
+81_2018,81,Peace-Athabasca Delta Wetlands,2018,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2752.0,386.81,2.08,0.305,46.1,6,7.5,6.6,11.2,8.1,64.7,wetland,good,shrink
+81_2019,81,Peace-Athabasca Delta Wetlands,2019,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2640.0,378.85,2.08,0.291,59.5,6,7.36,7.1,8.5,13.2,76.8,wetland,good,shrink
+81_2020,81,Peace-Athabasca Delta Wetlands,2020,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2528.0,370.73,2.08,0.273,56.4,6,7.35,8.4,10.0,8.6,64.2,wetland,good,shrink
+81_2021,81,Peace-Athabasca Delta Wetlands,2021,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2416.0,362.42,2.08,0.313,62.0,6,7.85,7.7,12.1,6.4,64.9,wetland,good,shrink
+81_2022,81,Peace-Athabasca Delta Wetlands,2022,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2304.0,353.92,2.08,0.289,54.6,6,7.65,6.7,12.0,12.3,72.8,wetland,good,shrink
+81_2023,81,Peace-Athabasca Delta Wetlands,2023,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2192.0,345.21,2.08,0.247,68.0,6,7.86,7.4,9.3,10.3,66.9,wetland,good,shrink
+81_2024,81,Peace-Athabasca Delta Wetlands,2024,GEO_1487_0685,58.75,-111.5,Canada,Fort Smith,2080.0,336.28,2.08,0.28,62.0,6,7.81,7.2,16.1,12.1,61.9,wetland,good,shrink
+85_2014,85,Columbia Wetlands,2014,GEO_1410_0635,51.0,-116.5,Canada,Golden,150.1104,88.6,2.04,0.249,68.8,6,7.33,10.3,3.1,3.3,86.7,wetland,excellent,stable
+85_2015,85,Columbia Wetlands,2015,GEO_1410_0635,51.0,-116.5,Canada,Golden,149.7379,88.49,2.04,0.254,66.4,6,7.27,8.8,5.1,4.3,89.5,wetland,excellent,stable
+85_2016,85,Columbia Wetlands,2016,GEO_1410_0635,51.0,-116.5,Canada,Golden,152.6262,89.34,2.04,0.313,74.2,6,7.27,10.4,3.5,2.9,94.4,wetland,excellent,stable
+85_2017,85,Columbia Wetlands,2017,GEO_1410_0635,51.0,-116.5,Canada,Golden,152.1559,89.2,2.04,0.249,61.3,6,7.2,10.4,4.5,3.5,81.7,wetland,excellent,stable
+85_2018,85,Columbia Wetlands,2018,GEO_1410_0635,51.0,-116.5,Canada,Golden,149.0313,88.28,2.04,0.278,72.2,6,7.53,9.6,7.2,3.5,93.3,wetland,excellent,stable
+85_2019,85,Columbia Wetlands,2019,GEO_1410_0635,51.0,-116.5,Canada,Golden,147.7186,87.89,2.04,0.283,69.4,6,7.53,8.9,2.3,5.4,83.4,wetland,excellent,stable
+85_2020,85,Columbia Wetlands,2020,GEO_1410_0635,51.0,-116.5,Canada,Golden,152.1204,89.19,2.04,0.313,46.3,6,7.36,8.8,7.4,4.0,81.8,wetland,excellent,stable
+85_2021,85,Columbia Wetlands,2021,GEO_1410_0635,51.0,-116.5,Canada,Golden,151.3222,88.96,2.04,0.276,47.4,6,7.53,8.8,3.1,1.5,93.1,wetland,excellent,stable
+85_2022,85,Columbia Wetlands,2022,GEO_1410_0635,51.0,-116.5,Canada,Golden,148.1489,88.02,2.04,0.271,45.7,6,7.36,9.3,4.1,5.8,90.6,wetland,excellent,stable
+85_2023,85,Columbia Wetlands,2023,GEO_1410_0635,51.0,-116.5,Canada,Golden,149.5811,88.44,2.04,0.31,46.6,6,7.58,8.9,2.6,4.2,89.6,wetland,excellent,stable
+85_2024,85,Columbia Wetlands,2024,GEO_1410_0635,51.0,-116.5,Canada,Golden,147.843,87.93,2.04,0.29,70.3,6,7.47,8.7,5.0,2.8,95.2,wetland,excellent,stable
+92_2014,92,Norfolk Broads Wetland,2014,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,303.0,145.01,2.35,0.309,57.4,6,8.08,6.4,22.7,15.1,44.7,wetland,fair,shrink
+92_2015,92,Norfolk Broads Wetland,2015,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,292.395,142.45,2.35,0.256,56.5,6,8.03,6.3,20.2,21.3,53.8,wetland,fair,shrink
+92_2016,92,Norfolk Broads Wetland,2016,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,281.79,139.84,2.35,0.31,63.4,6,7.83,5.8,24.2,19.6,56.2,wetland,fair,shrink
+92_2017,92,Norfolk Broads Wetland,2017,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,271.185,137.18,2.35,0.307,68.7,6,7.81,5.7,19.7,17.6,53.9,wetland,fair,shrink
+92_2018,92,Norfolk Broads Wetland,2018,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,260.58,134.48,2.35,0.264,50.9,6,8.01,5.7,23.9,16.8,43.5,wetland,fair,shrink
+92_2019,92,Norfolk Broads Wetland,2019,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,249.975,131.71,2.35,0.244,50.8,6,8.11,5.2,18.1,17.8,59.0,wetland,fair,shrink
+92_2020,92,Norfolk Broads Wetland,2020,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,239.37,128.89,2.35,0.268,71.8,6,8.22,5.5,18.1,14.4,58.4,wetland,fair,shrink
+92_2021,92,Norfolk Broads Wetland,2021,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,228.765,126.0,2.35,0.283,46.6,6,7.99,5.8,27.2,21.8,41.8,wetland,fair,shrink
+92_2022,92,Norfolk Broads Wetland,2022,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,218.16,123.04,2.35,0.277,56.8,6,7.85,5.8,30.4,23.9,44.9,wetland,fair,shrink
+92_2023,92,Norfolk Broads Wetland,2023,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,207.555,120.02,2.35,0.265,59.7,6,8.05,5.5,20.1,23.6,49.2,wetland,fair,shrink
+92_2024,92,Norfolk Broads Wetland,2024,GEO_1426_1815,52.63,1.5,United Kingdom,Norwich,196.95,116.91,2.35,0.308,51.6,6,7.93,6.0,24.9,24.6,51.7,wetland,fair,shrink
+93_2014,93,Somerset Levels Wetland,2014,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,657.8815,197.31,2.17,0.244,71.4,6,7.76,8.4,9.3,9.6,70.1,wetland,good,stable
+93_2015,93,Somerset Levels Wetland,2015,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,647.7357,195.78,2.17,0.283,48.4,6,7.37,6.7,8.0,12.1,63.2,wetland,good,stable
+93_2016,93,Somerset Levels Wetland,2016,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,647.685,195.77,2.17,0.292,70.6,6,7.26,7.9,9.8,14.5,65.8,wetland,good,stable
+93_2017,93,Somerset Levels Wetland,2017,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,659.4508,197.54,2.17,0.302,52.9,6,7.74,6.9,16.2,11.4,67.2,wetland,good,stable
+93_2018,93,Somerset Levels Wetland,2018,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,640.1691,194.63,2.17,0.281,72.0,6,7.53,7.7,11.6,9.3,72.9,wetland,good,stable
+93_2019,93,Somerset Levels Wetland,2019,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,641.2619,194.8,2.17,0.271,73.5,6,7.71,6.9,14.2,14.4,66.2,wetland,good,stable
+93_2020,93,Somerset Levels Wetland,2020,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,638.6448,194.4,2.17,0.288,49.5,6,7.57,6.7,16.9,12.0,76.4,wetland,good,stable
+93_2021,93,Somerset Levels Wetland,2021,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,638.0034,194.3,2.17,0.31,53.2,6,7.53,7.2,9.3,11.4,61.6,wetland,good,stable
+93_2022,93,Somerset Levels Wetland,2022,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,637.8528,194.28,2.17,0.274,60.5,6,7.65,8.2,17.8,7.5,77.8,wetland,good,stable
+93_2023,93,Somerset Levels Wetland,2023,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,640.9975,194.76,2.17,0.314,65.6,6,7.7,8.0,15.3,7.8,64.9,wetland,good,stable
+93_2024,93,Somerset Levels Wetland,2024,GEO_1411_1772,51.15,-2.75,United Kingdom,Glastonbury,642.7128,195.02,2.17,0.275,64.6,6,7.52,8.0,15.8,13.1,76.5,wetland,good,stable
+110_2014,110,Camargue Rhone Delta Wetlands,2014,GEO_1335_1846,43.53,4.63,France,Arles,925.3849,267.43,2.48,0.283,73.5,6,7.39,8.2,17.1,10.2,71.2,wetland,good,stable
+110_2015,110,Camargue Rhone Delta Wetlands,2015,GEO_1335_1846,43.53,4.63,France,Arles,948.5486,270.76,2.48,0.259,59.7,6,7.21,7.9,11.8,6.1,69.5,wetland,good,stable
+110_2016,110,Camargue Rhone Delta Wetlands,2016,GEO_1335_1846,43.53,4.63,France,Arles,912.2396,265.53,2.48,0.295,52.0,6,7.41,7.1,13.6,7.5,68.5,wetland,good,stable
+110_2017,110,Camargue Rhone Delta Wetlands,2017,GEO_1335_1846,43.53,4.63,France,Arles,931.2946,268.29,2.48,0.256,59.0,6,7.67,7.5,9.6,12.8,63.0,wetland,good,stable
+110_2018,110,Camargue Rhone Delta Wetlands,2018,GEO_1335_1846,43.53,4.63,France,Arles,914.0364,265.79,2.48,0.288,62.5,6,7.56,7.1,13.3,14.3,71.2,wetland,good,stable
+110_2019,110,Camargue Rhone Delta Wetlands,2019,GEO_1335_1846,43.53,4.63,France,Arles,926.3415,267.57,2.48,0.316,69.7,6,7.79,8.0,10.9,9.9,76.3,wetland,good,stable
+110_2020,110,Camargue Rhone Delta Wetlands,2020,GEO_1335_1846,43.53,4.63,France,Arles,918.426,266.43,2.48,0.296,45.0,6,7.41,7.1,11.0,12.5,65.3,wetland,good,stable
+110_2021,110,Camargue Rhone Delta Wetlands,2021,GEO_1335_1846,43.53,4.63,France,Arles,938.0068,269.25,2.48,0.254,74.1,6,7.47,6.8,10.4,10.3,61.8,wetland,good,stable
+110_2022,110,Camargue Rhone Delta Wetlands,2022,GEO_1335_1846,43.53,4.63,France,Arles,938.0375,269.26,2.48,0.266,70.8,6,7.64,7.2,12.5,7.3,64.5,wetland,good,stable
+110_2023,110,Camargue Rhone Delta Wetlands,2023,GEO_1335_1846,43.53,4.63,France,Arles,920.9327,266.79,2.48,0.27,67.1,6,7.44,8.2,14.6,12.2,61.4,wetland,good,stable
+110_2024,110,Camargue Rhone Delta Wetlands,2024,GEO_1335_1846,43.53,4.63,France,Arles,929.517,268.03,2.48,0.305,59.0,6,7.84,8.3,17.3,10.6,67.7,wetland,good,stable
+111_2014,111,Waddenzee Tidal Wetlands,2014,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2538.3998,462.58,2.59,0.257,48.2,6,7.89,8.3,16.2,13.9,66.2,wetland,good,stable
+111_2015,111,Waddenzee Tidal Wetlands,2015,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2461.2241,455.49,2.59,0.263,50.6,6,7.83,7.7,16.0,11.6,61.1,wetland,good,stable
+111_2016,111,Waddenzee Tidal Wetlands,2016,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2459.9726,455.38,2.59,0.269,58.9,6,7.44,7.5,8.4,7.6,73.0,wetland,good,stable
+111_2017,111,Waddenzee Tidal Wetlands,2017,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2499.5318,459.02,2.59,0.274,72.9,6,7.56,8.3,10.1,12.6,71.3,wetland,good,stable
+111_2018,111,Waddenzee Tidal Wetlands,2018,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2487.7968,457.94,2.59,0.277,61.0,6,7.4,6.8,14.1,7.4,71.1,wetland,good,stable
+111_2019,111,Waddenzee Tidal Wetlands,2019,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2457.5872,455.15,2.59,0.296,56.9,6,7.53,7.7,9.9,12.5,70.8,wetland,good,stable
+111_2020,111,Waddenzee Tidal Wetlands,2020,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2482.2338,457.43,2.59,0.289,47.8,6,7.25,8.3,14.7,10.1,77.5,wetland,good,stable
+111_2021,111,Waddenzee Tidal Wetlands,2021,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2548.8876,463.53,2.59,0.316,58.2,6,7.45,6.7,17.3,13.6,68.7,wetland,good,stable
+111_2022,111,Waddenzee Tidal Wetlands,2022,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2513.4243,460.3,2.59,0.302,59.1,6,7.33,6.7,13.9,9.1,67.4,wetland,good,stable
+111_2023,111,Waddenzee Tidal Wetlands,2023,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2483.4136,457.54,2.59,0.249,73.4,6,7.53,6.9,8.3,14.6,63.1,wetland,good,stable
+111_2024,111,Waddenzee Tidal Wetlands,2024,GEO_1430_1850,53.0,5.0,Netherlands,Den Helder,2523.3362,461.2,2.59,0.291,62.6,6,7.27,7.8,16.3,10.5,73.9,wetland,good,stable
+112_2014,112,Doñana National Park Wetlands,2014,GEO_1269_1735,36.98,-6.43,Spain,Huelva,543.0,225.51,2.73,0.246,59.9,6,5.67,2.6,76.4,69.8,22.7,wetland,critical,disappear
+112_2015,112,Doñana National Park Wetlands,2015,GEO_1269_1735,36.98,-6.43,Spain,Huelva,494.13,215.12,2.73,0.306,66.5,6,5.44,2.0,59.1,60.2,16.0,wetland,critical,disappear
+112_2016,112,Doñana National Park Wetlands,2016,GEO_1269_1735,36.98,-6.43,Spain,Huelva,445.26,204.21,2.73,0.299,73.3,6,5.84,1.3,63.8,50.8,13.6,wetland,critical,disappear
+112_2017,112,Doñana National Park Wetlands,2017,GEO_1269_1735,36.98,-6.43,Spain,Huelva,396.39,192.68,2.73,0.304,67.2,6,6.03,1.6,71.3,65.4,13.5,wetland,critical,disappear
+112_2018,112,Doñana National Park Wetlands,2018,GEO_1269_1735,36.98,-6.43,Spain,Huelva,347.52,180.41,2.73,0.272,45.6,6,5.67,1.7,70.0,54.7,16.8,wetland,critical,disappear
+112_2019,112,Doñana National Park Wetlands,2019,GEO_1269_1735,36.98,-6.43,Spain,Huelva,298.65,167.24,2.73,0.302,51.2,6,9.26,1.5,56.8,77.6,17.9,wetland,critical,disappear
+112_2020,112,Doñana National Park Wetlands,2020,GEO_1269_1735,36.98,-6.43,Spain,Huelva,249.78,152.95,2.73,0.299,65.6,6,8.86,2.6,64.9,84.3,22.3,wetland,critical,disappear
+112_2021,112,Doñana National Park Wetlands,2021,GEO_1269_1735,36.98,-6.43,Spain,Huelva,200.91,137.17,2.73,0.315,56.6,6,5.46,2.6,62.6,60.6,20.9,wetland,critical,disappear
+112_2022,112,Doñana National Park Wetlands,2022,GEO_1269_1735,36.98,-6.43,Spain,Huelva,152.04,119.33,2.73,0.266,48.2,6,5.71,2.4,89.9,51.3,20.3,wetland,critical,disappear
+112_2023,112,Doñana National Park Wetlands,2023,GEO_1269_1735,36.98,-6.43,Spain,Huelva,103.17,98.3,2.73,0.293,59.5,6,8.81,1.8,63.0,62.5,12.3,wetland,critical,disappear
+112_2024,112,Doñana National Park Wetlands,2024,GEO_1269_1735,36.98,-6.43,Spain,Huelva,54.3,71.31,2.73,0.28,62.7,6,5.94,1.8,60.3,76.3,18.4,wetland,critical,disappear
+131_2014,131,Biebrza Marshes Wetland,2014,GEO_1435_2027,53.5,22.75,Poland,Bialystok,580.7475,181.96,2.13,0.271,52.5,6,7.53,8.5,6.3,1.7,93.5,wetland,excellent,stable
+131_2015,131,Biebrza Marshes Wetland,2015,GEO_1435_2027,53.5,22.75,Poland,Bialystok,590.3951,183.47,2.13,0.293,72.5,6,7.23,9.2,4.6,3.3,92.5,wetland,excellent,stable
+131_2016,131,Biebrza Marshes Wetland,2016,GEO_1435_2027,53.5,22.75,Poland,Bialystok,589.9516,183.4,2.13,0.274,63.3,6,7.33,9.8,7.7,3.5,92.9,wetland,excellent,stable
+131_2017,131,Biebrza Marshes Wetland,2017,GEO_1435_2027,53.5,22.75,Poland,Bialystok,582.7787,182.28,2.13,0.29,53.4,6,7.46,8.6,5.1,5.4,87.9,wetland,excellent,stable
+131_2018,131,Biebrza Marshes Wetland,2018,GEO_1435_2027,53.5,22.75,Poland,Bialystok,585.6293,182.72,2.13,0.31,55.5,6,7.29,8.6,4.6,5.0,88.1,wetland,excellent,stable
+131_2019,131,Biebrza Marshes Wetland,2019,GEO_1435_2027,53.5,22.75,Poland,Bialystok,588.7108,183.2,2.13,0.308,73.6,6,7.65,9.5,6.3,5.6,85.9,wetland,excellent,stable
+131_2020,131,Biebrza Marshes Wetland,2020,GEO_1435_2027,53.5,22.75,Poland,Bialystok,580.7491,181.96,2.13,0.27,58.1,6,7.34,10.3,3.6,2.9,90.2,wetland,excellent,stable
+131_2021,131,Biebrza Marshes Wetland,2021,GEO_1435_2027,53.5,22.75,Poland,Bialystok,597.3691,184.55,2.13,0.312,47.7,6,7.67,9.8,3.2,2.7,83.2,wetland,excellent,stable
+131_2022,131,Biebrza Marshes Wetland,2022,GEO_1435_2027,53.5,22.75,Poland,Bialystok,593.5009,183.95,2.13,0.249,67.8,6,7.34,8.5,3.8,4.2,93.3,wetland,excellent,stable
+131_2023,131,Biebrza Marshes Wetland,2023,GEO_1435_2027,53.5,22.75,Poland,Bialystok,586.3756,182.84,2.13,0.26,55.3,6,7.64,10.4,2.0,2.4,95.2,wetland,excellent,stable
+131_2024,131,Biebrza Marshes Wetland,2024,GEO_1435_2027,53.5,22.75,Poland,Bialystok,590.5875,183.5,2.13,0.297,45.3,6,7.48,9.6,3.9,4.8,81.6,wetland,excellent,stable
+132_2014,132,Danube Delta Wetlands,2014,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4090.8554,535.09,2.36,0.293,45.7,6,7.34,7.0,12.3,10.9,63.1,wetland,good,stable
+132_2015,132,Danube Delta Wetlands,2015,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4077.4519,534.21,2.36,0.316,58.9,6,7.25,6.9,15.1,7.0,70.4,wetland,good,stable
+132_2016,132,Danube Delta Wetlands,2016,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4226.9985,543.92,2.36,0.316,63.1,6,7.52,8.0,14.0,9.2,78.5,wetland,good,stable
+132_2017,132,Danube Delta Wetlands,2017,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4165.1324,539.92,2.36,0.259,70.1,6,7.42,6.7,17.5,10.0,63.1,wetland,good,stable
+132_2018,132,Danube Delta Wetlands,2018,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4073.5491,533.95,2.36,0.307,54.4,6,7.71,6.9,16.9,7.5,71.5,wetland,good,stable
+132_2019,132,Danube Delta Wetlands,2019,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4098.561,535.59,2.36,0.309,55.9,6,7.32,7.3,12.0,9.4,77.1,wetland,good,stable
+132_2020,132,Danube Delta Wetlands,2020,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4227.0023,543.92,2.36,0.316,53.2,6,7.8,6.9,9.8,9.5,61.1,wetland,good,stable
+132_2021,132,Danube Delta Wetlands,2021,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4168.2142,540.12,2.36,0.304,68.1,6,7.85,6.8,9.1,12.8,71.9,wetland,good,stable
+132_2022,132,Danube Delta Wetlands,2022,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4140.1841,538.3,2.36,0.301,55.5,6,7.71,7.3,10.4,9.8,79.2,wetland,good,stable
+132_2023,132,Danube Delta Wetlands,2023,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4222.0405,543.6,2.36,0.315,67.3,6,7.5,7.0,16.0,14.3,69.3,wetland,good,stable
+132_2024,132,Danube Delta Wetlands,2024,GEO_1352_2095,45.2,29.5,Romania,Tulcea,4146.5139,538.71,2.36,0.258,53.5,6,7.73,7.0,12.3,11.4,73.7,wetland,good,stable
+143_2014,143,Zhalong Wetland Nature Reserve,2014,GEO_1372_3042,47.2,124.25,China,Qiqihar,2109.8184,346.82,2.13,0.281,65.5,6,7.64,8.4,17.8,10.0,70.1,wetland,good,stable
+143_2015,143,Zhalong Wetland Nature Reserve,2015,GEO_1372_3042,47.2,124.25,China,Qiqihar,2066.5323,343.25,2.13,0.266,59.6,6,7.34,6.7,8.7,10.4,75.5,wetland,good,stable
+143_2016,143,Zhalong Wetland Nature Reserve,2016,GEO_1372_3042,47.2,124.25,China,Qiqihar,2086.18,344.87,2.13,0.247,51.4,6,7.63,7.6,10.7,14.8,63.1,wetland,good,stable
+143_2017,143,Zhalong Wetland Nature Reserve,2017,GEO_1372_3042,47.2,124.25,China,Qiqihar,2097.7399,345.83,2.13,0.317,46.6,6,7.43,8.0,17.0,14.9,62.9,wetland,good,stable
+143_2018,143,Zhalong Wetland Nature Reserve,2018,GEO_1372_3042,47.2,124.25,China,Qiqihar,2129.8706,348.47,2.13,0.314,74.1,6,7.22,6.8,9.1,6.9,64.9,wetland,good,stable
+143_2019,143,Zhalong Wetland Nature Reserve,2019,GEO_1372_3042,47.2,124.25,China,Qiqihar,2114.1003,347.17,2.13,0.302,61.8,6,7.76,8.0,13.4,11.4,66.8,wetland,good,stable
+143_2020,143,Zhalong Wetland Nature Reserve,2020,GEO_1372_3042,47.2,124.25,China,Qiqihar,2102.8147,346.25,2.13,0.306,56.1,6,7.73,8.4,12.1,6.9,75.4,wetland,good,stable
+143_2021,143,Zhalong Wetland Nature Reserve,2021,GEO_1372_3042,47.2,124.25,China,Qiqihar,2061.3088,342.81,2.13,0.269,66.2,6,7.85,7.7,9.2,6.7,78.2,wetland,good,stable
+143_2022,143,Zhalong Wetland Nature Reserve,2022,GEO_1372_3042,47.2,124.25,China,Qiqihar,2085.6958,344.83,2.13,0.271,74.7,6,7.67,7.9,14.0,9.5,70.0,wetland,good,stable
+143_2023,143,Zhalong Wetland Nature Reserve,2023,GEO_1372_3042,47.2,124.25,China,Qiqihar,2075.9695,344.03,2.13,0.273,45.3,6,7.73,7.1,15.7,8.6,62.5,wetland,good,stable
+143_2024,143,Zhalong Wetland Nature Reserve,2024,GEO_1372_3042,47.2,124.25,China,Qiqihar,2093.9058,345.51,2.13,0.273,63.0,6,7.38,8.4,12.7,14.0,70.1,wetland,good,stable
+149_2014,149,Kushiro Mire Wetlands,2014,GEO_1331_3244,43.15,144.4,Japan,Kushiro,291.5313,126.5,2.09,0.26,49.1,6,7.29,8.4,6.5,3.2,81.4,wetland,excellent,stable
+149_2015,149,Kushiro Mire Wetlands,2015,GEO_1331_3244,43.15,144.4,Japan,Kushiro,283.2484,124.69,2.09,0.244,54.8,6,7.39,9.7,7.0,5.4,84.2,wetland,excellent,stable
+149_2016,149,Kushiro Mire Wetlands,2016,GEO_1331_3244,43.15,144.4,Japan,Kushiro,282.9905,124.63,2.09,0.29,73.1,6,7.58,9.2,5.7,4.0,90.4,wetland,excellent,stable
+149_2017,149,Kushiro Mire Wetlands,2017,GEO_1331_3244,43.15,144.4,Japan,Kushiro,284.6933,125.01,2.09,0.269,57.6,6,7.29,9.9,5.7,3.2,88.0,wetland,excellent,stable
+149_2018,149,Kushiro Mire Wetlands,2018,GEO_1331_3244,43.15,144.4,Japan,Kushiro,283.3066,124.7,2.09,0.314,52.5,6,7.54,10.0,4.9,5.5,83.0,wetland,excellent,stable
+149_2019,149,Kushiro Mire Wetlands,2019,GEO_1331_3244,43.15,144.4,Japan,Kushiro,287.4902,125.62,2.09,0.304,50.2,6,7.43,8.3,7.9,3.1,85.4,wetland,excellent,stable
+149_2020,149,Kushiro Mire Wetlands,2020,GEO_1331_3244,43.15,144.4,Japan,Kushiro,290.3473,126.24,2.09,0.316,58.0,6,7.61,9.2,7.7,3.7,91.1,wetland,excellent,stable
+149_2021,149,Kushiro Mire Wetlands,2021,GEO_1331_3244,43.15,144.4,Japan,Kushiro,287.6741,125.66,2.09,0.245,54.7,6,7.61,9.8,2.3,5.2,84.6,wetland,excellent,stable
+149_2022,149,Kushiro Mire Wetlands,2022,GEO_1331_3244,43.15,144.4,Japan,Kushiro,286.7854,125.47,2.09,0.288,48.0,6,7.35,8.9,5.6,1.7,81.0,wetland,excellent,stable
+149_2023,149,Kushiro Mire Wetlands,2023,GEO_1331_3244,43.15,144.4,Japan,Kushiro,290.355,126.25,2.09,0.317,63.3,6,7.27,9.2,5.1,4.0,83.2,wetland,excellent,stable
+149_2024,149,Kushiro Mire Wetlands,2024,GEO_1331_3244,43.15,144.4,Japan,Kushiro,291.9738,126.6,2.09,0.256,50.2,6,7.39,10.0,2.1,2.0,86.3,wetland,excellent,stable
+171_2014,171,Thale Noi Waterbird Wetland,2014,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.1287,52.27,2.78,0.306,59.3,6,7.58,7.6,10.2,9.3,73.9,wetland,good,stable
+171_2015,171,Thale Noi Waterbird Wetland,2015,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.3764,52.5,2.78,0.294,54.9,6,7.89,7.8,10.2,13.6,75.6,wetland,good,stable
+171_2016,171,Thale Noi Waterbird Wetland,2016,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.0399,52.18,2.78,0.251,60.0,6,7.59,7.6,9.5,11.8,68.2,wetland,good,stable
+171_2017,171,Thale Noi Waterbird Wetland,2017,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.4207,52.54,2.78,0.249,57.2,6,7.23,8.0,9.7,7.7,75.2,wetland,good,stable
+171_2018,171,Thale Noi Waterbird Wetland,2018,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.4172,52.53,2.78,0.282,55.4,6,7.28,6.6,15.2,13.1,64.1,wetland,good,stable
+171_2019,171,Thale Noi Waterbird Wetland,2019,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.2926,52.42,2.78,0.316,50.8,6,7.33,7.3,16.3,13.3,73.2,wetland,good,stable
+171_2020,171,Thale Noi Waterbird Wetland,2020,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,27.7788,51.94,2.78,0.251,61.2,6,7.65,7.3,10.0,15.0,61.2,wetland,good,stable
+171_2021,171,Thale Noi Waterbird Wetland,2021,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.0825,52.22,2.78,0.313,57.3,6,7.53,7.5,13.4,8.4,62.0,wetland,good,stable
+171_2022,171,Thale Noi Waterbird Wetland,2022,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,27.4989,51.68,2.78,0.284,50.7,6,7.29,7.2,13.3,14.4,77.5,wetland,good,stable
+171_2023,171,Thale Noi Waterbird Wetland,2023,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,27.8247,51.98,2.78,0.289,62.4,6,7.38,6.8,11.5,14.2,76.8,wetland,good,stable
+171_2024,171,Thale Noi Waterbird Wetland,2024,GEO_0977_2801,7.78,100.15,Thailand,Phatthalung,28.0228,52.17,2.78,0.314,61.2,6,7.29,8.3,17.7,7.4,73.5,wetland,good,stable
+194_2014,194,Okavango Delta Wetlands,2014,GEO_0707_2029,-19.3,22.9,Botswana,Maun,14731.67,1097.16,2.55,0.254,65.5,6,7.59,9.6,5.8,3.3,91.8,wetland,excellent,stable
+194_2015,194,Okavango Delta Wetlands,2015,GEO_0707_2029,-19.3,22.9,Botswana,Maun,15278.036,1117.32,2.55,0.257,55.4,6,7.7,9.5,5.6,2.4,88.8,wetland,excellent,stable
+194_2016,194,Okavango Delta Wetlands,2016,GEO_0707_2029,-19.3,22.9,Botswana,Maun,15015.5358,1107.68,2.55,0.259,46.5,6,7.37,8.3,5.4,2.3,85.9,wetland,excellent,stable
+194_2017,194,Okavango Delta Wetlands,2017,GEO_0707_2029,-19.3,22.9,Botswana,Maun,15270.2653,1117.04,2.55,0.286,59.8,6,7.65,10.1,4.5,3.7,89.6,wetland,excellent,stable
+194_2018,194,Okavango Delta Wetlands,2018,GEO_0707_2029,-19.3,22.9,Botswana,Maun,15139.967,1112.26,2.55,0.285,56.9,6,7.5,8.8,2.9,3.7,82.4,wetland,excellent,stable
+194_2019,194,Okavango Delta Wetlands,2019,GEO_0707_2029,-19.3,22.9,Botswana,Maun,15008.8659,1107.44,2.55,0.306,70.4,6,7.61,8.4,4.1,4.4,85.3,wetland,excellent,stable
+194_2020,194,Okavango Delta Wetlands,2020,GEO_0707_2029,-19.3,22.9,Botswana,Maun,14995.9761,1106.96,2.55,0.28,45.9,6,7.38,10.4,7.7,2.1,85.9,wetland,excellent,stable
+194_2021,194,Okavango Delta Wetlands,2021,GEO_0707_2029,-19.3,22.9,Botswana,Maun,14712.4607,1096.45,2.55,0.272,51.5,6,7.46,10.4,7.2,4.0,81.1,wetland,excellent,stable
+194_2022,194,Okavango Delta Wetlands,2022,GEO_0707_2029,-19.3,22.9,Botswana,Maun,14714.8645,1096.54,2.55,0.3,63.8,6,7.52,8.5,7.2,2.5,83.4,wetland,excellent,stable
+194_2023,194,Okavango Delta Wetlands,2023,GEO_0707_2029,-19.3,22.9,Botswana,Maun,15240.5022,1115.95,2.55,0.297,63.4,6,7.36,9.0,5.5,6.0,92.2,wetland,excellent,stable
+194_2024,194,Okavango Delta Wetlands,2024,GEO_0707_2029,-19.3,22.9,Botswana,Maun,14953.9555,1105.41,2.55,0.289,47.5,6,7.4,9.0,2.2,5.7,90.4,wetland,excellent,stable
+195_2014,195,Sudd Wetland Marshes,2014,GEO_0980_2110,8.0,31.0,South Sudan,Bor,29722.6498,1699.0,2.78,0.26,54.5,6,7.58,7.1,13.8,10.4,74.3,wetland,good,stable
+195_2015,195,Sudd Wetland Marshes,2015,GEO_0980_2110,8.0,31.0,South Sudan,Bor,30338.4774,1716.51,2.78,0.254,47.4,6,7.68,8.0,14.6,10.3,73.3,wetland,good,stable
+195_2016,195,Sudd Wetland Marshes,2016,GEO_0980_2110,8.0,31.0,South Sudan,Bor,30421.8613,1718.87,2.78,0.244,74.2,6,7.72,6.9,13.8,6.7,78.0,wetland,good,stable
+195_2017,195,Sudd Wetland Marshes,2017,GEO_0980_2110,8.0,31.0,South Sudan,Bor,30127.1402,1710.52,2.78,0.278,72.8,6,7.55,7.9,11.3,14.2,78.7,wetland,good,stable
+195_2018,195,Sudd Wetland Marshes,2018,GEO_0980_2110,8.0,31.0,South Sudan,Bor,29714.9377,1698.78,2.78,0.259,67.9,6,7.42,7.1,12.4,9.4,72.5,wetland,good,stable
+195_2019,195,Sudd Wetland Marshes,2019,GEO_0980_2110,8.0,31.0,South Sudan,Bor,30282.6698,1714.93,2.78,0.305,46.6,6,7.75,6.7,8.5,10.8,71.7,wetland,good,stable
+195_2020,195,Sudd Wetland Marshes,2020,GEO_0980_2110,8.0,31.0,South Sudan,Bor,29706.3766,1698.53,2.78,0.291,61.1,6,7.55,8.1,17.2,10.9,76.4,wetland,good,stable
+195_2021,195,Sudd Wetland Marshes,2021,GEO_0980_2110,8.0,31.0,South Sudan,Bor,30020.2302,1707.48,2.78,0.312,48.3,6,7.35,8.0,17.1,10.7,76.6,wetland,good,stable
+195_2022,195,Sudd Wetland Marshes,2022,GEO_0980_2110,8.0,31.0,South Sudan,Bor,30353.5946,1716.94,2.78,0.255,64.0,6,7.34,8.1,14.1,10.3,73.6,wetland,good,stable
+195_2023,195,Sudd Wetland Marshes,2023,GEO_0980_2110,8.0,31.0,South Sudan,Bor,29912.6966,1704.42,2.78,0.312,60.9,6,7.24,7.5,13.1,14.3,64.3,wetland,good,stable
+195_2024,195,Sudd Wetland Marshes,2024,GEO_0980_2110,8.0,31.0,South Sudan,Bor,30364.2811,1717.24,2.78,0.257,71.8,6,7.73,7.5,10.4,11.1,76.8,wetland,good,stable
+196_2014,196,iSimangaliso St Lucia Wetland,2014,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,353.1555,169.87,2.55,0.284,56.7,6,7.84,7.3,14.5,9.8,66.8,wetland,good,stable
+196_2015,196,iSimangaliso St Lucia Wetland,2015,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,349.0956,168.9,2.55,0.246,71.3,6,7.61,7.5,12.9,9.3,72.3,wetland,good,stable
+196_2016,196,iSimangaliso St Lucia Wetland,2016,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,356.3766,170.65,2.55,0.287,49.3,6,7.69,6.7,17.7,9.0,63.7,wetland,good,stable
+196_2017,196,iSimangaliso St Lucia Wetland,2017,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,345.3484,167.99,2.55,0.244,71.5,6,7.69,8.2,13.4,13.5,75.6,wetland,good,stable
+196_2018,196,iSimangaliso St Lucia Wetland,2018,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,356.5416,170.69,2.55,0.275,72.2,6,7.25,8.3,15.2,12.1,73.7,wetland,good,stable
+196_2019,196,iSimangaliso St Lucia Wetland,2019,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,348.221,168.68,2.55,0.287,51.2,6,7.24,6.6,11.3,10.7,76.1,wetland,good,stable
+196_2020,196,iSimangaliso St Lucia Wetland,2020,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,350.3842,169.21,2.55,0.256,48.2,6,7.26,6.8,13.1,11.3,61.6,wetland,good,stable
+196_2021,196,iSimangaliso St Lucia Wetland,2021,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,350.7,169.28,2.55,0.287,62.8,6,7.79,6.7,13.7,12.5,63.4,wetland,good,stable
+196_2022,196,iSimangaliso St Lucia Wetland,2022,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,352.4115,169.7,2.55,0.243,64.0,6,7.8,8.1,17.1,13.4,74.8,wetland,good,stable
+196_2023,196,iSimangaliso St Lucia Wetland,2023,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,352.5008,169.72,2.55,0.305,66.0,6,7.46,7.8,11.3,14.1,61.3,wetland,good,stable
+196_2024,196,iSimangaliso St Lucia Wetland,2024,GEO_0620_2124,-28.0,32.48,South Africa,St Lucia,356.3669,170.65,2.55,0.296,58.4,6,7.22,8.4,14.9,13.4,66.3,wetland,good,stable
+216_2014,216,Pantanal Matogrossense Wetlands,2014,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,140000.0,3010.89,2.27,0.305,70.3,6,7.46,7.6,9.1,8.2,70.6,wetland,good,shrink
+216_2015,216,Pantanal Matogrossense Wetlands,2015,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,135100.0,2957.73,2.27,0.275,63.2,6,7.6,7.4,17.1,11.1,65.8,wetland,good,shrink
+216_2016,216,Pantanal Matogrossense Wetlands,2016,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,130200.0,2903.6,2.27,0.286,58.9,6,7.82,7.3,17.9,12.7,70.9,wetland,good,shrink
+216_2017,216,Pantanal Matogrossense Wetlands,2017,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,125300.0,2848.43,2.27,0.255,60.3,6,7.52,7.2,15.7,13.9,63.7,wetland,good,shrink
+216_2018,216,Pantanal Matogrossense Wetlands,2018,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,120400.0,2792.18,2.27,0.292,48.9,6,7.89,7.5,16.9,7.0,63.4,wetland,good,shrink
+216_2019,216,Pantanal Matogrossense Wetlands,2019,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,115500.0,2734.77,2.27,0.294,61.4,6,7.48,7.3,15.3,11.6,75.2,wetland,good,shrink
+216_2020,216,Pantanal Matogrossense Wetlands,2020,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,110600.0,2676.14,2.27,0.283,72.2,6,7.58,6.8,12.1,10.2,77.7,wetland,good,shrink
+216_2021,216,Pantanal Matogrossense Wetlands,2021,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,105700.0,2616.18,2.27,0.306,47.1,6,7.48,7.3,15.2,8.1,67.3,wetland,good,shrink
+216_2022,216,Pantanal Matogrossense Wetlands,2022,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,100800.0,2554.82,2.27,0.267,50.7,6,7.42,7.4,17.6,14.1,65.2,wetland,good,shrink
+216_2023,216,Pantanal Matogrossense Wetlands,2023,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,95900.0,2491.95,2.27,0.282,66.4,6,7.35,7.8,8.4,10.1,67.1,wetland,good,shrink
+216_2024,216,Pantanal Matogrossense Wetlands,2024,GEO_0735_1235,-16.5,-56.5,Brazil,Cuiabá,91000.0,2427.46,2.27,0.281,73.9,6,7.41,6.9,16.9,12.6,75.4,wetland,good,shrink
+217_2014,217,Esteros del Iberá Wetlands,2014,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,12055.601,934.14,2.4,0.267,71.5,6,7.42,9.8,4.8,5.3,81.8,wetland,excellent,stable
+217_2015,217,Esteros del Iberá Wetlands,2015,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,12168.9935,938.52,2.4,0.281,65.5,6,7.7,9.3,4.2,2.0,89.9,wetland,excellent,stable
+217_2016,217,Esteros del Iberá Wetlands,2016,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,12208.4784,940.04,2.4,0.302,67.5,6,7.39,9.7,2.7,2.1,94.2,wetland,excellent,stable
+217_2017,217,Esteros del Iberá Wetlands,2017,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,12123.6177,936.77,2.4,0.292,49.8,6,7.36,9.4,2.9,2.1,91.9,wetland,excellent,stable
+217_2018,217,Esteros del Iberá Wetlands,2018,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,12097.0145,935.74,2.4,0.295,48.4,6,7.36,9.3,2.8,2.9,91.5,wetland,excellent,stable
+217_2019,217,Esteros del Iberá Wetlands,2019,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,12157.953,938.09,2.4,0.301,49.7,6,7.53,8.6,6.3,4.9,83.8,wetland,excellent,stable
+217_2020,217,Esteros del Iberá Wetlands,2020,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,11873.5123,927.06,2.4,0.269,66.0,6,7.66,10.0,6.4,1.8,81.2,wetland,excellent,stable
+217_2021,217,Esteros del Iberá Wetlands,2021,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,11894.058,927.86,2.4,0.267,70.0,6,7.52,9.5,2.6,3.0,90.5,wetland,excellent,stable
+217_2022,217,Esteros del Iberá Wetlands,2022,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,11842.1334,925.83,2.4,0.314,68.2,6,7.3,9.4,7.5,4.2,87.1,wetland,excellent,stable
+217_2023,217,Esteros del Iberá Wetlands,2023,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,12050.8363,933.95,2.4,0.28,58.2,6,7.31,10.3,4.3,4.2,90.4,wetland,excellent,stable
+217_2024,217,Esteros del Iberá Wetlands,2024,GEO_0615_1225,-28.5,-57.5,Argentina,Mercedes,11993.5728,931.73,2.4,0.317,72.5,6,7.31,9.9,2.7,5.9,91.9,wetland,excellent,stable
+225_2014,225,Ciénaga Grande de Santa Marta,2014,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,450.0,167.69,2.23,0.285,72.9,6,8.46,4.4,42.0,28.2,38.3,wetland,poor,shrink
+225_2015,225,Ciénaga Grande de Santa Marta,2015,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,434.25,164.73,2.23,0.295,70.7,6,8.51,3.2,43.4,47.9,39.4,wetland,poor,shrink
+225_2016,225,Ciénaga Grande de Santa Marta,2016,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,418.5,161.72,2.23,0.245,58.9,6,8.6,4.7,45.3,34.4,29.6,wetland,poor,shrink
+225_2017,225,Ciénaga Grande de Santa Marta,2017,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,402.75,158.65,2.23,0.252,57.1,6,8.22,3.8,51.4,28.5,26.8,wetland,poor,shrink
+225_2018,225,Ciénaga Grande de Santa Marta,2018,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,387.0,155.51,2.23,0.32,67.6,6,8.66,3.5,33.6,45.3,25.5,wetland,poor,shrink
+225_2019,225,Ciénaga Grande de Santa Marta,2019,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,371.25,152.32,2.23,0.292,56.9,6,8.7,4.4,42.4,26.0,28.4,wetland,poor,shrink
+225_2020,225,Ciénaga Grande de Santa Marta,2020,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,355.5,149.05,2.23,0.276,74.0,6,8.22,4.7,44.0,34.4,31.0,wetland,poor,shrink
+225_2021,225,Ciénaga Grande de Santa Marta,2021,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,339.75,145.71,2.23,0.288,71.2,6,8.59,4.2,47.8,39.6,28.4,wetland,poor,shrink
+225_2022,225,Ciénaga Grande de Santa Marta,2022,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,324.0,142.29,2.23,0.299,49.5,6,8.6,4.4,54.9,44.1,38.8,wetland,poor,shrink
+225_2023,225,Ciénaga Grande de Santa Marta,2023,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,308.25,138.79,2.23,0.28,74.9,6,8.62,4.1,38.2,42.5,35.5,wetland,poor,shrink
+225_2024,225,Ciénaga Grande de Santa Marta,2024,GEO_1008_1055,10.8,-74.45,Colombia,Santa Marta,292.5,135.2,2.23,0.261,62.9,6,8.36,4.4,43.8,28.7,38.0,wetland,poor,shrink
+235_2014,235,Kakadu National Park Wetlands,2014,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1973.0985,423.58,2.69,0.296,51.3,6,7.6,9.4,3.4,1.9,88.9,wetland,excellent,stable
+235_2015,235,Kakadu National Park Wetlands,2015,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1945.7116,420.63,2.69,0.28,64.0,6,7.57,9.3,6.2,4.8,87.1,wetland,excellent,stable
+235_2016,235,Kakadu National Park Wetlands,2016,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1986.0941,424.97,2.69,0.274,54.3,6,7.3,9.6,7.7,5.6,81.8,wetland,excellent,stable
+235_2017,235,Kakadu National Park Wetlands,2017,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1963.2211,422.51,2.69,0.29,73.0,6,7.61,8.5,7.3,4.4,87.9,wetland,excellent,stable
+235_2018,235,Kakadu National Park Wetlands,2018,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,2006.1951,427.11,2.69,0.28,47.3,6,7.49,9.8,5.4,3.0,87.9,wetland,excellent,stable
+235_2019,235,Kakadu National Park Wetlands,2019,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1968.702,423.1,2.69,0.296,65.9,6,7.48,10.4,7.8,4.2,83.8,wetland,excellent,stable
+235_2020,235,Kakadu National Park Wetlands,2020,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1945.9962,420.66,2.69,0.263,46.9,6,7.22,9.7,3.9,5.2,85.7,wetland,excellent,stable
+235_2021,235,Kakadu National Park Wetlands,2021,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1946.3232,420.69,2.69,0.26,59.8,6,7.36,8.6,6.6,5.1,83.6,wetland,excellent,stable
+235_2022,235,Kakadu National Park Wetlands,2022,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1994.8925,425.91,2.69,0.292,47.3,6,7.31,9.6,7.5,3.7,94.3,wetland,excellent,stable
+235_2023,235,Kakadu National Park Wetlands,2023,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1944.8264,420.53,2.69,0.259,52.5,6,7.3,9.7,3.6,3.6,90.2,wetland,excellent,stable
+235_2024,235,Kakadu National Park Wetlands,2024,GEO_0773_3128,-12.67,132.83,Australia,Jabiru,1964.2147,422.62,2.69,0.289,58.6,6,7.59,10.4,6.0,3.2,85.1,wetland,excellent,stable
+236_2014,236,Coorong Lagoon Wetland,2014,GEO_0542_3193,-35.8,139.3,Australia,Meningie,140.0,113.67,2.71,0.277,56.5,6,8.24,4.6,54.7,26.0,27.2,wetland,poor,shrink
+236_2015,236,Coorong Lagoon Wetland,2015,GEO_0542_3193,-35.8,139.3,Australia,Meningie,135.1,111.66,2.71,0.25,65.1,6,8.36,4.6,30.6,29.2,38.5,wetland,poor,shrink
+236_2016,236,Coorong Lagoon Wetland,2016,GEO_0542_3193,-35.8,139.3,Australia,Meningie,130.2,109.62,2.71,0.313,66.3,6,8.32,4.8,42.4,29.5,28.2,wetland,poor,shrink
+236_2017,236,Coorong Lagoon Wetland,2017,GEO_0542_3193,-35.8,139.3,Australia,Meningie,125.3,107.53,2.71,0.243,69.2,6,8.52,3.3,45.2,40.3,30.4,wetland,poor,shrink
+236_2018,236,Coorong Lagoon Wetland,2018,GEO_0542_3193,-35.8,139.3,Australia,Meningie,120.4,105.41,2.71,0.283,59.6,6,8.68,3.4,49.9,26.4,30.7,wetland,poor,shrink
+236_2019,236,Coorong Lagoon Wetland,2019,GEO_0542_3193,-35.8,139.3,Australia,Meningie,115.5,103.24,2.71,0.252,50.8,6,8.59,4.6,37.1,40.4,33.7,wetland,poor,shrink
+236_2020,236,Coorong Lagoon Wetland,2020,GEO_0542_3193,-35.8,139.3,Australia,Meningie,110.6,101.03,2.71,0.258,67.6,6,8.37,3.3,36.0,44.2,30.3,wetland,poor,shrink
+236_2021,236,Coorong Lagoon Wetland,2021,GEO_0542_3193,-35.8,139.3,Australia,Meningie,105.7,98.77,2.71,0.275,69.5,6,8.32,4.5,54.4,44.8,34.0,wetland,poor,shrink
+236_2022,236,Coorong Lagoon Wetland,2022,GEO_0542_3193,-35.8,139.3,Australia,Meningie,100.8,96.45,2.71,0.292,67.1,6,8.24,3.9,35.7,37.3,39.4,wetland,poor,shrink
+236_2023,236,Coorong Lagoon Wetland,2023,GEO_0542_3193,-35.8,139.3,Australia,Meningie,95.9,94.08,2.71,0.266,71.3,6,8.34,4.5,49.2,25.3,26.7,wetland,poor,shrink
+236_2024,236,Coorong Lagoon Wetland,2024,GEO_0542_3193,-35.8,139.3,Australia,Meningie,91.0,91.64,2.71,0.307,63.2,6,8.6,3.7,37.1,46.6,36.3,wetland,poor,shrink
+237_2014,237,Macquarie Marshes,2014,GEO_0592_3275,-30.75,147.5,Australia,Warren,2000.0,339.26,2.14,0.282,69.7,6,8.39,3.6,50.2,44.2,30.5,wetland,poor,shrink
+237_2015,237,Macquarie Marshes,2015,GEO_0592_3275,-30.75,147.5,Australia,Warren,1930.0,333.27,2.14,0.267,60.2,6,8.24,3.9,45.4,46.8,33.3,wetland,poor,shrink
+237_2016,237,Macquarie Marshes,2016,GEO_0592_3275,-30.75,147.5,Australia,Warren,1860.0,327.17,2.14,0.307,62.9,6,8.66,4.6,43.1,26.5,26.6,wetland,poor,shrink
+237_2017,237,Macquarie Marshes,2017,GEO_0592_3275,-30.75,147.5,Australia,Warren,1790.0,320.96,2.14,0.268,74.9,6,8.4,3.9,38.2,43.9,33.6,wetland,poor,shrink
+237_2018,237,Macquarie Marshes,2018,GEO_0592_3275,-30.75,147.5,Australia,Warren,1720.0,314.62,2.14,0.303,51.9,6,8.37,3.6,36.6,44.4,25.4,wetland,poor,shrink
+237_2019,237,Macquarie Marshes,2019,GEO_0592_3275,-30.75,147.5,Australia,Warren,1650.0,308.15,2.14,0.312,52.7,6,8.31,4.2,35.7,44.8,38.0,wetland,poor,shrink
+237_2020,237,Macquarie Marshes,2020,GEO_0592_3275,-30.75,147.5,Australia,Warren,1580.0,301.54,2.14,0.274,54.8,6,8.61,4.5,49.3,36.9,38.2,wetland,poor,shrink
+237_2021,237,Macquarie Marshes,2021,GEO_0592_3275,-30.75,147.5,Australia,Warren,1510.0,294.79,2.14,0.253,53.8,6,8.63,4.3,43.5,26.9,37.2,wetland,poor,shrink
+237_2022,237,Macquarie Marshes,2022,GEO_0592_3275,-30.75,147.5,Australia,Warren,1440.0,287.87,2.14,0.292,61.1,6,8.56,3.3,45.2,33.5,28.1,wetland,poor,shrink
+237_2023,237,Macquarie Marshes,2023,GEO_0592_3275,-30.75,147.5,Australia,Warren,1370.0,280.79,2.14,0.307,45.1,6,8.34,3.7,36.3,46.8,30.2,wetland,poor,shrink
+237_2024,237,Macquarie Marshes,2024,GEO_0592_3275,-30.75,147.5,Australia,Warren,1300.0,273.52,2.14,0.303,56.5,6,8.69,4.3,33.2,39.0,32.3,wetland,poor,shrink
+256_2014,256,Mesopotamian Marshes Wetland,2014,GEO_1210_2270,31.0,47.0,Iraq,Basra,3500.0,524.3,2.5,0.295,68.7,6,8.43,3.9,32.4,26.9,34.9,wetland,poor,shrink
+256_2015,256,Mesopotamian Marshes Wetland,2015,GEO_1210_2270,31.0,47.0,Iraq,Basra,3377.5,515.04,2.5,0.317,49.4,6,8.48,3.4,43.3,46.2,34.1,wetland,poor,shrink
+256_2016,256,Mesopotamian Marshes Wetland,2016,GEO_1210_2270,31.0,47.0,Iraq,Basra,3255.0,505.62,2.5,0.275,46.8,6,8.63,4.2,47.5,29.2,38.8,wetland,poor,shrink
+256_2017,256,Mesopotamian Marshes Wetland,2017,GEO_1210_2270,31.0,47.0,Iraq,Basra,3132.5,496.01,2.5,0.319,48.1,6,8.57,4.6,46.5,26.7,25.6,wetland,poor,shrink
+256_2018,256,Mesopotamian Marshes Wetland,2018,GEO_1210_2270,31.0,47.0,Iraq,Basra,3010.0,486.21,2.5,0.247,64.6,6,8.63,4.1,35.4,35.3,35.1,wetland,poor,shrink
+256_2019,256,Mesopotamian Marshes Wetland,2019,GEO_1210_2270,31.0,47.0,Iraq,Basra,2887.5,476.22,2.5,0.266,69.5,6,8.6,3.6,38.6,38.5,28.7,wetland,poor,shrink
+256_2020,256,Mesopotamian Marshes Wetland,2020,GEO_1210_2270,31.0,47.0,Iraq,Basra,2765.0,466.01,2.5,0.244,58.3,6,8.57,4.3,41.0,46.3,35.9,wetland,poor,shrink
+256_2021,256,Mesopotamian Marshes Wetland,2021,GEO_1210_2270,31.0,47.0,Iraq,Basra,2642.5,455.57,2.5,0.252,46.5,6,8.24,4.5,41.5,41.5,29.2,wetland,poor,shrink
+256_2022,256,Mesopotamian Marshes Wetland,2022,GEO_1210_2270,31.0,47.0,Iraq,Basra,2520.0,444.88,2.5,0.312,65.6,6,8.56,4.0,37.0,45.4,25.0,wetland,poor,shrink
+256_2023,256,Mesopotamian Marshes Wetland,2023,GEO_1210_2270,31.0,47.0,Iraq,Basra,2397.5,433.93,2.5,0.301,48.2,6,8.24,3.5,42.2,42.2,37.3,wetland,poor,shrink
+256_2024,256,Mesopotamian Marshes Wetland,2024,GEO_1210_2270,31.0,47.0,Iraq,Basra,2275.0,422.7,2.5,0.305,61.5,6,8.55,4.4,38.7,25.0,38.5,wetland,poor,shrink
+257_2014,257,Anzali Lagoon Wetland,2014,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,150.0,109.41,2.52,0.293,72.4,6,9.34,2.3,89.3,68.3,14.1,wetland,critical,shrink
+257_2015,257,Anzali Lagoon Wetland,2015,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,144.75,107.48,2.52,0.295,69.2,6,5.74,2.6,94.4,54.6,19.6,wetland,critical,shrink
+257_2016,257,Anzali Lagoon Wetland,2016,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,139.5,105.51,2.52,0.317,74.1,6,9.21,2.1,86.4,54.7,19.3,wetland,critical,shrink
+257_2017,257,Anzali Lagoon Wetland,2017,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,134.25,103.51,2.52,0.319,50.7,6,5.6,2.5,90.5,83.1,13.6,wetland,critical,shrink
+257_2018,257,Anzali Lagoon Wetland,2018,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,129.0,101.46,2.52,0.274,58.0,6,6.14,2.4,79.2,81.6,16.7,wetland,critical,shrink
+257_2019,257,Anzali Lagoon Wetland,2019,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,123.75,99.38,2.52,0.296,65.6,6,5.68,2.5,70.3,54.4,17.5,wetland,critical,shrink
+257_2020,257,Anzali Lagoon Wetland,2020,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,118.5,97.24,2.52,0.299,63.9,6,8.8,2.8,70.0,64.1,21.5,wetland,critical,shrink
+257_2021,257,Anzali Lagoon Wetland,2021,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,113.25,95.07,2.52,0.278,62.2,6,9.28,2.5,91.3,84.2,20.5,wetland,critical,shrink
+257_2022,257,Anzali Lagoon Wetland,2022,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,108.0,92.84,2.52,0.243,67.3,6,9.06,1.9,77.6,83.4,15.3,wetland,critical,shrink
+257_2023,257,Anzali Lagoon Wetland,2023,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,102.75,90.55,2.52,0.274,68.9,6,5.48,2.2,87.1,65.8,18.3,wetland,critical,shrink
+257_2024,257,Anzali Lagoon Wetland,2024,GEO_1274_2293,37.47,49.3,Iran,Bandar Anzali,97.5,88.21,2.52,0.317,60.7,6,9.39,1.3,78.7,82.7,20.5,wetland,critical,shrink
+265_2014,265,Ciénaga de Zapata Wetland,2014,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4431.3374,521.51,2.21,0.276,74.2,6,7.21,9.5,3.3,4.7,81.3,wetland,excellent,stable
+265_2015,265,Ciénaga de Zapata Wetland,2015,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4449.8893,522.6,2.21,0.293,67.0,6,7.44,9.2,2.4,3.8,93.8,wetland,excellent,stable
+265_2016,265,Ciénaga de Zapata Wetland,2016,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4424.2744,521.1,2.21,0.257,67.3,6,7.43,8.9,2.7,5.9,88.7,wetland,excellent,stable
+265_2017,265,Ciénaga de Zapata Wetland,2017,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4532.9288,527.46,2.21,0.308,74.1,6,7.64,8.7,6.5,2.3,86.2,wetland,excellent,stable
+265_2018,265,Ciénaga de Zapata Wetland,2018,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4550.5418,528.48,2.21,0.263,65.2,6,7.44,9.5,4.4,3.1,85.2,wetland,excellent,stable
+265_2019,265,Ciénaga de Zapata Wetland,2019,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4550.1375,528.46,2.21,0.31,58.6,6,7.33,8.6,6.9,3.4,94.5,wetland,excellent,stable
+265_2020,265,Ciénaga de Zapata Wetland,2020,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4445.4714,522.34,2.21,0.253,67.4,6,7.7,9.3,6.6,5.0,94.2,wetland,excellent,stable
+265_2021,265,Ciénaga de Zapata Wetland,2021,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4571.1783,529.68,2.21,0.246,67.1,6,7.66,10.3,4.4,1.8,91.7,wetland,excellent,stable
+265_2022,265,Ciénaga de Zapata Wetland,2022,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4589.444,530.73,2.21,0.302,51.7,6,7.38,9.1,5.3,2.4,84.7,wetland,excellent,stable
+265_2023,265,Ciénaga de Zapata Wetland,2023,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4508.7868,526.05,2.21,0.312,47.8,6,7.24,10.3,2.3,2.6,84.8,wetland,excellent,stable
+265_2024,265,Ciénaga de Zapata Wetland,2024,GEO_1123_0985,22.3,-81.5,Cuba,Matanzas,4479.9234,524.36,2.21,0.287,55.4,6,7.37,9.5,5.3,4.7,93.4,wetland,excellent,stable

@@ -1,0 +1,540 @@
+index_id,wb_index,water_body_name,observation_year,spatial_grid_index,latitude,longitude,country,city,area_sq_km,perimeter_km,elongation_ratio,ndwi,water_occurrence_pct,seasonality_months,ph,dissolved_oxygen_mgl,turbidity_ntu,chlorophyll_a_ugl,water_quality_score,target_task1_body_type,target_task2_quality_status,target_task3_future_trend
+25_2014,25,Bhakra Dam Reservoir (Govind Sagar),2014,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,165.1892,132.13,2.9,0.417,91.0,12,7.67,9.3,3.0,5.3,91.0,reservoir,excellent,stable
+25_2015,25,Bhakra Dam Reservoir (Govind Sagar),2015,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,167.4071,133.01,2.9,0.432,85.7,12,7.46,9.5,2.4,5.1,87.9,reservoir,excellent,stable
+25_2016,25,Bhakra Dam Reservoir (Govind Sagar),2016,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,169.9238,134.01,2.9,0.396,87.7,12,7.37,8.8,3.0,4.9,88.8,reservoir,excellent,stable
+25_2017,25,Bhakra Dam Reservoir (Govind Sagar),2017,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,170.539,134.25,2.9,0.45,85.4,12,7.43,10.2,3.4,5.9,92.6,reservoir,excellent,stable
+25_2018,25,Bhakra Dam Reservoir (Govind Sagar),2018,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,165.0782,132.08,2.9,0.417,95.7,12,7.45,10.3,5.2,2.0,90.9,reservoir,excellent,stable
+25_2019,25,Bhakra Dam Reservoir (Govind Sagar),2019,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,167.1964,132.93,2.9,0.442,92.5,12,7.46,10.4,3.2,2.8,92.9,reservoir,excellent,stable
+25_2020,25,Bhakra Dam Reservoir (Govind Sagar),2020,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,168.9044,133.61,2.9,0.444,95.3,12,7.47,9.1,7.5,2.2,91.4,reservoir,excellent,stable
+25_2021,25,Bhakra Dam Reservoir (Govind Sagar),2021,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,166.7686,132.76,2.9,0.449,87.4,12,7.69,10.3,3.7,2.1,84.0,reservoir,excellent,stable
+25_2022,25,Bhakra Dam Reservoir (Govind Sagar),2022,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,170.6476,134.29,2.9,0.432,95.4,12,7.51,8.5,4.6,1.9,94.2,reservoir,excellent,stable
+25_2023,25,Bhakra Dam Reservoir (Govind Sagar),2023,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,168.035,133.26,2.9,0.457,96.5,12,7.53,9.2,7.9,4.4,83.5,reservoir,excellent,stable
+25_2024,25,Bhakra Dam Reservoir (Govind Sagar),2024,GEO_1214_2564,31.4111,76.4361,India,Bilaspur,167.5127,133.05,2.9,0.393,86.0,12,7.46,8.2,5.4,4.7,94.4,reservoir,excellent,stable
+26_2014,26,Nagarjuna Sagar,2014,GEO_1065_2593,16.576,79.313,India,Guntur,281.4365,184.36,3.1,0.449,95.7,12,7.7,8.1,13.4,8.8,69.7,reservoir,good,stable
+26_2015,26,Nagarjuna Sagar,2015,GEO_1065_2593,16.576,79.313,India,Guntur,284.5356,185.37,3.1,0.409,95.7,12,7.43,7.5,16.3,7.6,74.2,reservoir,good,stable
+26_2016,26,Nagarjuna Sagar,2016,GEO_1065_2593,16.576,79.313,India,Guntur,280.4473,184.03,3.1,0.399,93.1,12,7.52,6.9,11.5,12.7,73.0,reservoir,good,stable
+26_2017,26,Nagarjuna Sagar,2017,GEO_1065_2593,16.576,79.313,India,Guntur,283.3171,184.97,3.1,0.447,89.2,12,7.64,7.4,17.8,7.1,73.5,reservoir,good,stable
+26_2018,26,Nagarjuna Sagar,2018,GEO_1065_2593,16.576,79.313,India,Guntur,287.1241,186.21,3.1,0.386,93.4,12,7.36,6.9,16.6,13.5,66.2,reservoir,good,stable
+26_2019,26,Nagarjuna Sagar,2019,GEO_1065_2593,16.576,79.313,India,Guntur,287.2133,186.24,3.1,0.421,97.2,12,7.22,7.1,10.1,8.7,73.1,reservoir,good,stable
+26_2020,26,Nagarjuna Sagar,2020,GEO_1065_2593,16.576,79.313,India,Guntur,289.2317,186.89,3.1,0.441,92.3,12,7.38,8.0,14.6,14.2,73.4,reservoir,good,stable
+26_2021,26,Nagarjuna Sagar,2021,GEO_1065_2593,16.576,79.313,India,Guntur,280.5653,184.07,3.1,0.416,86.4,12,7.58,7.4,16.6,9.4,79.1,reservoir,good,stable
+26_2022,26,Nagarjuna Sagar,2022,GEO_1065_2593,16.576,79.313,India,Guntur,284.1171,185.23,3.1,0.383,96.8,12,7.4,7.9,17.2,13.7,66.4,reservoir,good,stable
+26_2023,26,Nagarjuna Sagar,2023,GEO_1065_2593,16.576,79.313,India,Guntur,287.8952,186.46,3.1,0.444,88.7,12,7.71,6.6,17.6,8.7,76.3,reservoir,good,stable
+26_2024,26,Nagarjuna Sagar,2024,GEO_1065_2593,16.576,79.313,India,Guntur,289.2494,186.9,3.1,0.389,91.1,12,7.27,7.9,13.4,8.2,61.2,reservoir,good,stable
+27_2014,27,Hirakud Reservoir,2014,GEO_1115_2638,21.57,83.87,India,Sambalpur,745.9232,254.63,2.63,0.404,93.7,12,7.23,7.1,15.4,14.1,76.8,reservoir,good,stable
+27_2015,27,Hirakud Reservoir,2015,GEO_1115_2638,21.57,83.87,India,Sambalpur,745.7705,254.6,2.63,0.451,92.6,12,7.37,6.9,8.8,13.2,61.6,reservoir,good,stable
+27_2016,27,Hirakud Reservoir,2016,GEO_1115_2638,21.57,83.87,India,Sambalpur,757.7244,256.64,2.63,0.448,86.2,12,7.78,7.5,8.6,11.4,63.1,reservoir,good,stable
+27_2017,27,Hirakud Reservoir,2017,GEO_1115_2638,21.57,83.87,India,Sambalpur,755.1741,256.2,2.63,0.434,89.1,12,7.6,8.1,16.8,10.7,69.0,reservoir,good,stable
+27_2018,27,Hirakud Reservoir,2018,GEO_1115_2638,21.57,83.87,India,Sambalpur,741.0562,253.8,2.63,0.442,92.7,12,7.51,7.7,16.9,11.5,72.7,reservoir,good,stable
+27_2019,27,Hirakud Reservoir,2019,GEO_1115_2638,21.57,83.87,India,Sambalpur,749.0223,255.16,2.63,0.399,97.4,12,7.47,7.5,9.0,10.4,73.1,reservoir,good,stable
+27_2020,27,Hirakud Reservoir,2020,GEO_1115_2638,21.57,83.87,India,Sambalpur,745.9913,254.64,2.63,0.439,91.1,12,7.25,7.5,14.3,8.3,67.7,reservoir,good,stable
+27_2021,27,Hirakud Reservoir,2021,GEO_1115_2638,21.57,83.87,India,Sambalpur,729.4967,251.81,2.63,0.391,92.9,12,7.43,7.1,17.7,10.3,64.6,reservoir,good,stable
+27_2022,27,Hirakud Reservoir,2022,GEO_1115_2638,21.57,83.87,India,Sambalpur,736.4819,253.01,2.63,0.397,86.4,12,7.21,7.5,8.1,8.0,61.7,reservoir,good,stable
+27_2023,27,Hirakud Reservoir,2023,GEO_1115_2638,21.57,83.87,India,Sambalpur,738.2109,253.31,2.63,0.444,86.1,12,7.41,7.6,13.1,14.4,68.3,reservoir,good,stable
+27_2024,27,Hirakud Reservoir,2024,GEO_1115_2638,21.57,83.87,India,Sambalpur,746.4792,254.72,2.63,0.389,97.9,12,7.81,7.2,13.1,10.4,74.0,reservoir,good,stable
+28_2014,28,Sardar Sarovar Reservoir,2014,GEO_1118_2537,21.829,73.748,India,Kevadiya,375.0,167.5,2.44,0.402,92.9,12,7.49,7.3,12.2,14.2,74.2,reservoir,good,expand
+28_2015,28,Sardar Sarovar Reservoir,2015,GEO_1118_2537,21.829,73.748,India,Kevadiya,384.375,169.58,2.44,0.405,85.7,12,7.77,8.1,17.6,6.0,72.8,reservoir,good,expand
+28_2016,28,Sardar Sarovar Reservoir,2016,GEO_1118_2537,21.829,73.748,India,Kevadiya,393.75,171.63,2.44,0.401,90.9,12,7.68,6.7,14.0,7.0,68.1,reservoir,good,expand
+28_2017,28,Sardar Sarovar Reservoir,2017,GEO_1118_2537,21.829,73.748,India,Kevadiya,403.125,173.67,2.44,0.41,89.6,12,7.73,6.8,12.2,6.6,62.5,reservoir,good,expand
+28_2018,28,Sardar Sarovar Reservoir,2018,GEO_1118_2537,21.829,73.748,India,Kevadiya,412.5,175.67,2.44,0.455,93.3,12,7.45,7.8,14.8,11.3,61.2,reservoir,good,expand
+28_2019,28,Sardar Sarovar Reservoir,2019,GEO_1118_2537,21.829,73.748,India,Kevadiya,421.875,177.66,2.44,0.453,85.9,12,7.71,7.7,16.7,7.1,77.7,reservoir,good,expand
+28_2020,28,Sardar Sarovar Reservoir,2020,GEO_1118_2537,21.829,73.748,India,Kevadiya,431.25,179.62,2.44,0.423,92.5,12,7.5,6.9,8.1,8.7,70.0,reservoir,good,expand
+28_2021,28,Sardar Sarovar Reservoir,2021,GEO_1118_2537,21.829,73.748,India,Kevadiya,440.625,181.56,2.44,0.383,96.0,12,7.44,6.8,13.6,12.6,73.1,reservoir,good,expand
+28_2022,28,Sardar Sarovar Reservoir,2022,GEO_1118_2537,21.829,73.748,India,Kevadiya,450.0,183.49,2.44,0.435,90.8,12,7.39,7.4,14.7,8.8,75.6,reservoir,good,expand
+28_2023,28,Sardar Sarovar Reservoir,2023,GEO_1118_2537,21.829,73.748,India,Kevadiya,459.375,185.39,2.44,0.444,92.6,12,7.84,8.1,16.6,9.9,66.9,reservoir,good,expand
+28_2024,28,Sardar Sarovar Reservoir,2024,GEO_1118_2537,21.829,73.748,India,Kevadiya,468.75,187.27,2.44,0.41,90.6,12,7.68,7.7,15.1,9.4,64.1,reservoir,good,expand
+29_2014,29,Tehri Dam Reservoir,2014,GEO_1203_2584,30.378,78.48,India,Tehri,52.8114,63.37,2.46,0.408,85.9,12,7.52,8.6,2.2,4.4,86.1,reservoir,excellent,stable
+29_2015,29,Tehri Dam Reservoir,2015,GEO_1203_2584,30.378,78.48,India,Tehri,51.812,62.77,2.46,0.405,90.9,12,7.38,9.8,5.6,2.5,95.8,reservoir,excellent,stable
+29_2016,29,Tehri Dam Reservoir,2016,GEO_1203_2584,30.378,78.48,India,Tehri,52.3916,63.12,2.46,0.391,85.5,12,7.45,9.3,2.2,5.8,86.8,reservoir,excellent,stable
+29_2017,29,Tehri Dam Reservoir,2017,GEO_1203_2584,30.378,78.48,India,Tehri,51.0244,62.29,2.46,0.411,96.7,12,7.58,8.6,2.1,3.6,85.3,reservoir,excellent,stable
+29_2018,29,Tehri Dam Reservoir,2018,GEO_1203_2584,30.378,78.48,India,Tehri,51.2016,62.4,2.46,0.456,88.7,12,7.5,8.9,7.3,5.2,95.8,reservoir,excellent,stable
+29_2019,29,Tehri Dam Reservoir,2019,GEO_1203_2584,30.378,78.48,India,Tehri,52.9592,63.46,2.46,0.411,92.0,12,7.47,9.1,4.0,2.2,89.3,reservoir,excellent,stable
+29_2020,29,Tehri Dam Reservoir,2020,GEO_1203_2584,30.378,78.48,India,Tehri,52.5448,63.21,2.46,0.447,89.5,12,7.33,9.2,3.8,2.4,81.9,reservoir,excellent,stable
+29_2021,29,Tehri Dam Reservoir,2021,GEO_1203_2584,30.378,78.48,India,Tehri,51.5221,62.59,2.46,0.457,93.1,12,7.49,9.5,4.1,2.1,87.7,reservoir,excellent,stable
+29_2022,29,Tehri Dam Reservoir,2022,GEO_1203_2584,30.378,78.48,India,Tehri,51.9769,62.87,2.46,0.412,87.6,12,7.51,10.5,7.3,4.1,90.3,reservoir,excellent,stable
+29_2023,29,Tehri Dam Reservoir,2023,GEO_1203_2584,30.378,78.48,India,Tehri,51.7819,62.75,2.46,0.383,94.4,12,7.31,9.3,5.3,5.8,94.6,reservoir,excellent,stable
+29_2024,29,Tehri Dam Reservoir,2024,GEO_1203_2584,30.378,78.48,India,Tehri,52.0694,62.93,2.46,0.45,96.4,12,7.26,8.5,6.7,5.1,85.1,reservoir,excellent,stable
+30_2014,30,Idukki Reservoir,2014,GEO_0998_2569,9.85,76.97,India,Idukki,59.1571,91.07,3.34,0.417,88.7,12,7.63,10.5,4.9,4.1,86.6,reservoir,excellent,stable
+30_2015,30,Idukki Reservoir,2015,GEO_0998_2569,9.85,76.97,India,Idukki,59.2877,91.17,3.34,0.441,97.7,12,7.45,9.1,5.1,4.1,94.0,reservoir,excellent,stable
+30_2016,30,Idukki Reservoir,2016,GEO_0998_2569,9.85,76.97,India,Idukki,59.7782,91.54,3.34,0.446,96.1,12,7.68,10.0,5.4,2.4,82.6,reservoir,excellent,stable
+30_2017,30,Idukki Reservoir,2017,GEO_0998_2569,9.85,76.97,India,Idukki,59.854,91.6,3.34,0.448,93.1,12,7.64,10.3,2.4,3.5,88.7,reservoir,excellent,stable
+30_2018,30,Idukki Reservoir,2018,GEO_0998_2569,9.85,76.97,India,Idukki,61.0233,92.49,3.34,0.382,88.9,12,7.56,9.3,6.1,4.6,83.0,reservoir,excellent,stable
+30_2019,30,Idukki Reservoir,2019,GEO_0998_2569,9.85,76.97,India,Idukki,59.6609,91.45,3.34,0.444,93.8,12,7.68,8.8,3.3,1.5,96.0,reservoir,excellent,stable
+30_2020,30,Idukki Reservoir,2020,GEO_0998_2569,9.85,76.97,India,Idukki,60.7883,92.31,3.34,0.404,94.8,12,7.62,8.2,6.4,4.8,83.1,reservoir,excellent,stable
+30_2021,30,Idukki Reservoir,2021,GEO_0998_2569,9.85,76.97,India,Idukki,60.6454,92.2,3.34,0.433,86.0,12,7.51,10.0,7.1,1.9,88.3,reservoir,excellent,stable
+30_2022,30,Idukki Reservoir,2022,GEO_0998_2569,9.85,76.97,India,Idukki,59.7781,91.54,3.34,0.413,85.9,12,7.26,8.4,4.1,5.1,95.2,reservoir,excellent,stable
+30_2023,30,Idukki Reservoir,2023,GEO_0998_2569,9.85,76.97,India,Idukki,61.0923,92.54,3.34,0.422,85.7,12,7.45,8.9,2.5,5.1,91.6,reservoir,excellent,stable
+30_2024,30,Idukki Reservoir,2024,GEO_0998_2569,9.85,76.97,India,Idukki,58.975,90.93,3.34,0.412,90.3,12,7.34,8.9,3.4,5.1,94.9,reservoir,excellent,stable
+49_2014,49,Lake Okeechobee,2014,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1900.0,364.66,2.36,0.451,92.8,12,8.45,4.1,44.1,26.6,26.3,reservoir,poor,shrink
+49_2015,49,Lake Okeechobee,2015,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1833.5,358.23,2.36,0.407,91.8,12,8.27,4.7,40.2,41.4,29.3,reservoir,poor,shrink
+49_2016,49,Lake Okeechobee,2016,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1767.0,351.67,2.36,0.436,88.8,12,8.54,4.6,49.8,40.6,38.7,reservoir,poor,shrink
+49_2017,49,Lake Okeechobee,2017,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1700.5,344.99,2.36,0.38,85.2,12,8.53,3.6,35.4,39.6,33.6,reservoir,poor,shrink
+49_2018,49,Lake Okeechobee,2018,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1634.0,338.18,2.36,0.438,86.2,12,8.48,3.7,46.6,32.9,27.0,reservoir,poor,shrink
+49_2019,49,Lake Okeechobee,2019,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1567.5,331.22,2.36,0.447,95.1,12,8.25,4.7,46.2,34.2,35.6,reservoir,poor,shrink
+49_2020,49,Lake Okeechobee,2020,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1501.0,324.12,2.36,0.389,92.0,12,8.38,3.2,47.8,30.9,25.2,reservoir,poor,shrink
+49_2021,49,Lake Okeechobee,2021,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1434.5,316.86,2.36,0.448,89.9,12,8.46,4.7,44.1,27.0,33.0,reservoir,poor,shrink
+49_2022,49,Lake Okeechobee,2022,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1368.0,309.43,2.36,0.429,87.3,12,8.25,3.8,36.0,32.2,26.4,reservoir,poor,shrink
+49_2023,49,Lake Okeechobee,2023,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1301.5,301.81,2.36,0.459,95.6,12,8.64,3.9,43.3,47.9,33.4,reservoir,poor,shrink
+49_2024,49,Lake Okeechobee,2024,GEO_1169_0992,26.9,-80.8,United States,Okeechobee,1235.0,294.0,2.36,0.406,86.7,12,8.54,3.7,40.1,40.7,29.6,reservoir,poor,shrink
+51_2014,51,Lake Mead (Hoover Dam),2014,GEO_1261_0656,36.15,-114.4,United States,Boulder City,640.0,265.45,2.96,0.427,94.5,12,7.86,5.5,22.7,18.7,44.0,reservoir,fair,shrink
+51_2015,51,Lake Mead (Hoover Dam),2015,GEO_1261_0656,36.15,-114.4,United States,Boulder City,617.6,260.77,2.96,0.397,89.5,12,8.1,5.0,25.7,24.5,51.7,reservoir,fair,shrink
+51_2016,51,Lake Mead (Hoover Dam),2016,GEO_1261_0656,36.15,-114.4,United States,Boulder City,595.2,255.99,2.96,0.444,88.9,12,8.08,5.8,19.1,24.9,48.3,reservoir,fair,shrink
+51_2017,51,Lake Mead (Hoover Dam),2017,GEO_1261_0656,36.15,-114.4,United States,Boulder City,572.8,251.13,2.96,0.391,94.8,12,8.1,5.1,24.1,15.0,58.4,reservoir,fair,shrink
+51_2018,51,Lake Mead (Hoover Dam),2018,GEO_1261_0656,36.15,-114.4,United States,Boulder City,550.4,246.17,2.96,0.427,95.2,12,8.04,6.2,19.1,21.6,56.3,reservoir,fair,shrink
+51_2019,51,Lake Mead (Hoover Dam),2019,GEO_1261_0656,36.15,-114.4,United States,Boulder City,528.0,241.11,2.96,0.402,94.4,12,8.24,6.4,19.7,25.7,44.3,reservoir,fair,shrink
+51_2020,51,Lake Mead (Hoover Dam),2020,GEO_1261_0656,36.15,-114.4,United States,Boulder City,505.6,235.94,2.96,0.383,91.3,12,8.09,5.5,25.2,25.2,53.4,reservoir,fair,shrink
+51_2021,51,Lake Mead (Hoover Dam),2021,GEO_1261_0656,36.15,-114.4,United States,Boulder City,483.2,230.65,2.96,0.445,88.6,12,8.29,6.4,18.3,15.0,56.1,reservoir,fair,shrink
+51_2022,51,Lake Mead (Hoover Dam),2022,GEO_1261_0656,36.15,-114.4,United States,Boulder City,460.8,225.24,2.96,0.391,96.7,12,7.99,5.6,27.0,14.7,52.1,reservoir,fair,shrink
+51_2023,51,Lake Mead (Hoover Dam),2023,GEO_1261_0656,36.15,-114.4,United States,Boulder City,438.4,219.7,2.96,0.411,92.6,12,7.82,5.2,24.2,23.8,56.3,reservoir,fair,shrink
+51_2024,51,Lake Mead (Hoover Dam),2024,GEO_1261_0656,36.15,-114.4,United States,Boulder City,416.0,214.01,2.96,0.408,92.8,12,8.21,6.2,25.8,21.6,55.5,reservoir,fair,shrink
+52_2014,52,Lake Powell,2014,GEO_1270_0687,37.05,-111.25,United States,Page,658.0,250.97,2.76,0.457,87.4,12,7.91,5.8,26.5,21.5,51.6,reservoir,fair,shrink
+52_2015,52,Lake Powell,2015,GEO_1270_0687,37.05,-111.25,United States,Page,634.97,246.54,2.76,0.385,86.0,12,8.06,5.9,28.7,16.7,53.3,reservoir,fair,shrink
+52_2016,52,Lake Powell,2016,GEO_1270_0687,37.05,-111.25,United States,Page,611.94,242.03,2.76,0.415,90.2,12,7.9,5.2,20.6,18.6,41.9,reservoir,fair,shrink
+52_2017,52,Lake Powell,2017,GEO_1270_0687,37.05,-111.25,United States,Page,588.91,237.43,2.76,0.421,85.8,12,8.22,5.7,23.4,15.7,50.4,reservoir,fair,shrink
+52_2018,52,Lake Powell,2018,GEO_1270_0687,37.05,-111.25,United States,Page,565.88,232.74,2.76,0.386,85.6,12,8.24,5.8,25.9,20.7,58.8,reservoir,fair,shrink
+52_2019,52,Lake Powell,2019,GEO_1270_0687,37.05,-111.25,United States,Page,542.85,227.96,2.76,0.388,97.3,12,8.07,5.0,20.6,21.7,41.8,reservoir,fair,shrink
+52_2020,52,Lake Powell,2020,GEO_1270_0687,37.05,-111.25,United States,Page,519.82,223.07,2.76,0.447,91.7,12,7.88,5.4,19.1,15.5,43.3,reservoir,fair,shrink
+52_2021,52,Lake Powell,2021,GEO_1270_0687,37.05,-111.25,United States,Page,496.79,218.07,2.76,0.4,90.0,12,8.14,5.5,31.9,25.4,43.6,reservoir,fair,shrink
+52_2022,52,Lake Powell,2022,GEO_1270_0687,37.05,-111.25,United States,Page,473.76,212.96,2.76,0.424,91.4,12,8.14,5.0,18.1,21.7,48.6,reservoir,fair,shrink
+52_2023,52,Lake Powell,2023,GEO_1270_0687,37.05,-111.25,United States,Page,450.73,207.72,2.76,0.413,92.8,12,7.89,4.9,22.7,15.2,58.7,reservoir,fair,shrink
+52_2024,52,Lake Powell,2024,GEO_1270_0687,37.05,-111.25,United States,Page,427.7,202.34,2.76,0.438,95.4,12,7.92,5.4,23.5,15.2,44.3,reservoir,fair,shrink
+67_2014,67,Lake Travis,2014,GEO_1204_0821,30.4,-97.9,United States,Austin,76.6,83.15,2.68,0.428,94.6,12,7.71,7.1,8.3,11.6,71.7,reservoir,good,shrink
+67_2015,67,Lake Travis,2015,GEO_1204_0821,30.4,-97.9,United States,Austin,73.919,81.68,2.68,0.434,96.2,12,7.29,7.0,11.5,7.2,73.5,reservoir,good,shrink
+67_2016,67,Lake Travis,2016,GEO_1204_0821,30.4,-97.9,United States,Austin,71.238,80.19,2.68,0.457,93.0,12,7.27,7.7,9.8,13.3,71.7,reservoir,good,shrink
+67_2017,67,Lake Travis,2017,GEO_1204_0821,30.4,-97.9,United States,Austin,68.557,78.66,2.68,0.443,88.7,12,7.24,7.9,16.3,12.7,76.7,reservoir,good,shrink
+67_2018,67,Lake Travis,2018,GEO_1204_0821,30.4,-97.9,United States,Austin,65.876,77.11,2.68,0.431,94.3,12,7.22,7.2,17.6,11.2,64.1,reservoir,good,shrink
+67_2019,67,Lake Travis,2019,GEO_1204_0821,30.4,-97.9,United States,Austin,63.195,75.52,2.68,0.394,94.9,12,7.84,7.0,12.9,7.9,63.7,reservoir,good,shrink
+67_2020,67,Lake Travis,2020,GEO_1204_0821,30.4,-97.9,United States,Austin,60.514,73.9,2.68,0.42,93.9,12,7.65,8.2,9.5,8.1,63.9,reservoir,good,shrink
+67_2021,67,Lake Travis,2021,GEO_1204_0821,30.4,-97.9,United States,Austin,57.833,72.25,2.68,0.427,88.8,12,7.51,8.0,11.1,9.6,79.2,reservoir,good,shrink
+67_2022,67,Lake Travis,2022,GEO_1204_0821,30.4,-97.9,United States,Austin,55.152,70.55,2.68,0.404,96.6,12,7.38,7.2,13.6,14.2,65.9,reservoir,good,shrink
+67_2023,67,Lake Travis,2023,GEO_1204_0821,30.4,-97.9,United States,Austin,52.471,68.82,2.68,0.388,97.3,12,7.32,7.8,17.1,14.7,69.4,reservoir,good,shrink
+67_2024,67,Lake Travis,2024,GEO_1204_0821,30.4,-97.9,United States,Austin,49.79,67.04,2.68,0.434,86.4,12,7.41,7.1,9.9,6.8,63.7,reservoir,good,shrink
+68_2014,68,Lake Lanier,2014,GEO_1242_0959,34.2,-84.05,United States,Buford,151.7735,120.97,2.77,0.391,97.0,12,7.34,6.8,14.4,6.9,64.1,reservoir,good,stable
+68_2015,68,Lake Lanier,2015,GEO_1242_0959,34.2,-84.05,United States,Buford,151.9288,121.03,2.77,0.408,88.5,12,7.67,7.8,13.4,12.1,72.6,reservoir,good,stable
+68_2016,68,Lake Lanier,2016,GEO_1242_0959,34.2,-84.05,United States,Buford,147.234,119.15,2.77,0.416,94.0,12,7.78,8.2,13.7,14.9,64.0,reservoir,good,stable
+68_2017,68,Lake Lanier,2017,GEO_1242_0959,34.2,-84.05,United States,Buford,151.0458,120.68,2.77,0.458,95.1,12,7.37,8.4,14.9,13.2,63.0,reservoir,good,stable
+68_2018,68,Lake Lanier,2018,GEO_1242_0959,34.2,-84.05,United States,Buford,152.4612,121.25,2.77,0.411,97.2,12,7.51,7.7,12.3,8.8,75.1,reservoir,good,stable
+68_2019,68,Lake Lanier,2019,GEO_1242_0959,34.2,-84.05,United States,Buford,152.6445,121.32,2.77,0.394,96.9,12,7.38,8.2,15.4,6.6,66.0,reservoir,good,stable
+68_2020,68,Lake Lanier,2020,GEO_1242_0959,34.2,-84.05,United States,Buford,150.7991,120.58,2.77,0.438,86.9,12,7.22,7.1,15.2,9.4,72.6,reservoir,good,stable
+68_2021,68,Lake Lanier,2021,GEO_1242_0959,34.2,-84.05,United States,Buford,151.938,121.04,2.77,0.399,96.8,12,7.62,7.8,12.1,7.0,61.3,reservoir,good,stable
+68_2022,68,Lake Lanier,2022,GEO_1242_0959,34.2,-84.05,United States,Buford,148.6178,119.71,2.77,0.446,96.9,12,7.39,8.4,10.1,12.0,78.9,reservoir,good,stable
+68_2023,68,Lake Lanier,2023,GEO_1242_0959,34.2,-84.05,United States,Buford,150.0173,120.27,2.77,0.444,86.3,12,7.88,6.8,17.8,7.5,66.5,reservoir,good,stable
+68_2024,68,Lake Lanier,2024,GEO_1242_0959,34.2,-84.05,United States,Buford,148.6303,119.71,2.77,0.445,90.4,12,7.44,7.3,8.9,14.8,72.6,reservoir,good,stable
+69_2014,69,Kentucky Lake,2014,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,661.6211,226.13,2.48,0.446,97.1,12,7.24,7.1,8.7,7.1,71.7,reservoir,good,stable
+69_2015,69,Kentucky Lake,2015,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,648.9155,223.95,2.48,0.447,93.3,12,7.71,7.4,15.1,7.6,67.7,reservoir,good,stable
+69_2016,69,Kentucky Lake,2016,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,637.8553,222.03,2.48,0.409,95.4,12,7.53,7.6,18.0,13.3,69.0,reservoir,good,stable
+69_2017,69,Kentucky Lake,2017,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,651.477,224.39,2.48,0.451,86.2,12,7.64,7.3,14.0,9.8,63.7,reservoir,good,stable
+69_2018,69,Kentucky Lake,2018,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,636.4528,221.79,2.48,0.45,87.1,12,7.72,7.0,10.1,8.9,70.4,reservoir,good,stable
+69_2019,69,Kentucky Lake,2019,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,660.935,226.01,2.48,0.448,85.3,12,7.73,8.2,12.1,7.3,61.2,reservoir,good,stable
+69_2020,69,Kentucky Lake,2020,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,651.2482,224.35,2.48,0.416,94.5,12,7.5,7.5,8.1,12.5,69.2,reservoir,good,stable
+69_2021,69,Kentucky Lake,2021,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,642.0692,222.77,2.48,0.445,90.4,12,7.37,7.7,10.1,11.7,76.4,reservoir,good,stable
+69_2022,69,Kentucky Lake,2022,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,642.7255,222.88,2.48,0.449,89.7,12,7.54,7.8,12.5,7.8,72.6,reservoir,good,stable
+69_2023,69,Kentucky Lake,2023,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,661.8669,226.17,2.48,0.418,94.3,12,7.84,7.5,13.7,13.2,69.3,reservoir,good,stable
+69_2024,69,Kentucky Lake,2024,GEO_1268_0917,36.85,-88.25,United States,Gilbertsville,651.2387,224.35,2.48,0.419,97.4,12,7.37,6.9,12.6,14.2,67.2,reservoir,good,stable
+70_2014,70,Flaming Gorge Reservoir,2014,GEO_1310_0705,41.0,-109.5,United States,Manila,170.8945,133.93,2.89,0.423,95.1,12,7.25,8.5,4.3,4.3,87.7,reservoir,excellent,stable
+70_2015,70,Flaming Gorge Reservoir,2015,GEO_1310_0705,41.0,-109.5,United States,Manila,168.0992,132.83,2.89,0.393,86.1,12,7.56,9.1,7.6,3.4,88.8,reservoir,excellent,stable
+70_2016,70,Flaming Gorge Reservoir,2016,GEO_1310_0705,41.0,-109.5,United States,Manila,173.2951,134.86,2.89,0.433,93.4,12,7.25,8.9,5.5,5.8,83.6,reservoir,excellent,stable
+70_2017,70,Flaming Gorge Reservoir,2017,GEO_1310_0705,41.0,-109.5,United States,Manila,168.2691,132.89,2.89,0.437,89.3,12,7.51,10.0,6.0,5.5,82.2,reservoir,excellent,stable
+70_2018,70,Flaming Gorge Reservoir,2018,GEO_1310_0705,41.0,-109.5,United States,Manila,168.2884,132.9,2.89,0.459,88.7,12,7.54,9.1,6.4,2.5,84.6,reservoir,excellent,stable
+70_2019,70,Flaming Gorge Reservoir,2019,GEO_1310_0705,41.0,-109.5,United States,Manila,169.3957,133.34,2.89,0.399,85.1,12,7.68,8.2,7.3,3.0,86.1,reservoir,excellent,stable
+70_2020,70,Flaming Gorge Reservoir,2020,GEO_1310_0705,41.0,-109.5,United States,Manila,171.2257,134.06,2.89,0.446,93.1,12,7.6,8.5,3.0,4.3,81.7,reservoir,excellent,stable
+70_2021,70,Flaming Gorge Reservoir,2021,GEO_1310_0705,41.0,-109.5,United States,Manila,168.7006,133.06,2.89,0.409,95.0,12,7.4,10.0,6.9,5.8,87.1,reservoir,excellent,stable
+70_2022,70,Flaming Gorge Reservoir,2022,GEO_1310_0705,41.0,-109.5,United States,Manila,169.8904,133.53,2.89,0.452,87.6,12,7.67,10.3,2.5,5.2,92.9,reservoir,excellent,stable
+70_2023,70,Flaming Gorge Reservoir,2023,GEO_1310_0705,41.0,-109.5,United States,Manila,172.0748,134.39,2.89,0.448,92.5,12,7.22,8.9,7.7,2.2,89.1,reservoir,excellent,stable
+70_2024,70,Flaming Gorge Reservoir,2024,GEO_1310_0705,41.0,-109.5,United States,Manila,170.987,133.96,2.89,0.381,97.1,12,7.27,10.4,2.3,1.6,89.5,reservoir,excellent,stable
+83_2014,83,Daniel-Johnson Reservoir (Manic-5),2014,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1958.0966,497.26,3.17,0.419,88.7,12,7.39,8.3,7.9,2.2,91.0,reservoir,excellent,stable
+83_2015,83,Daniel-Johnson Reservoir (Manic-5),2015,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1956.6907,497.08,3.17,0.427,93.6,12,7.33,9.2,7.0,3.5,89.1,reservoir,excellent,stable
+83_2016,83,Daniel-Johnson Reservoir (Manic-5),2016,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1972.1498,499.04,3.17,0.412,85.3,12,7.67,9.7,2.9,3.2,91.9,reservoir,excellent,stable
+83_2017,83,Daniel-Johnson Reservoir (Manic-5),2017,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1927.0046,493.29,3.17,0.419,86.6,12,7.66,10.2,5.2,3.7,88.4,reservoir,excellent,stable
+83_2018,83,Daniel-Johnson Reservoir (Manic-5),2018,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1973.6072,499.22,3.17,0.4,95.1,12,7.67,10.3,7.5,3.8,91.2,reservoir,excellent,stable
+83_2019,83,Daniel-Johnson Reservoir (Manic-5),2019,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1921.2191,492.55,3.17,0.428,90.6,12,7.28,8.3,5.0,2.3,86.5,reservoir,excellent,stable
+83_2020,83,Daniel-Johnson Reservoir (Manic-5),2020,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1959.6074,497.45,3.17,0.386,94.6,12,7.49,9.4,3.1,4.4,89.4,reservoir,excellent,stable
+83_2021,83,Daniel-Johnson Reservoir (Manic-5),2021,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1937.1775,494.59,3.17,0.441,93.0,12,7.52,9.2,4.9,1.6,90.8,reservoir,excellent,stable
+83_2022,83,Daniel-Johnson Reservoir (Manic-5),2022,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1935.1681,494.34,3.17,0.387,92.7,12,7.54,8.4,7.5,2.1,86.4,reservoir,excellent,stable
+83_2023,83,Daniel-Johnson Reservoir (Manic-5),2023,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1976.1746,499.55,3.17,0.383,93.0,12,7.2,8.7,7.3,2.4,95.4,reservoir,excellent,stable
+83_2024,83,Daniel-Johnson Reservoir (Manic-5),2024,GEO_1406_1112,50.64,-68.72,Canada,Baie-Comeau,1931.4104,493.86,3.17,0.385,96.9,12,7.64,8.3,3.5,3.4,91.8,reservoir,excellent,stable
+84_2014,84,Caniapiscau Reservoir,2014,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4264.6774,636.62,2.75,0.421,96.8,12,7.23,10.3,6.8,4.6,89.6,reservoir,excellent,stable
+84_2015,84,Caniapiscau Reservoir,2015,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4252.795,635.73,2.75,0.423,89.2,12,7.44,10.2,4.5,1.8,85.2,reservoir,excellent,stable
+84_2016,84,Caniapiscau Reservoir,2016,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4394.8815,646.27,2.75,0.403,96.3,12,7.28,9.3,6.0,3.7,92.1,reservoir,excellent,stable
+84_2017,84,Caniapiscau Reservoir,2017,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4339.8075,642.2,2.75,0.434,97.1,12,7.27,8.5,7.7,5.0,85.0,reservoir,excellent,stable
+84_2018,84,Caniapiscau Reservoir,2018,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4355.9914,643.4,2.75,0.44,97.5,12,7.51,8.7,4.7,5.0,82.6,reservoir,excellent,stable
+84_2019,84,Caniapiscau Reservoir,2019,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4385.3989,645.57,2.75,0.402,94.5,12,7.43,10.1,5.1,2.9,89.7,reservoir,excellent,stable
+84_2020,84,Caniapiscau Reservoir,2020,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4302.6163,639.45,2.75,0.43,88.4,12,7.23,9.8,6.3,5.4,87.9,reservoir,excellent,stable
+84_2021,84,Caniapiscau Reservoir,2021,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4273.3976,637.27,2.75,0.419,97.9,12,7.57,10.2,4.3,1.9,88.1,reservoir,excellent,stable
+84_2022,84,Caniapiscau Reservoir,2022,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4364.71,644.04,2.75,0.397,88.0,12,7.4,9.4,3.4,5.0,92.6,reservoir,excellent,stable
+84_2023,84,Caniapiscau Reservoir,2023,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4390.9264,645.97,2.75,0.427,91.6,12,7.5,9.1,5.0,4.0,88.3,reservoir,excellent,stable
+84_2024,84,Caniapiscau Reservoir,2024,GEO_1441_1100,54.1,-70.0,Canada,Radisson,4262.1099,636.43,2.75,0.445,89.8,12,7.58,9.4,2.8,5.7,95.2,reservoir,excellent,stable
+94_2014,94,Rutland Water,2014,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.4861,31.94,2.55,0.405,86.4,12,7.35,6.8,10.7,10.1,77.8,reservoir,good,stable
+94_2015,94,Rutland Water,2015,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.711,32.23,2.55,0.435,88.3,12,7.6,6.8,17.2,9.3,75.0,reservoir,good,stable
+94_2016,94,Rutland Water,2016,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.6975,32.21,2.55,0.383,95.0,12,7.65,8.1,12.5,8.0,73.5,reservoir,good,stable
+94_2017,94,Rutland Water,2017,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.5865,32.07,2.55,0.429,90.3,12,7.55,7.4,16.9,13.6,75.8,reservoir,good,stable
+94_2018,94,Rutland Water,2018,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.464,31.91,2.55,0.412,93.3,12,7.57,8.1,10.3,13.3,67.5,reservoir,good,stable
+94_2019,94,Rutland Water,2019,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.4718,31.92,2.55,0.389,97.6,12,7.39,8.0,9.0,13.7,67.4,reservoir,good,stable
+94_2020,94,Rutland Water,2020,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.8418,32.39,2.55,0.401,85.4,12,7.52,6.7,15.1,6.9,74.1,reservoir,good,stable
+94_2021,94,Rutland Water,2021,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.7866,32.32,2.55,0.391,90.2,12,7.87,6.8,9.8,12.2,75.8,reservoir,good,stable
+94_2022,94,Rutland Water,2022,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.5175,31.98,2.55,0.399,87.2,12,7.64,7.5,13.5,8.3,78.6,reservoir,good,stable
+94_2023,94,Rutland Water,2023,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.8347,32.38,2.55,0.381,90.4,12,7.51,7.5,11.3,11.1,69.1,reservoir,good,stable
+94_2024,94,Rutland Water,2024,GEO_1426_1793,52.65,-0.6333,United Kingdom,Oakham,12.7173,32.24,2.55,0.435,91.3,12,7.63,8.1,10.5,11.3,67.8,reservoir,good,stable
+95_2014,95,Kielder Water,2014,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.7044,30.73,2.65,0.397,85.7,12,7.53,8.4,6.1,5.8,91.9,reservoir,excellent,stable
+95_2015,95,Kielder Water,2015,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,11.0269,31.19,2.65,0.449,86.1,12,7.69,9.2,5.5,3.9,94.6,reservoir,excellent,stable
+95_2016,95,Kielder Water,2016,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.7258,30.77,2.65,0.415,95.4,12,7.69,9.5,6.9,3.2,81.7,reservoir,excellent,stable
+95_2017,95,Kielder Water,2017,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.9053,31.02,2.65,0.396,97.7,12,7.59,9.3,6.5,3.7,85.6,reservoir,excellent,stable
+95_2018,95,Kielder Water,2018,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.931,31.06,2.65,0.413,88.8,12,7.32,8.8,6.4,2.3,88.9,reservoir,excellent,stable
+95_2019,95,Kielder Water,2019,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.916,31.04,2.65,0.389,96.3,12,7.2,9.7,3.7,2.1,95.0,reservoir,excellent,stable
+95_2020,95,Kielder Water,2020,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.7443,30.79,2.65,0.442,90.2,12,7.39,9.6,7.8,4.6,82.0,reservoir,excellent,stable
+95_2021,95,Kielder Water,2021,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,11.0615,31.24,2.65,0.423,97.4,12,7.55,8.9,2.7,4.4,86.6,reservoir,excellent,stable
+95_2022,95,Kielder Water,2022,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.6524,30.66,2.65,0.404,86.3,12,7.33,10.3,3.9,3.9,93.4,reservoir,excellent,stable
+95_2023,95,Kielder Water,2023,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,11.0524,31.23,2.65,0.444,97.5,12,7.39,8.6,6.3,3.3,92.7,reservoir,excellent,stable
+95_2024,95,Kielder Water,2024,GEO_1451_1774,55.1833,-2.5333,United Kingdom,Kielder,10.6978,30.73,2.65,0.414,90.7,12,7.38,9.3,4.3,1.7,91.3,reservoir,excellent,stable
+116_2014,116,Lac de Sainte-Croix Reservoir,2014,GEO_1337_1861,43.76,6.18,France,Moustiers,22.0,45.39,2.73,0.448,86.3,12,7.22,8.2,3.0,3.0,94.6,reservoir,excellent,shrink
+116_2015,116,Lac de Sainte-Croix Reservoir,2015,GEO_1337_1861,43.76,6.18,France,Moustiers,21.23,44.59,2.73,0.429,90.6,12,7.26,9.2,7.6,2.5,81.4,reservoir,excellent,shrink
+116_2016,116,Lac de Sainte-Croix Reservoir,2016,GEO_1337_1861,43.76,6.18,France,Moustiers,20.46,43.77,2.73,0.402,90.8,12,7.51,10.2,5.6,3.9,82.4,reservoir,excellent,shrink
+116_2017,116,Lac de Sainte-Croix Reservoir,2017,GEO_1337_1861,43.76,6.18,France,Moustiers,19.69,42.94,2.73,0.46,85.0,12,7.61,10.1,7.4,2.0,84.4,reservoir,excellent,shrink
+116_2018,116,Lac de Sainte-Croix Reservoir,2018,GEO_1337_1861,43.76,6.18,France,Moustiers,18.92,42.09,2.73,0.404,97.2,12,7.54,8.4,4.8,5.4,92.2,reservoir,excellent,shrink
+116_2019,116,Lac de Sainte-Croix Reservoir,2019,GEO_1337_1861,43.76,6.18,France,Moustiers,18.15,41.23,2.73,0.384,88.5,12,7.34,8.2,6.0,2.6,86.0,reservoir,excellent,shrink
+116_2020,116,Lac de Sainte-Croix Reservoir,2020,GEO_1337_1861,43.76,6.18,France,Moustiers,17.38,40.35,2.73,0.421,87.2,12,7.54,9.2,5.1,3.2,84.8,reservoir,excellent,shrink
+116_2021,116,Lac de Sainte-Croix Reservoir,2021,GEO_1337_1861,43.76,6.18,France,Moustiers,16.61,39.44,2.73,0.408,92.4,12,7.53,9.9,6.5,2.6,89.8,reservoir,excellent,shrink
+116_2022,116,Lac de Sainte-Croix Reservoir,2022,GEO_1337_1861,43.76,6.18,France,Moustiers,15.84,38.52,2.73,0.419,94.7,12,7.48,9.5,5.0,4.7,82.6,reservoir,excellent,shrink
+116_2023,116,Lac de Sainte-Croix Reservoir,2023,GEO_1337_1861,43.76,6.18,France,Moustiers,15.07,37.57,2.73,0.391,87.4,12,7.68,8.4,7.9,1.8,87.6,reservoir,excellent,shrink
+116_2024,116,Lac de Sainte-Croix Reservoir,2024,GEO_1337_1861,43.76,6.18,France,Moustiers,14.3,36.6,2.73,0.419,89.1,12,7.52,10.1,7.7,3.1,90.0,reservoir,excellent,shrink
+117_2014,117,Alqueva Reservoir,2014,GEO_1282_1725,38.2,-7.5,Portugal,Moura,253.704,186.33,3.3,0.425,89.2,12,7.22,7.2,10.9,13.3,69.3,reservoir,good,stable
+117_2015,117,Alqueva Reservoir,2015,GEO_1282_1725,38.2,-7.5,Portugal,Moura,249.7111,184.86,3.3,0.445,87.8,12,7.83,6.8,16.6,14.5,68.4,reservoir,good,stable
+117_2016,117,Alqueva Reservoir,2016,GEO_1282_1725,38.2,-7.5,Portugal,Moura,248.7364,184.5,3.3,0.407,93.4,12,7.53,6.9,14.1,13.8,61.6,reservoir,good,stable
+117_2017,117,Alqueva Reservoir,2017,GEO_1282_1725,38.2,-7.5,Portugal,Moura,252.6295,185.93,3.3,0.441,85.2,12,7.85,8.2,15.3,9.0,70.3,reservoir,good,stable
+117_2018,117,Alqueva Reservoir,2018,GEO_1282_1725,38.2,-7.5,Portugal,Moura,245.0696,183.13,3.3,0.399,85.1,12,7.32,6.8,10.6,6.3,77.8,reservoir,good,stable
+117_2019,117,Alqueva Reservoir,2019,GEO_1282_1725,38.2,-7.5,Portugal,Moura,252.3608,185.84,3.3,0.392,97.8,12,7.66,8.2,16.9,12.1,61.1,reservoir,good,stable
+117_2020,117,Alqueva Reservoir,2020,GEO_1282_1725,38.2,-7.5,Portugal,Moura,253.7783,186.36,3.3,0.452,86.3,12,7.83,7.8,11.4,8.6,71.4,reservoir,good,stable
+117_2021,117,Alqueva Reservoir,2021,GEO_1282_1725,38.2,-7.5,Portugal,Moura,254.2196,186.52,3.3,0.391,85.0,12,7.73,7.0,13.6,11.6,65.3,reservoir,good,stable
+117_2022,117,Alqueva Reservoir,2022,GEO_1282_1725,38.2,-7.5,Portugal,Moura,252.5715,185.91,3.3,0.459,91.2,12,7.83,8.1,12.6,9.7,70.7,reservoir,good,stable
+117_2023,117,Alqueva Reservoir,2023,GEO_1282_1725,38.2,-7.5,Portugal,Moura,249.4762,184.77,3.3,0.442,88.0,12,7.38,7.5,11.2,6.3,71.8,reservoir,good,stable
+117_2024,117,Alqueva Reservoir,2024,GEO_1282_1725,38.2,-7.5,Portugal,Moura,246.4813,183.66,3.3,0.432,95.5,12,7.55,7.8,15.5,14.0,78.3,reservoir,good,stable
+128_2014,128,Dnipro River Reservoir,2014,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,410.0,226.1,3.15,0.398,92.2,12,8.63,3.3,51.9,34.3,35.2,reservoir,poor,shrink
+128_2015,128,Dnipro River Reservoir,2015,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,395.65,222.11,3.15,0.448,87.2,12,8.44,3.7,43.1,33.1,37.9,reservoir,poor,shrink
+128_2016,128,Dnipro River Reservoir,2016,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,381.3,218.05,3.15,0.392,88.2,12,8.3,4.1,46.4,34.0,38.7,reservoir,poor,shrink
+128_2017,128,Dnipro River Reservoir,2017,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,366.95,213.9,3.15,0.433,92.4,12,8.67,4.4,41.2,41.9,31.6,reservoir,poor,shrink
+128_2018,128,Dnipro River Reservoir,2018,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,352.6,209.68,3.15,0.435,85.5,12,8.38,4.1,52.0,31.9,28.1,reservoir,poor,shrink
+128_2019,128,Dnipro River Reservoir,2019,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,338.25,205.37,3.15,0.383,91.2,12,8.53,4.6,47.0,39.1,37.3,reservoir,poor,shrink
+128_2020,128,Dnipro River Reservoir,2020,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,323.9,200.97,3.15,0.45,91.9,12,8.55,3.8,53.2,30.9,33.2,reservoir,poor,shrink
+128_2021,128,Dnipro River Reservoir,2021,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,309.55,196.46,3.15,0.391,96.4,12,8.23,4.1,37.9,46.8,34.3,reservoir,poor,shrink
+128_2022,128,Dnipro River Reservoir,2022,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,295.2,191.86,3.15,0.434,96.4,12,8.54,3.8,42.8,47.1,28.7,reservoir,poor,shrink
+128_2023,128,Dnipro River Reservoir,2023,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,280.85,187.13,3.15,0.454,85.5,12,8.4,4.3,53.3,46.9,35.2,reservoir,poor,shrink
+128_2024,128,Dnipro River Reservoir,2024,GEO_1378_2151,47.85,35.15,Ukraine,Zaporizhzhia,266.5,182.29,3.15,0.453,95.8,12,8.48,4.0,41.5,28.4,31.8,reservoir,poor,shrink
+129_2014,129,Kuibyshev Reservoir,2014,GEO_1445_2290,54.5,49.0,Russia,Kazan,6391.4126,657.49,2.32,0.38,88.3,12,7.76,7.3,15.3,14.5,72.3,reservoir,good,stable
+129_2015,129,Kuibyshev Reservoir,2015,GEO_1445_2290,54.5,49.0,Russia,Kazan,6559.4302,666.08,2.32,0.442,94.3,12,7.85,7.6,15.0,12.4,67.8,reservoir,good,stable
+129_2016,129,Kuibyshev Reservoir,2016,GEO_1445_2290,54.5,49.0,Russia,Kazan,6331.3918,654.4,2.32,0.411,95.4,12,7.22,7.3,9.7,7.2,73.1,reservoir,good,stable
+129_2017,129,Kuibyshev Reservoir,2017,GEO_1445_2290,54.5,49.0,Russia,Kazan,6575.9565,666.92,2.32,0.408,86.2,12,7.32,7.7,17.4,12.5,75.0,reservoir,good,stable
+129_2018,129,Kuibyshev Reservoir,2018,GEO_1445_2290,54.5,49.0,Russia,Kazan,6543.2023,665.25,2.32,0.445,91.9,12,7.23,6.7,8.9,9.0,70.4,reservoir,good,stable
+129_2019,129,Kuibyshev Reservoir,2019,GEO_1445_2290,54.5,49.0,Russia,Kazan,6390.058,657.42,2.32,0.453,88.6,12,7.41,7.3,8.5,10.8,68.6,reservoir,good,stable
+129_2020,129,Kuibyshev Reservoir,2020,GEO_1445_2290,54.5,49.0,Russia,Kazan,6354.8814,655.61,2.32,0.446,90.1,12,7.47,8.4,11.3,11.6,74.3,reservoir,good,stable
+129_2021,129,Kuibyshev Reservoir,2021,GEO_1445_2290,54.5,49.0,Russia,Kazan,6554.4718,665.83,2.32,0.425,89.3,12,7.87,7.4,14.5,13.2,61.7,reservoir,good,stable
+129_2022,129,Kuibyshev Reservoir,2022,GEO_1445_2290,54.5,49.0,Russia,Kazan,6442.4005,660.11,2.32,0.405,96.4,12,7.71,7.9,16.3,14.9,66.0,reservoir,good,stable
+129_2023,129,Kuibyshev Reservoir,2023,GEO_1445_2290,54.5,49.0,Russia,Kazan,6518.7886,664.01,2.32,0.409,93.5,12,7.75,7.9,9.0,10.8,66.4,reservoir,good,stable
+129_2024,129,Kuibyshev Reservoir,2024,GEO_1445_2290,54.5,49.0,Russia,Kazan,6486.538,662.37,2.32,0.397,91.9,12,7.6,6.7,12.3,13.9,78.2,reservoir,good,stable
+130_2014,130,Rybinsk Reservoir,2014,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4568.8804,749.99,3.13,0.44,95.9,12,7.64,7.0,11.7,6.2,74.4,reservoir,good,stable
+130_2015,130,Rybinsk Reservoir,2015,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4561.5228,749.38,3.13,0.416,92.3,12,7.4,8.1,15.8,8.9,73.6,reservoir,good,stable
+130_2016,130,Rybinsk Reservoir,2016,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4518.1205,745.81,3.13,0.405,87.8,12,7.89,8.2,14.9,12.9,78.4,reservoir,good,stable
+130_2017,130,Rybinsk Reservoir,2017,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4629.736,754.97,3.13,0.382,85.3,12,7.44,7.8,12.7,13.8,76.8,reservoir,good,stable
+130_2018,130,Rybinsk Reservoir,2018,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4600.0613,752.54,3.13,0.409,93.6,12,7.42,7.3,16.3,14.5,64.3,reservoir,good,stable
+130_2019,130,Rybinsk Reservoir,2019,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4611.5296,753.48,3.13,0.4,85.8,12,7.73,7.2,16.3,9.0,70.9,reservoir,good,stable
+130_2020,130,Rybinsk Reservoir,2020,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4526.6422,746.51,3.13,0.419,97.2,12,7.7,6.8,16.4,14.5,73.8,reservoir,good,stable
+130_2021,130,Rybinsk Reservoir,2021,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4589.9867,751.72,3.13,0.428,95.3,12,7.22,8.4,14.4,12.5,77.8,reservoir,good,stable
+130_2022,130,Rybinsk Reservoir,2022,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4595.3583,752.16,3.13,0.434,92.9,12,7.67,8.4,8.9,8.6,72.8,reservoir,good,stable
+130_2023,130,Rybinsk Reservoir,2023,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4516.5133,745.68,3.13,0.397,91.3,12,7.39,7.7,9.3,13.5,67.1,reservoir,good,stable
+130_2024,130,Rybinsk Reservoir,2024,GEO_1485_2185,58.5,38.5,Russia,Rybinsk,4660.8169,757.5,3.13,0.398,95.1,12,7.73,7.3,14.1,14.1,77.9,reservoir,good,stable
+139_2014,139,Three Gorges Reservoir,2014,GEO_1208_2910,30.8267,111.0078,China,Yichang,1084.0,299.95,2.57,0.404,91.5,12,7.67,7.6,12.0,6.5,63.3,reservoir,good,expand
+139_2015,139,Three Gorges Reservoir,2015,GEO_1208_2910,30.8267,111.0078,China,Yichang,1111.1,303.68,2.57,0.407,85.8,12,7.83,7.1,8.7,12.2,63.2,reservoir,good,expand
+139_2016,139,Three Gorges Reservoir,2016,GEO_1208_2910,30.8267,111.0078,China,Yichang,1138.2,307.36,2.57,0.458,91.2,12,7.69,7.8,12.2,12.8,75.4,reservoir,good,expand
+139_2017,139,Three Gorges Reservoir,2017,GEO_1208_2910,30.8267,111.0078,China,Yichang,1165.3,311.0,2.57,0.414,96.9,12,7.62,6.6,17.3,7.8,78.0,reservoir,good,expand
+139_2018,139,Three Gorges Reservoir,2018,GEO_1208_2910,30.8267,111.0078,China,Yichang,1192.4,314.59,2.57,0.459,88.0,12,7.37,8.2,18.0,13.6,76.2,reservoir,good,expand
+139_2019,139,Three Gorges Reservoir,2019,GEO_1208_2910,30.8267,111.0078,China,Yichang,1219.5,318.15,2.57,0.388,91.1,12,7.81,8.4,11.0,6.0,61.4,reservoir,good,expand
+139_2020,139,Three Gorges Reservoir,2020,GEO_1208_2910,30.8267,111.0078,China,Yichang,1246.6,321.66,2.57,0.399,87.4,12,7.25,7.8,13.7,7.5,68.2,reservoir,good,expand
+139_2021,139,Three Gorges Reservoir,2021,GEO_1208_2910,30.8267,111.0078,China,Yichang,1273.7,325.14,2.57,0.443,88.1,12,7.54,7.3,8.9,6.8,63.4,reservoir,good,expand
+139_2022,139,Three Gorges Reservoir,2022,GEO_1208_2910,30.8267,111.0078,China,Yichang,1300.8,328.58,2.57,0.449,94.4,12,7.43,8.3,16.3,8.5,71.2,reservoir,good,expand
+139_2023,139,Three Gorges Reservoir,2023,GEO_1208_2910,30.8267,111.0078,China,Yichang,1327.9,331.99,2.57,0.459,93.8,12,7.69,6.8,8.5,13.5,76.7,reservoir,good,expand
+139_2024,139,Three Gorges Reservoir,2024,GEO_1208_2910,30.8267,111.0078,China,Yichang,1355.0,335.36,2.57,0.456,87.6,12,7.88,7.5,17.1,13.6,66.7,reservoir,good,expand
+140_2014,140,Danjiangkou Reservoir,2014,GEO_1225_2915,32.55,111.5,China,Shiyan,755.0,282.47,2.9,0.416,89.2,12,7.38,8.2,9.0,12.8,62.8,reservoir,good,expand
+140_2015,140,Danjiangkou Reservoir,2015,GEO_1225_2915,32.55,111.5,China,Shiyan,773.875,285.98,2.9,0.411,91.1,12,7.8,7.7,9.6,10.0,78.0,reservoir,good,expand
+140_2016,140,Danjiangkou Reservoir,2016,GEO_1225_2915,32.55,111.5,China,Shiyan,792.75,289.45,2.9,0.402,92.7,12,7.57,6.9,8.0,7.0,68.2,reservoir,good,expand
+140_2017,140,Danjiangkou Reservoir,2017,GEO_1225_2915,32.55,111.5,China,Shiyan,811.625,292.87,2.9,0.402,97.5,12,7.86,6.9,15.7,6.9,63.9,reservoir,good,expand
+140_2018,140,Danjiangkou Reservoir,2018,GEO_1225_2915,32.55,111.5,China,Shiyan,830.5,296.26,2.9,0.383,89.1,12,7.81,8.4,8.0,8.8,78.4,reservoir,good,expand
+140_2019,140,Danjiangkou Reservoir,2019,GEO_1225_2915,32.55,111.5,China,Shiyan,849.375,299.61,2.9,0.432,90.6,12,7.74,6.7,10.4,10.8,78.2,reservoir,good,expand
+140_2020,140,Danjiangkou Reservoir,2020,GEO_1225_2915,32.55,111.5,China,Shiyan,868.25,302.92,2.9,0.45,96.0,12,7.87,7.4,17.8,9.0,77.4,reservoir,good,expand
+140_2021,140,Danjiangkou Reservoir,2021,GEO_1225_2915,32.55,111.5,China,Shiyan,887.125,306.19,2.9,0.397,90.2,12,7.79,7.7,8.7,7.6,62.3,reservoir,good,expand
+140_2022,140,Danjiangkou Reservoir,2022,GEO_1225_2915,32.55,111.5,China,Shiyan,906.0,309.43,2.9,0.426,92.3,12,7.51,8.1,17.7,6.5,74.9,reservoir,good,expand
+140_2023,140,Danjiangkou Reservoir,2023,GEO_1225_2915,32.55,111.5,China,Shiyan,924.875,312.64,2.9,0.416,96.4,12,7.44,7.2,13.0,12.8,71.1,reservoir,good,expand
+140_2024,140,Danjiangkou Reservoir,2024,GEO_1225_2915,32.55,111.5,China,Shiyan,943.75,315.81,2.9,0.423,89.7,12,7.59,7.0,16.5,7.9,72.5,reservoir,good,expand
+148_2014,148,Kurobe Reservoir,2014,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.4528,17.26,2.62,0.439,93.7,12,7.6,8.2,5.2,2.7,90.0,reservoir,excellent,stable
+148_2015,148,Kurobe Reservoir,2015,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.5116,17.4,2.62,0.416,85.9,12,7.58,9.0,7.0,2.9,82.5,reservoir,excellent,stable
+148_2016,148,Kurobe Reservoir,2016,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.4334,17.21,2.62,0.427,94.7,12,7.58,8.3,4.0,2.8,92.4,reservoir,excellent,stable
+148_2017,148,Kurobe Reservoir,2017,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.4545,17.26,2.62,0.438,93.3,12,7.31,9.9,4.4,3.8,94.8,reservoir,excellent,stable
+148_2018,148,Kurobe Reservoir,2018,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.4443,17.24,2.62,0.435,94.4,12,7.57,9.2,5.5,3.8,93.2,reservoir,excellent,stable
+148_2019,148,Kurobe Reservoir,2019,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.5061,17.39,2.62,0.392,94.8,12,7.27,10.1,7.6,3.7,84.9,reservoir,excellent,stable
+148_2020,148,Kurobe Reservoir,2020,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.5209,17.43,2.62,0.391,87.1,12,7.6,10.2,3.1,3.6,85.9,reservoir,excellent,stable
+148_2021,148,Kurobe Reservoir,2021,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.4436,17.24,2.62,0.433,94.3,12,7.26,9.5,2.7,1.8,92.2,reservoir,excellent,stable
+148_2022,148,Kurobe Reservoir,2022,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.4284,17.2,2.62,0.425,95.5,12,7.65,8.4,7.4,4.6,94.9,reservoir,excellent,stable
+148_2023,148,Kurobe Reservoir,2023,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.5359,17.46,2.62,0.426,88.4,12,7.36,8.9,3.3,4.3,83.6,reservoir,excellent,stable
+148_2024,148,Kurobe Reservoir,2024,GEO_1265_3176,36.5667,137.6667,Japan,Tateyama,3.4855,17.34,2.62,0.399,91.3,12,7.57,9.6,7.5,4.5,89.7,reservoir,excellent,stable
+151_2014,151,Soyang Lake Reservoir,2014,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,69.7939,74.93,2.53,0.455,95.4,12,7.51,7.4,11.6,10.7,72.7,reservoir,good,stable
+151_2015,151,Soyang Lake Reservoir,2015,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,69.8659,74.96,2.53,0.445,85.7,12,7.66,7.6,11.4,12.5,71.3,reservoir,good,stable
+151_2016,151,Soyang Lake Reservoir,2016,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,69.0757,74.54,2.53,0.403,89.0,12,7.21,7.1,14.7,12.8,65.9,reservoir,good,stable
+151_2017,151,Soyang Lake Reservoir,2017,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,70.0781,75.08,2.53,0.397,88.8,12,7.51,8.2,8.9,13.6,72.4,reservoir,good,stable
+151_2018,151,Soyang Lake Reservoir,2018,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,69.7781,74.92,2.53,0.437,85.4,12,7.44,8.4,16.9,15.0,61.1,reservoir,good,stable
+151_2019,151,Soyang Lake Reservoir,2019,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,70.9068,75.52,2.53,0.396,88.1,12,7.5,6.7,10.4,12.6,72.6,reservoir,good,stable
+151_2020,151,Soyang Lake Reservoir,2020,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,70.0092,75.04,2.53,0.454,85.5,12,7.89,8.1,11.2,12.4,62.2,reservoir,good,stable
+151_2021,151,Soyang Lake Reservoir,2021,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,69.0715,74.54,2.53,0.438,96.8,12,7.27,6.9,13.1,14.3,67.4,reservoir,good,stable
+151_2022,151,Soyang Lake Reservoir,2022,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,71.2457,75.7,2.53,0.38,86.4,12,7.84,7.4,8.2,10.7,62.4,reservoir,good,stable
+151_2023,151,Soyang Lake Reservoir,2023,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,69.6738,74.86,2.53,0.455,85.2,12,7.46,7.8,16.7,6.4,79.0,reservoir,good,stable
+151_2024,151,Soyang Lake Reservoir,2024,GEO_1279_3078,37.95,127.8,South Korea,Chuncheon,71.2534,75.71,2.53,0.409,87.4,12,7.89,6.6,14.9,14.7,64.0,reservoir,good,stable
+152_2014,152,Chungju Lake,2014,GEO_1269_3080,36.98,128.0,South Korea,Chungju,67.8707,85.28,2.92,0.439,90.4,12,7.65,6.9,17.6,13.6,71.0,reservoir,good,stable
+152_2015,152,Chungju Lake,2015,GEO_1269_3080,36.98,128.0,South Korea,Chungju,68.7884,85.85,2.92,0.427,85.5,12,7.67,8.2,17.5,10.9,61.1,reservoir,good,stable
+152_2016,152,Chungju Lake,2016,GEO_1269_3080,36.98,128.0,South Korea,Chungju,66.6923,84.53,2.92,0.395,85.6,12,7.45,7.1,11.0,9.8,62.8,reservoir,good,stable
+152_2017,152,Chungju Lake,2017,GEO_1269_3080,36.98,128.0,South Korea,Chungju,67.9697,85.34,2.92,0.423,97.4,12,7.78,7.4,14.3,9.8,72.9,reservoir,good,stable
+152_2018,152,Chungju Lake,2018,GEO_1269_3080,36.98,128.0,South Korea,Chungju,68.417,85.62,2.92,0.414,97.1,12,7.59,7.8,9.8,14.8,70.6,reservoir,good,stable
+152_2019,152,Chungju Lake,2019,GEO_1269_3080,36.98,128.0,South Korea,Chungju,67.2498,84.89,2.92,0.46,95.7,12,7.61,7.6,8.4,8.5,61.6,reservoir,good,stable
+152_2020,152,Chungju Lake,2020,GEO_1269_3080,36.98,128.0,South Korea,Chungju,66.8945,84.66,2.92,0.444,92.9,12,7.88,7.1,9.9,9.3,72.1,reservoir,good,stable
+152_2021,152,Chungju Lake,2021,GEO_1269_3080,36.98,128.0,South Korea,Chungju,67.6633,85.15,2.92,0.453,97.4,12,7.8,7.8,12.0,7.6,71.1,reservoir,good,stable
+152_2022,152,Chungju Lake,2022,GEO_1269_3080,36.98,128.0,South Korea,Chungju,67.8386,85.26,2.92,0.445,91.3,12,7.86,7.8,16.4,8.5,64.1,reservoir,good,stable
+152_2023,152,Chungju Lake,2023,GEO_1269_3080,36.98,128.0,South Korea,Chungju,68.045,85.39,2.92,0.398,87.5,12,7.88,6.6,11.4,12.3,68.4,reservoir,good,stable
+152_2024,152,Chungju Lake,2024,GEO_1269_3080,36.98,128.0,South Korea,Chungju,67.1114,84.8,2.92,0.394,89.3,12,7.9,6.8,17.1,7.5,62.0,reservoir,good,stable
+155_2014,155,Zengwun Reservoir,2014,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,17.1,34.01,2.32,0.439,92.8,12,7.88,6.4,30.1,17.9,44.2,reservoir,fair,shrink
+155_2015,155,Zengwun Reservoir,2015,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,16.5015,33.41,2.32,0.437,95.0,12,8.15,5.4,25.6,19.1,56.8,reservoir,fair,shrink
+155_2016,155,Zengwun Reservoir,2016,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,15.903,32.8,2.32,0.385,90.3,12,8.08,5.9,21.3,25.5,57.3,reservoir,fair,shrink
+155_2017,155,Zengwun Reservoir,2017,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,15.3045,32.17,2.32,0.403,89.2,12,7.86,5.3,25.5,20.6,41.0,reservoir,fair,shrink
+155_2018,155,Zengwun Reservoir,2018,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,14.706,31.54,2.32,0.398,87.8,12,7.97,6.5,28.2,15.1,50.6,reservoir,fair,shrink
+155_2019,155,Zengwun Reservoir,2019,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,14.1075,30.89,2.32,0.423,97.1,12,8.12,6.2,26.6,20.5,58.2,reservoir,fair,shrink
+155_2020,155,Zengwun Reservoir,2020,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,13.509,30.23,2.32,0.421,86.3,12,7.89,5.4,24.4,21.6,50.3,reservoir,fair,shrink
+155_2021,155,Zengwun Reservoir,2021,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,12.9105,29.55,2.32,0.396,92.4,12,8.08,5.7,30.4,22.2,47.3,reservoir,fair,shrink
+155_2022,155,Zengwun Reservoir,2022,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,12.312,28.86,2.32,0.416,97.5,12,8.05,6.0,18.7,17.6,47.0,reservoir,fair,shrink
+155_2023,155,Zengwun Reservoir,2023,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,11.7135,28.15,2.32,0.395,96.1,12,8.23,5.4,25.1,19.0,54.8,reservoir,fair,shrink
+155_2024,155,Zengwun Reservoir,2024,GEO_1132_3005,23.25,120.55,Taiwan,Dapu,11.115,27.42,2.32,0.405,93.8,12,8.22,5.5,23.0,14.5,46.7,reservoir,fair,shrink
+161_2014,161,Jatiluhur Reservoir,2014,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,83.6545,102.78,3.17,0.46,94.2,12,7.94,4.9,23.0,17.1,45.1,reservoir,fair,stable
+161_2015,161,Jatiluhur Reservoir,2015,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,81.6214,101.52,3.17,0.439,96.4,12,7.93,6.0,21.5,21.5,55.1,reservoir,fair,stable
+161_2016,161,Jatiluhur Reservoir,2016,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,84.1691,103.1,3.17,0.457,97.6,12,8.2,5.8,30.7,24.7,41.2,reservoir,fair,stable
+161_2017,161,Jatiluhur Reservoir,2017,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,82.9121,102.32,3.17,0.444,95.5,12,7.94,5.1,23.5,17.5,43.3,reservoir,fair,stable
+161_2018,161,Jatiluhur Reservoir,2018,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,81.3707,101.37,3.17,0.405,93.5,12,7.93,5.2,26.2,17.1,50.0,reservoir,fair,stable
+161_2019,161,Jatiluhur Reservoir,2019,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,81.7427,101.6,3.17,0.394,91.4,12,8.0,5.3,31.6,21.2,45.5,reservoir,fair,stable
+161_2020,161,Jatiluhur Reservoir,2020,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,81.5861,101.5,3.17,0.383,90.1,12,7.87,5.6,23.6,22.3,59.4,reservoir,fair,stable
+161_2021,161,Jatiluhur Reservoir,2021,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,83.4135,102.63,3.17,0.457,88.6,12,8.17,6.2,24.5,15.5,50.5,reservoir,fair,stable
+161_2022,161,Jatiluhur Reservoir,2022,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,81.8751,101.68,3.17,0.414,86.8,12,8.03,5.1,27.8,20.4,43.7,reservoir,fair,stable
+161_2023,161,Jatiluhur Reservoir,2023,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,83.2769,102.55,3.17,0.459,91.8,12,8.23,5.1,22.0,14.9,57.2,reservoir,fair,stable
+161_2024,161,Jatiluhur Reservoir,2024,GEO_0834_2873,-6.53,107.38,Indonesia,Purwakarta,82.6954,102.19,3.17,0.405,95.4,12,8.24,5.4,22.3,22.7,53.4,reservoir,fair,stable
+169_2014,169,Bhumibol Reservoir,2014,GEO_1072_2789,17.25,98.98,Thailand,Tak,296.5785,179.48,2.94,0.451,96.9,12,7.8,8.4,8.9,9.5,70.7,reservoir,good,stable
+169_2015,169,Bhumibol Reservoir,2015,GEO_1072_2789,17.25,98.98,Thailand,Tak,305.6806,182.22,2.94,0.401,86.0,12,7.59,7.0,8.8,6.1,68.6,reservoir,good,stable
+169_2016,169,Bhumibol Reservoir,2016,GEO_1072_2789,17.25,98.98,Thailand,Tak,298.8627,180.17,2.94,0.383,87.8,12,7.43,8.1,10.1,13.8,74.8,reservoir,good,stable
+169_2017,169,Bhumibol Reservoir,2017,GEO_1072_2789,17.25,98.98,Thailand,Tak,294.8628,178.96,2.94,0.437,94.7,12,7.51,7.3,15.7,9.1,69.3,reservoir,good,stable
+169_2018,169,Bhumibol Reservoir,2018,GEO_1072_2789,17.25,98.98,Thailand,Tak,304.8266,181.96,2.94,0.384,97.1,12,7.53,7.5,8.3,14.0,67.7,reservoir,good,stable
+169_2019,169,Bhumibol Reservoir,2019,GEO_1072_2789,17.25,98.98,Thailand,Tak,301.5673,180.99,2.94,0.455,91.4,12,7.36,8.0,9.0,9.5,64.1,reservoir,good,stable
+169_2020,169,Bhumibol Reservoir,2020,GEO_1072_2789,17.25,98.98,Thailand,Tak,299.6564,180.41,2.94,0.457,91.4,12,7.86,7.4,15.9,13.9,64.9,reservoir,good,stable
+169_2021,169,Bhumibol Reservoir,2021,GEO_1072_2789,17.25,98.98,Thailand,Tak,298.1729,179.96,2.94,0.412,85.8,12,7.52,7.2,16.3,10.7,79.2,reservoir,good,stable
+169_2022,169,Bhumibol Reservoir,2022,GEO_1072_2789,17.25,98.98,Thailand,Tak,299.8555,180.47,2.94,0.442,89.3,12,7.37,6.9,14.1,13.8,67.1,reservoir,good,stable
+169_2023,169,Bhumibol Reservoir,2023,GEO_1072_2789,17.25,98.98,Thailand,Tak,301.1783,180.87,2.94,0.395,92.4,12,7.45,7.1,12.2,10.7,72.1,reservoir,good,stable
+169_2024,169,Bhumibol Reservoir,2024,GEO_1072_2789,17.25,98.98,Thailand,Tak,301.85,181.07,2.94,0.405,91.5,12,7.8,6.8,15.6,8.3,68.5,reservoir,good,stable
+174_2014,174,Hoa Binh Reservoir,2014,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,205.5464,120.96,2.38,0.437,88.3,12,7.55,8.1,12.5,6.3,62.3,reservoir,good,stable
+174_2015,174,Hoa Binh Reservoir,2015,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,208.3652,121.79,2.38,0.439,94.6,12,7.28,7.7,11.9,13.0,67.7,reservoir,good,stable
+174_2016,174,Hoa Binh Reservoir,2016,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,208.108,121.71,2.38,0.439,97.2,12,7.57,8.2,17.2,10.6,65.9,reservoir,good,stable
+174_2017,174,Hoa Binh Reservoir,2017,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,207.6499,121.58,2.38,0.39,85.9,12,7.55,7.4,9.3,11.1,67.2,reservoir,good,stable
+174_2018,174,Hoa Binh Reservoir,2018,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,211.6899,122.75,2.38,0.442,86.6,12,7.73,8.1,11.7,10.4,64.7,reservoir,good,stable
+174_2019,174,Hoa Binh Reservoir,2019,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,206.7108,121.3,2.38,0.391,92.4,12,7.51,8.4,8.5,10.1,66.6,reservoir,good,stable
+174_2020,174,Hoa Binh Reservoir,2020,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,205.0878,120.82,2.38,0.443,92.9,12,7.7,7.2,13.9,14.0,76.5,reservoir,good,stable
+174_2021,174,Hoa Binh Reservoir,2021,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,207.0714,121.41,2.38,0.42,90.6,12,7.27,8.0,16.8,9.5,75.4,reservoir,good,stable
+174_2022,174,Hoa Binh Reservoir,2022,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,206.6041,121.27,2.38,0.413,85.6,12,7.55,7.7,18.0,7.9,64.0,reservoir,good,stable
+174_2023,174,Hoa Binh Reservoir,2023,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,208.4894,121.82,2.38,0.424,97.9,12,7.72,7.0,15.0,8.3,67.4,reservoir,good,stable
+174_2024,174,Hoa Binh Reservoir,2024,GEO_1108_2853,20.8,105.3,Vietnam,Hoa Binh,206.9539,121.37,2.38,0.441,97.2,12,7.74,7.4,15.9,12.0,76.8,reservoir,good,stable
+175_2014,175,Tasik Kenyir Reservoir,2014,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,257.2697,167.17,2.94,0.412,88.3,12,7.29,9.9,5.9,1.7,91.2,reservoir,excellent,stable
+175_2015,175,Tasik Kenyir Reservoir,2015,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,259.9966,168.05,2.94,0.44,92.4,12,7.29,9.5,2.5,2.5,84.9,reservoir,excellent,stable
+175_2016,175,Tasik Kenyir Reservoir,2016,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,260.0412,168.06,2.94,0.396,96.0,12,7.69,8.4,3.0,3.6,94.0,reservoir,excellent,stable
+175_2017,175,Tasik Kenyir Reservoir,2017,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,260.1198,168.09,2.94,0.437,95.1,12,7.34,8.6,6.1,5.2,82.3,reservoir,excellent,stable
+175_2018,175,Tasik Kenyir Reservoir,2018,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,255.8393,166.7,2.94,0.45,97.3,12,7.44,8.9,5.9,3.1,90.7,reservoir,excellent,stable
+175_2019,175,Tasik Kenyir Reservoir,2019,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,255.2292,166.5,2.94,0.454,90.4,12,7.39,9.6,6.8,3.6,94.0,reservoir,excellent,stable
+175_2020,175,Tasik Kenyir Reservoir,2020,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,260.3605,168.17,2.94,0.382,90.8,12,7.56,8.6,5.9,4.1,83.1,reservoir,excellent,stable
+175_2021,175,Tasik Kenyir Reservoir,2021,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,258.493,167.56,2.94,0.42,94.7,12,7.24,10.2,6.7,5.5,88.1,reservoir,excellent,stable
+175_2022,175,Tasik Kenyir Reservoir,2022,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,256.2564,166.84,2.94,0.434,88.1,12,7.21,8.7,4.6,2.2,82.4,reservoir,excellent,stable
+175_2023,175,Tasik Kenyir Reservoir,2023,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,255.8402,166.7,2.94,0.435,87.9,12,7.27,8.3,5.7,5.8,95.0,reservoir,excellent,stable
+175_2024,175,Tasik Kenyir Reservoir,2024,GEO_0950_2828,5.0,102.8,Malaysia,Kuala Terengganu,261.19,168.43,2.94,0.382,90.1,12,7.22,10.3,5.1,3.0,82.2,reservoir,excellent,stable
+186_2014,186,Aswan High Dam Reservoir (Lake Nasser),2014,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5172.431,642.47,2.52,0.455,95.3,12,7.37,6.9,10.0,14.4,75.0,reservoir,good,stable
+186_2015,186,Aswan High Dam Reservoir (Lake Nasser),2015,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5166.9992,642.13,2.52,0.447,96.6,12,7.6,7.3,10.6,13.4,75.4,reservoir,good,stable
+186_2016,186,Aswan High Dam Reservoir (Lake Nasser),2016,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5339.9078,652.79,2.52,0.399,89.3,12,7.82,7.4,8.1,7.4,76.9,reservoir,good,stable
+186_2017,186,Aswan High Dam Reservoir (Lake Nasser),2017,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5222.3081,645.56,2.52,0.383,89.8,12,7.22,7.2,16.9,9.7,61.6,reservoir,good,stable
+186_2018,186,Aswan High Dam Reservoir (Lake Nasser),2018,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5181.2545,643.02,2.52,0.4,88.4,12,7.39,8.2,12.4,11.3,63.6,reservoir,good,stable
+186_2019,186,Aswan High Dam Reservoir (Lake Nasser),2019,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5259.7121,647.87,2.52,0.399,89.4,12,7.74,7.8,12.9,14.5,63.1,reservoir,good,stable
+186_2020,186,Aswan High Dam Reservoir (Lake Nasser),2020,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5212.1053,644.93,2.52,0.392,92.2,12,7.54,8.1,15.6,10.8,62.1,reservoir,good,stable
+186_2021,186,Aswan High Dam Reservoir (Lake Nasser),2021,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5311.1817,651.03,2.52,0.426,90.0,12,7.45,7.1,14.7,10.9,70.0,reservoir,good,stable
+186_2022,186,Aswan High Dam Reservoir (Lake Nasser),2022,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5295.9644,650.1,2.52,0.451,91.1,12,7.56,6.6,17.3,12.3,76.8,reservoir,good,stable
+186_2023,186,Aswan High Dam Reservoir (Lake Nasser),2023,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5320.3446,651.59,2.52,0.394,91.8,12,7.81,6.9,14.6,14.0,72.9,reservoir,good,stable
+186_2024,186,Aswan High Dam Reservoir (Lake Nasser),2024,GEO_1139_2128,23.97,32.88,Egypt,Aswan,5214.5925,645.08,2.52,0.458,97.5,12,7.57,7.2,15.4,11.5,68.3,reservoir,good,stable
+188_2014,188,Kariba Reservoir,2014,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,5580.0,680.54,2.57,0.459,97.3,12,7.6,8.0,16.4,13.8,72.9,reservoir,good,shrink
+188_2015,188,Kariba Reservoir,2015,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,5384.7,668.53,2.57,0.403,91.4,12,7.48,7.7,14.9,13.9,79.1,reservoir,good,shrink
+188_2016,188,Kariba Reservoir,2016,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,5189.4,656.29,2.57,0.411,85.2,12,7.65,7.4,16.5,6.4,71.0,reservoir,good,shrink
+188_2017,188,Kariba Reservoir,2017,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,4994.1,643.82,2.57,0.442,90.2,12,7.76,7.2,12.7,6.4,63.9,reservoir,good,shrink
+188_2018,188,Kariba Reservoir,2018,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,4798.8,631.11,2.57,0.398,89.4,12,7.78,7.2,18.0,14.0,78.3,reservoir,good,shrink
+188_2019,188,Kariba Reservoir,2019,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,4603.5,618.13,2.57,0.404,91.6,12,7.68,7.0,16.3,8.1,68.0,reservoir,good,shrink
+188_2020,188,Kariba Reservoir,2020,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,4408.2,604.88,2.57,0.422,97.1,12,7.84,8.2,11.8,10.0,74.8,reservoir,good,shrink
+188_2021,188,Kariba Reservoir,2021,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,4212.9,591.33,2.57,0.453,97.3,12,7.53,6.7,10.1,9.9,72.9,reservoir,good,shrink
+188_2022,188,Kariba Reservoir,2022,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,4017.6,577.46,2.57,0.389,86.4,12,7.83,7.4,9.9,14.7,69.9,reservoir,good,shrink
+188_2023,188,Kariba Reservoir,2023,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,3822.3,563.25,2.57,0.443,92.4,12,7.82,7.9,11.5,14.8,71.3,reservoir,good,shrink
+188_2024,188,Kariba Reservoir,2024,GEO_0731_2080,-16.9,28.0,Zimbabwe,Kariba,3627.0,548.67,2.57,0.404,87.6,12,7.41,7.7,12.4,6.6,65.7,reservoir,good,shrink
+189_2014,189,Cahora Bassa Reservoir,2014,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2750.139,539.11,2.9,0.429,90.7,12,7.78,7.3,12.2,10.3,79.3,reservoir,good,stable
+189_2015,189,Cahora Bassa Reservoir,2015,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2755.3881,539.63,2.9,0.384,92.5,12,7.86,7.8,16.5,15.0,66.2,reservoir,good,stable
+189_2016,189,Cahora Bassa Reservoir,2016,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2733.6007,537.49,2.9,0.425,86.8,12,7.84,6.9,16.6,10.0,66.2,reservoir,good,stable
+189_2017,189,Cahora Bassa Reservoir,2017,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2759.1333,539.99,2.9,0.405,97.1,12,7.65,8.2,14.7,11.0,61.8,reservoir,good,stable
+189_2018,189,Cahora Bassa Reservoir,2018,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2753.0168,539.4,2.9,0.46,95.1,12,7.24,7.6,15.1,11.7,75.1,reservoir,good,stable
+189_2019,189,Cahora Bassa Reservoir,2019,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2768.5934,540.92,2.9,0.398,94.0,12,7.25,8.4,18.0,14.4,66.4,reservoir,good,stable
+189_2020,189,Cahora Bassa Reservoir,2020,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2721.2634,536.28,2.9,0.457,86.7,12,7.5,6.8,13.0,8.9,72.9,reservoir,good,stable
+189_2021,189,Cahora Bassa Reservoir,2021,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2762.7375,540.35,2.9,0.458,85.6,12,7.45,8.0,16.6,8.9,70.6,reservoir,good,stable
+189_2022,189,Cahora Bassa Reservoir,2022,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2787.7934,542.79,2.9,0.392,94.4,12,7.78,8.2,8.8,7.4,61.7,reservoir,good,stable
+189_2023,189,Cahora Bassa Reservoir,2023,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2714.9259,535.65,2.9,0.437,91.5,12,7.85,7.6,9.1,10.1,74.6,reservoir,good,stable
+189_2024,189,Cahora Bassa Reservoir,2024,GEO_0744_2127,-15.5833,32.7,Mozambique,Songo,2750.4338,539.14,2.9,0.404,94.0,12,7.51,7.0,13.4,9.5,73.4,reservoir,good,stable
+190_2014,190,Volta Lake Reservoir,2014,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8447.1602,765.65,2.35,0.413,86.1,12,7.24,6.8,10.4,15.0,74.6,reservoir,good,stable
+190_2015,190,Volta Lake Reservoir,2015,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8338.8464,760.72,2.35,0.438,95.2,12,7.85,7.4,15.9,11.4,64.5,reservoir,good,stable
+190_2016,190,Volta Lake Reservoir,2016,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8657.0125,775.1,2.35,0.426,93.2,12,7.47,7.8,11.4,12.6,78.2,reservoir,good,stable
+190_2017,190,Volta Lake Reservoir,2017,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8600.5715,772.57,2.35,0.394,95.3,12,7.32,7.0,13.3,11.7,66.4,reservoir,good,stable
+190_2018,190,Volta Lake Reservoir,2018,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8606.7822,772.85,2.35,0.417,85.2,12,7.89,6.9,14.5,11.6,61.7,reservoir,good,stable
+190_2019,190,Volta Lake Reservoir,2019,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8440.9087,765.36,2.35,0.396,96.8,12,7.38,8.1,16.4,8.9,65.4,reservoir,good,stable
+190_2020,190,Volta Lake Reservoir,2020,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8502.901,768.17,2.35,0.432,92.7,12,7.47,7.3,14.3,9.1,72.7,reservoir,good,stable
+190_2021,190,Volta Lake Reservoir,2021,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8431.783,764.95,2.35,0.392,88.2,12,7.64,7.3,12.2,14.2,61.7,reservoir,good,stable
+190_2022,190,Volta Lake Reservoir,2022,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8397.8389,763.41,2.35,0.42,96.8,12,7.37,7.4,15.3,11.4,77.4,reservoir,good,stable
+190_2023,190,Volta Lake Reservoir,2023,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8658.0235,775.14,2.35,0.442,97.2,12,7.34,8.2,10.3,6.1,74.1,reservoir,good,stable
+190_2024,190,Volta Lake Reservoir,2024,GEO_0965_1799,6.5,-0.05,Ghana,Akosombo,8395.533,763.3,2.35,0.431,89.5,12,7.65,7.9,17.3,14.7,67.4,reservoir,good,stable
+197_2014,197,Hartebeespoort Dam Reservoir,2014,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,20.6,42.48,2.64,0.401,87.8,12,8.52,3.9,39.5,43.7,29.3,reservoir,poor,shrink
+197_2015,197,Hartebeespoort Dam Reservoir,2015,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,19.879,41.73,2.64,0.433,93.1,12,8.21,4.3,52.5,44.6,32.6,reservoir,poor,shrink
+197_2016,197,Hartebeespoort Dam Reservoir,2016,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,19.158,40.96,2.64,0.387,94.7,12,8.33,3.9,35.7,36.6,36.8,reservoir,poor,shrink
+197_2017,197,Hartebeespoort Dam Reservoir,2017,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,18.437,40.18,2.64,0.427,88.0,12,8.69,4.1,40.7,37.9,28.7,reservoir,poor,shrink
+197_2018,197,Hartebeespoort Dam Reservoir,2018,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,17.716,39.39,2.64,0.429,85.9,12,8.62,4.0,30.2,41.2,34.6,reservoir,poor,shrink
+197_2019,197,Hartebeespoort Dam Reservoir,2019,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,16.995,38.58,2.64,0.409,89.6,12,8.34,4.7,51.6,28.6,31.5,reservoir,poor,shrink
+197_2020,197,Hartebeespoort Dam Reservoir,2020,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,16.274,37.75,2.64,0.435,97.4,12,8.23,4.7,39.1,45.6,25.6,reservoir,poor,shrink
+197_2021,197,Hartebeespoort Dam Reservoir,2021,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,15.553,36.91,2.64,0.433,89.3,12,8.22,4.7,35.0,36.2,31.5,reservoir,poor,shrink
+197_2022,197,Hartebeespoort Dam Reservoir,2022,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,14.832,36.04,2.64,0.457,90.5,12,8.28,4.5,46.5,41.9,35.5,reservoir,poor,shrink
+197_2023,197,Hartebeespoort Dam Reservoir,2023,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,14.111,35.16,2.64,0.454,89.1,12,8.23,3.5,36.7,43.3,34.0,reservoir,poor,shrink
+197_2024,197,Hartebeespoort Dam Reservoir,2024,GEO_0642_2078,-25.75,27.85,South Africa,Pretoria,13.39,34.25,2.64,0.393,96.4,12,8.43,3.3,34.2,30.7,28.8,reservoir,poor,shrink
+198_2014,198,Vaal Dam Reservoir,2014,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,322.0,182.56,2.87,0.438,96.3,12,8.04,5.0,23.1,16.2,43.2,reservoir,fair,shrink
+198_2015,198,Vaal Dam Reservoir,2015,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,310.73,179.34,2.87,0.455,97.6,12,8.28,5.0,22.9,15.0,52.9,reservoir,fair,shrink
+198_2016,198,Vaal Dam Reservoir,2016,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,299.46,176.06,2.87,0.458,92.9,12,7.9,5.7,20.3,24.7,57.9,reservoir,fair,shrink
+198_2017,198,Vaal Dam Reservoir,2017,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,288.19,172.71,2.87,0.441,88.1,12,8.21,6.1,27.3,22.2,50.9,reservoir,fair,shrink
+198_2018,198,Vaal Dam Reservoir,2018,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,276.92,169.3,2.87,0.44,87.2,12,8.2,5.7,22.1,22.4,58.3,reservoir,fair,shrink
+198_2019,198,Vaal Dam Reservoir,2019,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,265.65,165.82,2.87,0.432,89.6,12,7.85,5.3,30.7,21.9,55.6,reservoir,fair,shrink
+198_2020,198,Vaal Dam Reservoir,2020,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,254.38,162.27,2.87,0.456,96.6,12,7.8,6.3,22.1,17.6,46.2,reservoir,fair,shrink
+198_2021,198,Vaal Dam Reservoir,2021,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,243.11,158.63,2.87,0.457,89.1,12,8.07,5.0,24.6,15.1,48.0,reservoir,fair,shrink
+198_2022,198,Vaal Dam Reservoir,2022,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,231.84,154.91,2.87,0.423,96.6,12,7.87,6.0,27.8,23.8,53.6,reservoir,fair,shrink
+198_2023,198,Vaal Dam Reservoir,2023,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,220.57,151.1,2.87,0.416,94.3,12,8.02,6.3,30.1,18.6,58.3,reservoir,fair,shrink
+198_2024,198,Vaal Dam Reservoir,2024,GEO_0631_2081,-26.88,28.12,South Africa,Deneysville,209.3,147.19,2.87,0.454,89.2,12,7.86,6.2,26.5,17.5,58.9,reservoir,fair,shrink
+210_2014,210,Lake Paranoá,2014,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.7472,58.05,2.37,0.451,88.2,12,7.86,8.0,11.2,6.7,78.8,reservoir,good,stable
+210_2015,210,Lake Paranoá,2015,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.0575,57.63,2.37,0.415,90.6,12,7.76,7.2,13.4,13.6,68.4,reservoir,good,stable
+210_2016,210,Lake Paranoá,2016,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.3245,57.8,2.37,0.384,92.0,12,7.71,7.8,8.6,10.9,64.7,reservoir,good,stable
+210_2017,210,Lake Paranoá,2017,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.3914,57.84,2.37,0.415,94.6,12,7.3,8.0,12.6,12.5,64.5,reservoir,good,stable
+210_2018,210,Lake Paranoá,2018,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.9604,58.18,2.37,0.416,85.2,12,7.22,8.1,15.1,8.7,77.1,reservoir,good,stable
+210_2019,210,Lake Paranoá,2019,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,48.0869,58.26,2.37,0.438,93.4,12,7.71,7.7,15.6,12.2,76.2,reservoir,good,stable
+210_2020,210,Lake Paranoá,2020,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.8126,58.09,2.37,0.418,92.5,12,7.39,7.9,16.8,9.1,78.2,reservoir,good,stable
+210_2021,210,Lake Paranoá,2021,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.3836,57.83,2.37,0.433,91.8,12,7.72,8.4,16.2,7.9,77.2,reservoir,good,stable
+210_2022,210,Lake Paranoá,2022,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,48.7474,58.66,2.37,0.406,94.0,12,7.39,6.7,12.8,12.4,78.7,reservoir,good,stable
+210_2023,210,Lake Paranoá,2023,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,48.7429,58.66,2.37,0.416,94.1,12,7.7,8.0,16.4,10.6,72.6,reservoir,good,stable
+210_2024,210,Lake Paranoá,2024,GEO_0742_1321,-15.78,-47.83,Brazil,Brasília,47.5259,57.92,2.37,0.445,92.1,12,7.69,8.3,12.7,12.6,73.3,reservoir,good,stable
+211_2014,211,Itaipu Reservoir,2014,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1347.242,425.48,3.27,0.385,97.1,12,7.79,8.1,14.7,7.2,61.6,reservoir,good,stable
+211_2015,211,Itaipu Reservoir,2015,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1330.9773,422.9,3.27,0.445,90.5,12,7.29,8.1,15.1,12.0,77.4,reservoir,good,stable
+211_2016,211,Itaipu Reservoir,2016,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1345.3299,425.17,3.27,0.415,94.8,12,7.81,6.7,16.9,15.0,71.8,reservoir,good,stable
+211_2017,211,Itaipu Reservoir,2017,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1333.9443,423.37,3.27,0.433,96.3,12,7.78,7.8,17.0,14.4,77.1,reservoir,good,stable
+211_2018,211,Itaipu Reservoir,2018,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1326.4411,422.18,3.27,0.448,91.1,12,7.24,7.7,11.8,12.1,67.1,reservoir,good,stable
+211_2019,211,Itaipu Reservoir,2019,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1359.8133,427.46,3.27,0.453,86.4,12,7.47,8.1,12.5,8.2,67.9,reservoir,good,stable
+211_2020,211,Itaipu Reservoir,2020,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1375.4397,429.91,3.27,0.426,97.4,12,7.58,6.8,11.5,10.8,61.7,reservoir,good,stable
+211_2021,211,Itaipu Reservoir,2021,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1337.8703,423.99,3.27,0.381,93.1,12,7.3,6.7,13.8,6.4,68.0,reservoir,good,stable
+211_2022,211,Itaipu Reservoir,2022,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1329.0393,422.59,3.27,0.405,91.8,12,7.55,7.4,9.6,6.8,61.9,reservoir,good,stable
+211_2023,211,Itaipu Reservoir,2023,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1336.3864,423.76,3.27,0.388,97.6,12,7.71,7.4,17.2,13.3,77.1,reservoir,good,stable
+211_2024,211,Itaipu Reservoir,2024,GEO_0646_1254,-25.4,-54.58,Brazil,Foz do Iguaçu,1364.2153,428.15,3.27,0.429,94.4,12,7.68,7.3,9.8,15.0,69.6,reservoir,good,stable
+212_2014,212,Tucuruí Reservoir,2014,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2842.2404,536.73,2.84,0.413,88.0,12,8.17,5.7,23.1,24.5,57.3,reservoir,fair,stable
+212_2015,212,Tucuruí Reservoir,2015,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2895.1336,541.7,2.84,0.407,94.4,12,7.95,5.4,28.2,14.6,47.9,reservoir,fair,stable
+212_2016,212,Tucuruí Reservoir,2016,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2830.2733,535.6,2.84,0.43,89.1,12,8.25,6.0,28.3,19.2,44.1,reservoir,fair,stable
+212_2017,212,Tucuruí Reservoir,2017,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2842.2671,536.73,2.84,0.437,95.6,12,8.19,4.9,22.4,22.1,54.5,reservoir,fair,stable
+212_2018,212,Tucuruí Reservoir,2018,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2882.2889,540.5,2.84,0.435,94.0,12,8.08,5.6,31.8,16.4,46.4,reservoir,fair,stable
+212_2019,212,Tucuruí Reservoir,2019,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2898.4203,542.01,2.84,0.394,93.6,12,8.26,5.0,30.3,17.3,48.0,reservoir,fair,stable
+212_2020,212,Tucuruí Reservoir,2020,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2830.612,535.63,2.84,0.45,85.9,12,7.9,5.1,18.5,17.4,43.1,reservoir,fair,stable
+212_2021,212,Tucuruí Reservoir,2021,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2879.1393,540.2,2.84,0.393,92.5,12,8.14,6.4,23.2,16.7,45.4,reservoir,fair,stable
+212_2022,212,Tucuruí Reservoir,2022,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2856.9133,538.11,2.84,0.441,97.9,12,8.02,6.1,27.4,24.7,52.5,reservoir,fair,stable
+212_2023,212,Tucuruí Reservoir,2023,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2886.4082,540.88,2.84,0.384,88.7,12,8.16,5.4,26.0,20.6,55.5,reservoir,fair,stable
+212_2024,212,Tucuruí Reservoir,2024,GEO_0861_1303,-3.83,-49.67,Brazil,Tucuruí,2813.966,534.05,2.84,0.384,86.3,12,7.96,5.8,27.6,21.4,42.0,reservoir,fair,stable
+213_2014,213,Sobradinho Reservoir,2014,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,4214.0,706.46,3.07,0.409,94.5,12,8.23,6.0,29.6,16.1,50.0,reservoir,fair,shrink
+213_2015,213,Sobradinho Reservoir,2015,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,4066.51,693.99,3.07,0.442,89.1,12,7.9,6.2,21.2,21.1,54.7,reservoir,fair,shrink
+213_2016,213,Sobradinho Reservoir,2016,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,3919.02,681.29,3.07,0.388,92.7,12,7.88,6.0,22.2,15.8,46.8,reservoir,fair,shrink
+213_2017,213,Sobradinho Reservoir,2017,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,3771.53,668.35,3.07,0.409,92.3,12,7.95,4.9,19.4,21.9,42.8,reservoir,fair,shrink
+213_2018,213,Sobradinho Reservoir,2018,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,3624.04,655.15,3.07,0.39,95.8,12,7.83,5.2,20.4,22.1,49.6,reservoir,fair,shrink
+213_2019,213,Sobradinho Reservoir,2019,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,3476.55,641.68,3.07,0.388,88.9,12,8.18,5.1,22.3,17.7,48.6,reservoir,fair,shrink
+213_2020,213,Sobradinho Reservoir,2020,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,3329.06,627.92,3.07,0.386,86.2,12,8.19,6.4,25.7,21.9,50.5,reservoir,fair,shrink
+213_2021,213,Sobradinho Reservoir,2021,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,3181.57,613.85,3.07,0.431,93.7,12,8.11,5.1,23.8,23.4,53.7,reservoir,fair,shrink
+213_2022,213,Sobradinho Reservoir,2022,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,3034.08,599.46,3.07,0.392,86.1,12,8.16,5.5,18.6,25.4,45.9,reservoir,fair,shrink
+213_2023,213,Sobradinho Reservoir,2023,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,2886.59,584.7,3.07,0.418,86.7,12,7.82,6.3,25.7,25.7,56.3,reservoir,fair,shrink
+213_2024,213,Sobradinho Reservoir,2024,GEO_0805_1391,-9.45,-40.83,Brazil,Sobradinho,2739.1,569.57,3.07,0.454,85.8,12,8.03,5.6,23.2,24.0,53.2,reservoir,fair,shrink
+214_2014,214,Guri Reservoir (Lake Guri),2014,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,4250.0,774.18,3.35,0.392,90.5,12,7.33,7.9,14.4,7.5,77.1,reservoir,good,shrink
+214_2015,214,Guri Reservoir (Lake Guri),2015,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,4101.25,760.51,3.35,0.432,96.2,12,7.54,7.5,15.3,8.6,67.7,reservoir,good,shrink
+214_2016,214,Guri Reservoir (Lake Guri),2016,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,3952.5,746.6,3.35,0.417,94.0,12,7.76,7.0,17.3,6.5,79.5,reservoir,good,shrink
+214_2017,214,Guri Reservoir (Lake Guri),2017,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,3803.75,732.41,3.35,0.393,89.0,12,7.75,7.0,14.9,8.2,65.8,reservoir,good,shrink
+214_2018,214,Guri Reservoir (Lake Guri),2018,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,3655.0,717.95,3.35,0.428,89.7,12,7.68,6.9,9.0,13.0,70.3,reservoir,good,shrink
+214_2019,214,Guri Reservoir (Lake Guri),2019,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,3506.25,703.19,3.35,0.415,92.1,12,7.74,7.3,17.6,7.9,68.1,reservoir,good,shrink
+214_2020,214,Guri Reservoir (Lake Guri),2020,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,3357.5,688.11,3.35,0.429,94.8,12,7.74,7.4,16.1,10.5,76.8,reservoir,good,shrink
+214_2021,214,Guri Reservoir (Lake Guri),2021,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,3208.75,672.69,3.35,0.442,97.0,12,7.39,8.3,10.7,14.0,75.3,reservoir,good,shrink
+214_2022,214,Guri Reservoir (Lake Guri),2022,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,3060.0,656.92,3.35,0.385,85.2,12,7.55,7.7,9.4,7.4,63.4,reservoir,good,shrink
+214_2023,214,Guri Reservoir (Lake Guri),2023,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,2911.25,640.75,3.35,0.43,89.2,12,7.43,7.2,9.1,7.5,78.4,reservoir,good,shrink
+214_2024,214,Guri Reservoir (Lake Guri),2024,GEO_0977_1170,7.75,-63.0,Venezuela,Ciudad Guayana,2762.5,624.17,3.35,0.407,87.7,12,7.7,8.1,14.5,11.7,78.5,reservoir,good,shrink
+215_2014,215,Yacyretá Reservoir,2014,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1621.1812,483.86,3.39,0.427,91.9,12,7.24,7.8,14.5,8.0,78.8,reservoir,good,stable
+215_2015,215,Yacyretá Reservoir,2015,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1592.2146,479.52,3.39,0.441,97.4,12,7.72,7.5,8.1,12.6,64.1,reservoir,good,stable
+215_2016,215,Yacyretá Reservoir,2016,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1582.3301,478.03,3.39,0.417,85.1,12,7.46,6.8,14.0,9.2,76.3,reservoir,good,stable
+215_2017,215,Yacyretá Reservoir,2017,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1619.0686,483.55,3.39,0.426,95.9,12,7.24,8.4,13.9,6.5,77.3,reservoir,good,stable
+215_2018,215,Yacyretá Reservoir,2018,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1590.137,479.21,3.39,0.429,96.8,12,7.86,7.5,17.7,14.9,77.0,reservoir,good,stable
+215_2019,215,Yacyretá Reservoir,2019,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1581.9058,477.96,3.39,0.446,93.9,12,7.6,7.9,17.6,6.8,72.1,reservoir,good,stable
+215_2020,215,Yacyretá Reservoir,2020,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1582.1005,477.99,3.39,0.412,94.8,12,7.46,7.7,11.7,7.2,78.4,reservoir,good,stable
+215_2021,215,Yacyretá Reservoir,2021,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1568.0796,475.87,3.39,0.441,95.1,12,7.46,7.9,8.1,11.5,69.4,reservoir,good,stable
+215_2022,215,Yacyretá Reservoir,2022,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1595.2293,479.97,3.39,0.392,90.7,12,7.7,8.4,10.4,7.3,67.1,reservoir,good,stable
+215_2023,215,Yacyretá Reservoir,2023,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1580.3028,477.72,3.39,0.416,87.4,12,7.66,6.9,13.6,6.6,77.1,reservoir,good,stable
+215_2024,215,Yacyretá Reservoir,2024,GEO_0625_1232,-27.48,-56.73,Paraguay,Ayolas,1582.4232,478.04,3.39,0.433,86.8,12,7.29,7.4,13.0,13.3,72.4,reservoir,good,stable
+230_2014,230,Lake Argyle Reservoir,2014,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,1018.0619,346.11,3.06,0.389,94.0,12,7.3,8.1,13.8,8.7,69.9,reservoir,good,stable
+230_2015,230,Lake Argyle Reservoir,2015,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,989.7043,341.25,3.06,0.423,97.6,12,7.8,7.8,12.5,13.8,69.7,reservoir,good,stable
+230_2016,230,Lake Argyle Reservoir,2016,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,983.0234,340.1,3.06,0.38,87.2,12,7.64,7.3,14.0,10.3,63.3,reservoir,good,stable
+230_2017,230,Lake Argyle Reservoir,2017,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,1014.0859,345.43,3.06,0.449,94.0,12,7.62,7.8,14.6,7.8,68.9,reservoir,good,stable
+230_2018,230,Lake Argyle Reservoir,2018,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,1001.4901,343.28,3.06,0.381,86.2,12,7.38,8.3,16.4,11.5,78.1,reservoir,good,stable
+230_2019,230,Lake Argyle Reservoir,2019,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,1000.1212,343.05,3.06,0.416,85.6,12,7.47,7.3,16.4,6.6,62.2,reservoir,good,stable
+230_2020,230,Lake Argyle Reservoir,2020,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,996.3658,342.4,3.06,0.437,93.9,12,7.68,7.0,14.5,8.3,72.1,reservoir,good,stable
+230_2021,230,Lake Argyle Reservoir,2021,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,998.6645,342.8,3.06,0.407,86.0,12,7.5,7.7,17.8,9.5,69.6,reservoir,good,stable
+230_2022,230,Lake Argyle Reservoir,2022,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,1002.1265,343.39,3.06,0.406,85.3,12,7.2,6.8,12.7,9.6,63.0,reservoir,good,stable
+230_2023,230,Lake Argyle Reservoir,2023,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,1012.979,345.24,3.06,0.453,88.5,12,7.39,7.0,13.4,10.4,69.1,reservoir,good,stable
+230_2024,230,Lake Argyle Reservoir,2024,GEO_0738_3087,-16.1167,128.75,Australia,Kununurra,1008.0157,344.4,3.06,0.39,91.5,12,7.67,6.7,15.7,10.5,69.7,reservoir,good,stable
+231_2014,231,Lake Eildon,2014,GEO_0527_3259,-37.23,145.9,Australia,Eildon,137.4088,115.52,2.78,0.42,89.9,12,7.7,7.6,14.9,9.4,68.7,reservoir,good,stable
+231_2015,231,Lake Eildon,2015,GEO_0527_3259,-37.23,145.9,Australia,Eildon,138.2017,115.85,2.78,0.416,93.3,12,7.83,8.2,15.0,12.4,79.0,reservoir,good,stable
+231_2016,231,Lake Eildon,2016,GEO_0527_3259,-37.23,145.9,Australia,Eildon,140.5588,116.84,2.78,0.393,91.8,12,7.89,6.7,13.8,9.8,64.9,reservoir,good,stable
+231_2017,231,Lake Eildon,2017,GEO_0527_3259,-37.23,145.9,Australia,Eildon,138.8214,116.11,2.78,0.405,89.8,12,7.83,7.9,17.8,8.6,67.0,reservoir,good,stable
+231_2018,231,Lake Eildon,2018,GEO_0527_3259,-37.23,145.9,Australia,Eildon,137.4179,115.52,2.78,0.388,97.9,12,7.82,8.0,11.7,14.3,61.5,reservoir,good,stable
+231_2019,231,Lake Eildon,2019,GEO_0527_3259,-37.23,145.9,Australia,Eildon,139.1593,116.25,2.78,0.422,93.1,12,7.43,7.3,13.2,11.6,62.7,reservoir,good,stable
+231_2020,231,Lake Eildon,2020,GEO_0527_3259,-37.23,145.9,Australia,Eildon,136.7599,115.25,2.78,0.381,92.9,12,7.5,7.6,13.8,6.7,77.5,reservoir,good,stable
+231_2021,231,Lake Eildon,2021,GEO_0527_3259,-37.23,145.9,Australia,Eildon,135.8787,114.87,2.78,0.421,87.6,12,7.62,7.5,8.6,13.3,74.9,reservoir,good,stable
+231_2022,231,Lake Eildon,2022,GEO_0527_3259,-37.23,145.9,Australia,Eildon,139.9999,116.6,2.78,0.407,95.0,12,7.54,8.3,8.7,11.4,65.6,reservoir,good,stable
+231_2023,231,Lake Eildon,2023,GEO_0527_3259,-37.23,145.9,Australia,Eildon,138.7005,116.06,2.78,0.381,88.8,12,7.34,7.7,12.9,15.0,77.6,reservoir,good,stable
+231_2024,231,Lake Eildon,2024,GEO_0527_3259,-37.23,145.9,Australia,Eildon,138.2267,115.86,2.78,0.405,90.2,12,7.45,8.0,17.3,13.3,70.2,reservoir,good,stable
+253_2014,253,Atatürk Dam Reservoir,2014,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,810.9718,320.01,3.17,0.408,96.0,12,7.53,6.7,8.2,6.9,64.6,reservoir,good,stable
+253_2015,253,Atatürk Dam Reservoir,2015,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,819.3212,321.66,3.17,0.431,96.0,12,7.81,6.9,16.3,10.7,77.9,reservoir,good,stable
+253_2016,253,Atatürk Dam Reservoir,2016,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,824.5597,322.68,3.17,0.439,96.4,12,7.25,6.8,10.7,6.1,63.9,reservoir,good,stable
+253_2017,253,Atatürk Dam Reservoir,2017,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,808.4991,319.52,3.17,0.458,96.0,12,7.55,7.7,10.4,8.0,79.2,reservoir,good,stable
+253_2018,253,Atatürk Dam Reservoir,2018,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,801.5175,318.14,3.17,0.456,94.9,12,7.67,7.9,8.8,11.8,65.0,reservoir,good,stable
+253_2019,253,Atatürk Dam Reservoir,2019,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,803.5053,318.54,3.17,0.419,87.1,12,7.73,6.6,17.7,7.4,67.3,reservoir,good,stable
+253_2020,253,Atatürk Dam Reservoir,2020,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,825.7131,322.91,3.17,0.385,91.2,12,7.67,8.1,17.4,7.9,67.7,reservoir,good,stable
+253_2021,253,Atatürk Dam Reservoir,2021,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,820.4191,321.87,3.17,0.433,95.1,12,7.82,7.6,11.5,6.7,69.6,reservoir,good,stable
+253_2022,253,Atatürk Dam Reservoir,2022,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,802.6493,318.37,3.17,0.436,88.0,12,7.21,8.1,14.6,7.6,67.3,reservoir,good,stable
+253_2023,253,Atatürk Dam Reservoir,2023,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,832.1195,324.16,3.17,0.432,87.6,12,7.72,7.1,17.3,8.6,68.0,reservoir,good,stable
+253_2024,253,Atatürk Dam Reservoir,2024,GEO_1274_2183,37.48,38.31,Turkey,Şanlıurfa,832.3947,324.21,3.17,0.421,96.9,12,7.8,8.2,11.5,6.5,79.2,reservoir,good,stable
+258_2014,258,Mosul Dam Reservoir,2014,GEO_1266_2228,36.63,42.82,Iraq,Mosul,378.2395,170.98,2.48,0.427,86.9,12,8.16,6.1,26.9,19.1,54.5,reservoir,fair,stable
+258_2015,258,Mosul Dam Reservoir,2015,GEO_1266_2228,36.63,42.82,Iraq,Mosul,374.8713,170.21,2.48,0.393,96.9,12,8.2,6.3,19.1,16.8,49.7,reservoir,fair,stable
+258_2016,258,Mosul Dam Reservoir,2016,GEO_1266_2228,36.63,42.82,Iraq,Mosul,381.3062,171.67,2.48,0.397,89.9,12,8.01,5.4,30.9,21.0,49.5,reservoir,fair,stable
+258_2017,258,Mosul Dam Reservoir,2017,GEO_1266_2228,36.63,42.82,Iraq,Mosul,375.7938,170.42,2.48,0.435,87.1,12,8.19,6.0,21.8,24.3,58.0,reservoir,fair,stable
+258_2018,258,Mosul Dam Reservoir,2018,GEO_1266_2228,36.63,42.82,Iraq,Mosul,377.0196,170.7,2.48,0.449,90.8,12,8.24,5.2,18.0,17.9,48.7,reservoir,fair,stable
+258_2019,258,Mosul Dam Reservoir,2019,GEO_1266_2228,36.63,42.82,Iraq,Mosul,385.2938,172.56,2.48,0.407,93.1,12,8.06,6.3,26.6,17.9,45.5,reservoir,fair,stable
+258_2020,258,Mosul Dam Reservoir,2020,GEO_1266_2228,36.63,42.82,Iraq,Mosul,379.1928,171.19,2.48,0.453,88.5,12,8.01,5.7,25.2,23.5,48.9,reservoir,fair,stable
+258_2021,258,Mosul Dam Reservoir,2021,GEO_1266_2228,36.63,42.82,Iraq,Mosul,385.5029,172.61,2.48,0.428,95.5,12,8.16,5.8,26.6,17.8,41.6,reservoir,fair,stable
+258_2022,258,Mosul Dam Reservoir,2022,GEO_1266_2228,36.63,42.82,Iraq,Mosul,374.3594,170.1,2.48,0.438,87.2,12,7.83,5.0,23.3,20.3,53.1,reservoir,fair,stable
+258_2023,258,Mosul Dam Reservoir,2023,GEO_1266_2228,36.63,42.82,Iraq,Mosul,378.0487,170.93,2.48,0.454,89.1,12,8.26,5.6,29.2,25.7,57.6,reservoir,fair,stable
+258_2024,258,Mosul Dam Reservoir,2024,GEO_1266_2228,36.63,42.82,Iraq,Mosul,387.0311,172.95,2.48,0.445,86.1,12,8.28,6.2,18.2,23.3,55.2,reservoir,fair,stable
+263_2014,263,Gatun Lake (Panama Canal),2014,GEO_0992_1001,9.2,-79.9,Panama,Colón,425.0,232.39,3.18,0.383,96.8,12,7.86,7.8,14.5,12.4,75.7,reservoir,good,shrink
+263_2015,263,Gatun Lake (Panama Canal),2015,GEO_0992_1001,9.2,-79.9,Panama,Colón,410.125,228.29,3.18,0.434,96.3,12,7.72,7.1,16.7,9.8,74.1,reservoir,good,shrink
+263_2016,263,Gatun Lake (Panama Canal),2016,GEO_0992_1001,9.2,-79.9,Panama,Colón,395.25,224.11,3.18,0.458,96.5,12,7.5,8.3,11.3,7.0,65.6,reservoir,good,shrink
+263_2017,263,Gatun Lake (Panama Canal),2017,GEO_0992_1001,9.2,-79.9,Panama,Colón,380.375,219.86,3.18,0.409,90.8,12,7.75,7.7,14.7,7.6,66.6,reservoir,good,shrink
+263_2018,263,Gatun Lake (Panama Canal),2018,GEO_0992_1001,9.2,-79.9,Panama,Colón,365.5,215.51,3.18,0.409,95.2,12,7.54,8.4,16.3,13.9,67.4,reservoir,good,shrink
+263_2019,263,Gatun Lake (Panama Canal),2019,GEO_0992_1001,9.2,-79.9,Panama,Colón,350.625,211.08,3.18,0.398,94.7,12,7.28,8.0,12.6,8.5,68.4,reservoir,good,shrink
+263_2020,263,Gatun Lake (Panama Canal),2020,GEO_0992_1001,9.2,-79.9,Panama,Colón,335.75,206.56,3.18,0.386,92.6,12,7.66,7.8,15.2,12.8,64.3,reservoir,good,shrink
+263_2021,263,Gatun Lake (Panama Canal),2021,GEO_0992_1001,9.2,-79.9,Panama,Colón,320.875,201.93,3.18,0.455,96.9,12,7.72,7.7,14.1,9.0,74.0,reservoir,good,shrink
+263_2022,263,Gatun Lake (Panama Canal),2022,GEO_0992_1001,9.2,-79.9,Panama,Colón,306.0,197.19,3.18,0.381,96.6,12,7.52,8.2,10.2,13.7,76.2,reservoir,good,shrink
+263_2023,263,Gatun Lake (Panama Canal),2023,GEO_0992_1001,9.2,-79.9,Panama,Colón,291.125,192.34,3.18,0.455,94.7,12,7.47,7.4,14.6,9.2,69.0,reservoir,good,shrink
+263_2024,263,Gatun Lake (Panama Canal),2024,GEO_0992_1001,9.2,-79.9,Panama,Colón,276.25,187.36,3.18,0.42,90.9,12,7.21,8.1,15.5,11.7,69.1,reservoir,good,shrink

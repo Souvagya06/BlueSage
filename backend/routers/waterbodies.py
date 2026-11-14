@@ -27,20 +27,81 @@ router = APIRouter(prefix="/api/waterbodies", tags=["Water Bodies"])
 
 
 @router.get("/export-csv")
-def export_indexed_csv():
+def export_indexed_csv(
+    water_body_type: Optional[str] = Query(
+        None,
+        description="Filter indexed dataset by water body type: wetland, pond, river, lake, reservoir",
+    ),
+):
     """
-    Download the entire indexed temporal dataset as a CSV file.
+    Download the indexed temporal dataset as a CSV file.
+    Can be filtered by specific water body types (wetland, pond, river, lake, reservoir).
     """
-    csv_path = Path(__file__).resolve().parent.parent.parent / "data" / "processed" / "indexed_waterbody_dataset.csv"
-    if not csv_path.exists():
+    proc_dir = Path(__file__).resolve().parent.parent.parent / "data" / "processed"
+    master_csv = proc_dir / "indexed_waterbody_dataset.csv"
+    if not master_csv.exists():
         from data_pipeline.export_indexed_dataset import generate_indexed_dataset
         generate_indexed_dataset()
 
+    if water_body_type:
+        type_clean = water_body_type.strip().lower()
+        type_csv = proc_dir / f"indexed_dataset_{type_clean}.csv"
+        
+        # If specific type CSV does not exist, generate on the fly from master
+        if not type_csv.exists():
+            import pandas as pd
+            df = pd.read_csv(master_csv)
+            filtered = df[df["target_task1_body_type"].str.lower() == type_clean]
+            if filtered.empty:
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"No records found for water body type: '{water_body_type}'. Available: wetland, pond, river, lake, reservoir.",
+                )
+            filtered.to_csv(type_csv, index=False)
+
+        return FileResponse(
+            path=str(type_csv),
+            filename=f"indexed_waterbody_dataset_{type_clean}.csv",
+            media_type="text/csv",
+        )
+
     return FileResponse(
-        path=str(csv_path),
+        path=str(master_csv),
         filename="indexed_waterbody_dataset.csv",
         media_type="text/csv",
     )
+
+
+@router.get("/indexed-datasets")
+def list_indexed_datasets():
+    """
+    Returns metadata and statistics for all available indexed dataset partitions.
+    """
+    proc_dir = Path(__file__).resolve().parent.parent.parent / "data" / "processed"
+    master_csv = proc_dir / "indexed_waterbody_dataset.csv"
+    if not master_csv.exists():
+        from data_pipeline.export_indexed_dataset import generate_indexed_dataset
+        generate_indexed_dataset()
+
+    import pandas as pd
+    df = pd.read_csv(master_csv)
+    counts = dict(df["target_task1_body_type"].str.lower().value_counts())
+
+    types_meta = [
+        {"type": "all", "label": "Complete Dataset (All Types)", "records": len(df), "filename": "indexed_waterbody_dataset.csv"},
+        {"type": "wetland", "label": "Wetlands Only", "records": counts.get("wetland", 0), "filename": "indexed_dataset_wetland.csv"},
+        {"type": "pond", "label": "Ponds Only", "records": counts.get("pond", 0), "filename": "indexed_dataset_pond.csv"},
+        {"type": "river", "label": "Rivers Only", "records": counts.get("river", 0), "filename": "indexed_dataset_river.csv"},
+        {"type": "lake", "label": "Lakes Only", "records": counts.get("lake", 0), "filename": "indexed_dataset_lake.csv"},
+        {"type": "reservoir", "label": "Reservoirs Only", "records": counts.get("reservoir", 0), "filename": "indexed_dataset_reservoir.csv"},
+    ]
+
+    return {
+        "total_records": len(df),
+        "total_water_bodies": df["wb_index"].nunique() if "wb_index" in df.columns else None,
+        "years": "2014-2024",
+        "partitions": types_meta,
+    }
 
 
 
@@ -63,7 +124,7 @@ def list_water_bodies(
     min_ndwi: Optional[float] = Query(None),
     max_ndwi: Optional[float] = Query(None),
     quality_status: Optional[str] = Query(None),
-    limit: int = Query(100, le=500),
+    limit: int = Query(300, le=500),
     offset: int = Query(0),
     db: Session = Depends(get_db),
 ):

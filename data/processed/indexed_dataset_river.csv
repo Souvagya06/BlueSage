@@ -1,0 +1,474 @@
+index_id,wb_index,water_body_name,observation_year,spatial_grid_index,latitude,longitude,country,city,area_sq_km,perimeter_km,elongation_ratio,ndwi,water_occurrence_pct,seasonality_months,ph,dissolved_oxygen_mgl,turbidity_ntu,chlorophyll_a_ugl,water_quality_score,target_task1_body_type,target_task2_quality_status,target_task3_future_trend
+4_2014,4,Hooghly River Reach,2014,GEO_1125_2683,22.585,88.345,India,Kolkata,18.4469,107.03,7.03,0.387,89.1,12,8.35,4.7,51.3,33.9,37.3,river,poor,stable
+4_2015,4,Hooghly River Reach,2015,GEO_1125_2683,22.585,88.345,India,Kolkata,18.2554,106.48,7.03,0.355,97.9,12,8.49,4.7,47.4,27.2,33.9,river,poor,stable
+4_2016,4,Hooghly River Reach,2016,GEO_1125_2683,22.585,88.345,India,Kolkata,18.2337,106.41,7.03,0.351,88.8,12,8.55,4.6,48.5,41.2,30.2,river,poor,stable
+4_2017,4,Hooghly River Reach,2017,GEO_1125_2683,22.585,88.345,India,Kolkata,18.7289,107.85,7.03,0.375,93.4,12,8.46,4.6,52.8,36.5,36.6,river,poor,stable
+4_2018,4,Hooghly River Reach,2018,GEO_1125_2683,22.585,88.345,India,Kolkata,18.6495,107.62,7.03,0.374,85.5,12,8.39,4.6,38.4,27.2,33.4,river,poor,stable
+4_2019,4,Hooghly River Reach,2019,GEO_1125_2683,22.585,88.345,India,Kolkata,18.4745,107.11,7.03,0.353,89.7,12,8.22,3.7,44.8,25.9,36.9,river,poor,stable
+4_2020,4,Hooghly River Reach,2020,GEO_1125_2683,22.585,88.345,India,Kolkata,18.224,106.39,7.03,0.352,91.9,12,8.51,4.4,35.4,27.0,25.7,river,poor,stable
+4_2021,4,Hooghly River Reach,2021,GEO_1125_2683,22.585,88.345,India,Kolkata,18.5301,107.28,7.03,0.361,88.5,12,8.46,4.4,54.4,32.4,36.5,river,poor,stable
+4_2022,4,Hooghly River Reach,2022,GEO_1125_2683,22.585,88.345,India,Kolkata,18.4548,107.06,7.03,0.316,87.3,12,8.62,3.2,54.1,41.0,30.9,river,poor,stable
+4_2023,4,Hooghly River Reach,2023,GEO_1125_2683,22.585,88.345,India,Kolkata,18.2458,106.45,7.03,0.33,94.6,12,8.53,4.1,47.9,31.4,38.8,river,poor,stable
+4_2024,4,Hooghly River Reach,2024,GEO_1125_2683,22.585,88.345,India,Kolkata,18.5402,107.3,7.03,0.359,86.5,12,8.38,3.9,36.2,42.4,25.2,river,poor,stable
+21_2014,21,Yamuna River Reach (Delhi),2014,GEO_1186_2572,28.6139,77.209,India,New Delhi,12.0,70.73,5.76,0.322,97.6,12,5.51,1.9,57.7,83.5,18.6,river,critical,shrink
+21_2015,21,Yamuna River Reach (Delhi),2015,GEO_1186_2572,28.6139,77.209,India,New Delhi,11.58,69.48,5.76,0.345,93.1,12,5.48,1.8,75.2,70.6,14.6,river,critical,shrink
+21_2016,21,Yamuna River Reach (Delhi),2016,GEO_1186_2572,28.6139,77.209,India,New Delhi,11.16,68.21,5.76,0.362,85.8,12,9.08,1.5,57.5,47.3,23.9,river,critical,shrink
+21_2017,21,Yamuna River Reach (Delhi),2017,GEO_1186_2572,28.6139,77.209,India,New Delhi,10.74,66.92,5.76,0.366,94.0,12,5.5,3.2,64.6,57.1,13.2,river,critical,shrink
+21_2018,21,Yamuna River Reach (Delhi),2018,GEO_1186_2572,28.6139,77.209,India,New Delhi,10.32,65.59,5.76,0.315,91.9,12,9.17,2.2,94.9,57.3,19.5,river,critical,shrink
+21_2019,21,Yamuna River Reach (Delhi),2019,GEO_1186_2572,28.6139,77.209,India,New Delhi,9.9,64.25,5.76,0.344,95.8,12,5.56,1.5,90.5,59.7,17.0,river,critical,shrink
+21_2020,21,Yamuna River Reach (Delhi),2020,GEO_1186_2572,28.6139,77.209,India,New Delhi,9.48,62.87,5.76,0.369,94.9,12,5.79,2.7,55.4,45.8,15.1,river,critical,shrink
+21_2021,21,Yamuna River Reach (Delhi),2021,GEO_1186_2572,28.6139,77.209,India,New Delhi,9.06,61.46,5.76,0.321,97.5,12,5.59,2.3,63.6,84.0,21.6,river,critical,shrink
+21_2022,21,Yamuna River Reach (Delhi),2022,GEO_1186_2572,28.6139,77.209,India,New Delhi,8.64,60.02,5.76,0.349,87.0,12,6.08,1.4,76.9,48.9,17.9,river,critical,shrink
+21_2023,21,Yamuna River Reach (Delhi),2023,GEO_1186_2572,28.6139,77.209,India,New Delhi,8.22,58.54,5.76,0.336,96.6,12,5.72,2.7,74.0,63.4,21.4,river,critical,shrink
+21_2024,21,Yamuna River Reach (Delhi),2024,GEO_1186_2572,28.6139,77.209,India,New Delhi,7.8,57.03,5.76,0.386,85.5,12,9.06,2.8,67.6,55.2,22.1,river,critical,shrink
+22_2014,22,Ganga River Reach (Varanasi),2014,GEO_1153_2629,25.3176,82.9739,India,Varanasi,24.9615,123.27,6.96,0.361,91.7,12,8.52,4.3,52.4,39.1,26.0,river,poor,stable
+22_2015,22,Ganga River Reach (Varanasi),2015,GEO_1153_2629,25.3176,82.9739,India,Varanasi,24.6502,122.5,6.96,0.369,85.9,12,8.22,4.0,47.0,27.0,35.4,river,poor,stable
+22_2016,22,Ganga River Reach (Varanasi),2016,GEO_1153_2629,25.3176,82.9739,India,Varanasi,24.5713,122.3,6.96,0.311,95.1,12,8.38,4.7,48.4,31.8,30.1,river,poor,stable
+22_2017,22,Ganga River Reach (Varanasi),2017,GEO_1153_2629,25.3176,82.9739,India,Varanasi,25.1614,123.76,6.96,0.325,85.3,12,8.53,3.5,32.5,42.6,28.8,river,poor,stable
+22_2018,22,Ganga River Reach (Varanasi),2018,GEO_1153_2629,25.3176,82.9739,India,Varanasi,24.5822,122.33,6.96,0.387,86.6,12,8.51,3.7,49.2,33.8,28.0,river,poor,stable
+22_2019,22,Ganga River Reach (Varanasi),2019,GEO_1153_2629,25.3176,82.9739,India,Varanasi,25.115,123.65,6.96,0.372,88.8,12,8.22,4.2,43.3,47.3,36.6,river,poor,stable
+22_2020,22,Ganga River Reach (Varanasi),2020,GEO_1153_2629,25.3176,82.9739,India,Varanasi,25.48,124.54,6.96,0.358,89.4,12,8.61,4.1,48.7,40.1,26.9,river,poor,stable
+22_2021,22,Ganga River Reach (Varanasi),2021,GEO_1153_2629,25.3176,82.9739,India,Varanasi,25.4281,124.41,6.96,0.328,88.1,12,8.42,3.8,40.8,39.1,38.7,river,poor,stable
+22_2022,22,Ganga River Reach (Varanasi),2022,GEO_1153_2629,25.3176,82.9739,India,Varanasi,24.6215,122.43,6.96,0.326,96.0,12,8.34,4.6,46.1,43.8,37.5,river,poor,stable
+22_2023,22,Ganga River Reach (Varanasi),2023,GEO_1153_2629,25.3176,82.9739,India,Varanasi,25.4189,124.39,6.96,0.33,93.5,12,8.62,4.4,41.5,41.8,36.3,river,poor,stable
+22_2024,22,Ganga River Reach (Varanasi),2024,GEO_1153_2629,25.3176,82.9739,India,Varanasi,24.6774,122.56,6.96,0.354,94.4,12,8.22,4.8,53.4,28.8,26.9,river,poor,stable
+23_2014,23,Godavari River Delta,2014,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,34.5989,140.96,6.76,0.35,88.9,12,8.07,6.2,28.3,21.1,50.4,river,fair,stable
+23_2015,23,Godavari River Delta,2015,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,35.091,141.95,6.76,0.365,85.1,12,8.18,6.3,26.9,15.9,49.5,river,fair,stable
+23_2016,23,Godavari River Delta,2016,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,34.6454,141.05,6.76,0.368,92.2,12,8.0,6.5,19.4,23.6,44.8,river,fair,stable
+23_2017,23,Godavari River Delta,2017,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,35.3263,142.43,6.76,0.359,94.9,12,8.19,5.2,23.0,20.7,41.1,river,fair,stable
+23_2018,23,Godavari River Delta,2018,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,34.3494,140.45,6.76,0.37,89.0,12,7.98,5.2,31.4,17.9,43.8,river,fair,stable
+23_2019,23,Godavari River Delta,2019,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,35.5273,142.83,6.76,0.39,90.1,12,8.16,5.5,24.3,24.6,52.0,river,fair,stable
+23_2020,23,Godavari River Delta,2020,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,34.8777,141.52,6.76,0.366,92.6,12,7.98,4.9,26.7,23.5,42.7,river,fair,stable
+23_2021,23,Godavari River Delta,2021,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,34.9734,141.72,6.76,0.361,93.8,12,8.08,5.0,26.1,20.7,52.2,river,fair,stable
+23_2022,23,Godavari River Delta,2022,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,35.427,142.63,6.76,0.332,95.2,12,7.84,6.2,25.0,14.7,47.2,river,fair,stable
+23_2023,23,Godavari River Delta,2023,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,35.2908,142.36,6.76,0.373,86.2,12,7.87,5.7,24.2,17.9,49.0,river,fair,stable
+23_2024,23,Godavari River Delta,2024,GEO_1069_2617,16.9891,81.784,India,Rajahmundry,34.6089,140.98,6.76,0.358,93.3,12,8.27,6.1,32.0,21.7,48.8,river,fair,stable
+24_2014,24,Narmada River Estuary,2014,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.5725,124.53,6.69,0.343,89.7,12,7.6,8.1,11.8,11.3,64.4,river,good,stable
+24_2015,24,Narmada River Estuary,2015,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.8147,125.07,6.69,0.312,97.2,12,7.39,6.6,16.3,10.7,66.5,river,good,stable
+24_2016,24,Narmada River Estuary,2016,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.7304,124.88,6.69,0.344,91.3,12,7.33,8.2,16.4,13.2,69.5,river,good,stable
+24_2017,24,Narmada River Estuary,2017,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.5895,124.57,6.69,0.316,87.1,12,7.51,7.9,13.0,12.6,75.2,river,good,stable
+24_2018,24,Narmada River Estuary,2018,GEO_1117_2529,21.7051,72.9959,India,Bharuch,28.1235,125.77,6.69,0.321,88.7,12,7.87,8.0,14.6,6.6,62.1,river,good,stable
+24_2019,24,Narmada River Estuary,2019,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.7331,124.89,6.69,0.33,95.1,12,7.39,8.2,10.5,12.8,69.3,river,good,stable
+24_2020,24,Narmada River Estuary,2020,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.5132,124.39,6.69,0.349,90.3,12,7.83,6.7,8.6,7.3,70.8,river,good,stable
+24_2021,24,Narmada River Estuary,2021,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.829,125.11,6.69,0.382,85.7,12,7.87,6.6,14.6,11.0,78.3,river,good,stable
+24_2022,24,Narmada River Estuary,2022,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.909,125.29,6.69,0.331,92.3,12,7.38,7.9,17.8,11.9,64.7,river,good,stable
+24_2023,24,Narmada River Estuary,2023,GEO_1117_2529,21.7051,72.9959,India,Bharuch,27.9596,125.4,6.69,0.388,88.3,12,7.28,7.7,11.5,7.4,65.2,river,good,stable
+24_2024,24,Narmada River Estuary,2024,GEO_1117_2529,21.7051,72.9959,India,Bharuch,28.3927,126.37,6.69,0.355,94.2,12,7.8,7.5,9.1,12.5,62.3,river,good,stable
+61_2014,61,Mississippi River Reach,2014,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,55.9342,147.41,5.56,0.314,89.5,12,8.51,4.0,52.8,37.6,28.6,river,poor,stable
+61_2015,61,Mississippi River Reach,2015,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,55.7745,147.2,5.56,0.355,92.8,12,8.21,4.0,32.5,47.2,30.5,river,poor,stable
+61_2016,61,Mississippi River Reach,2016,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,54.0754,144.94,5.56,0.365,90.3,12,8.26,4.7,44.4,38.4,36.1,river,poor,stable
+61_2017,61,Mississippi River Reach,2017,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,55.8356,147.28,5.56,0.362,96.8,12,8.27,4.6,45.6,32.1,27.9,river,poor,stable
+61_2018,61,Mississippi River Reach,2018,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,55.5729,146.93,5.56,0.364,93.0,12,8.58,3.7,34.6,35.9,28.3,river,poor,stable
+61_2019,61,Mississippi River Reach,2019,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,53.9887,144.82,5.56,0.336,87.6,12,8.69,3.9,33.7,29.8,26.9,river,poor,stable
+61_2020,61,Mississippi River Reach,2020,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,55.5919,146.96,5.56,0.344,96.5,12,8.22,4.1,30.5,35.3,36.8,river,poor,stable
+61_2021,61,Mississippi River Reach,2021,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,54.0908,144.96,5.56,0.353,94.8,12,8.61,4.7,39.7,28.1,38.6,river,poor,stable
+61_2022,61,Mississippi River Reach,2022,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,55.9709,147.46,5.56,0.364,94.9,12,8.34,3.8,53.5,32.6,35.2,river,poor,stable
+61_2023,61,Mississippi River Reach,2023,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,55.9447,147.42,5.56,0.326,89.0,12,8.23,4.5,48.5,33.9,29.1,river,poor,stable
+61_2024,61,Mississippi River Reach,2024,GEO_1286_0898,38.627,-90.1994,United States,St. Louis,56.0625,147.58,5.56,0.361,96.3,12,8.39,4.3,54.4,43.4,31.3,river,poor,stable
+62_2014,62,Hudson River Estuary,2014,GEO_1307_1059,40.7128,-74.006,United States,New York,38.6805,115.31,5.23,0.328,94.7,12,8.0,5.4,28.6,21.3,49.2,river,fair,stable
+62_2015,62,Hudson River Estuary,2015,GEO_1307_1059,40.7128,-74.006,United States,New York,37.5871,113.66,5.23,0.315,85.7,12,7.88,5.4,24.6,18.3,48.4,river,fair,stable
+62_2016,62,Hudson River Estuary,2016,GEO_1307_1059,40.7128,-74.006,United States,New York,38.1266,114.48,5.23,0.381,90.3,12,8.13,5.1,26.4,19.0,54.0,river,fair,stable
+62_2017,62,Hudson River Estuary,2017,GEO_1307_1059,40.7128,-74.006,United States,New York,38.007,114.3,5.23,0.311,90.5,12,7.82,6.0,27.3,18.4,59.1,river,fair,stable
+62_2018,62,Hudson River Estuary,2018,GEO_1307_1059,40.7128,-74.006,United States,New York,38.003,114.29,5.23,0.383,91.2,12,8.2,6.0,26.1,24.4,49.5,river,fair,stable
+62_2019,62,Hudson River Estuary,2019,GEO_1307_1059,40.7128,-74.006,United States,New York,37.8268,114.03,5.23,0.387,92.1,12,8.23,6.0,19.2,19.8,42.3,river,fair,stable
+62_2020,62,Hudson River Estuary,2020,GEO_1307_1059,40.7128,-74.006,United States,New York,37.8741,114.1,5.23,0.38,91.7,12,8.08,5.2,29.6,14.7,59.0,river,fair,stable
+62_2021,62,Hudson River Estuary,2021,GEO_1307_1059,40.7128,-74.006,United States,New York,37.6821,113.81,5.23,0.348,95.1,12,7.9,6.3,22.3,15.5,46.5,river,fair,stable
+62_2022,62,Hudson River Estuary,2022,GEO_1307_1059,40.7128,-74.006,United States,New York,37.9569,114.22,5.23,0.328,91.3,12,8.27,5.2,22.7,18.1,59.3,river,fair,stable
+62_2023,62,Hudson River Estuary,2023,GEO_1307_1059,40.7128,-74.006,United States,New York,37.5123,113.55,5.23,0.381,94.4,12,8.29,5.6,27.9,14.6,42.8,river,fair,stable
+62_2024,62,Hudson River Estuary,2024,GEO_1307_1059,40.7128,-74.006,United States,New York,37.6684,113.79,5.23,0.325,92.9,12,8.19,5.0,18.3,15.6,49.7,river,fair,stable
+63_2014,63,Columbia River Reach,2014,GEO_1356_0574,45.6,-122.6,United States,Portland,60.8272,161.18,5.83,0.373,91.2,12,7.83,6.6,15.6,9.9,70.9,river,good,stable
+63_2015,63,Columbia River Reach,2015,GEO_1356_0574,45.6,-122.6,United States,Portland,61.7252,162.37,5.83,0.381,91.6,12,7.63,8.2,11.4,14.3,78.8,river,good,stable
+63_2016,63,Columbia River Reach,2016,GEO_1356_0574,45.6,-122.6,United States,Portland,61.883,162.58,5.83,0.332,90.3,12,7.61,8.3,9.4,8.5,66.2,river,good,stable
+63_2017,63,Columbia River Reach,2017,GEO_1356_0574,45.6,-122.6,United States,Portland,63.237,164.35,5.83,0.314,88.4,12,7.31,7.6,8.8,10.0,70.4,river,good,stable
+63_2018,63,Columbia River Reach,2018,GEO_1356_0574,45.6,-122.6,United States,Portland,61.5448,162.13,5.83,0.317,96.8,12,7.86,7.1,17.7,9.0,71.6,river,good,stable
+63_2019,63,Columbia River Reach,2019,GEO_1356_0574,45.6,-122.6,United States,Portland,60.7753,161.12,5.83,0.375,85.2,12,7.31,8.3,8.9,14.6,70.9,river,good,stable
+63_2020,63,Columbia River Reach,2020,GEO_1356_0574,45.6,-122.6,United States,Portland,61.3989,161.94,5.83,0.346,91.9,12,7.9,7.8,15.3,8.6,71.0,river,good,stable
+63_2021,63,Columbia River Reach,2021,GEO_1356_0574,45.6,-122.6,United States,Portland,61.766,162.42,5.83,0.324,92.1,12,7.55,8.4,16.5,11.4,65.2,river,good,stable
+63_2022,63,Columbia River Reach,2022,GEO_1356_0574,45.6,-122.6,United States,Portland,62.4835,163.36,5.83,0.351,90.0,12,7.46,8.4,14.1,12.9,64.2,river,good,stable
+63_2023,63,Columbia River Reach,2023,GEO_1356_0574,45.6,-122.6,United States,Portland,61.6205,162.23,5.83,0.345,95.5,12,7.76,8.0,12.8,11.2,67.3,river,good,stable
+63_2024,63,Columbia River Reach,2024,GEO_1356_0574,45.6,-122.6,United States,Portland,61.351,161.88,5.83,0.328,90.8,12,7.21,7.5,10.6,11.8,70.5,river,good,stable
+64_2014,64,Colorado River Reach,2014,GEO_1285_0704,38.5733,-109.5498,United States,Moab,28.0,133.56,7.12,0.356,94.3,12,8.48,4.6,33.5,45.0,33.5,river,poor,shrink
+64_2015,64,Colorado River Reach,2015,GEO_1285_0704,38.5733,-109.5498,United States,Moab,27.02,131.2,7.12,0.34,97.6,12,8.4,3.3,41.4,44.9,28.5,river,poor,shrink
+64_2016,64,Colorado River Reach,2016,GEO_1285_0704,38.5733,-109.5498,United States,Moab,26.04,128.8,7.12,0.387,89.2,12,8.65,3.6,38.7,47.2,31.4,river,poor,shrink
+64_2017,64,Colorado River Reach,2017,GEO_1285_0704,38.5733,-109.5498,United States,Moab,25.06,126.35,7.12,0.352,90.0,12,8.57,4.3,36.8,26.2,25.7,river,poor,shrink
+64_2018,64,Colorado River Reach,2018,GEO_1285_0704,38.5733,-109.5498,United States,Moab,24.08,123.85,7.12,0.338,97.7,12,8.36,3.7,42.3,29.4,29.5,river,poor,shrink
+64_2019,64,Colorado River Reach,2019,GEO_1285_0704,38.5733,-109.5498,United States,Moab,23.1,121.31,7.12,0.343,94.3,12,8.69,3.9,44.4,30.6,34.9,river,poor,shrink
+64_2020,64,Colorado River Reach,2020,GEO_1285_0704,38.5733,-109.5498,United States,Moab,22.12,118.71,7.12,0.359,87.7,12,8.23,3.3,46.9,38.7,35.7,river,poor,shrink
+64_2021,64,Colorado River Reach,2021,GEO_1285_0704,38.5733,-109.5498,United States,Moab,21.14,116.05,7.12,0.377,97.4,12,8.43,3.2,51.1,30.0,26.9,river,poor,shrink
+64_2022,64,Colorado River Reach,2022,GEO_1285_0704,38.5733,-109.5498,United States,Moab,20.16,113.33,7.12,0.316,88.8,12,8.51,3.5,38.7,37.5,26.8,river,poor,shrink
+64_2023,64,Colorado River Reach,2023,GEO_1285_0704,38.5733,-109.5498,United States,Moab,19.18,110.54,7.12,0.329,90.1,12,8.55,3.5,40.3,30.0,30.3,river,poor,shrink
+64_2024,64,Colorado River Reach,2024,GEO_1285_0704,38.5733,-109.5498,United States,Moab,18.2,107.68,7.12,0.388,88.5,12,8.32,4.7,50.0,26.6,29.6,river,poor,shrink
+79_2014,79,St. Lawrence River Reach,2014,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,85.9864,163.37,4.97,0.327,89.6,12,8.08,6.0,29.2,22.9,53.2,river,fair,stable
+79_2015,79,St. Lawrence River Reach,2015,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,86.0501,163.43,4.97,0.334,95.6,12,7.99,5.8,28.4,17.6,49.5,river,fair,stable
+79_2016,79,St. Lawrence River Reach,2016,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,86.4617,163.82,4.97,0.354,95.7,12,7.85,6.0,30.6,16.8,54.1,river,fair,stable
+79_2017,79,St. Lawrence River Reach,2017,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,86.2139,163.59,4.97,0.343,86.0,12,7.92,5.0,24.1,17.5,55.3,river,fair,stable
+79_2018,79,St. Lawrence River Reach,2018,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,86.1138,163.49,4.97,0.344,95.5,12,7.97,5.9,19.3,15.1,58.8,river,fair,stable
+79_2019,79,St. Lawrence River Reach,2019,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,84.8628,162.3,4.97,0.328,85.0,12,7.88,6.4,22.8,20.8,58.5,river,fair,stable
+79_2020,79,St. Lawrence River Reach,2020,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,84.1096,161.58,4.97,0.385,97.9,12,8.09,5.2,19.6,24.3,49.8,river,fair,stable
+79_2021,79,St. Lawrence River Reach,2021,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,85.6092,163.01,4.97,0.316,86.1,12,7.94,6.5,23.7,20.7,46.6,river,fair,stable
+79_2022,79,St. Lawrence River Reach,2022,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,83.3049,160.8,4.97,0.346,87.1,12,8.3,6.2,26.0,17.4,46.2,river,fair,stable
+79_2023,79,St. Lawrence River Reach,2023,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,83.8578,161.34,4.97,0.333,89.3,12,8.29,6.2,30.7,16.8,57.3,river,fair,stable
+79_2024,79,St. Lawrence River Reach,2024,GEO_1355_1064,45.5017,-73.5673,Canada,Montreal,83.6837,161.17,4.97,0.38,90.9,12,8.01,5.9,20.3,17.4,54.6,river,fair,stable
+80_2014,80,Fraser River Estuary,2014,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,41.252,163.25,7.17,0.338,97.2,12,7.42,7.5,13.0,12.6,77.2,river,good,stable
+80_2015,80,Fraser River Estuary,2015,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,42.5126,165.72,7.17,0.378,91.1,12,7.41,7.6,16.3,9.6,66.9,river,good,stable
+80_2016,80,Fraser River Estuary,2016,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,41.6398,164.01,7.17,0.387,87.9,12,7.57,7.2,9.0,6.5,63.0,river,good,stable
+80_2017,80,Fraser River Estuary,2017,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,41.9401,164.6,7.17,0.345,95.1,12,7.5,8.0,15.4,9.0,66.9,river,good,stable
+80_2018,80,Fraser River Estuary,2018,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,41.2475,163.24,7.17,0.311,96.2,12,7.29,8.0,12.8,8.1,78.3,river,good,stable
+80_2019,80,Fraser River Estuary,2019,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,42.3524,165.41,7.17,0.349,87.6,12,7.88,7.5,17.8,7.9,76.0,river,good,stable
+80_2020,80,Fraser River Estuary,2020,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,41.5187,163.77,7.17,0.364,96.8,12,7.26,7.3,17.3,10.6,78.0,river,good,stable
+80_2021,80,Fraser River Estuary,2021,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,41.423,163.59,7.17,0.339,86.6,12,7.88,7.7,9.6,14.2,64.1,river,good,stable
+80_2022,80,Fraser River Estuary,2022,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,41.3035,163.35,7.17,0.383,87.9,12,7.51,6.9,12.2,11.4,62.3,river,good,stable
+80_2023,80,Fraser River Estuary,2023,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,42.7249,166.14,7.17,0.383,96.8,12,7.43,8.0,8.2,11.7,66.1,river,good,stable
+80_2024,80,Fraser River Estuary,2024,GEO_1391_0568,49.1913,-123.18,Canada,Vancouver,42.2249,165.16,7.17,0.316,90.1,12,7.25,8.2,17.6,10.8,66.6,river,good,stable
+90_2014,90,River Thames Reach,2014,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,21.7361,99.66,6.03,0.336,94.8,12,7.87,5.8,19.0,14.9,56.0,river,fair,stable
+90_2015,90,River Thames Reach,2015,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,22.2229,100.77,6.03,0.367,95.1,12,8.12,6.0,24.7,14.5,52.5,river,fair,stable
+90_2016,90,River Thames Reach,2016,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,22.0003,100.26,6.03,0.339,95.0,12,8.15,5.3,27.0,24.5,47.3,river,fair,stable
+90_2017,90,River Thames Reach,2017,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,22.054,100.38,6.03,0.381,86.0,12,8.09,5.7,25.2,23.0,58.8,river,fair,stable
+90_2018,90,River Thames Reach,2018,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,21.607,99.36,6.03,0.385,94.7,12,8.04,5.7,26.6,15.1,55.2,river,fair,stable
+90_2019,90,River Thames Reach,2019,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,21.8343,99.88,6.03,0.334,97.2,12,8.24,6.2,19.0,17.1,52.0,river,fair,stable
+90_2020,90,River Thames Reach,2020,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,22.1567,100.62,6.03,0.343,93.4,12,7.94,6.0,22.8,26.0,54.9,river,fair,stable
+90_2021,90,River Thames Reach,2021,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,21.8727,99.97,6.03,0.314,85.4,12,8.18,4.9,25.8,20.4,56.6,river,fair,stable
+90_2022,90,River Thames Reach,2022,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,21.8827,99.99,6.03,0.329,90.5,12,8.28,5.6,19.0,16.7,58.1,river,fair,stable
+90_2023,90,River Thames Reach,2023,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,22.4273,101.23,6.03,0.354,86.2,12,8.17,6.4,18.1,24.8,43.6,river,fair,stable
+90_2024,90,River Thames Reach,2024,GEO_1415_1798,51.5074,-0.1278,United Kingdom,London,21.9336,100.11,6.03,0.385,86.1,12,7.87,5.8,25.4,14.0,56.0,river,fair,stable
+91_2014,91,River Severn Estuary,2014,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,45.7463,151.53,6.32,0.327,88.9,12,7.62,7.8,8.8,7.5,74.6,river,good,stable
+91_2015,91,River Severn Estuary,2015,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.9341,150.18,6.32,0.358,93.9,12,7.41,6.9,15.4,12.0,63.9,river,good,stable
+91_2016,91,River Severn Estuary,2016,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.3307,149.17,6.32,0.344,87.6,12,7.38,7.0,15.5,13.9,77.5,river,good,stable
+91_2017,91,River Severn Estuary,2017,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,45.2049,150.63,6.32,0.317,89.9,12,7.66,7.3,15.1,11.6,66.2,river,good,stable
+91_2018,91,River Severn Estuary,2018,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.2853,149.09,6.32,0.368,85.3,12,7.37,7.5,15.1,8.9,67.2,river,good,stable
+91_2019,91,River Severn Estuary,2019,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.7139,149.81,6.32,0.374,85.2,12,7.52,8.2,13.2,6.3,77.3,river,good,stable
+91_2020,91,River Severn Estuary,2020,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,45.8006,151.62,6.32,0.349,87.9,12,7.22,7.2,17.2,11.2,71.2,river,good,stable
+91_2021,91,River Severn Estuary,2021,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.872,150.08,6.32,0.362,88.4,12,7.86,7.9,8.0,7.5,65.3,river,good,stable
+91_2022,91,River Severn Estuary,2022,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.1681,148.89,6.32,0.32,96.1,12,7.28,8.4,11.2,7.0,74.3,river,good,stable
+91_2023,91,River Severn Estuary,2023,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.5625,149.56,6.32,0.312,91.7,12,7.27,7.0,8.6,9.9,65.3,river,good,stable
+91_2024,91,River Severn Estuary,2024,GEO_1415_1773,51.55,-2.7,United Kingdom,Bristol,44.5563,149.55,6.32,0.385,94.5,12,7.45,8.2,13.7,9.4,68.6,river,good,stable
+113_2014,113,Seine River Reach,2014,GEO_1388_1823,48.8566,2.3522,France,Paris,15.8639,74.55,5.28,0.323,87.5,12,8.06,5.3,21.1,20.8,58.5,river,fair,stable
+113_2015,113,Seine River Reach,2015,GEO_1388_1823,48.8566,2.3522,France,Paris,16.0907,75.08,5.28,0.375,94.7,12,7.93,5.8,21.6,14.5,46.7,river,fair,stable
+113_2016,113,Seine River Reach,2016,GEO_1388_1823,48.8566,2.3522,France,Paris,15.7104,74.19,5.28,0.328,87.1,12,8.03,6.0,29.0,22.4,48.2,river,fair,stable
+113_2017,113,Seine River Reach,2017,GEO_1388_1823,48.8566,2.3522,France,Paris,15.9348,74.72,5.28,0.356,85.3,12,8.05,6.4,19.0,17.9,50.4,river,fair,stable
+113_2018,113,Seine River Reach,2018,GEO_1388_1823,48.8566,2.3522,France,Paris,15.8803,74.59,5.28,0.376,95.9,12,7.94,5.8,24.3,17.6,48.1,river,fair,stable
+113_2019,113,Seine River Reach,2019,GEO_1388_1823,48.8566,2.3522,France,Paris,16.299,75.56,5.28,0.345,94.7,12,8.01,5.5,29.9,20.6,45.3,river,fair,stable
+113_2020,113,Seine River Reach,2020,GEO_1388_1823,48.8566,2.3522,France,Paris,16.0205,74.92,5.28,0.375,87.2,12,8.16,6.1,21.0,23.6,47.4,river,fair,stable
+113_2021,113,Seine River Reach,2021,GEO_1388_1823,48.8566,2.3522,France,Paris,15.6817,74.12,5.28,0.346,87.9,12,7.89,5.5,25.8,24.3,45.8,river,fair,stable
+113_2022,113,Seine River Reach,2022,GEO_1388_1823,48.8566,2.3522,France,Paris,15.9877,74.84,5.28,0.35,91.0,12,7.88,5.2,21.8,22.6,55.2,river,fair,stable
+113_2023,113,Seine River Reach,2023,GEO_1388_1823,48.8566,2.3522,France,Paris,16.137,75.19,5.28,0.369,86.6,12,8.21,5.1,31.5,16.5,44.4,river,fair,stable
+113_2024,113,Seine River Reach,2024,GEO_1388_1823,48.8566,2.3522,France,Paris,15.7686,74.33,5.28,0.37,85.2,12,8.17,5.7,29.0,21.3,53.7,river,fair,stable
+114_2014,114,Rhine River Reach,2014,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,35.0,116.39,5.55,0.361,93.9,12,7.8,6.6,8.3,12.2,65.9,river,good,shrink
+114_2015,114,Rhine River Reach,2015,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,33.775,114.34,5.55,0.373,91.4,12,7.85,7.2,8.4,9.1,63.0,river,good,shrink
+114_2016,114,Rhine River Reach,2016,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,32.55,112.25,5.55,0.371,92.5,12,7.37,7.0,10.7,14.9,64.7,river,good,shrink
+114_2017,114,Rhine River Reach,2017,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,31.325,110.11,5.55,0.384,93.2,12,7.86,6.9,17.7,14.0,65.0,river,good,shrink
+114_2018,114,Rhine River Reach,2018,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,30.1,107.94,5.55,0.371,90.5,12,7.74,8.4,9.8,9.0,64.2,river,good,shrink
+114_2019,114,Rhine River Reach,2019,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,28.875,105.72,5.55,0.374,89.7,12,7.9,7.4,13.4,9.6,72.4,river,good,shrink
+114_2020,114,Rhine River Reach,2020,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,27.65,103.45,5.55,0.341,87.7,12,7.58,7.9,17.4,12.9,62.7,river,good,shrink
+114_2021,114,Rhine River Reach,2021,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,26.425,101.14,5.55,0.35,91.7,12,7.56,6.6,10.5,6.1,65.9,river,good,shrink
+114_2022,114,Rhine River Reach,2022,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,25.2,98.76,5.55,0.356,87.6,12,7.49,8.3,14.5,14.4,75.5,river,good,shrink
+114_2023,114,Rhine River Reach,2023,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,23.975,96.33,5.55,0.32,97.8,12,7.75,7.8,13.6,12.6,72.6,river,good,shrink
+114_2024,114,Rhine River Reach,2024,GEO_1409_1869,50.9375,6.9603,Germany,Cologne,22.75,93.84,5.55,0.353,94.1,12,7.38,6.8,16.3,13.0,78.7,river,good,shrink
+115_2014,115,Danube River Reach,2014,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,41.9334,143.01,6.23,0.339,91.4,12,7.73,7.2,14.4,12.1,64.7,river,good,stable
+115_2015,115,Danube River Reach,2015,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,42.49,143.96,6.23,0.348,87.1,12,7.66,7.6,15.7,9.7,77.6,river,good,stable
+115_2016,115,Danube River Reach,2016,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,42.8325,144.54,6.23,0.32,96.2,12,7.37,6.6,16.9,12.6,76.0,river,good,stable
+115_2017,115,Danube River Reach,2017,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,42.8259,144.53,6.23,0.334,92.7,12,7.48,7.9,9.2,13.6,67.8,river,good,stable
+115_2018,115,Danube River Reach,2018,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,42.0063,143.14,6.23,0.362,86.0,12,7.6,8.4,8.6,13.8,69.9,river,good,stable
+115_2019,115,Danube River Reach,2019,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,42.1017,143.3,6.23,0.337,94.0,12,7.57,6.9,16.5,14.4,75.9,river,good,stable
+115_2020,115,Danube River Reach,2020,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,41.1684,141.7,6.23,0.344,88.4,12,7.32,7.0,17.1,8.6,70.6,river,good,stable
+115_2021,115,Danube River Reach,2021,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,41.5126,142.29,6.23,0.358,90.5,12,7.46,6.8,8.6,12.5,71.3,river,good,stable
+115_2022,115,Danube River Reach,2022,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,42.1105,143.31,6.23,0.339,87.4,12,7.67,8.3,8.5,14.0,75.9,river,good,stable
+115_2023,115,Danube River Reach,2023,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,41.6572,142.54,6.23,0.367,94.3,12,7.7,6.8,16.1,12.6,62.9,river,good,stable
+115_2024,115,Danube River Reach,2024,GEO_1382_1963,48.2082,16.3738,Austria,Vienna,42.3021,143.64,6.23,0.376,96.9,12,7.46,6.7,8.2,7.3,71.3,river,good,stable
+126_2014,126,Volga River Reach,2014,GEO_1432_2301,53.2,50.15,Russia,Samara,75.0,200.47,6.53,0.317,89.4,12,8.16,5.3,18.1,18.1,55.6,river,fair,shrink
+126_2015,126,Volga River Reach,2015,GEO_1432_2301,53.2,50.15,Russia,Samara,72.375,196.93,6.53,0.376,94.9,12,7.97,5.1,20.4,18.9,47.5,river,fair,shrink
+126_2016,126,Volga River Reach,2016,GEO_1432_2301,53.2,50.15,Russia,Samara,69.75,193.33,6.53,0.318,86.2,12,7.83,5.5,29.7,25.3,59.2,river,fair,shrink
+126_2017,126,Volga River Reach,2017,GEO_1432_2301,53.2,50.15,Russia,Samara,67.125,189.65,6.53,0.333,86.5,12,8.1,5.5,28.9,21.7,55.0,river,fair,shrink
+126_2018,126,Volga River Reach,2018,GEO_1432_2301,53.2,50.15,Russia,Samara,64.5,185.91,6.53,0.377,90.6,12,8.24,6.0,26.1,22.4,44.7,river,fair,shrink
+126_2019,126,Volga River Reach,2019,GEO_1432_2301,53.2,50.15,Russia,Samara,61.875,182.09,6.53,0.35,85.3,12,7.86,5.0,31.4,22.4,50.4,river,fair,shrink
+126_2020,126,Volga River Reach,2020,GEO_1432_2301,53.2,50.15,Russia,Samara,59.25,178.18,6.53,0.384,88.3,12,7.91,6.3,25.3,15.5,47.7,river,fair,shrink
+126_2021,126,Volga River Reach,2021,GEO_1432_2301,53.2,50.15,Russia,Samara,56.625,174.19,6.53,0.351,96.1,12,8.24,6.4,26.0,21.8,49.8,river,fair,shrink
+126_2022,126,Volga River Reach,2022,GEO_1432_2301,53.2,50.15,Russia,Samara,54.0,170.1,6.53,0.348,96.6,12,7.86,6.3,22.1,24.3,51.9,river,fair,shrink
+126_2023,126,Volga River Reach,2023,GEO_1432_2301,53.2,50.15,Russia,Samara,51.375,165.92,6.53,0.385,88.6,12,7.99,5.0,25.0,21.5,55.7,river,fair,shrink
+126_2024,126,Volga River Reach,2024,GEO_1432_2301,53.2,50.15,Russia,Samara,48.75,161.62,6.53,0.355,89.4,12,8.21,6.0,19.9,21.3,58.6,river,fair,shrink
+127_2014,127,Lena River Delta,2014,GEO_1625_3070,72.5,127.0,Russia,Tiksi,110.0286,188.15,5.06,0.317,85.9,12,7.58,10.4,2.2,3.9,86.5,river,excellent,stable
+127_2015,127,Lena River Delta,2015,GEO_1625_3070,72.5,127.0,Russia,Tiksi,110.5375,188.59,5.06,0.357,86.3,12,7.35,8.8,7.5,3.5,89.2,river,excellent,stable
+127_2016,127,Lena River Delta,2016,GEO_1625_3070,72.5,127.0,Russia,Tiksi,111.9015,189.75,5.06,0.34,85.7,12,7.5,8.4,4.3,3.8,91.4,river,excellent,stable
+127_2017,127,Lena River Delta,2017,GEO_1625_3070,72.5,127.0,Russia,Tiksi,109.052,187.31,5.06,0.376,93.0,12,7.25,8.4,7.1,5.3,86.4,river,excellent,stable
+127_2018,127,Lena River Delta,2018,GEO_1625_3070,72.5,127.0,Russia,Tiksi,108.4727,186.82,5.06,0.315,95.3,12,7.36,8.7,2.8,3.8,89.8,river,excellent,stable
+127_2019,127,Lena River Delta,2019,GEO_1625_3070,72.5,127.0,Russia,Tiksi,110.6875,188.71,5.06,0.359,85.1,12,7.41,9.1,4.8,5.3,84.5,river,excellent,stable
+127_2020,127,Lena River Delta,2020,GEO_1625_3070,72.5,127.0,Russia,Tiksi,110.6658,188.7,5.06,0.326,92.9,12,7.24,10.2,7.2,2.0,88.4,river,excellent,stable
+127_2021,127,Lena River Delta,2021,GEO_1625_3070,72.5,127.0,Russia,Tiksi,109.0096,187.28,5.06,0.367,95.8,12,7.21,9.6,3.9,4.9,84.2,river,excellent,stable
+127_2022,127,Lena River Delta,2022,GEO_1625_3070,72.5,127.0,Russia,Tiksi,109.6493,187.83,5.06,0.356,90.6,12,7.39,10.2,7.2,2.4,92.6,river,excellent,stable
+127_2023,127,Lena River Delta,2023,GEO_1625_3070,72.5,127.0,Russia,Tiksi,108.645,186.96,5.06,0.382,89.0,12,7.21,8.7,2.2,4.3,90.9,river,excellent,stable
+127_2024,127,Lena River Delta,2024,GEO_1625_3070,72.5,127.0,Russia,Tiksi,109.208,187.45,5.06,0.337,87.2,12,7.66,9.8,2.3,2.5,96.0,river,excellent,stable
+141_2014,141,Yangtze River Reach,2014,GEO_1205_2943,30.5928,114.3055,China,Wuhan,67.873,199.47,6.83,0.368,88.6,12,8.29,5.1,23.5,23.7,44.0,river,fair,stable
+141_2015,141,Yangtze River Reach,2015,GEO_1205_2943,30.5928,114.3055,China,Wuhan,67.5371,198.97,6.83,0.362,86.6,12,8.05,6.1,28.5,23.7,49.1,river,fair,stable
+141_2016,141,Yangtze River Reach,2016,GEO_1205_2943,30.5928,114.3055,China,Wuhan,68.1753,199.91,6.83,0.386,89.3,12,8.12,6.2,26.1,25.2,48.9,river,fair,stable
+141_2017,141,Yangtze River Reach,2017,GEO_1205_2943,30.5928,114.3055,China,Wuhan,69.2981,201.55,6.83,0.379,90.3,12,8.01,5.4,24.5,15.8,58.7,river,fair,stable
+141_2018,141,Yangtze River Reach,2018,GEO_1205_2943,30.5928,114.3055,China,Wuhan,69.0209,201.15,6.83,0.325,85.7,12,8.18,5.8,18.3,21.0,52.6,river,fair,stable
+141_2019,141,Yangtze River Reach,2019,GEO_1205_2943,30.5928,114.3055,China,Wuhan,67.214,198.5,6.83,0.316,88.5,12,8.08,5.4,26.8,21.3,51.2,river,fair,stable
+141_2020,141,Yangtze River Reach,2020,GEO_1205_2943,30.5928,114.3055,China,Wuhan,67.3051,198.63,6.83,0.321,94.7,12,7.89,6.3,26.6,16.1,57.2,river,fair,stable
+141_2021,141,Yangtze River Reach,2021,GEO_1205_2943,30.5928,114.3055,China,Wuhan,68.4336,200.29,6.83,0.343,94.9,12,8.2,5.3,31.7,17.6,56.7,river,fair,stable
+141_2022,141,Yangtze River Reach,2022,GEO_1205_2943,30.5928,114.3055,China,Wuhan,67.4481,198.84,6.83,0.344,97.9,12,8.16,5.2,19.6,17.2,56.2,river,fair,stable
+141_2023,141,Yangtze River Reach,2023,GEO_1205_2943,30.5928,114.3055,China,Wuhan,66.8484,197.96,6.83,0.348,92.7,12,8.18,6.2,29.0,18.2,49.4,river,fair,stable
+141_2024,141,Yangtze River Reach,2024,GEO_1205_2943,30.5928,114.3055,China,Wuhan,69.2891,201.54,6.83,0.336,93.0,12,8.29,6.4,21.8,22.0,49.6,river,fair,stable
+142_2014,142,Yellow River Reach,2014,GEO_1248_2936,34.85,113.6,China,Zhengzhou,45.0,129.6,5.45,0.332,86.3,12,8.37,3.4,32.9,42.5,33.8,river,poor,shrink
+142_2015,142,Yellow River Reach,2015,GEO_1248_2936,34.85,113.6,China,Zhengzhou,43.425,127.31,5.45,0.378,93.4,12,8.54,4.2,54.0,29.0,31.9,river,poor,shrink
+142_2016,142,Yellow River Reach,2016,GEO_1248_2936,34.85,113.6,China,Zhengzhou,41.85,124.98,5.45,0.312,86.8,12,8.33,3.2,33.2,34.9,32.1,river,poor,shrink
+142_2017,142,Yellow River Reach,2017,GEO_1248_2936,34.85,113.6,China,Zhengzhou,40.275,122.61,5.45,0.364,87.0,12,8.21,4.2,37.4,26.8,30.7,river,poor,shrink
+142_2018,142,Yellow River Reach,2018,GEO_1248_2936,34.85,113.6,China,Zhengzhou,38.7,120.19,5.45,0.34,96.2,12,8.32,4.2,43.7,32.9,33.9,river,poor,shrink
+142_2019,142,Yellow River Reach,2019,GEO_1248_2936,34.85,113.6,China,Zhengzhou,37.125,117.72,5.45,0.37,97.8,12,8.38,4.1,39.1,45.2,25.6,river,poor,shrink
+142_2020,142,Yellow River Reach,2020,GEO_1248_2936,34.85,113.6,China,Zhengzhou,35.55,115.19,5.45,0.363,88.6,12,8.5,4.3,30.9,36.1,26.5,river,poor,shrink
+142_2021,142,Yellow River Reach,2021,GEO_1248_2936,34.85,113.6,China,Zhengzhou,33.975,112.61,5.45,0.381,93.0,12,8.24,4.1,40.3,41.4,35.2,river,poor,shrink
+142_2022,142,Yellow River Reach,2022,GEO_1248_2936,34.85,113.6,China,Zhengzhou,32.4,109.97,5.45,0.351,89.0,12,8.32,3.9,44.8,46.6,33.5,river,poor,shrink
+142_2023,142,Yellow River Reach,2023,GEO_1248_2936,34.85,113.6,China,Zhengzhou,30.825,107.26,5.45,0.346,95.3,12,8.35,4.5,34.0,40.6,29.6,river,poor,shrink
+142_2024,142,Yellow River Reach,2024,GEO_1248_2936,34.85,113.6,China,Zhengzhou,29.25,104.49,5.45,0.32,89.6,12,8.21,4.4,31.7,45.7,33.4,river,poor,shrink
+147_2014,147,Tokyo Bay Estuary,2014,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.3776,153.92,6.67,0.315,86.6,12,7.88,7.6,9.3,13.3,63.0,river,good,stable
+147_2015,147,Tokyo Bay Estuary,2015,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.1587,153.52,6.67,0.338,96.9,12,7.47,6.7,13.4,6.9,75.8,river,good,stable
+147_2016,147,Tokyo Bay Estuary,2016,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.4311,154.02,6.67,0.376,94.3,12,7.35,7.0,10.6,12.9,78.5,river,good,stable
+147_2017,147,Tokyo Bay Estuary,2017,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.6409,154.4,6.67,0.361,90.7,12,7.25,7.3,12.3,6.3,73.9,river,good,stable
+147_2018,147,Tokyo Bay Estuary,2018,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.0877,153.39,6.67,0.355,90.9,12,7.53,7.1,12.8,9.5,76.2,river,good,stable
+147_2019,147,Tokyo Bay Estuary,2019,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.1741,153.55,6.67,0.382,88.6,12,7.39,8.2,16.9,6.3,65.8,river,good,stable
+147_2020,147,Tokyo Bay Estuary,2020,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.6877,154.48,6.67,0.362,96.2,12,7.31,6.7,9.4,11.7,74.6,river,good,stable
+147_2021,147,Tokyo Bay Estuary,2021,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,42.7403,154.58,6.67,0.326,94.6,12,7.45,7.2,10.4,14.2,71.6,river,good,stable
+147_2022,147,Tokyo Bay Estuary,2022,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,41.9834,153.2,6.67,0.312,95.5,12,7.7,6.7,13.4,7.9,74.4,river,good,stable
+147_2023,147,Tokyo Bay Estuary,2023,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,41.852,152.96,6.67,0.37,90.3,12,7.73,7.3,14.8,14.9,67.4,river,good,stable
+147_2024,147,Tokyo Bay Estuary,2024,GEO_1256_3198,35.6528,139.8394,Japan,Tokyo,41.4382,152.21,6.67,0.326,90.9,12,7.48,7.8,17.2,7.6,66.3,river,good,stable
+153_2014,153,Han River Reach,2014,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,31.6222,117.81,5.91,0.334,96.8,12,7.7,7.0,15.7,11.7,68.2,river,good,stable
+153_2015,153,Han River Reach,2015,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,32.601,119.62,5.91,0.324,91.8,12,7.26,7.0,13.3,9.9,71.8,river,good,stable
+153_2016,153,Han River Reach,2016,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,31.7836,118.11,5.91,0.353,92.2,12,7.66,8.3,10.1,6.4,62.2,river,good,stable
+153_2017,153,Han River Reach,2017,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,31.4943,117.57,5.91,0.312,87.4,12,7.69,6.9,13.6,7.8,73.4,river,good,stable
+153_2018,153,Han River Reach,2018,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,32.1452,118.78,5.91,0.343,85.9,12,7.86,7.8,18.0,6.0,77.4,river,good,stable
+153_2019,153,Han River Reach,2019,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,32.5799,119.58,5.91,0.333,92.9,12,7.28,7.3,8.9,12.5,78.5,river,good,stable
+153_2020,153,Han River Reach,2020,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,32.2763,119.02,5.91,0.371,85.8,12,7.2,7.1,8.5,9.2,65.5,river,good,stable
+153_2021,153,Han River Reach,2021,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,31.5898,117.75,5.91,0.32,86.3,12,7.58,8.2,9.4,11.3,71.1,river,good,stable
+153_2022,153,Han River Reach,2022,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,31.7681,118.08,5.91,0.314,90.6,12,7.59,7.3,9.9,12.2,70.8,river,good,stable
+153_2023,153,Han River Reach,2023,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,31.8558,118.25,5.91,0.377,91.1,12,7.73,7.0,15.3,9.8,66.5,river,good,stable
+153_2024,153,Han River Reach,2024,GEO_1275_3069,37.5326,126.99,South Korea,Seoul,31.4793,117.55,5.91,0.314,97.2,12,7.55,6.8,9.9,13.6,65.4,river,good,stable
+160_2014,160,Citarum River Basin,2014,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,22.0,111.57,6.71,0.349,88.8,12,5.91,1.3,85.5,48.4,23.4,river,critical,shrink
+160_2015,160,Citarum River Basin,2015,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,21.23,109.6,6.71,0.328,86.4,12,9.24,1.5,92.8,65.0,17.7,river,critical,shrink
+160_2016,160,Citarum River Basin,2016,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,20.46,107.59,6.71,0.355,86.6,12,9.05,1.7,94.1,51.1,21.4,river,critical,shrink
+160_2017,160,Citarum River Basin,2017,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,19.69,105.55,6.71,0.325,94.7,12,8.99,1.6,77.3,48.4,17.6,river,critical,shrink
+160_2018,160,Citarum River Basin,2018,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,18.92,103.46,6.71,0.328,87.8,12,9.39,1.6,92.9,77.3,14.3,river,critical,shrink
+160_2019,160,Citarum River Basin,2019,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,18.15,101.34,6.71,0.337,95.8,12,9.23,1.8,93.3,52.4,22.9,river,critical,shrink
+160_2020,160,Citarum River Basin,2020,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,17.38,99.16,6.71,0.323,89.1,12,5.93,2.9,65.9,71.2,13.1,river,critical,shrink
+160_2021,160,Citarum River Basin,2021,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,16.61,96.94,6.71,0.389,88.0,12,5.46,2.6,84.2,56.1,15.0,river,critical,shrink
+160_2022,160,Citarum River Basin,2022,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,15.84,94.67,6.71,0.325,91.3,12,8.91,2.3,68.1,63.6,12.2,river,critical,shrink
+160_2023,160,Citarum River Basin,2023,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,15.07,92.34,6.71,0.314,87.5,12,5.47,3.2,86.6,68.7,21.1,river,critical,shrink
+160_2024,160,Citarum River Basin,2024,GEO_0831_2876,-6.9,107.6,Indonesia,Bandung,14.3,89.95,6.71,0.355,92.4,12,9.33,2.8,85.7,82.5,16.9,river,critical,shrink
+164_2014,164,Irrawaddy River Delta,2014,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,58.6226,167.74,6.18,0.333,93.1,12,7.87,5.6,25.3,14.3,43.8,river,fair,stable
+164_2015,164,Irrawaddy River Delta,2015,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,57.0108,165.41,6.18,0.325,93.5,12,7.9,5.4,19.1,24.9,41.4,river,fair,stable
+164_2016,164,Irrawaddy River Delta,2016,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,57.7318,166.46,6.18,0.364,90.3,12,8.22,5.8,21.1,19.9,56.2,river,fair,stable
+164_2017,164,Irrawaddy River Delta,2017,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,59.1245,168.45,6.18,0.372,97.5,12,8.04,6.4,25.2,23.1,57.3,river,fair,stable
+164_2018,164,Irrawaddy River Delta,2018,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,57.593,166.26,6.18,0.374,86.9,12,7.89,5.2,25.6,18.2,58.2,river,fair,stable
+164_2019,164,Irrawaddy River Delta,2019,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,58.3072,167.28,6.18,0.357,97.6,12,8.08,5.1,22.6,16.2,55.8,river,fair,stable
+164_2020,164,Irrawaddy River Delta,2020,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,57.3382,165.89,6.18,0.325,97.4,12,7.94,5.6,28.5,14.2,51.0,river,fair,stable
+164_2021,164,Irrawaddy River Delta,2021,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,57.7478,166.48,6.18,0.344,94.0,12,8.16,6.5,27.7,20.8,59.0,river,fair,stable
+164_2022,164,Irrawaddy River Delta,2022,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,58.9165,168.16,6.18,0.366,92.3,12,7.95,6.1,22.1,23.4,46.5,river,fair,stable
+164_2023,164,Irrawaddy River Delta,2023,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,57.4185,166.0,6.18,0.375,88.7,12,8.1,5.1,29.6,16.2,51.0,river,fair,stable
+164_2024,164,Irrawaddy River Delta,2024,GEO_1068_2761,16.8,96.15,Myanmar,Yangon,57.5904,166.25,6.18,0.338,93.4,12,7.82,5.0,31.8,21.9,47.9,river,fair,stable
+167_2014,167,Pasig River Reach,2014,GEO_1045_3009,14.59,120.98,Philippines,Manila,8.5,65.73,6.36,0.317,88.1,12,8.89,1.6,74.0,52.4,14.5,river,critical,shrink
+167_2015,167,Pasig River Reach,2015,GEO_1045_3009,14.59,120.98,Philippines,Manila,8.2025,64.57,6.36,0.328,85.6,12,6.02,2.0,81.2,73.8,13.5,river,critical,shrink
+167_2016,167,Pasig River Reach,2016,GEO_1045_3009,14.59,120.98,Philippines,Manila,7.905,63.39,6.36,0.38,96.5,12,5.9,1.4,60.9,68.3,23.8,river,critical,shrink
+167_2017,167,Pasig River Reach,2017,GEO_1045_3009,14.59,120.98,Philippines,Manila,7.6075,62.18,6.36,0.343,88.1,12,5.51,1.9,66.9,50.3,13.4,river,critical,shrink
+167_2018,167,Pasig River Reach,2018,GEO_1045_3009,14.59,120.98,Philippines,Manila,7.31,60.96,6.36,0.335,87.4,12,9.02,3.1,78.1,63.3,15.9,river,critical,shrink
+167_2019,167,Pasig River Reach,2019,GEO_1045_3009,14.59,120.98,Philippines,Manila,7.0125,59.7,6.36,0.321,89.7,12,5.52,3.1,94.5,61.9,14.2,river,critical,shrink
+167_2020,167,Pasig River Reach,2020,GEO_1045_3009,14.59,120.98,Philippines,Manila,6.715,58.42,6.36,0.32,89.3,12,5.48,2.1,65.9,62.1,23.8,river,critical,shrink
+167_2021,167,Pasig River Reach,2021,GEO_1045_3009,14.59,120.98,Philippines,Manila,6.4175,57.11,6.36,0.38,91.0,12,9.2,2.9,93.1,79.3,12.9,river,critical,shrink
+167_2022,167,Pasig River Reach,2022,GEO_1045_3009,14.59,120.98,Philippines,Manila,6.12,55.77,6.36,0.389,91.8,12,9.32,2.7,93.5,73.3,21.1,river,critical,shrink
+167_2023,167,Pasig River Reach,2023,GEO_1045_3009,14.59,120.98,Philippines,Manila,5.8225,54.4,6.36,0.384,92.6,12,8.98,2.9,88.8,46.4,23.2,river,critical,shrink
+167_2024,167,Pasig River Reach,2024,GEO_1045_3009,14.59,120.98,Philippines,Manila,5.525,52.99,6.36,0.334,89.0,12,9.29,1.5,88.2,70.8,16.4,river,critical,shrink
+170_2014,170,Chao Phraya River Reach,2014,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,35.2233,127.92,6.08,0.313,86.9,12,8.43,4.4,31.5,44.0,31.5,river,poor,stable
+170_2015,170,Chao Phraya River Reach,2015,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,35.679,128.74,6.08,0.381,96.1,12,8.29,4.4,40.3,46.7,32.7,river,poor,stable
+170_2016,170,Chao Phraya River Reach,2016,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,34.7789,127.11,6.08,0.337,85.6,12,8.27,4.8,43.0,30.1,32.0,river,poor,stable
+170_2017,170,Chao Phraya River Reach,2017,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,34.9475,127.41,6.08,0.344,86.2,12,8.69,4.4,38.9,29.2,33.6,river,poor,stable
+170_2018,170,Chao Phraya River Reach,2018,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,35.3274,128.1,6.08,0.39,97.9,12,8.44,4.5,43.9,44.2,38.6,river,poor,stable
+170_2019,170,Chao Phraya River Reach,2019,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,34.8552,127.25,6.08,0.389,96.1,12,8.24,3.4,36.3,31.2,36.1,river,poor,stable
+170_2020,170,Chao Phraya River Reach,2020,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,35.3904,128.22,6.08,0.36,94.1,12,8.4,4.0,47.7,44.4,34.8,river,poor,stable
+170_2021,170,Chao Phraya River Reach,2021,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,35.0503,127.6,6.08,0.381,89.5,12,8.59,3.6,39.5,36.3,37.9,river,poor,stable
+170_2022,170,Chao Phraya River Reach,2022,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,34.8171,127.18,6.08,0.381,86.6,12,8.37,3.9,42.9,31.4,34.5,river,poor,stable
+170_2023,170,Chao Phraya River Reach,2023,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,35.531,128.47,6.08,0.372,90.3,12,8.5,3.5,47.4,29.2,29.0,river,poor,stable
+170_2024,170,Chao Phraya River Reach,2024,GEO_1037_2805,13.7563,100.5018,Thailand,Bangkok,35.2789,128.02,6.08,0.361,89.3,12,8.58,4.1,49.2,39.2,36.4,river,poor,stable
+173_2014,173,Mekong River Delta Reach,2014,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,95.0,198.33,5.74,0.321,91.7,12,8.12,5.7,27.7,23.6,49.4,river,fair,shrink
+173_2015,173,Mekong River Delta Reach,2015,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,91.675,194.82,5.74,0.375,87.3,12,8.02,5.6,27.8,19.0,55.1,river,fair,shrink
+173_2016,173,Mekong River Delta Reach,2016,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,88.35,191.26,5.74,0.337,95.2,12,7.92,5.3,23.0,21.0,55.8,river,fair,shrink
+173_2017,173,Mekong River Delta Reach,2017,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,85.025,187.62,5.74,0.339,94.7,12,8.0,6.5,26.3,24.0,54.5,river,fair,shrink
+173_2018,173,Mekong River Delta Reach,2018,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,81.7,183.92,5.74,0.326,96.0,12,8.05,5.6,30.1,22.2,51.9,river,fair,shrink
+173_2019,173,Mekong River Delta Reach,2019,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,78.375,180.14,5.74,0.333,93.8,12,8.15,5.8,19.7,22.8,41.8,river,fair,shrink
+173_2020,173,Mekong River Delta Reach,2020,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,75.05,176.28,5.74,0.343,94.6,12,7.9,5.1,23.9,19.0,48.1,river,fair,shrink
+173_2021,173,Mekong River Delta Reach,2021,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,71.725,172.33,5.74,0.372,95.6,12,8.27,5.9,18.3,22.2,41.6,river,fair,shrink
+173_2022,173,Mekong River Delta Reach,2022,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,68.4,168.28,5.74,0.326,86.0,12,8.01,5.8,24.5,24.7,49.1,river,fair,shrink
+173_2023,173,Mekong River Delta Reach,2023,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,65.075,164.14,5.74,0.386,86.0,12,8.03,6.4,27.6,15.1,55.6,river,fair,shrink
+173_2024,173,Mekong River Delta Reach,2024,GEO_1000_2857,10.0333,105.7833,Vietnam,Can Tho,61.75,159.9,5.74,0.315,87.1,12,7.8,5.8,20.2,19.1,43.5,river,fair,shrink
+187_2014,187,Nile River Reach (Cairo),2014,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,48.8406,152.86,6.17,0.311,85.0,12,8.57,4.1,47.9,45.8,25.1,river,poor,stable
+187_2015,187,Nile River Reach (Cairo),2015,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,47.9467,151.45,6.17,0.312,89.9,12,8.44,4.8,35.6,26.4,32.6,river,poor,stable
+187_2016,187,Nile River Reach (Cairo),2016,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,47.1257,150.15,6.17,0.337,95.3,12,8.3,3.8,54.7,37.5,39.3,river,poor,stable
+187_2017,187,Nile River Reach (Cairo),2017,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,48.9473,153.02,6.17,0.387,91.6,12,8.26,4.0,47.4,35.1,36.7,river,poor,stable
+187_2018,187,Nile River Reach (Cairo),2018,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,48.3892,152.15,6.17,0.37,90.4,12,8.43,3.6,51.9,29.8,37.5,river,poor,stable
+187_2019,187,Nile River Reach (Cairo),2019,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,48.4806,152.29,6.17,0.354,96.6,12,8.49,3.8,50.2,34.0,26.6,river,poor,stable
+187_2020,187,Nile River Reach (Cairo),2020,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,47.1081,150.12,6.17,0.379,94.9,12,8.66,3.8,46.0,28.5,33.2,river,poor,stable
+187_2021,187,Nile River Reach (Cairo),2021,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,48.4946,152.31,6.17,0.352,98.0,12,8.62,4.2,48.9,42.5,30.1,river,poor,stable
+187_2022,187,Nile River Reach (Cairo),2022,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,47.8742,151.34,6.17,0.312,94.0,12,8.26,3.8,33.2,31.5,25.8,river,poor,stable
+187_2023,187,Nile River Reach (Cairo),2023,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,47.1821,150.24,6.17,0.326,96.4,12,8.33,3.3,31.6,38.2,39.0,river,poor,stable
+187_2024,187,Nile River Reach (Cairo),2024,GEO_1200_2112,30.0444,31.2357,Egypt,Cairo,48.7218,152.67,6.17,0.324,88.2,12,8.59,3.6,31.9,26.6,33.1,river,poor,stable
+191_2014,191,Congo River Reach,2014,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,139.3476,255.26,6.1,0.31,89.7,12,7.72,7.9,15.5,9.1,70.7,river,good,stable
+191_2015,191,Congo River Reach,2015,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,137.2898,253.37,6.1,0.355,91.7,12,7.73,6.8,8.8,6.1,78.7,river,good,stable
+191_2016,191,Congo River Reach,2016,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,142.7049,258.32,6.1,0.315,96.1,12,7.79,7.7,11.5,9.3,65.8,river,good,stable
+191_2017,191,Congo River Reach,2017,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,139.2981,255.22,6.1,0.311,92.6,12,7.38,7.3,14.5,9.9,62.0,river,good,stable
+191_2018,191,Congo River Reach,2018,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,141.4353,257.17,6.1,0.343,91.9,12,7.34,7.4,8.9,7.4,69.9,river,good,stable
+191_2019,191,Congo River Reach,2019,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,142.5141,258.14,6.1,0.316,85.5,12,7.56,7.7,13.3,13.9,64.8,river,good,stable
+191_2020,191,Congo River Reach,2020,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,140.9647,256.74,6.1,0.338,90.4,12,7.42,6.6,10.5,11.6,64.2,river,good,stable
+191_2021,191,Congo River Reach,2021,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,139.9019,255.77,6.1,0.347,90.6,12,7.87,8.4,8.5,11.2,75.7,river,good,stable
+191_2022,191,Congo River Reach,2022,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,139.7415,255.62,6.1,0.38,89.2,12,7.34,8.2,10.4,10.5,77.7,river,good,stable
+191_2023,191,Congo River Reach,2023,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,140.8513,256.63,6.1,0.367,94.5,12,7.48,8.0,13.6,14.7,72.3,river,good,stable
+191_2024,191,Congo River Reach,2024,GEO_0856_1953,-4.325,15.3222,DR Congo,Kinshasa,139.1319,255.06,6.1,0.364,88.5,12,7.7,7.1,10.5,10.7,73.6,river,good,stable
+192_2014,192,Niger River Reach,2014,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,64.8542,178.14,6.24,0.358,93.6,12,8.2,5.4,28.0,17.1,46.6,river,fair,stable
+192_2015,192,Niger River Reach,2015,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,65.5085,179.04,6.24,0.366,94.0,12,8.0,6.0,23.5,17.1,43.9,river,fair,stable
+192_2016,192,Niger River Reach,2016,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,63.9423,176.88,6.24,0.385,87.1,12,8.25,6.2,30.0,18.9,56.7,river,fair,stable
+192_2017,192,Niger River Reach,2017,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,63.7563,176.62,6.24,0.373,93.8,12,8.14,5.0,31.8,23.0,45.5,river,fair,stable
+192_2018,192,Niger River Reach,2018,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,63.8124,176.7,6.24,0.377,87.2,12,7.91,5.2,27.8,14.8,49.9,river,fair,stable
+192_2019,192,Niger River Reach,2019,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,65.5966,179.16,6.24,0.329,87.3,12,7.94,5.4,25.9,18.5,56.1,river,fair,stable
+192_2020,192,Niger River Reach,2020,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,63.9137,176.84,6.24,0.336,90.6,12,7.99,5.6,25.6,23.5,41.7,river,fair,stable
+192_2021,192,Niger River Reach,2021,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,64.6939,177.92,6.24,0.362,87.2,12,8.29,6.4,25.1,17.6,41.6,river,fair,stable
+192_2022,192,Niger River Reach,2022,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,64.7273,177.96,6.24,0.335,96.5,12,7.97,5.1,24.1,15.5,46.5,river,fair,stable
+192_2023,192,Niger River Reach,2023,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,64.4853,177.63,6.24,0.367,89.6,12,7.92,5.9,24.0,18.4,52.0,river,fair,stable
+192_2024,192,Niger River Reach,2024,GEO_0978_1867,7.8,6.74,Nigeria,Lokoja,64.2587,177.32,6.24,0.319,92.1,12,8.11,6.3,24.2,19.9,57.1,river,fair,stable
+193_2014,193,Zambezi River Reach,2014,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,52.0,152.1,5.95,0.384,92.1,12,7.32,7.9,9.1,13.1,76.5,river,good,shrink
+193_2015,193,Zambezi River Reach,2015,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,50.18,149.41,5.95,0.354,94.8,12,7.68,7.7,12.4,7.0,78.8,river,good,shrink
+193_2016,193,Zambezi River Reach,2016,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,48.36,146.68,5.95,0.36,90.0,12,7.49,7.2,9.6,12.0,72.7,river,good,shrink
+193_2017,193,Zambezi River Reach,2017,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,46.54,143.89,5.95,0.359,93.5,12,7.52,8.1,8.3,12.8,71.1,river,good,shrink
+193_2018,193,Zambezi River Reach,2018,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,44.72,141.05,5.95,0.351,90.0,12,7.54,8.4,8.5,6.8,64.0,river,good,shrink
+193_2019,193,Zambezi River Reach,2019,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,42.9,138.15,5.95,0.322,95.6,12,7.44,8.3,17.5,11.8,70.9,river,good,shrink
+193_2020,193,Zambezi River Reach,2020,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,41.08,135.19,5.95,0.36,96.8,12,7.72,6.6,15.6,10.6,77.7,river,good,shrink
+193_2021,193,Zambezi River Reach,2021,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,39.26,132.16,5.95,0.352,96.6,12,7.41,7.7,18.0,8.9,64.4,river,good,shrink
+193_2022,193,Zambezi River Reach,2022,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,37.44,129.06,5.95,0.37,91.6,12,7.71,6.8,17.8,13.7,61.9,river,good,shrink
+193_2023,193,Zambezi River Reach,2023,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,35.62,125.88,5.95,0.366,87.1,12,7.77,7.6,14.7,9.4,76.7,river,good,shrink
+193_2024,193,Zambezi River Reach,2024,GEO_0721_2058,-17.85,25.85,Zambia,Livingstone,33.8,122.63,5.95,0.332,90.7,12,7.47,6.7,11.6,13.2,73.1,river,good,shrink
+218_2014,218,Amazon River Reach (Manaus),2014,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,210.0,284.08,5.53,0.369,95.8,12,7.59,7.9,10.9,11.6,69.9,river,good,shrink
+218_2015,218,Amazon River Reach (Manaus),2015,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,202.65,279.06,5.53,0.377,91.4,12,7.54,8.1,16.0,9.4,76.4,river,good,shrink
+218_2016,218,Amazon River Reach (Manaus),2016,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,195.3,273.96,5.53,0.33,97.4,12,7.68,7.5,9.4,9.0,65.8,river,good,shrink
+218_2017,218,Amazon River Reach (Manaus),2017,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,187.95,268.75,5.53,0.372,97.5,12,7.79,8.0,14.2,12.8,72.1,river,good,shrink
+218_2018,218,Amazon River Reach (Manaus),2018,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,180.6,263.44,5.53,0.325,92.9,12,7.57,8.3,12.0,7.1,71.0,river,good,shrink
+218_2019,218,Amazon River Reach (Manaus),2019,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,173.25,258.03,5.53,0.39,96.1,12,7.44,8.4,17.7,14.9,69.4,river,good,shrink
+218_2020,218,Amazon River Reach (Manaus),2020,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,165.9,252.5,5.53,0.327,87.3,12,7.86,7.5,17.7,12.2,75.8,river,good,shrink
+218_2021,218,Amazon River Reach (Manaus),2021,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,158.55,246.84,5.53,0.368,86.8,12,7.28,7.7,8.9,7.0,74.4,river,good,shrink
+218_2022,218,Amazon River Reach (Manaus),2022,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,151.2,241.05,5.53,0.347,91.0,12,7.69,7.2,13.5,12.2,70.5,river,good,shrink
+218_2023,218,Amazon River Reach (Manaus),2023,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,143.85,235.12,5.53,0.342,96.0,12,7.38,8.2,11.3,12.7,67.7,river,good,shrink
+218_2024,218,Amazon River Reach (Manaus),2024,GEO_0868_1199,-3.119,-60.0217,Brazil,Manaus,136.5,229.03,5.53,0.336,97.6,12,7.47,7.9,8.5,9.1,76.1,river,good,shrink
+219_2014,219,Rio Negro Reach,2014,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,182.3388,282.9,5.91,0.366,85.2,12,7.24,10.4,6.9,4.7,89.0,river,excellent,stable
+219_2015,219,Rio Negro Reach,2015,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,178.2095,279.68,5.91,0.384,88.7,12,7.69,10.3,6.8,5.1,81.2,river,excellent,stable
+219_2016,219,Rio Negro Reach,2016,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,176.6205,278.43,5.91,0.318,97.1,12,7.62,8.7,5.0,5.4,90.2,river,excellent,stable
+219_2017,219,Rio Negro Reach,2017,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,180.0004,281.08,5.91,0.381,89.3,12,7.66,9.2,3.7,3.2,88.6,river,excellent,stable
+219_2018,219,Rio Negro Reach,2018,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,181.1724,281.99,5.91,0.39,94.8,12,7.2,8.3,7.4,3.1,83.5,river,excellent,stable
+219_2019,219,Rio Negro Reach,2019,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,176.7644,278.54,5.91,0.354,88.6,12,7.59,8.9,2.8,2.5,84.4,river,excellent,stable
+219_2020,219,Rio Negro Reach,2020,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,180.6247,281.57,5.91,0.363,95.2,12,7.42,8.2,3.5,3.0,94.3,river,excellent,stable
+219_2021,219,Rio Negro Reach,2021,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,180.9064,281.79,5.91,0.337,92.4,12,7.5,9.8,7.1,5.0,92.2,river,excellent,stable
+219_2022,219,Rio Negro Reach,2022,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,178.6477,280.02,5.91,0.37,87.5,12,7.6,8.7,6.7,5.2,88.1,river,excellent,stable
+219_2023,219,Rio Negro Reach,2023,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,177.118,278.82,5.91,0.369,90.6,12,7.27,10.2,5.9,5.7,95.8,river,excellent,stable
+219_2024,219,Rio Negro Reach,2024,GEO_0868_1200,-3.15,-60.0,Brazil,Manaus,180.6827,281.61,5.91,0.372,96.6,12,7.26,9.9,7.8,4.1,91.4,river,excellent,stable
+220_2014,220,Paraná River Reach,2014,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,85.0,225.51,6.9,0.388,95.6,12,8.01,5.7,29.6,19.1,45.7,river,fair,shrink
+220_2015,220,Paraná River Reach,2015,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,82.025,221.53,6.9,0.389,88.3,12,8.21,5.3,18.8,21.4,58.8,river,fair,shrink
+220_2016,220,Paraná River Reach,2016,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,79.05,217.47,6.9,0.316,86.4,12,7.93,5.7,19.2,15.5,45.1,river,fair,shrink
+220_2017,220,Paraná River Reach,2017,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,76.075,213.34,6.9,0.386,94.2,12,8.25,5.3,24.2,22.1,52.4,river,fair,shrink
+220_2018,220,Paraná River Reach,2018,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,73.1,209.13,6.9,0.376,96.4,12,8.25,6.3,27.0,20.4,46.1,river,fair,shrink
+220_2019,220,Paraná River Reach,2019,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,70.125,204.83,6.9,0.353,97.2,12,8.0,6.3,18.6,25.4,45.6,river,fair,shrink
+220_2020,220,Paraná River Reach,2020,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,67.15,200.44,6.9,0.386,93.2,12,8.12,6.3,25.9,24.4,55.4,river,fair,shrink
+220_2021,220,Paraná River Reach,2021,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,64.175,195.95,6.9,0.389,90.0,12,7.83,6.0,31.7,15.7,49.4,river,fair,shrink
+220_2022,220,Paraná River Reach,2022,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,61.2,191.35,6.9,0.373,92.5,12,7.96,5.2,31.7,19.1,46.1,river,fair,shrink
+220_2023,220,Paraná River Reach,2023,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,58.225,186.64,6.9,0.315,86.2,12,7.89,5.1,28.4,16.8,55.7,river,fair,shrink
+220_2024,220,Paraná River Reach,2024,GEO_0570_1193,-32.9587,-60.693,Argentina,Rosario,55.25,181.81,6.9,0.345,96.8,12,8.15,4.9,22.9,15.1,57.4,river,fair,shrink
+221_2014,221,Orinoco River Delta,2014,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,122.3555,198.02,5.05,0.334,95.9,12,7.49,6.8,8.1,11.7,67.1,river,good,stable
+221_2015,221,Orinoco River Delta,2015,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,121.0397,196.95,5.05,0.338,91.5,12,7.27,7.9,17.4,8.8,69.6,river,good,stable
+221_2016,221,Orinoco River Delta,2016,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,120.2025,196.27,5.05,0.334,89.6,12,7.6,7.8,14.5,7.0,69.8,river,good,stable
+221_2017,221,Orinoco River Delta,2017,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,119.957,196.07,5.05,0.384,91.7,12,7.51,7.5,8.1,13.4,75.4,river,good,stable
+221_2018,221,Orinoco River Delta,2018,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,118.7989,195.12,5.05,0.347,89.6,12,7.65,7.6,18.0,12.2,70.1,river,good,stable
+221_2019,221,Orinoco River Delta,2019,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,121.5022,197.33,5.05,0.35,88.3,12,7.25,8.4,12.6,12.1,61.9,river,good,stable
+221_2020,221,Orinoco River Delta,2020,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,119.2979,195.53,5.05,0.369,91.5,12,7.63,7.5,8.3,9.7,78.1,river,good,stable
+221_2021,221,Orinoco River Delta,2021,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,121.0031,196.92,5.05,0.328,93.8,12,7.83,8.0,15.2,6.3,69.3,river,good,stable
+221_2022,221,Orinoco River Delta,2022,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,118.0568,194.51,5.05,0.343,92.6,12,7.89,8.3,12.4,6.5,74.3,river,good,stable
+221_2023,221,Orinoco River Delta,2023,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,120.0026,196.11,5.05,0.388,90.6,12,7.68,6.8,17.0,8.3,77.7,river,good,stable
+221_2024,221,Orinoco River Delta,2024,GEO_0990_1179,9.06,-62.05,Venezuela,Tucupita,121.5083,197.33,5.05,0.341,90.4,12,7.3,8.1,14.4,11.8,64.5,river,good,stable
+222_2014,222,Rio Doce Estuary,2014,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,35.0,109.26,5.21,0.312,94.2,12,5.8,1.6,76.5,54.9,20.2,river,critical,shrink
+222_2015,222,Rio Doce Estuary,2015,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,33.775,107.33,5.21,0.339,95.7,12,8.97,3.0,80.8,45.0,22.4,river,critical,shrink
+222_2016,222,Rio Doce Estuary,2016,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,32.55,105.37,5.21,0.32,86.3,12,9.32,1.9,81.5,50.6,17.2,river,critical,shrink
+222_2017,222,Rio Doce Estuary,2017,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,31.325,103.37,5.21,0.341,88.4,12,9.31,1.2,90.9,47.4,14.7,river,critical,shrink
+222_2018,222,Rio Doce Estuary,2018,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,30.1,101.33,5.21,0.341,90.8,12,5.45,2.8,70.5,48.2,21.1,river,critical,shrink
+222_2019,222,Rio Doce Estuary,2019,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,28.875,99.24,5.21,0.368,86.0,12,6.0,2.6,60.4,73.9,16.5,river,critical,shrink
+222_2020,222,Rio Doce Estuary,2020,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,27.65,97.12,5.21,0.311,96.7,12,5.74,1.8,55.4,49.9,13.3,river,critical,shrink
+222_2021,222,Rio Doce Estuary,2021,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,26.425,94.94,5.21,0.357,85.0,12,8.92,3.1,68.8,69.7,13.6,river,critical,shrink
+222_2022,222,Rio Doce Estuary,2022,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,25.2,92.71,5.21,0.385,92.4,12,5.66,2.3,92.1,61.0,20.5,river,critical,shrink
+222_2023,222,Rio Doce Estuary,2023,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,23.975,90.43,5.21,0.384,86.8,12,5.54,1.3,83.3,65.4,18.1,river,critical,shrink
+222_2024,222,Rio Doce Estuary,2024,GEO_0706_1399,-19.4,-40.05,Brazil,Linhares,22.75,88.09,5.21,0.326,97.3,12,5.52,2.0,71.4,45.2,23.6,river,critical,shrink
+223_2014,223,Tietê River Reach (São Paulo),2014,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,18.3564,90.52,5.96,0.364,90.8,12,9.18,1.3,59.7,78.7,22.8,river,critical,stable
+223_2015,223,Tietê River Reach (São Paulo),2015,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,17.6749,88.82,5.96,0.325,89.4,12,5.49,1.3,62.5,51.7,17.3,river,critical,stable
+223_2016,223,Tietê River Reach (São Paulo),2016,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,17.9767,89.58,5.96,0.344,95.0,12,5.48,2.5,92.5,79.1,18.1,river,critical,stable
+223_2017,223,Tietê River Reach (São Paulo),2017,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,17.7951,89.13,5.96,0.376,85.5,12,6.12,3.0,80.4,76.7,21.0,river,critical,stable
+223_2018,223,Tietê River Reach (São Paulo),2018,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,18.2153,90.17,5.96,0.321,93.5,12,5.93,1.6,78.1,69.3,13.3,river,critical,stable
+223_2019,223,Tietê River Reach (São Paulo),2019,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,18.3052,90.39,5.96,0.323,97.8,12,5.63,2.4,68.7,59.2,12.3,river,critical,stable
+223_2020,223,Tietê River Reach (São Paulo),2020,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,18.0899,89.86,5.96,0.35,87.3,12,5.69,2.0,76.6,63.6,15.3,river,critical,stable
+223_2021,223,Tietê River Reach (São Paulo),2021,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,18.0408,89.74,5.96,0.377,97.1,12,6.18,1.5,56.3,78.2,19.2,river,critical,stable
+223_2022,223,Tietê River Reach (São Paulo),2022,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,17.9606,89.54,5.96,0.389,93.0,12,9.03,1.8,64.6,70.1,15.7,river,critical,stable
+223_2023,223,Tietê River Reach (São Paulo),2023,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,17.8385,89.23,5.96,0.314,86.6,12,9.23,3.0,90.3,72.3,18.7,river,critical,stable
+223_2024,223,Tietê River Reach (São Paulo),2024,GEO_0664_1333,-23.5505,-46.6333,Brazil,São Paulo,17.7762,89.08,5.96,0.333,88.5,12,9.11,3.0,61.9,73.6,13.3,river,critical,stable
+232_2014,232,Murray River Reach,2014,GEO_0539_3269,-36.08,146.92,Australia,Albury,48.0,173.15,7.05,0.351,93.8,12,7.93,5.6,27.4,17.9,58.2,river,fair,shrink
+232_2015,232,Murray River Reach,2015,GEO_0539_3269,-36.08,146.92,Australia,Albury,46.32,170.09,7.05,0.376,91.6,12,8.29,5.3,25.6,17.8,44.0,river,fair,shrink
+232_2016,232,Murray River Reach,2016,GEO_0539_3269,-36.08,146.92,Australia,Albury,44.64,166.98,7.05,0.341,96.2,12,8.3,5.2,30.4,20.8,55.3,river,fair,shrink
+232_2017,232,Murray River Reach,2017,GEO_0539_3269,-36.08,146.92,Australia,Albury,42.96,163.8,7.05,0.366,90.1,12,7.84,5.0,20.2,14.1,46.7,river,fair,shrink
+232_2018,232,Murray River Reach,2018,GEO_0539_3269,-36.08,146.92,Australia,Albury,41.28,160.57,7.05,0.329,96.0,12,7.94,5.0,25.4,23.6,41.1,river,fair,shrink
+232_2019,232,Murray River Reach,2019,GEO_0539_3269,-36.08,146.92,Australia,Albury,39.6,157.27,7.05,0.386,95.1,12,8.27,6.0,28.3,16.5,59.4,river,fair,shrink
+232_2020,232,Murray River Reach,2020,GEO_0539_3269,-36.08,146.92,Australia,Albury,37.92,153.9,7.05,0.368,86.1,12,8.13,5.5,25.6,21.4,54.0,river,fair,shrink
+232_2021,232,Murray River Reach,2021,GEO_0539_3269,-36.08,146.92,Australia,Albury,36.24,150.45,7.05,0.338,91.4,12,7.89,5.6,21.6,15.7,47.8,river,fair,shrink
+232_2022,232,Murray River Reach,2022,GEO_0539_3269,-36.08,146.92,Australia,Albury,34.56,146.92,7.05,0.315,91.9,12,8.17,6.4,28.7,16.1,52.2,river,fair,shrink
+232_2023,232,Murray River Reach,2023,GEO_0539_3269,-36.08,146.92,Australia,Albury,32.88,143.3,7.05,0.389,94.0,12,8.23,6.1,26.1,15.9,41.3,river,fair,shrink
+232_2024,232,Murray River Reach,2024,GEO_0539_3269,-36.08,146.92,Australia,Albury,31.2,139.6,7.05,0.318,89.1,12,7.94,5.1,28.4,21.5,58.0,river,fair,shrink
+233_2014,233,Darling River Reach,2014,GEO_0599_3259,-30.09,145.94,Australia,Bourke,35.0,111.57,5.32,0.319,96.3,12,5.75,1.5,57.5,57.8,20.5,river,critical,disappear
+233_2015,233,Darling River Reach,2015,GEO_0599_3259,-30.09,145.94,Australia,Bourke,31.85,106.43,5.32,0.373,89.4,12,9.02,2.3,59.1,48.4,22.1,river,critical,disappear
+233_2016,233,Darling River Reach,2016,GEO_0599_3259,-30.09,145.94,Australia,Bourke,28.7,101.03,5.32,0.327,85.8,12,5.68,2.9,91.1,68.2,20.8,river,critical,disappear
+233_2017,233,Darling River Reach,2017,GEO_0599_3259,-30.09,145.94,Australia,Bourke,25.55,95.33,5.32,0.357,88.1,12,9.37,3.1,65.5,55.8,21.1,river,critical,disappear
+233_2018,233,Darling River Reach,2018,GEO_0599_3259,-30.09,145.94,Australia,Bourke,22.4,89.26,5.32,0.369,86.2,12,9.29,2.8,64.9,59.3,14.0,river,critical,disappear
+233_2019,233,Darling River Reach,2019,GEO_0599_3259,-30.09,145.94,Australia,Bourke,19.25,82.74,5.32,0.356,91.3,12,5.83,3.2,87.9,56.2,14.0,river,critical,disappear
+233_2020,233,Darling River Reach,2020,GEO_0599_3259,-30.09,145.94,Australia,Bourke,16.1,75.67,5.32,0.347,95.0,12,9.16,2.2,93.1,50.1,24.0,river,critical,disappear
+233_2021,233,Darling River Reach,2021,GEO_0599_3259,-30.09,145.94,Australia,Bourke,12.95,67.87,5.32,0.38,87.1,12,8.92,2.0,75.1,72.6,22.8,river,critical,disappear
+233_2022,233,Darling River Reach,2022,GEO_0599_3259,-30.09,145.94,Australia,Bourke,9.8,59.04,5.32,0.317,92.1,12,9.22,2.7,65.9,57.9,21.8,river,critical,disappear
+233_2023,233,Darling River Reach,2023,GEO_0599_3259,-30.09,145.94,Australia,Bourke,6.65,48.63,5.32,0.38,96.6,12,5.59,2.7,89.7,48.6,17.3,river,critical,disappear
+233_2024,233,Darling River Reach,2024,GEO_0599_3259,-30.09,145.94,Australia,Bourke,3.5,35.28,5.32,0.347,88.1,12,6.12,2.9,68.1,62.0,21.5,river,critical,disappear
+234_2014,234,Brisbane River Reach,2014,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,28.0835,133.0,7.08,0.371,88.9,12,8.25,5.0,24.9,24.5,41.9,river,fair,stable
+234_2015,234,Brisbane River Reach,2015,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,27.9365,132.66,7.08,0.324,94.6,12,7.97,6.1,20.6,22.0,49.9,river,fair,stable
+234_2016,234,Brisbane River Reach,2016,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,28.5166,134.03,7.08,0.319,89.2,12,8.01,6.0,21.2,14.4,43.5,river,fair,stable
+234_2017,234,Brisbane River Reach,2017,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,27.823,132.39,7.08,0.382,89.2,12,8.1,6.1,31.6,16.9,47.1,river,fair,stable
+234_2018,234,Brisbane River Reach,2018,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,27.8057,132.34,7.08,0.364,86.4,12,7.87,5.7,23.4,14.3,45.0,river,fair,stable
+234_2019,234,Brisbane River Reach,2019,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,28.3197,133.56,7.08,0.319,88.1,12,7.84,6.1,23.4,23.8,51.7,river,fair,stable
+234_2020,234,Brisbane River Reach,2020,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,28.442,133.85,7.08,0.314,96.2,12,8.15,5.2,28.5,17.5,42.1,river,fair,stable
+234_2021,234,Brisbane River Reach,2021,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,27.7913,132.31,7.08,0.326,90.5,12,7.82,5.7,30.7,23.2,51.6,river,fair,stable
+234_2022,234,Brisbane River Reach,2022,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,28.2734,133.45,7.08,0.387,92.5,12,8.26,5.3,20.0,22.0,49.1,river,fair,stable
+234_2023,234,Brisbane River Reach,2023,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,28.2751,133.46,7.08,0.372,92.7,12,7.95,6.4,24.0,21.7,48.7,river,fair,stable
+234_2024,234,Brisbane River Reach,2024,GEO_0625_3330,-27.4698,153.0251,Australia,Brisbane,27.9104,132.59,7.08,0.322,90.4,12,8.2,5.7,27.7,19.9,44.1,river,fair,stable
+243_2014,243,Waikato River Reach,2014,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,37.4479,137.32,6.33,0.322,89.8,12,7.28,6.8,14.2,13.6,79.4,river,good,stable
+243_2015,243,Waikato River Reach,2015,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,37.9296,138.2,6.33,0.367,94.0,12,7.24,8.3,16.9,7.5,75.0,river,good,stable
+243_2016,243,Waikato River Reach,2016,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,37.4425,137.31,6.33,0.35,93.0,12,7.81,8.0,10.2,6.5,75.5,river,good,stable
+243_2017,243,Waikato River Reach,2017,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,37.7191,137.81,6.33,0.368,91.8,12,7.46,8.0,17.3,12.2,72.1,river,good,stable
+243_2018,243,Waikato River Reach,2018,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,38.5934,139.4,6.33,0.31,91.2,12,7.32,7.1,13.4,14.2,73.0,river,good,stable
+243_2019,243,Waikato River Reach,2019,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,38.4783,139.19,6.33,0.346,91.2,12,7.46,7.6,8.0,7.2,73.8,river,good,stable
+243_2020,243,Waikato River Reach,2020,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,37.6987,137.78,6.33,0.347,93.0,12,7.24,7.0,17.3,13.8,70.5,river,good,stable
+243_2021,243,Waikato River Reach,2021,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,37.7,137.78,6.33,0.387,97.9,12,7.9,7.1,13.9,13.9,70.9,river,good,stable
+243_2022,243,Waikato River Reach,2022,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,38.3061,138.88,6.33,0.327,85.5,12,7.44,7.3,11.3,12.8,71.8,river,good,stable
+243_2023,243,Waikato River Reach,2023,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,38.5737,139.37,6.33,0.334,91.9,12,7.86,8.4,17.5,13.3,65.1,river,good,stable
+243_2024,243,Waikato River Reach,2024,GEO_0522_3552,-37.787,175.2793,New Zealand,Hamilton,37.5809,137.56,6.33,0.331,91.7,12,7.88,7.7,8.4,14.3,68.0,river,good,stable
+254_2014,254,Euphrates River Reach,2014,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,35.0,118.91,5.67,0.372,90.1,12,5.77,2.7,91.1,79.6,21.3,river,critical,shrink
+254_2015,254,Euphrates River Reach,2015,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,33.775,116.81,5.67,0.378,91.8,12,5.63,1.3,86.3,64.7,17.4,river,critical,shrink
+254_2016,254,Euphrates River Reach,2016,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,32.55,114.67,5.67,0.354,96.8,12,9.04,1.9,62.0,65.2,19.7,river,critical,shrink
+254_2017,254,Euphrates River Reach,2017,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,31.325,112.5,5.67,0.367,91.0,12,9.08,1.3,88.5,83.8,18.6,river,critical,shrink
+254_2018,254,Euphrates River Reach,2018,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,30.1,110.27,5.67,0.337,92.2,12,5.42,2.5,64.2,56.7,16.7,river,critical,shrink
+254_2019,254,Euphrates River Reach,2019,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,28.875,108.01,5.67,0.333,92.3,12,5.48,3.2,66.7,55.4,12.6,river,critical,shrink
+254_2020,254,Euphrates River Reach,2020,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,27.65,105.69,5.67,0.37,89.7,12,6.07,1.6,69.7,76.2,12.8,river,critical,shrink
+254_2021,254,Euphrates River Reach,2021,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,26.425,103.32,5.67,0.386,95.1,12,5.88,2.0,76.0,84.1,24.0,river,critical,shrink
+254_2022,254,Euphrates River Reach,2022,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,25.2,100.9,5.67,0.342,91.8,12,9.22,2.2,69.3,63.0,12.1,river,critical,shrink
+254_2023,254,Euphrates River Reach,2023,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,23.975,98.42,5.67,0.389,97.3,12,5.68,2.2,62.3,81.7,24.0,river,critical,shrink
+254_2024,254,Euphrates River Reach,2024,GEO_1210_2262,31.05,46.25,Iraq,Nasiriyah,22.75,95.87,5.67,0.368,86.6,12,9.22,2.3,78.6,61.8,20.0,river,critical,shrink
+255_2014,255,Tigris River Reach,2014,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,28.0,102.04,5.44,0.377,90.4,12,8.22,4.6,43.5,46.3,35.2,river,poor,shrink
+255_2015,255,Tigris River Reach,2015,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,27.02,100.24,5.44,0.358,85.0,12,8.64,3.9,41.6,28.7,26.5,river,poor,shrink
+255_2016,255,Tigris River Reach,2016,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,26.04,98.41,5.44,0.335,85.4,12,8.21,3.4,35.5,30.2,29.8,river,poor,shrink
+255_2017,255,Tigris River Reach,2017,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,25.06,96.54,5.44,0.359,85.0,12,8.5,4.1,32.4,48.0,38.7,river,poor,shrink
+255_2018,255,Tigris River Reach,2018,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,24.08,94.63,5.44,0.374,93.6,12,8.35,3.8,31.6,32.4,32.6,river,poor,shrink
+255_2019,255,Tigris River Reach,2019,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,23.1,92.69,5.44,0.37,95.1,12,8.35,3.6,38.0,33.3,39.5,river,poor,shrink
+255_2020,255,Tigris River Reach,2020,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,22.12,90.7,5.44,0.388,95.8,12,8.39,4.3,40.2,36.2,31.0,river,poor,shrink
+255_2021,255,Tigris River Reach,2021,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,21.14,88.67,5.44,0.347,85.8,12,8.63,3.7,49.4,34.7,34.7,river,poor,shrink
+255_2022,255,Tigris River Reach,2022,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,20.16,86.59,5.44,0.352,96.6,12,8.51,3.3,30.7,32.0,35.8,river,poor,shrink
+255_2023,255,Tigris River Reach,2023,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,19.18,84.46,5.44,0.321,91.7,12,8.26,4.4,42.9,40.0,33.8,river,poor,shrink
+255_2024,255,Tigris River Reach,2024,GEO_1233_2243,33.3152,44.3661,Iraq,Baghdad,18.2,82.27,5.44,0.384,87.4,12,8.45,4.0,54.8,27.7,31.8,river,poor,shrink

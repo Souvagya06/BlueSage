@@ -62,10 +62,14 @@ export default function ClassificationPanel({ waterBody, latestObs }) {
   const handleClassifyType = () => {
     if (!waterBody) return
     typeMutation.mutate({
-      area_sq_km: latestObs?.area_sq_km ?? 1.0,
+      name: waterBody.name,
+      area_sq_km: latestObs?.area_sq_km ?? waterBody.area_sq_km ?? 1.0,
+      perimeter_km: waterBody.perimeter_km ?? latestObs?.perimeter_km,
+      elongation_ratio: waterBody.elongation_ratio ?? latestObs?.elongation_ratio,
       water_occurrence_pct: latestObs?.water_occurrence_pct ?? 85.0,
       seasonality_months: latestObs?.seasonality_months ?? 10,
       ndwi: latestObs?.ndwi ?? 0.4,
+      turbidity_ntu: latestObs?.turbidity_ntu,
     })
   }
 

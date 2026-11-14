@@ -2,12 +2,100 @@
  * Dashboard.jsx
  * Overview page: global stats, legend, and a world map with all water bodies.
  */
-import { useState, useMemo } from 'react'
-import { Droplets, Globe, TrendingDown, AlertTriangle, Download, Database, ExternalLink, Satellite, FlaskConical, Map } from 'lucide-react'
+import { useState, useMemo, useRef, useEffect } from 'react'
+import { Droplets, Globe, TrendingDown, AlertTriangle, Download, Database, ExternalLink, Satellite, FlaskConical, Map, ChevronDown, Filter, FileSpreadsheet, Layers } from 'lucide-react'
 import { getExportDatasetUrl } from '../api/client'
 import { useWaterBodies } from '../hooks/useWaterBodies'
 import WaterBodyMap from '../components/WaterBodyMap'
 import { useNavigate } from 'react-router-dom'
+
+// ─── Partitioned Dataset Cards ───────────────────────────────────────────────
+const PARTITION_CARDS = [
+  {
+    type: 'all',
+    title: 'Complete Indexed Dataset',
+    subtitle: 'All 5 Water Body Types Combined',
+    records: '1,650 records',
+    wbCount: '150 water bodies',
+    icon: '🌐',
+    color: 'border-slate-300 bg-white hover:border-slate-400',
+    badge: 'Complete Master',
+    badgeColor: 'bg-slate-800 text-white',
+    btnColor: 'bg-slate-800 hover:bg-slate-900 text-white',
+    desc: 'Full 10-year temporal series (2014–2024) containing 21 attributes: spatial grid indexes, NDWI, water occurrence, chemistry, and all 3 ML targets.',
+    filename: 'indexed_waterbody_dataset.csv',
+  },
+  {
+    type: 'wetland',
+    title: 'Wetlands Indexed Dataset',
+    subtitle: 'Marshes, Swamps & Floodplains',
+    records: '154 records',
+    wbCount: '14 water bodies',
+    icon: '🌿',
+    color: 'border-emerald-200 bg-emerald-50/40 hover:border-emerald-300',
+    badge: 'Wetlands',
+    badgeColor: 'bg-emerald-600 text-white',
+    btnColor: 'bg-emerald-600 hover:bg-emerald-700 text-white',
+    desc: 'High seasonality, variable occurrence %, critical carbon sinks and natural bio-filtration indicators across 10 annual timestamps.',
+    filename: 'indexed_waterbody_dataset_wetland.csv',
+  },
+  {
+    type: 'pond',
+    title: 'Ponds Indexed Dataset',
+    subtitle: 'Small Freshwater Bodies (< 0.05 km²)',
+    records: '396 records',
+    wbCount: '36 water bodies',
+    icon: '🫧',
+    color: 'border-cyan-200 bg-cyan-50/40 hover:border-cyan-300',
+    badge: 'Ponds',
+    badgeColor: 'bg-cyan-600 text-white',
+    btnColor: 'bg-cyan-600 hover:bg-cyan-700 text-white',
+    desc: 'Localized urban & rural micro-waterbodies susceptible to high eutrophication, algal blooms, and rapid seasonal evaporation.',
+    filename: 'indexed_waterbody_dataset_pond.csv',
+  },
+  {
+    type: 'river',
+    title: 'Rivers Indexed Dataset',
+    subtitle: 'Flowing Channels & Reaches',
+    records: '176 records',
+    wbCount: '16 water bodies',
+    icon: '🏞️',
+    color: 'border-teal-200 bg-teal-50/40 hover:border-teal-300',
+    badge: 'Rivers',
+    badgeColor: 'bg-teal-600 text-white',
+    btnColor: 'bg-teal-600 hover:bg-teal-700 text-white',
+    desc: 'Linear stream channels, river reaches, and estuaries characterized by dynamic turbidity gradients and continuous flow regimes.',
+    filename: 'indexed_waterbody_dataset_river.csv',
+  },
+  {
+    type: 'lake',
+    title: 'Lakes Indexed Dataset',
+    subtitle: 'Natural Perennial Water Bodies',
+    records: '704 records',
+    wbCount: '64 water bodies',
+    icon: '🌊',
+    color: 'border-blue-200 bg-blue-50/40 hover:border-blue-300',
+    badge: 'Lakes',
+    badgeColor: 'bg-blue-600 text-white',
+    btnColor: 'bg-blue-600 hover:bg-blue-700 text-white',
+    desc: 'HydroLAKES registry integration with depth estimates, broad surface areas, stable 12-month annual permanence, and multi-spectral NDWI.',
+    filename: 'indexed_waterbody_dataset_lake.csv',
+  },
+  {
+    type: 'reservoir',
+    title: 'Reservoirs Indexed Dataset',
+    subtitle: 'Anthropogenic Impoundments & Dams',
+    records: '220 records',
+    wbCount: '20 water bodies',
+    icon: '🏗️',
+    color: 'border-indigo-200 bg-indigo-50/40 hover:border-indigo-300',
+    badge: 'Reservoirs',
+    badgeColor: 'bg-indigo-600 text-white',
+    btnColor: 'bg-indigo-600 hover:bg-indigo-700 text-white',
+    desc: 'Regulated reservoirs demonstrating distinct management-driven level fluctuations, dam capacity trends, and controlled discharge.',
+    filename: 'indexed_waterbody_dataset_reservoir.csv',
+  },
+]
 
 // ─── Data Sources ────────────────────────────────────────────────────────────
 const DATA_SOURCES = [
@@ -151,6 +239,19 @@ const StatCard = ({ icon: Icon, label, value, sub, color = 'text-water-600' }) =
 
 export default function Dashboard() {
   const navigate = useNavigate()
+  const [headerDropdown, setHeaderDropdown] = useState(false)
+  const headerMenuRef = useRef(null)
+
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (headerMenuRef.current && !headerMenuRef.current.contains(e.target)) {
+        setHeaderDropdown(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
   // Load a global sample of water bodies for the world map
   const { data: wbs = [], isLoading } = useWaterBodies({ limit: 300 })
 
@@ -190,14 +291,49 @@ export default function Dashboard() {
           </p>
         </div>
 
-        <a
-          href={getExportDatasetUrl()}
-          download="indexed_waterbody_dataset.csv"
-          className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl shadow transition-colors self-start sm:self-auto"
-        >
-          <Download className="w-4 h-4" />
-          <span>Extract Indexed Dataset (.CSV)</span>
-        </a>
+        {/* ── Header Export Dropdown ── */}
+        <div className="relative self-start sm:self-auto" ref={headerMenuRef}>
+          <button
+            onClick={() => setHeaderDropdown(v => !v)}
+            className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl shadow transition-colors"
+          >
+            <Download className="w-4 h-4" />
+            <span>Extract Indexed Dataset (.CSV)</span>
+            <ChevronDown className="w-4 h-4 opacity-80" />
+          </button>
+
+          {headerDropdown && (
+            <div className="absolute right-0 mt-2 w-72 bg-white border border-slate-200 rounded-xl shadow-xl py-2 z-[9999] text-slate-800">
+              <div className="px-3 py-1.5 border-b border-slate-100">
+                <div className="text-xs font-bold text-slate-700 uppercase tracking-wide">
+                  Select Indexed Dataset
+                </div>
+                <div className="text-[11px] text-slate-400">
+                  Partitioned by water body morphology
+                </div>
+              </div>
+              <div className="py-1">
+                {PARTITION_CARDS.map(p => (
+                  <a
+                    key={p.type}
+                    href={getExportDatasetUrl(p.type)}
+                    download={p.filename}
+                    onClick={() => setHeaderDropdown(false)}
+                    className="flex items-center justify-between px-3 py-2 text-xs hover:bg-emerald-50 transition-colors"
+                  >
+                    <span className="flex items-center gap-2 font-medium text-slate-700">
+                      <span>{p.icon}</span>
+                      <span>{p.title.replace(' Indexed Dataset', '')}</span>
+                    </span>
+                    <span className="text-[11px] font-mono text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded">
+                      {p.records}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Stats */}
@@ -273,6 +409,78 @@ export default function Dashboard() {
         <p className="text-xs text-slate-400 mt-4 text-center">
           All data is processed, indexed, and stored in the local CSV dataset (1,650 records · 150 water bodies · 2014–2024)
         </p>
+      </div>
+
+      {/* ── Indexed Dataset Extraction Hub (By Water Body Type) ────────────── */}
+      <div className="bg-white border border-slate-200 rounded-xl shadow p-5">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-2">
+            <FileSpreadsheet className="w-5 h-5 text-emerald-600" />
+            <div>
+              <h2 className="font-semibold text-slate-800">
+                Indexed Datasets — Download by Water Body Type
+              </h2>
+              <p className="text-xs text-slate-500">
+                Extract subsets indexed by morphology (wetlands, ponds, rivers, lakes, reservoirs) or full master
+              </p>
+            </div>
+          </div>
+          <span className="hidden sm:inline-block text-xs bg-emerald-50 text-emerald-700 font-semibold px-2.5 py-1 rounded-full border border-emerald-200">
+            6 CSV Partitions Available
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {PARTITION_CARDS.map(card => (
+            <div
+              key={card.type}
+              className={`rounded-xl border p-4 flex flex-col justify-between transition-all hover:shadow-md ${card.color}`}
+            >
+              <div>
+                <div className="flex items-start justify-between gap-2 mb-2">
+                  <div className="flex items-center gap-2">
+                    <span className="text-2xl">{card.icon}</span>
+                    <div>
+                      <h3 className="font-semibold text-sm text-slate-800">{card.title}</h3>
+                      <p className="text-xs text-slate-500">{card.subtitle}</p>
+                    </div>
+                  </div>
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${card.badgeColor}`}>
+                    {card.badge}
+                  </span>
+                </div>
+
+                <p className="text-xs text-slate-600 leading-relaxed my-3">
+                  {card.desc}
+                </p>
+
+                <div className="flex items-center gap-3 text-xs text-slate-500 mb-4 bg-white/70 rounded-lg p-2 border border-slate-200/60">
+                  <div>
+                    <span className="text-slate-400 block text-[10px] uppercase">Records</span>
+                    <strong className="text-slate-700">{card.records}</strong>
+                  </div>
+                  <div className="border-l border-slate-200 pl-3">
+                    <span className="text-slate-400 block text-[10px] uppercase">Entities</span>
+                    <strong className="text-slate-700">{card.wbCount}</strong>
+                  </div>
+                  <div className="border-l border-slate-200 pl-3">
+                    <span className="text-slate-400 block text-[10px] uppercase">Span</span>
+                    <strong className="text-slate-700">2014–2024</strong>
+                  </div>
+                </div>
+              </div>
+
+              <a
+                href={getExportDatasetUrl(card.type)}
+                download={card.filename}
+                className={`flex items-center justify-center gap-2 font-medium text-xs py-2 px-3 rounded-lg shadow-sm transition-colors ${card.btnColor}`}
+              >
+                <Download className="w-3.5 h-3.5" />
+                <span>Download {card.filename}</span>
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* ── ML Pipeline Summary ────────────────────────────────────────────── */}
