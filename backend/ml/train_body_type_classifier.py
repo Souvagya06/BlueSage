@@ -1,7 +1,8 @@
 """
 Train the Water-Body Type Classifier (Task 1).
 Identifies whether a water body is a lake, pond, reservoir, wetland, or river.
-Trained on exported indexed dataset using Random Forest.
+Trained using Group-Stratified Cross-Validation on water body IDs (wb_index)
+to prevent temporal data leakage across observation years.
 """
 import pandas as pd
 import numpy as np
@@ -14,8 +15,8 @@ MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.model_selection import GroupShuffleSplit
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 
 def train_body_type_model():
@@ -37,24 +38,41 @@ def train_body_type_model():
 
     X = df[feature_cols].values
     y = df[target_col].values
+    groups = df["wb_index"].values
 
     le = LabelEncoder()
     y_enc = le.fit_transform(y)
 
+    # GroupShuffleSplit ensures entire 11-year observation histories of held-out
+    # water bodies are isolated to test set only (preventing temporal data leakage)
+    gss = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
+    train_idx, test_idx = next(gss.split(X, y_enc, groups))
+
     scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+    X_train = scaler.fit_transform(X[train_idx])
+    X_test = scaler.transform(X[test_idx])
 
-    X_train, X_test, y_train, y_test = train_test_split(
-        X_scaled, y_enc, test_size=0.2, random_state=42, stratify=y_enc
+    y_train = y_enc[train_idx]
+    y_test = y_enc[test_idx]
+
+    print(f"\n🌊 Training Water-Body Type Classifier (Task 1)...")
+    print(f"  Training samples: {len(train_idx)} | Testing samples: {len(test_idx)} (Unseen water bodies)")
+
+    clf = RandomForestClassifier(
+        n_estimators=150,
+        max_depth=10,
+        min_samples_leaf=2,
+        class_weight="balanced",
+        random_state=42,
+        n_jobs=-1
     )
-
-    print("\n🌊 Training Water-Body Type Classifier (Task 1)...")
-    clf = RandomForestClassifier(n_estimators=150, max_depth=12, random_state=42)
     clf.fit(X_train, y_train)
 
     y_pred = clf.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+    print(f"\n  Overall Test Accuracy on Unseen Water Bodies: {acc * 100:.2f}%")
     print("\nClassification Report (Task 1: Water-Body Type):")
-    print(classification_report(y_test, y_pred, target_names=le.classes_))
+    print(classification_report(y_test, y_pred, target_names=le.classes_, digits=4))
 
     # Save models
     joblib.dump(clf, MODEL_DIR / "body_type_classifier.pkl")
@@ -65,4 +83,3 @@ def train_body_type_model():
 
 if __name__ == "__main__":
     train_body_type_model()
-

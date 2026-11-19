@@ -67,17 +67,18 @@ def generate_indexed_dataset(num_water_bodies: int = None):
         code = country_name[:3].upper()
 
         # Calculate morphological elongation ratio and perimeter based on hydrological geomorphology
+        # Real-world distributions exhibit natural geomorphological overlap and sensor variance
         w_type = wb["type"]
         if w_type == "river":
-            base_elongation = round(np.random.uniform(4.8, 7.2), 2)
+            base_elongation = round(float(np.clip(np.random.normal(5.2, 1.1), 2.8, 8.5)), 2)
         elif w_type == "reservoir":
-            base_elongation = round(np.random.uniform(2.3, 3.4), 2)
+            base_elongation = round(float(np.clip(np.random.normal(2.6, 0.65), 1.5, 4.2)), 2)
         elif w_type == "wetland":
-            base_elongation = round(np.random.uniform(1.9, 2.9), 2)
+            base_elongation = round(float(np.clip(np.random.normal(2.3, 0.7), 1.3, 3.8)), 2)
         elif w_type == "pond":
-            base_elongation = round(np.random.uniform(1.05, 1.3), 2)
+            base_elongation = round(float(np.clip(np.random.normal(1.22, 0.28), 1.01, 2.1)), 2)
         else: # lake
-            base_elongation = round(np.random.uniform(1.18, 1.8), 2)
+            base_elongation = round(float(np.clip(np.random.normal(1.65, 0.45), 1.05, 3.2)), 2)
 
         base_perimeter = round(base_elongation * 2.0 * np.sqrt(3.14159 * max(0.001, base_area)), 2)
 
@@ -101,67 +102,70 @@ def generate_indexed_dataset(num_water_bodies: int = None):
         for yr_idx, yr in enumerate(years):
             t = yr - 2014
             if trend == "shrink":
-                area_factor = max(0.2, 1.0 - 0.035 * t)
+                area_factor = max(0.2, 1.0 - 0.035 * t + np.random.normal(0, 0.04))
             elif trend == "expand":
-                area_factor = 1.0 + 0.025 * t
+                area_factor = 1.0 + 0.025 * t + np.random.normal(0, 0.04)
             elif trend == "disappear":
-                area_factor = max(0.01, 1.0 - 0.09 * t)
+                area_factor = max(0.01, 1.0 - 0.09 * t + np.random.normal(0, 0.03))
             else: # stable
-                area_factor = 1.0 + np.random.uniform(-0.02, 0.02)
+                area_factor = max(0.05, 1.0 + np.random.normal(0, 0.035))
 
             curr_area = round(base_area * area_factor, 4)
             ndwi_base = 0.42 if wb["type"] in ["lake", "reservoir"] else 0.35 if wb["type"] == "river" else 0.28
-            ndwi = round(np.clip(ndwi_base + np.random.uniform(-0.04, 0.04), -0.5, 0.85), 3)
+            # Add realistic satellite atmospheric & surface wave variance
+            ndwi = round(float(np.clip(np.random.normal(ndwi_base, 0.06), -0.2, 0.85)), 3)
 
-            # Environmental Water Quality metrics tailored to quality_bias
+            # Environmental Water Quality metrics with realistic overlapping sensor & seasonal distributions
             if q_bias == "critical":
-                do_mgl = round(np.random.uniform(1.2, 3.2), 1)
-                turbidity = round(np.random.uniform(55.0, 95.0), 1)
-                ph = round(np.random.uniform(8.8, 9.4) if np.random.rand() > 0.5 else np.random.uniform(5.4, 6.2), 2)
-                chl_a = round(np.random.uniform(45.0, 85.0), 1)
-                score = round(np.random.uniform(12.0, 24.0), 1)
+                do_mgl = round(float(np.clip(np.random.normal(2.5, 1.0), 0.5, 4.5)), 1)
+                turbidity = round(float(np.clip(np.random.normal(68.0, 16.0), 35.0, 110.0)), 1)
+                ph = round(float(np.clip(np.random.normal(8.7 if np.random.rand() > 0.5 else 5.8, 0.6), 4.5, 9.8)), 2)
+                chl_a = round(float(np.clip(np.random.normal(58.0, 16.0), 30.0, 100.0)), 1)
+                score = round(float(np.clip(np.random.normal(19.0, 6.0), 5.0, 32.0)), 1)
                 quality_status = "critical"
             elif q_bias == "poor":
-                do_mgl = round(np.random.uniform(3.2, 4.8), 1)
-                turbidity = round(np.random.uniform(30.0, 55.0), 1)
-                ph = round(np.random.uniform(8.2, 8.7), 2)
-                chl_a = round(np.random.uniform(25.0, 48.0), 1)
-                score = round(np.random.uniform(25.0, 39.5), 1)
+                do_mgl = round(float(np.clip(np.random.normal(4.2, 0.9), 2.2, 5.8)), 1)
+                turbidity = round(float(np.clip(np.random.normal(44.0, 11.0), 22.0, 65.0)), 1)
+                ph = round(float(np.clip(np.random.normal(8.3, 0.45), 7.2, 9.1)), 2)
+                chl_a = round(float(np.clip(np.random.normal(36.0, 9.0), 18.0, 55.0)), 1)
+                score = round(float(np.clip(np.random.normal(32.0, 6.0), 18.0, 44.0)), 1)
                 quality_status = "poor"
             elif q_bias == "fair":
-                do_mgl = round(np.random.uniform(4.9, 6.5), 1)
-                turbidity = round(np.random.uniform(18.0, 32.0), 1)
-                ph = round(np.random.uniform(7.8, 8.3), 2)
-                chl_a = round(np.random.uniform(14.0, 26.0), 1)
-                score = round(np.random.uniform(41.0, 59.5), 1)
+                do_mgl = round(float(np.clip(np.random.normal(5.8, 0.85), 4.0, 7.2)), 1)
+                turbidity = round(float(np.clip(np.random.normal(25.0, 7.0), 12.0, 42.0)), 1)
+                ph = round(float(np.clip(np.random.normal(7.9, 0.35), 7.1, 8.6)), 2)
+                chl_a = round(float(np.clip(np.random.normal(20.0, 5.5), 9.0, 32.0)), 1)
+                score = round(float(np.clip(np.random.normal(50.0, 6.5), 35.0, 65.0)), 1)
                 quality_status = "fair"
             elif q_bias == "excellent":
-                do_mgl = round(np.random.uniform(8.2, 10.5), 1)
-                turbidity = round(np.random.uniform(2.0, 8.0), 1)
-                ph = round(np.random.uniform(7.2, 7.7), 2)
-                chl_a = round(np.random.uniform(1.5, 6.0), 1)
-                score = round(np.random.uniform(81.0, 96.0), 1)
+                do_mgl = round(float(np.clip(np.random.normal(9.1, 0.9), 7.5, 11.5)), 1)
+                turbidity = round(float(np.clip(np.random.normal(5.5, 2.5), 1.0, 12.0)), 1)
+                ph = round(float(np.clip(np.random.normal(7.4, 0.25), 6.9, 8.0)), 2)
+                chl_a = round(float(np.clip(np.random.normal(4.2, 1.8), 0.8, 9.0)), 1)
+                score = round(float(np.clip(np.random.normal(87.0, 5.5), 72.0, 98.0)), 1)
                 quality_status = "excellent"
             else: # good
-                do_mgl = round(np.random.uniform(6.6, 8.4), 1)
-                turbidity = round(np.random.uniform(8.0, 18.0), 1)
-                ph = round(np.random.uniform(7.2, 7.9), 2)
-                chl_a = round(np.random.uniform(6.0, 15.0), 1)
-                score = round(np.random.uniform(61.0, 79.5), 1)
+                do_mgl = round(float(np.clip(np.random.normal(7.4, 0.8), 5.8, 8.9)), 1)
+                turbidity = round(float(np.clip(np.random.normal(14.0, 4.5), 6.0, 24.0)), 1)
+                ph = round(float(np.clip(np.random.normal(7.6, 0.3), 7.0, 8.2)), 2)
+                chl_a = round(float(np.clip(np.random.normal(11.0, 3.5), 4.0, 19.0)), 1)
+                score = round(float(np.clip(np.random.normal(69.0, 6.0), 54.0, 82.0)), 1)
                 quality_status = "good"
 
+            # Hydrological occurrence and seasonality with natural variance
             if wb["type"] == "wetland":
-                occ_pct = round(np.random.uniform(45.0, 75.0), 1)
-                seasonality = 6
+                occ_pct = round(float(np.clip(np.random.normal(62.0, 10.0), 35.0, 85.0)), 1)
+                seasonality = int(np.clip(np.random.choice([5, 6, 7, 8]), 4, 10))
             elif wb["type"] == "pond":
-                occ_pct = round(np.random.uniform(65.0, 90.0), 1)
-                seasonality = 10
+                occ_pct = round(float(np.clip(np.random.normal(78.0, 8.0), 55.0, 95.0)), 1)
+                seasonality = int(np.clip(np.random.choice([9, 10, 11, 12]), 7, 12))
             else:
-                occ_pct = round(np.random.uniform(85.0, 98.0), 1)
+                occ_pct = round(float(np.clip(np.random.normal(92.0, 5.0), 75.0, 99.5)), 1)
                 seasonality = 12
 
-            # Morphological metrics for current year
-            curr_perimeter = round(base_elongation * 2.0 * np.sqrt(3.14159 * max(0.001, curr_area)), 2)
+            # Annual elongation ratio also fluctuates slightly due to water level rise/fall
+            annual_elongation = round(float(np.clip(base_elongation + np.random.normal(0, 0.08), 1.01, 9.0)), 2)
+            curr_perimeter = round(annual_elongation * 2.0 * np.sqrt(3.14159 * max(0.001, curr_area)), 2)
 
             # Primary Key Composite Index: (wb_index, observation_year)
             row = {
@@ -179,7 +183,7 @@ def generate_indexed_dataset(num_water_bodies: int = None):
                 # Features for ML
                 "area_sq_km": curr_area,
                 "perimeter_km": curr_perimeter,
-                "elongation_ratio": base_elongation,
+                "elongation_ratio": annual_elongation,
                 "ndwi": ndwi,
                 "water_occurrence_pct": occ_pct,
                 "seasonality_months": seasonality,
@@ -201,7 +205,7 @@ def generate_indexed_dataset(num_water_bodies: int = None):
                 "observation_year": yr,
                 "area_sq_km": curr_area,
                 "perimeter_km": curr_perimeter,
-                "elongation_ratio": base_elongation,
+                "elongation_ratio": annual_elongation,
                 "ndwi": ndwi,
                 "ndwi_min": round(ndwi - 0.04, 3),
                 "ndwi_max": round(ndwi + 0.04, 3),
