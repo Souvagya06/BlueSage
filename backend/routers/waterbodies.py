@@ -9,7 +9,11 @@ from sqlalchemy import func
 import json
 
 from pathlib import Path
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
+import io
+import re
+import pandas as pd
+import numpy as np
 from database import get_db
 from models.waterbody import WaterBody, TemporalObservation
 from schemas.waterbody import (
@@ -32,24 +36,89 @@ def export_indexed_csv(
         None,
         description="Filter indexed dataset by water body type: wetland, pond, river, lake, reservoir",
     ),
+    city: Optional[str] = Query(None, description="Filter dataset by city / location name"),
+    country: Optional[str] = Query(None, description="Filter dataset by country name"),
+    lat: Optional[float] = Query(None, description="Center latitude for proximity radius filter"),
+    lon: Optional[float] = Query(None, description="Center longitude for proximity radius filter"),
+    radius_km: Optional[float] = Query(None, description="Search radius in kilometers around (lat, lon)"),
 ):
     """
     Download the indexed temporal dataset as a CSV file.
-    Can be filtered by specific water body types (wetland, pond, river, lake, reservoir).
+    Supports filtering by:
+    - Location: city, country, or coordinates (lat, lon, radius_km)
+    - Specific water body types (wetland, pond, river, lake, reservoir).
     """
+    rad = float(radius_km) if isinstance(radius_km, (int, float)) else 200.0
+    lat_val = float(lat) if isinstance(lat, (int, float)) else None
+    lon_val = float(lon) if isinstance(lon, (int, float)) else None
+    city_val = str(city).strip() if city and isinstance(city, str) else None
+    country_val = str(country).strip() if country and isinstance(country, str) else None
+    type_val = str(water_body_type).strip().lower() if water_body_type and isinstance(water_body_type, str) else None
+
     proc_dir = Path(__file__).resolve().parent.parent.parent / "data" / "processed"
     master_csv = proc_dir / "indexed_waterbody_dataset.csv"
     if not master_csv.exists():
         from data_pipeline.export_indexed_dataset import generate_indexed_dataset
         generate_indexed_dataset()
 
+    # If spatial or location filtering is requested, generate dynamic location CSV
+    if (lat_val is not None and lon_val is not None) or city_val or country_val:
+        df = pd.read_csv(master_csv)
+
+        if lat_val is not None and lon_val is not None:
+            # Haversine distance in km
+            dlat = np.radians(df["latitude"] - lat_val)
+            dlon = np.radians(df["longitude"] - lon_val)
+            a = np.sin(dlat / 2.0)**2 + np.cos(np.radians(lat_val)) * np.cos(np.radians(df["latitude"])) * np.sin(dlon / 2.0)**2
+            dists = 2.0 * 6371.0 * np.arcsin(np.sqrt(a))
+            df["distance_km"] = np.round(dists, 2)
+
+            filtered = df[df["distance_km"] <= rad]
+            if filtered.empty:
+                # Fallback to nearest 15 water bodies
+                filtered = df.sort_values("distance_km").head(165)  # 15 water bodies * 11 years
+        else:
+            filtered = df
+
+        if city_val:
+            if lat_val is None or lon_val is None:
+                filtered = filtered[
+                    filtered["city"].str.contains(city_val, case=False, na=False) |
+                    filtered["water_body_name"].str.contains(city_val, case=False, na=False)
+                ]
+
+        if country_val:
+            filtered = filtered[filtered["country"].str.contains(country_val, case=False, na=False)]
+
+        if type_val:
+            filtered = filtered[filtered["target_task1_body_type"].str.lower() == type_val]
+
+        if filtered.empty:
+            raise HTTPException(
+                status_code=404,
+                detail=f"No indexed water bodies found matching location criteria.",
+            )
+
+        # Generate CSV stream
+        loc_label = city_val or (f"lat{lat_val:.2f}_lon{lon_val:.2f}" if lat_val is not None else "location")
+        safe_loc = re.sub(r"[^a-zA-Z0-9_\-]+", "_", loc_label).strip("_").lower()
+        filename = f"indexed_waterbodies_{safe_loc}.csv"
+
+        stream = io.StringIO()
+        filtered.to_csv(stream, index=False)
+        return Response(
+            content=stream.getvalue(),
+            media_type="text/csv",
+            headers={"Content-Disposition": f'attachment; filename="{filename}"'},
+        )
+
+    # Standard static exports (all or by type)
     if water_body_type:
         type_clean = water_body_type.strip().lower()
         type_csv = proc_dir / f"indexed_dataset_{type_clean}.csv"
         
         # If specific type CSV does not exist, generate on the fly from master
         if not type_csv.exists():
-            import pandas as pd
             df = pd.read_csv(master_csv)
             filtered = df[df["target_task1_body_type"].str.lower() == type_clean]
             if filtered.empty:
