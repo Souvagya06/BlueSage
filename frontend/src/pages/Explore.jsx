@@ -11,7 +11,8 @@ import WaterBodyTable from '../components/WaterBodyTable'
 import ClassificationPanel from '../components/ClassificationPanel'
 import PredictionChart from '../components/PredictionChart'
 import { useWaterBodiesNear, useWaterBodyById, useObservations, usePrediction } from '../hooks/useWaterBodies'
-import { Droplets, X, ChevronRight, Eye } from 'lucide-react'
+import { getExportLocationDatasetUrl } from '../api/client'
+import { Droplets, X, ChevronRight, Eye, Download, FileSpreadsheet } from 'lucide-react'
 import clsx from 'clsx'
 
 const QUALITY_BADGE = {
@@ -88,6 +89,99 @@ export default function Explore() {
     setSearchParams({})
   }
 
+  const handleDownloadLocationCsv = () => {
+    if (!searchLoc) return
+    const cityName = searchLoc.name ? searchLoc.name.split(',')[0].trim() : 'location'
+    const safeCity = cityName.replace(/[^a-zA-Z0-9_\-]+/g, '_').toLowerCase()
+
+    // 1. Attempt backend export URL with coordinates and location
+    const backendUrl = getExportLocationDatasetUrl({
+      city: cityName,
+      lat: searchLoc.lat,
+      lon: searchLoc.lon,
+      radius_km: 200,
+    })
+
+    fetch(backendUrl)
+      .then((res) => {
+        if (!res.ok) throw new Error('Backend export failed')
+        return res.blob()
+      })
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob)
+        const a = document.createElement('a')
+        a.href = url
+        a.download = `waterbodies_${safeCity}.csv`
+        document.body.appendChild(a)
+        a.click()
+        a.remove()
+        window.URL.revokeObjectURL(url)
+      })
+      .catch(() => {
+        // Fallback: build CSV directly in browser from loaded water bodies & observations
+        const targetList = filteredWbs.length > 0 ? filteredWbs : nearbyWbs
+        if (!targetList || targetList.length === 0) return
+
+        const headers = [
+          'wb_index',
+          'water_body_name',
+          'water_body_type',
+          'country',
+          'city',
+          'latitude',
+          'longitude',
+          'spatial_grid_index',
+          'area_sq_km',
+          'perimeter_km',
+          'ndwi',
+          'water_occurrence_pct',
+          'seasonality_months',
+          'water_quality_status',
+          'water_quality_score',
+          'dissolved_oxygen_mgl',
+          'turbidity_ntu',
+          'ph',
+          'chlorophyll_a_ugl',
+        ]
+
+        const rows = targetList.map((wb) => {
+          const obs = obsMap[wb.id] || (wb.observations && wb.observations[0]) || {}
+          return [
+            wb.id,
+            `"${(wb.name || '').replace(/"/g, '""')}"`,
+            wb.water_body_type || '',
+            `"${(wb.country || '').replace(/"/g, '""')}"`,
+            `"${(wb.city || '').replace(/"/g, '""')}"`,
+            wb.latitude ?? '',
+            wb.longitude ?? '',
+            wb.spatial_grid_index || '',
+            obs.area_sq_km ?? wb.area_sq_km ?? '',
+            obs.perimeter_km ?? '',
+            obs.ndwi ?? '',
+            obs.water_occurrence_pct ?? '',
+            obs.seasonality_months ?? '',
+            obs.water_quality_status ?? '',
+            obs.water_quality_score ?? '',
+            obs.dissolved_oxygen_mgl ?? '',
+            obs.turbidity_ntu ?? '',
+            obs.ph ?? '',
+            obs.chlorophyll_a_ugl ?? '',
+          ].join(',')
+        })
+
+        const csvContent = [headers.join(','), ...rows].join('\n')
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' })
+        const url = window.URL.createObjectURL(blob)
+        const a = document.createElement('a')
+        a.href = url
+        a.download = `waterbodies_${safeCity}.csv`
+        document.body.appendChild(a)
+        a.click()
+        a.remove()
+        window.URL.revokeObjectURL(url)
+      })
+  }
+
   const flyTo = searchLoc
     ? {
         center: [searchLoc.lat, searchLoc.lon],
@@ -138,12 +232,25 @@ export default function Explore() {
             onSelectWaterBody={handleSelectWb}
           />
           {searchLoc && (
-            <p className="text-xs text-slate-400 mt-1">
-              📍 {searchLoc.name?.split(',').slice(0, 3).join(',')} · {filteredWbs.length > 0 ? filteredWbs.length : nearbyWbs.length} water bodies found
-              {filteredWbs.length === 0 && nearbyWbs.length > 0 && (
-                <span className="ml-1 text-amber-500">(showing nearest {nearbyWbs.length})</span>
-              )}
-            </p>
+            <div className="flex flex-wrap items-center justify-between gap-2 mt-2 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2">
+              <p className="text-xs text-slate-600 flex items-center gap-1.5 font-medium">
+                <span>📍</span>
+                <span>{searchLoc.name?.split(',').slice(0, 3).join(',')}</span>
+                <span className="text-slate-400">·</span>
+                <span className="text-water-700 font-semibold">{filteredWbs.length > 0 ? filteredWbs.length : nearbyWbs.length} water bodies found</span>
+                {filteredWbs.length === 0 && nearbyWbs.length > 0 && (
+                  <span className="text-amber-500">(showing nearest {nearbyWbs.length})</span>
+                )}
+              </p>
+              <button
+                onClick={handleDownloadLocationCsv}
+                className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-md shadow-sm transition-all active:scale-95 cursor-pointer"
+                title={`Download indexed CSV for ${searchLoc.name?.split(',')[0]}`}
+              >
+                <Download className="w-3.5 h-3.5" />
+                <span>Download {searchLoc.name?.split(',')[0]} CSV</span>
+              </button>
+            </div>
           )}
           {!searchLoc && (
             <p className="text-xs text-slate-400 mt-1 text-center">
@@ -251,18 +358,28 @@ export default function Explore() {
       {/* Table — always visible after a search */}
       {searchLoc && (
         <div>
-          <div className="flex items-center justify-between mb-2">
-            <h2 className="font-semibold text-slate-700 text-sm">
-              Water Bodies near {searchLoc?.name?.split(',')[0]}
+          <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <h2 className="font-semibold text-slate-700 text-sm flex items-center gap-2">
+              <span>Water Bodies near {searchLoc?.name?.split(',')[0]}</span>
               {filteredWbs.length > 0 && (
-                <span className="ml-2 text-xs font-normal text-slate-400">({filteredWbs.length} found)</span>
+                <span className="text-xs font-normal text-slate-400">({filteredWbs.length} found)</span>
               )}
             </h2>
-            {filteredWbs.length === 0 && nearbyWbs.length === 0 && !nearbyLoading && (
-              <span className="text-xs text-amber-600 font-medium">
-                💡 No water bodies in 200 km radius — showing nearest matches
-              </span>
-            )}
+            <div className="flex items-center gap-2">
+              {filteredWbs.length === 0 && nearbyWbs.length === 0 && !nearbyLoading && (
+                <span className="text-xs text-amber-600 font-medium">
+                  💡 No water bodies in 200 km radius — showing nearest matches
+                </span>
+              )}
+              <button
+                onClick={handleDownloadLocationCsv}
+                className="inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-md transition-colors cursor-pointer"
+                title={`Export ${searchLoc?.name?.split(',')[0]} water bodies to CSV`}
+              >
+                <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-600" />
+                <span>Export Location CSV</span>
+              </button>
+            </div>
           </div>
           <WaterBodyTable
             waterBodies={filteredWbs.length > 0 ? filteredWbs : nearbyWbs}

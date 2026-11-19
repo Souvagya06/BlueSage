@@ -46,6 +46,15 @@ export const getExportDatasetUrl = (type = null) => {
   return `${BASE}/api/waterbodies/export-csv`
 }
 
+export const getExportLocationDatasetUrl = ({ city = null, lat = null, lon = null, radius_km = 200 } = {}) => {
+  const params = new URLSearchParams()
+  if (city) params.append('city', city)
+  if (lat != null) params.append('lat', lat)
+  if (lon != null) params.append('lon', lon)
+  if (radius_km != null) params.append('radius_km', radius_km)
+  return `${BASE}/api/waterbodies/export-csv?${params.toString()}`
+}
+
 export const fetchIndexedDatasetsInfo = () =>
   api.get('/api/waterbodies/indexed-datasets').then(r => r.data)
 
